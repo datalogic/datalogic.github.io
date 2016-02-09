@@ -1,0 +1,59 @@
+---
+layout: tutorial
+title: Decode Listener
+
+tutorial_difficulty: 1
+tutorial_icon: barcode
+tutorial_time: 15min
+
+excerpt: How to read a barcode using a ReadListener
+---
+
+<p>
+Register a {% include man-link.html uri='com.datalogic.decode.ReadListener' %} in your <code>Acvivity.onResume()</code>
+to receive events on successful barcode reads:
+</p>
+
+{% highlight java %}
+@Override	
+protected void onResume() {
+    super.onResume();
+    try {
+        if (decoder == null) {
+            decoder = new BarcodeManager();
+            listener = new ReadListener() {
+
+                @Override
+                public void onRead(DecodeResult decodeResult) {
+                    mBarcodeText.setText(decodeResult.getText());
+                }
+
+            };
+            decoder.addReadListener(listener);
+        }
+
+    } catch (DecodeException e) {
+        // TODO Auto-generated catch block
+        e.printStackTrace();
+    }
+}
+{% endhighlight %}
+
+<p>
+Unregister the ReadListener in your <code>Acvivity.onPause()</code>:
+</p>
+
+{% highlight java %}
+@Override
+protected void onPause() {
+    super.onPause();
+    if (decoder != null) {
+        try {
+            decoder.removeReadListener(listener);
+            decoder = null;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+{% endhighlight %}

@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<h3>Datalogic Android SDK samples are available on
+    <a href="https://github.com/DatalogicADCsrl/sdk-samples">Github</a></h3>
+
+{% assign diffs = (site.pages | where: "layout" , "tutorial") | group_by: 'tutorial_difficulty' | sort: 'name' %}
+
+<ul id="tutorial-list">
+{% for tutorials in diffs %}
+    <!--<li class="tutorial-list-difficulty">{{ site.difficulties[page.tutorial_difficulty] }}</li>-->
+{% for page in tutorials.items %}
+    <li class="tutorial-list-item">
+        <div class="tutorial-item-icon"><i class="fa fa-{{ page.tutorial_icon }}"></i></div>
+        <h4 class="page-item-title"><a href="{{ page.url }}">{{ page.title }}</a>
+            {% for i in (1..page.tutorial_difficulty) %}
+            <i class="tutorial-diff-{{ page.tutorial_difficulty }} fa fa-rocket"></i>
+            {% endfor %}
+        </h4>
+        <p class="page-item-excerpt"><i>{{ page.excerpt }}</i></p>
+    </li>
+{% endfor %}
+{% endfor %}
+</ul>

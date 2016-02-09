@@ -1,0 +1,21 @@
+# Site settings
+title: 'Datalogic ADC Mobile Computing'
+tagline: 'Android Development'
+menu:
+    - name: 'SDK'
+      url: '/sdk.html'
+    - name: 'Docs'
+      url: '/docs'
+    - name: 'Tutorials'
+      url: '/tutorials/'
+
+difficulties:
+    - ''
+    - 'Basic'
+    - 'Medium'
+    - 'Advanced'
+
+encoding: UTF-8
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: <!--more-->
