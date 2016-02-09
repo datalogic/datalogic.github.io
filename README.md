@@ -33,14 +33,16 @@ if you don't have any, please install nodejs or something else:
 sudo apt-get install nodejs
 ```
 
-
 Run jekyll and open your browser at http://localhost:4000, jekyll starts a webserver
 to serve the folder \_site/ where the compiled HTML is stored:
 
 ```
 cd datalogicadcsrl-github-io/
-jekyll serve --watch
+jekyll serve --watch --trace --config _config.yml,_config_dev.yml
 ```
+
+Notice that the \_config\_dev.yml config file is needed in development environments only
+to setup a different base url
 
 Any modification done on the source files (but \_config.yml) will be compiled
 automatically (due to --watch).
