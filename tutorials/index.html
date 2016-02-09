@@ -12,7 +12,7 @@ layout: default
 {% for page in tutorials.items %}
     <li class="tutorial-list-item">
         <div class="tutorial-item-icon"><i class="fa fa-{{ page.tutorial_icon }}"></i></div>
-        <h4 class="page-item-title"><a href="{{ page.url }}">{{ page.title }}</a>
+        <h4 class="page-item-title"><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
             {% for i in (1..page.tutorial_difficulty) %}
             <i class="tutorial-diff-{{ page.tutorial_difficulty }} fa fa-rocket"></i>
             {% endfor %}
