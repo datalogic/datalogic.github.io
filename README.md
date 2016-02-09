@@ -1,9 +1,16 @@
 This repository contains the source code for
-[](http://10.139.190.112/doc/datalogicadcsrl.github.io). The source is automatically compiled
+http://10.139.190.112/doc/datalogicadcsrl.github.io.
+
+The source is automatically compiled
 and deployed by a jenkins job, so any modification to this repo is
 reflected to the actual website.
 
 ## Local development
+
+__NOTICE:__ This is not the correct way to install ruby and rubygems, if you are using
+ruby for other projects, the following steps may break your apps compatibility. Though
+this is the fastest way to get started
+
 Install ruby (install ruby 1.9 and greater for jekyll compatibility):
 
 ```
@@ -16,7 +23,18 @@ Install rubygems (https://rubygems.org/pages/download):
 sudo apt-get install rubygems
 ```
 
-Run jekyll and open your browser at localhost:4000, jekyll starts a webserver
+Install jekyll:
+```
+sudo gem install jekyll -v 2.5.3
+```
+You need a javascript interpreter as jekyll also compile javascript files (coffeescript),
+if you don't have any, please install nodejs or something else:
+```
+sudo apt-get install nodejs
+```
+
+
+Run jekyll and open your browser at http://localhost:4000, jekyll starts a webserver
 to serve the folder \_site/ where the compiled HTML is stored:
 
 ```
