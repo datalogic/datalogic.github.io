@@ -1,23 +1,10 @@
 # Site settings
 title: 'Datalogic ADC Mobile Computing'
 tagline: 'Android Development'
-menu:
-    - name: 'SDK'
-      url: '/sdk.html'
-    - name: 'Docs'
-      url: '/docs'
-    - name: 'Tutorials'
-      url: '/tutorials/'
-
-difficulties:
-    - ''
-    - 'Basic'
-    - 'Medium'
-    - 'Advanced'
 
 encoding: UTF-8
 markdown: kramdown
 highlighter: rouge
 excerpt_separator: <!--more-->
 
-url: 'http://10.139.190.112/doc/datalogicadcsrl.github.io'
+url: 'http://localhost:4000'

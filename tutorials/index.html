@@ -8,7 +8,7 @@ layout: default
 
 <ul id="tutorial-list">
 {% for tutorials in diffs %}
-    <!--<li class="tutorial-list-difficulty">{{ site.difficulties[page.tutorial_difficulty] }}</li>-->
+    <!--<li class="tutorial-list-difficulty">{{ site.data.tutorials.difficulties[page.tutorial_difficulty] }}</li>-->
 {% for page in tutorials.items %}
     <li class="tutorial-list-item">
         <div class="tutorial-item-icon"><i class="fa fa-{{ page.tutorial_icon }}"></i></div>
