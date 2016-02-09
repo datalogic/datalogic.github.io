@@ -7,4 +7,5 @@ markdown: kramdown
 highlighter: rouge
 excerpt_separator: <!--more-->
 
-url: 'http://localhost:4000'
+#url: 'http://localhost:4000'
+url: 'http://doc.mobile.dl.net/datalogicadcsrl.github.io/'
