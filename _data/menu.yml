@@ -1,4 +1,6 @@
 - name: 'Getting Started'
+  url: '/getting-started.html'
+- name: 'SDK'
   url: '/sdk.html'
 - name: 'Tutorials'
   url: '/tutorials/'
