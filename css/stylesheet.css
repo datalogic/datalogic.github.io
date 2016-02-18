@@ -373,6 +373,9 @@ a {
 .tutorial-list-item:last-child {
     border: none;
 }
+.tutorial-list-item.tutorial-disabled {
+    background: #FFE1E1;
+}
 .tutorial-item-icon {
     float: left;
     margin: 0 16px;

@@ -10,8 +10,9 @@ layout: default
 {% for tutorials in diffs %}
     <!--<li class="tutorial-list-difficulty">{{ site.data.tutorials.difficulties[page.tutorial_difficulty] }}</li>-->
 {% for page in tutorials.items %}
-{% if page.tutorial_enabled %}
-    <li class="tutorial-list-item">
+
+{% if page.tutorial_enabled or site.debug %}
+    <li class="tutorial-list-item {% unless page.tutorial_enabled %}tutorial-disabled{% endunless %}">
         <div class="tutorial-item-icon"><i class="fa fa-{{ page.tutorial_icon }}"></i></div>
         <h4 class="page-item-title"><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
             {% for i in (1..page.tutorial_difficulty) %}

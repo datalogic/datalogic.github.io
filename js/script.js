@@ -9,8 +9,8 @@ $(function() {
 });
 
 function initMenu() {
-    var path = window.location;//.pathname;
-    //path = path.replace(/\/$/, "");
+    var path = window.location.protocol + '//' + window.location.host +
+        window.location.pathname;
     path = decodeURIComponent(path);
 
     $("#main-menu .menu-item a").each(function () {
@@ -36,7 +36,6 @@ function initTOC() {
         var par = $(this);
         var level = parseInt(this.nodeName.match(/h(\d)/i)[1]);
         if (level < curr_level) {
-            console.log('new paragraph', par.text());
             i += 1;
             j = 1;
         } else {
