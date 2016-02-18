@@ -1,1 +1,3 @@
+debug: true
 url: 'http://localhost:4000'
+samples_url: 'https://10.139.190.111/lfaggianelli/android-sdk-samples/tree/master'

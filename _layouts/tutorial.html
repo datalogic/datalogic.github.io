@@ -15,7 +15,7 @@ layout: default
                 <td>Difficulty <i class="fa fa-rocket"></i> {{ site.data.tutorials.difficulties[page.tutorial_difficulty] }}</td>
             </tr>
             <tr><td>Time <i class="fa fa-hourglass-half"></i> {{ page.tutorial_time }}</td></tr>
-            <tr><td>Sources on <a href="https://github.com/DatalogicADCsrl/android-sdk-samples/{{ page.title | replace:' ','' }}">
+            <tr><td>Sources on <a href="{{ site.samples_url }}/{{ page.title | replace:' ','' }}">
                     <i class="fa fa-github"></i> GitHub</a></td></tr>
             </tbody>
         </table>

@@ -11,6 +11,10 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
+ol, ul {
+    list-style-position: inside;
+}
+
 a {
   color: #6EB6DE;
   text-decoration: none;
@@ -175,8 +179,17 @@ a {
 
 .main-content :first-child {
   margin-top: 0; }
-.main-content img {
-  max-width: 100%; }
+
+.img-container {
+    width: 100%;
+    text-align: center;
+}
+.img-container img {
+    max-width: 90%;
+    border: 1px solid #EFF0F1;
+    padding: 5px;
+    border-radius: 2px;
+}
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -409,4 +422,53 @@ a {
 p.divider {
     border-bottom: 1px solid #CFCFCF;
     margin: 2em 5em;
+}
+
+.toc-container {
+    border: 1px solid #CFCFCF;
+    float: right;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.toc-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.toc-container li {
+    margin: 3px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.toc-container .toc-level-2 {
+    text-indent: 1em;
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0 1% 1% 0;
+}
+
+.goto-top a {
+    border: none;
+    font-size: 3em;
+    color: #6A7FAB;
+}
+
+.info-box {
+    background-color: #6A7FAB;
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+.info-box .fa {
+    float: left;
+    font-size: 3em;
+    margin-right: 15px;
 }

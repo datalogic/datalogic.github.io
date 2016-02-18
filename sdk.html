@@ -1,9 +1,64 @@
 ---
-layout: default
+layout: page
+title: Datalogic Android SDK Add-on
 ---
 
-<h1 id="sdk-addon">Datalogic Android SDK Addon</h1>
+<p>To install Datalogic Android SDK Add-on, please insert the following URL in Android
+Studio or Eclipse ADT or follow the detailed steps</p>
 
-<p>To install the SDK addon, please insert the following URL in Android
-Studio or Eclipse ADT:</p>
-<pre>https://datalogicadcsrl.github.io/android-sdk/addon.xml</pre>
+{% highlight none %}
+https://datalogicadcsrl.github.io/android-sdk/addon.xml
+{% endhighlight %}
+
+<h2 id="android-studio">Android Studio</h2>
+
+<p class="info-box"><i class="fa fa-info-circle"></i>
+    Please notice that the following instructions are valid for
+    Android Studio versions released on the <i>stable</i>, there is no support for the <i>beta</i> channel</p>
+
+<p>From Android Studio launch window, click on <i>Configure</i> &gt; <i>Android SDK Manager</i>
+to open Android SDK Manager</p>
+{% include img.html src='install-sdk-as-configure.png' %}
+{% include img.html src='install-sdk-as-menu.png' %}
+
+<p>Select the tab <i>SDK Update Sites</i> and click the <i class="fa fa-plus"></i>
+icon on the right-side toolbar</p>
+{% include img.html src='install-sdk-as-sdk-manager.png' %}
+
+<p>In the new window insert the following URL, optionally a name and the press <i>OK</i></p>
+{% highlight none %}
+https://datalogicadcsrl.github.io/android-sdk/addon.xml
+{% endhighlight %}
+{% include img.html src='install-sdk-as-site-url.png' %}
+
+<p>Now select the tab <i>SDK Platforms</i> and check the checkbox on the
+bottom right <i>Show Package Details</i>.
+Under the section <i>Android 4.1.2</i> (API 16) Datalogic SDK Add-on should appear.
+To install it, check Datalogic SDK Add-on checkbox and a small icon on the left should appear</p>
+{% include img.html src='install-sdk-as-before-install.png' %}
+
+<p>Click on the button <i>Apply</i> to install the selected packages.
+Once the installation is complete, the <i>Status</i> of the Datalogic SDK Add-on changes from
+<i>Not installed</i> to <i>Installed</i></p>
+{% include img.html src='install-sdk-as-installed.png' %}
+
+<h3 id="android-studio-usage">Create apps with Datalogic SDK</h3>
+<p>When creating a new project choose <i>Datalogic Add-on SDK 1.0</i> as <i>Minimum SDK</i> option</p>
+{% include img.html src='install-sdk-as-create-project.png' %}
+
+<h2 id="eclipse">Eclipse ADT</h2>
+
+<p>From Eclipse ADT menu, click <i>Windows</i> &gt; <i>Android SDK Manager</i>
+to open Android SDK Manager</p>
+{% include img.html src='install-sdk-menu.png' %}
+
+<p>Click <i>Tools</i> &gt; <i>Manage Add-on Sites...</i></p>
+{% include img.html src='install-sdk-sdk-manager.png' %}
+
+<p>Select the tab <i>User Defined Sites</i> and click <i>New...</i></p>
+{% include img.html src='install-sdk-site-url.png' %}
+
+<p>In the new window <i>Add Add-on Site URL</i> insert the following URL</p>
+{% highlight none %}
+https://datalogicadcsrl.github.io/android-sdk/addon.xml
+{% endhighlight %}
