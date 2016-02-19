@@ -12,10 +12,16 @@ layout: default
             <tbody>
             <tr>
                 <td rowspan="3"><i class="tutorial-logo fa fa-{{ page.tutorial_icon }}"></i></td>
-                <td>Difficulty <i class="fa fa-rocket"></i> {{ site.data.tutorials.difficulties[page.tutorial_difficulty] }}</td>
+                <td>Difficulty <span class="tutorial-diff-{{page.tutorial_difficulty}}"><i class="fa fa-rocket"></i>
+                        {{ site.data.tutorials.difficulties[page.tutorial_difficulty] }}</td>
             </tr>
-            <tr><td>Time <i class="fa fa-hourglass-half"></i> {{ page.tutorial_time }}</td></tr>
-            <tr><td>Sources on <a href="{{ site.samples_url }}/{{ page.title | replace:' ','' }}">
+            <tr><td>Download app
+                    <a href="{{ site.samples_url }}/raw/master/apk/{{ page.title | replace:' ','' }}.apk">
+                    <i class="fa fa-download"></i> APK</a>
+                    <a href="javascript:void(0)" data-url="{{ site.samples_url }}/raw/master/apk/{{ page.title | replace:' ','' }}.apk"
+                        onclick="showBarcode(this);">
+                    <i class="fa fa-qrcode"></i> Barcode</a></td></tr>
+            <tr><td>Sources on <a href="{{ site.samples_url }}/tree/master/{{ page.title | replace:' ','' }}">
                     <i class="fa fa-github"></i> GitHub</a></td></tr>
             </tbody>
         </table>
@@ -23,11 +29,10 @@ layout: default
     <p>{{ page.excerpt }}</p>
 
     <div style="clear:both;"></div>
+
+    <div id="barcode-container">
+        <p><a href="javascript:void(0)" onclick="hideBarcode(this);"><i class="fa fa-close"></i> close</a></p>
+        <img src=""/>
+    </div>
 </section>
 {{ content }}
-
-<div>
-    <i class="fa fa-envelope"></i> Contact us &middot;
-    <i class="fa fa-bug"></i> Report a bug &middot;
-    <i class="fa fa-stack-overflow"></i> Take a look on <a href="http://stackoverflow.com/search?q=datalogic">StackOverflow</a>
-</div>

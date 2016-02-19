@@ -11,6 +11,10 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
+section {
+    position: relative;
+}
+
 ol, ul {
     list-style-position: inside;
 }
@@ -478,4 +482,20 @@ p.divider {
     float: left;
     font-size: 3em;
     margin-right: 15px;
+}
+
+#barcode-container {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background: rgba(106, 127, 171, 0.85) none repeat scroll 0% 0%;
+    padding: 20px 0px;
+    z-index: 999;
+    color: white;
+    display: none;
+}
+
+#barcode-container a {
+    border: none;
+    color: inherit;
 }

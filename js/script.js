@@ -62,12 +62,27 @@ function initTOC() {
     });
 }
 
-function getQRCodeURL(data, size) {
-    if (!data)
+function showBarcode(link) {
+    var url = $(link).data('url');
+    var img_src = generateBarcode(url);
+    var barcode = $('#barcode-container');
+
+    barcode.find('img').attr('src', img_src);
+    barcode.show();
+}
+
+function hideBarcode(link) {
+    $('#barcode-container').hide();
+}
+
+function generateBarcode(data, size) {
+    if (!data) {
+        console.err('Need some data');
         return;
+    }
 
     if (!size)
         size = 150;
 
-    return 'https://api.qrserver.com/v1/create-qr-code/?size='+size+'x'+size+'&data='+data;
+    return 'https://api.qrserver.com/v1/create-qr-code/?qzone=4&size='+size+'x'+size+'&data='+data;
 }
