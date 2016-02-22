@@ -65,14 +65,14 @@ function initTOC() {
 function showBarcode(link) {
     var url = $(link).data('url');
     var img_src = generateBarcode(url);
-    var barcode = $('#barcode-container');
+    var barcode = $('<img />');
 
-    barcode.find('img').attr('src', img_src);
-    barcode.show();
+    barcode.attr('src', img_src);
+    modalShow(barcode);
 }
 
 function hideBarcode(link) {
-    $('#barcode-container').hide();
+    modalHide();
 }
 
 function generateBarcode(data, size) {
@@ -85,4 +85,17 @@ function generateBarcode(data, size) {
         size = 150;
 
     return 'https://api.qrserver.com/v1/create-qr-code/?qzone=4&size='+size+'x'+size+'&data='+data;
+}
+
+var modal = $("#modal");
+var modalBody = modal.find('.modal-body');
+function modalShow(body) {
+    modalBody.html(body);
+    modal.fadeIn();
+}
+
+function modalHide(body) {
+    modal.fadeOut(function() {
+        modalBody.html('');
+    });
 }

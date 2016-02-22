@@ -12,9 +12,7 @@ https://datalogicadcsrl.github.io/android-sdk/addon.xml
 
 <h2 id="android-studio">Android Studio</h2>
 
-<p class="info-box"><i class="fa fa-info-circle"></i>
-    Please notice that the following instructions are valid for
-    Android Studio versions released on the <i>stable</i>, there is no support for the <i>beta</i> channel</p>
+{% include info-box.html msg='Please notice that the following instructions are valid for Android Studio versions released on the <i>stable</i>, there is no support for the <i>beta</i> channel' %}
 
 <p>From Android Studio launch window, click on <i>Configure</i> &gt; <i>Android SDK Manager</i>
 to open Android SDK Manager</p>
@@ -35,6 +33,8 @@ https://datalogicadcsrl.github.io/android-sdk/addon.xml
 bottom right <i>Show Package Details</i>.
 Under the section <i>Android 4.1.2</i> (API 16) Datalogic SDK Add-on should appear.
 To install it, check Datalogic SDK Add-on checkbox and a small icon on the left should appear</p>
+{% include info-box.html level='warn' msg='Please notice that you must also install the Android API platform matching your Android version (i.e. API 16 is required to compile apps for Android 4.1.1)' %}
+
 {% include img.html src='install-sdk-as-before-install.png' %}
 
 <p>Click on the button <i>Apply</i> to install the selected packages.

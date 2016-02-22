@@ -476,12 +476,25 @@ p.divider {
     background-color: #6A7FAB;
     color: #FFFFFF;
     padding: 15px;
+    margin-bottom: 10px;
+}
+.info-box.warn {
+    background-color: #CE6A16;
+}
+.info-box.danger {
+    background-color: #CE1616;
 }
 
 .info-box .fa {
-    float: left;
+    display: table-cell;
+    vertical-align: middle;
     font-size: 3em;
-    margin-right: 15px;
+}
+
+.info-box p {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15px;
 }
 
 #barcode-container {
@@ -498,4 +511,38 @@ p.divider {
 #barcode-container a {
     border: none;
     color: inherit;
+}
+
+#modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+/* The Close Button */
+.close {
+    color: #FFFFFF;
+    float: right;
+    font-size: 2em;
+}
+
+.close:hover,
+.close:focus {
+    text-decoration: none;
+    cursor: pointer;
 }

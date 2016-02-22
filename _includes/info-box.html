@@ -1,0 +1,16 @@
+{% case include.level %}
+{% when 'danger' %}
+{% assign icon = 'hand-stop-o' %}
+{% when 'warn' %}
+{% assign icon = 'exclamation-triangle' %}
+{% else %}
+{% assign icon = 'info-circle' %}
+{% endcase %}
+
+<div class="info-box {{ include.level }}" 
+    {% if include.color %}
+    style="background-color: {{ include.color }};"
+    {% endif %} >
+    <i class="fa fa-{{ icon }}"></i>
+    <p>{{ include.msg }}</p>
+</div>
