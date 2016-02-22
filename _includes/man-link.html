@@ -1,4 +1,2 @@
 <a class="man-link" href="{{ site.url }}/docs/reference/{{ include.uri | replace:'.','/' }}.html"
-   title="Reference {{ include.uri }}">
-   <i class="fa fa-book"></i> <span class="man-link-name">{% if include.name %}{{include.name}}{% else %}{{include.uri|split:'.'|last}}{%endif%}</span>
-</a>
+   title="Reference {{ include.uri }}"><i class="fa fa-book"></i>&nbsp;<span class="man-link-name">{% if include.name %}{{include.name}}{% else %}{{include.uri|split:'.'|last}}{%endif%}</span></a>

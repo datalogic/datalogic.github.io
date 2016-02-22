@@ -213,8 +213,8 @@ a:hover {
   padding: 2px 4px;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 0.9rem;
-  background: #EFEFEF none repeat scroll 0% 0%;
-  padding: 4px;
+  background: #F7F7F7 none repeat scroll 0% 0%;
+  padding: 3px 5px;
 }
 .main-content pre {
   padding: 0.8rem;
@@ -235,7 +235,8 @@ a:hover {
     background: transparent;
     border: 0; }
 .main-content .highlight {
-  margin-bottom: 1rem; }
+    margin: 1rem 0;
+}
   .main-content .highlight pre {
     margin-bottom: 0;
     word-break: normal; }
@@ -339,9 +340,9 @@ a:hover {
 
 .man-link {
     border: 1px solid #D4D2D2;
-    padding: 1px 0 1px 6px;
+    padding: 0px 6px;
     border-radius: 2px;
-    margin: 0px 5px;
+    white-space:nowrap;
 }
 
 .man-link-name {
