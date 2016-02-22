@@ -1,0 +1,40 @@
+---
+layout: page
+title: Datalogic Android SDK Add-on &middot; Eclipse ADT
+---
+
+<h2 id="install-eclipse">Install Eclipse with ADT plugin</h2>
+
+{% include info-box.html level='warn' msg='Please notice that Eclipse with ADT plugin is not the official IDE anymore thus future support and compatibility is not guaranteed' %}
+
+<p>Eclipse is freely downloadable from the <a href="https://eclipse.org">official website</a>,
+but ADT plugin is not actively developed and there isn't any official download link for it.
+Please consider migrating to Android Studio.</p>
+
+<p>Some information for the download is still available on
+<a href="https://marketplace.eclipse.org/content/android-development-tools-eclipse">Eclipse marketplace</a>.</p>
+
+<h2 id="install-sdk">Install Datalogic SDK Add-on</h2>
+
+<p>From Eclipse ADT menu, click <i>Windows</i> &gt; <i>Android SDK Manager</i>
+to open Android SDK Manager</p>
+{% include img.html src='install-sdk-menu.png' %}
+
+<p>Click <i>Tools</i> &gt; <i>Manage Add-on Sites...</i></p>
+{% include img.html src='install-sdk-sdk-manager.png' %}
+
+<p>Select the tab <i>User Defined Sites</i> and click <i>New...</i></p>
+{% include img.html src='install-sdk-site-url.png' %}
+
+<p>In the new window <i>Add Add-on Site URL</i> insert the following URL</p>
+{% highlight none %}
+https://datalogicadcsrl.github.io/android-sdk/addon.xml
+{% endhighlight %}
+
+<h2 id="use-sdk">Use Datalogic SDK</h2>
+
+<h3 id="create-apps">Create new applications</h3>
+
+<h3 id="compile-project">Compile projects</h3>
+
+<h2 id="troubleshooting">Troubleshooting</h2>

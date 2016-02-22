@@ -1,18 +1,19 @@
 ---
 layout: page
-title: Datalogic Android SDK Add-on
+title: Datalogic Android SDK Add-on &middot; Android Studio
 ---
 
-<p>To install Datalogic Android SDK Add-on, please insert the following URL in Android
-Studio or Eclipse ADT or follow the detailed steps</p>
-
-{% highlight none %}
-https://datalogicadcsrl.github.io/android-sdk/addon.xml
-{% endhighlight %}
-
-<h2 id="android-studio">Android Studio</h2>
+<h2 id="install-android-studio">Install Android Studio</h2>
 
 {% include info-box.html msg='Please notice that the following instructions are valid for Android Studio versions released on the <i>stable</i>, there is no support for the <i>beta</i> channel' %}
+
+Download Android Studio from the <a href="http://developer.android.com/sdk/index.html">official website</a>
+and follow the <a href="http://developer.android.com/sdk/installing/index.html?pkg=studio">installation instruction</a>.
+
+After installing Android Studio, install the proper Android SDK version for your device (i.e. SDK level 16 for Android
+4.1.1).
+
+<h2 id="install-sdk">Install Datalogic SDK Add-on</h2>
 
 <p>From Android Studio launch window, click on <i>Configure</i> &gt; <i>Android SDK Manager</i>
 to open Android SDK Manager</p>
@@ -42,32 +43,14 @@ Once the installation is complete, the <i>Status</i> of the Datalogic SDK Add-on
 <i>Not installed</i> to <i>Installed</i></p>
 {% include img.html src='install-sdk-as-installed.png' %}
 
-<h3 id="android-studio-create-app">Create apps with Datalogic SDK</h3>
+<h2 id="use-sdk">Use Datalogic SDK</h2>
+
+<h3 id="create-apps">Create new applications</h3>
 <p>When creating a new project choose <i>Datalogic Add-on SDK 1.0</i> as <i>Minimum SDK</i> option</p>
 {% include img.html src='install-sdk-as-create-project.png' %}
 
-<h3 id="android-studio-compile">Compile with Datalogic SDK</h3>
+<h3 id="compile-project">Compile projects</h3>
 
-<h3 id="android-studio-gradle">Use Datalogic SDK in gradle scripts</h3>
+<h3 id="gradle-scripts">Gradle scripts</h3>
 
-<h3 id="android-studio-troubleshooting">Troubleshooting</h3>
-
-<h2 id="eclipse">Eclipse ADT</h2>
-
-<p>From Eclipse ADT menu, click <i>Windows</i> &gt; <i>Android SDK Manager</i>
-to open Android SDK Manager</p>
-{% include img.html src='install-sdk-menu.png' %}
-
-<p>Click <i>Tools</i> &gt; <i>Manage Add-on Sites...</i></p>
-{% include img.html src='install-sdk-sdk-manager.png' %}
-
-<p>Select the tab <i>User Defined Sites</i> and click <i>New...</i></p>
-{% include img.html src='install-sdk-site-url.png' %}
-
-<p>In the new window <i>Add Add-on Site URL</i> insert the following URL</p>
-{% highlight none %}
-https://datalogicadcsrl.github.io/android-sdk/addon.xml
-{% endhighlight %}
-
-<h3 id="eclipse-create-app">Create apps with Datalogic SDK</h3>
-<h3 id="eclipse-compile">Compile with Datalogic SDK</h3>
+<h2 id="troubleshooting">Troubleshooting</h2>

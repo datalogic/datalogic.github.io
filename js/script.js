@@ -29,13 +29,14 @@ function initMenu() {
  */
 function initTOC() {
     var toc = $('.toc-container ul');
-    var curr_level = 10;
-    var i = 0, j = 0;
+    var curr_level = 999;
+    var i = 0; // main level
+    var j = 0; // sub level
 
     $('.main-content').find('h2,h3').each(function() {
         var par = $(this);
         var level = parseInt(this.nodeName.match(/h(\d)/i)[1]);
-        if (level < curr_level) {
+        if (level < curr_level || (j==1 && level <= curr_level)) {
             i += 1;
             j = 1;
         } else {
