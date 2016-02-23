@@ -397,9 +397,12 @@ a:hover {
 .tutorial-list-item h4 .fa {
     font-size: 1.3em;
 }
-
 .tutorial-list-item p {
     margin: 5px 0 0 0;
+}
+.tutorial-suggested {
+    margin: 0 !important;
+    padding-left: 2em;
 }
 
 .tutorial-diff-1 {

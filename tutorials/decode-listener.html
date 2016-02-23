@@ -2,16 +2,17 @@
 layout: tutorial
 title: Decode Listener
 
+tutorial_enabled: true
 tutorial_difficulty: 1
 tutorial_icon: barcode
-tutorial_time: 15min
+tutorial_api:
+    - 16
 
-excerpt: How to read a barcode using a ReadListener
+excerpt: "Scan barcodes using a ReadListener: the simplest barcode scanner application"
 ---
 
-<p>
-Register a {% include man-link.html uri='com.datalogic.decode.ReadListener' %} in your <code>Acvivity.onResume()</code>
-to receive events on successful barcode reads:
+<p>Register a {% include man-link.html uri='com.datalogic.decode.ReadListener' %} in your <code>Acvivity.onResume()</code>
+to receive read events on successful barcode reads:
 </p>
 
 {% highlight java %}
@@ -57,3 +58,10 @@ protected void onPause() {
     }
 }
 {% endhighlight %}
+
+<p>
+The actual barcode scanning is started via any physical scan trigger on the
+device. Though to start scanning when a button on the application is pressed,
+you need to call
+{% include man-link.html uri='com.datalogic.decode.BarcodeManager#startDecode(int)' %}.
+</p>

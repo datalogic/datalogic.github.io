@@ -11,7 +11,7 @@ layout: default
         <table border="0" cellpadding="0" cellspacing="0">
             <tbody>
             <tr>
-                <td rowspan="3"><i class="tutorial-logo fa fa-{{ page.tutorial_icon }}"></i></td>
+                <td rowspan="4"><i class="tutorial-logo fa fa-{{ page.tutorial_icon }}"></i></td>
                 <td>Difficulty <span class="tutorial-diff-{{page.tutorial_difficulty}}"><i class="fa fa-rocket"></i>
                         {{ site.data.tutorials.difficulties[page.tutorial_difficulty] }}</td>
             </tr>
@@ -23,6 +23,13 @@ layout: default
                     <i class="fa fa-qrcode"></i> Barcode</a></td></tr>
             <tr><td>Sources on <a href="{{ site.samples_url }}/tree/master/{{ page.title | replace:' ','' }}">
                     <i class="fa fa-github"></i> GitHub</a></td></tr>
+            {% if page.tutorial_suggested %}
+            <tr><td>Suggested tutorials
+            {% for sugg in page.tutorial_suggested %}
+            <p class="tutorial-suggested"><a href="{{ site.url }}/tutorials/{{ sugg | replace:' ','-' | downcase }}.html"><i class="fa fa-angle-right"></i> {{ sugg }}</a></p>
+            {% endfor %}
+            </td></tr>
+            {% endif %}
             </tbody>
         </table>
     </div>
