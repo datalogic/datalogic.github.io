@@ -1,2 +1,13 @@
-<a class="man-link" href="http://developer.android.com/reference/{{ include.uri | replace:'.','/' }}.html"
-   title="Reference {{ include.uri }}"><i class="fa fa-android"></i>&nbsp;<span class="man-link-name">{% if include.name %}{{include.name}}{% else %}{{include.uri|split:'.'|last}}{%endif%}</span></a>
+{% assign class = include.uri | split: '#' | first %}
+{% if include.uri contains '#' %}
+{% assign func = include.uri | split: '#' | last %}
+{% else %}
+{% assign func = false %}
+{% endif %}
+{% if include.name %}
+{% assign name = include.name %}
+{% else %}
+{% assign name = class | split: '.' | last %}
+{% endif %}
+<a class="man-link" href="http://developer.android.com/reference/{{ class | replace: '.','/' }}.html{% if func %}#{{ func }}{% endif %}"
+    title="Reference {{ include.uri }}"><i class="fa fa-android"></i>&nbsp;<span class="man-link-name">{{ name }}{% if func %}.{{ func }}{% endif %}</span></a>
