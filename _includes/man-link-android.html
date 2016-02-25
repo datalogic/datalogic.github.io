@@ -7,7 +7,7 @@
 {% if include.name %}
 {% assign name = include.name %}
 {% else %}
-{% assign name = class | split: '.' | last %}
+{% capture name %}{{ class | split: '.' | last }}{% if func %}.{{ func }}{% endif %}{% endcapture %}
 {% endif %}
 <a class="man-link" href="http://developer.android.com/reference/{{ class | replace: '.','/' }}.html{% if func %}#{{ func }}{% endif %}"
-    title="Reference {{ include.uri }}"><i class="fa fa-android"></i>&nbsp;<span class="man-link-name">{{ name }}{% if func %}.{{ func }}{% endif %}</span></a>
+    title="Reference {{ include.uri }}"><i class="fa fa-android"></i>&nbsp;<span class="man-link-name">{{ name }}</span></a>
