@@ -12,8 +12,8 @@ layout: default
             <tbody>
             <tr>
                 <td rowspan="4"><i class="tutorial-logo fa fa-{{ page.tutorial_icon }}"></i></td>
-                <td>Difficulty <span class="tutorial-diff-{{page.tutorial_difficulty}}"><i class="fa fa-rocket"></i>
-                        {{ site.data.tutorials.difficulties[page.tutorial_difficulty] }}</td>
+                <td>Difficulty <span class="tutorial-diff-{{page.tutorial_difficulty}}">
+                        {% include tutorial-difficulty.html difficulty=page.tutorial_difficulty %}</td>
             </tr>
             <tr><td>Download app
                     <a href="{{ site.samples_url }}/raw/master/apk/{{ page.title | replace:' ','' }}.apk">

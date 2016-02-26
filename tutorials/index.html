@@ -8,8 +8,10 @@ layout: default
 
 <ul id="tutorial-list">
 {% for tutorial_groups in diffs %}
-    <!--<li class="tutorial-list-difficulty"></li>-->
-    
+    <li class="tutorial-list-difficulty difficulty tutorial-diff-{{ tutorial_groups.name }}">
+        {% include tutorial-difficulty.html difficulty=tutorial_groups.name %}
+    </li>
+
     {% assign tutorials = tutorial_groups.items | sort: 'tutorial_order','last' %}
     {% for page in tutorials %}
 
@@ -17,9 +19,7 @@ layout: default
     <li class="tutorial-list-item {% unless page.tutorial_enabled %}tutorial-disabled{% endunless %}">
         <div class="tutorial-item-icon"><i class="fa fa-{{ page.tutorial_icon }}"></i></div>
         <h4 class="page-item-title"><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
-            {% for i in (1..page.tutorial_difficulty) %}
-            <i class="tutorial-diff-{{ page.tutorial_difficulty }} fa fa-rocket"></i>
-            {% endfor %}
+            
             {% if site.debug %}(order: {{ page.tutorial_order }}){% endif %}
         </h4>
         <p class="page-item-excerpt"><i>{{ page.excerpt }}</i></p>

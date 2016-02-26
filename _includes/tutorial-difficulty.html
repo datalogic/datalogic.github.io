@@ -1,0 +1,10 @@
+{% assign difficulty = include.difficulty | plus: 0 %}
+
+{{ site.data.tutorials.difficulties[difficulty] }}
+{% for i in (1..3) %}
+{% if i <= difficulty %}
+<i class="tutorial-diff-{{ difficulty }} fa fa-rocket"></i>
+{% else %}
+<i class="tutorial-diff-none fa fa-rocket"></i>
+{% endif %}
+{% endfor %}

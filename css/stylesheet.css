@@ -373,6 +373,12 @@ a:focus {
     list-style: none;
 }
 
+.tutorial-list-difficulty {
+    text-align: center;
+    border-bottom: 1px solid #CFCFCF;
+    padding-bottom: 10px;
+    margin: 15px 0 0 0;
+}
 .tutorial-list-item {
     list-style: none;
     border-bottom: 1px solid #CFCFCF;
@@ -417,6 +423,9 @@ a:focus {
 }
 .tutorial-diff-3 {
     color: #E60000;
+}
+.tutorial-diff-none {
+    color: #CFCFCF;
 }
 
 .device-screenshot {
