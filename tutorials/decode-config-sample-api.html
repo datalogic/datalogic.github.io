@@ -2,11 +2,58 @@
 layout: tutorial
 title: Decode Config Sample API
 
-tutorial_difficulty: 2
+tutorial_enabled: true
+tutorial_order: 30
+tutorial_difficulty: 1
 tutorial_icon: wrench
-tutorial_time: 45min
 
-excerpt: '[TODO] How to configure barcode scanner properties'
+excerpt: 'Configure barcode scanner properties'
 ---
 
-hello
+<p>To configure the decoder properties, you need to instantiate
+{% include man-link.html uri='com.datalogic.decode.BarcodeManager' %}
+and get a
+{% include man-link.html uri='com.datalogic.decode.configuration.ScannerProperties' %}
+instance.</p>
+
+{% highlight java %}
+BarcodeManager manager = null;
+ScannerProperties configuration = null;
+
+try {
+    manager = new BarcodeManager();
+} catch (DecodeException e) {
+    e.printStackTrace();
+}
+configuration = ScannerProperties.edit(manager);
+{% endhighlight %}
+
+<p>
+Properties are organized gerarchically
+Each property has the method <code>set</code> that requires a different
+argument depending on the property type (i.e.: int, boolean, String, etc...):</p>
+
+{% highlight java %}
+configuration.code39.enable.set(true);
+configuration.code39.enableChecksum.set(false);
+configuration.code39.fullAscii.set(true);
+configuration.code39.Length1.set(20);
+configuration.code39.userID.set('x');
+
+if (configuration.qrCode.isSupported()) {
+    configuration.qrCode.enable.set(false);
+}
+{% endhighlight %}
+
+<p>For the configuration to be actually applied, you must call the metdod
+{% include man-link.html uri='com.datalogic.decode.configuration.ScannerProperties#store(com.datalogic.device.configuration.PropertyEditor, boolean)' %}:
+</p>
+
+{% highlight java %}
+try {
+    configuration.store(manager, true);
+} catch (ConfigException e) {
+    e.printStackTrace();
+    return;
+}
+{% endhighlight %}

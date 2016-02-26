@@ -7,17 +7,20 @@ layout: default
 {% assign diffs = (site.pages | where: "layout" , "tutorial") | group_by: 'tutorial_difficulty' | sort: 'name' %}
 
 <ul id="tutorial-list">
-{% for tutorials in diffs %}
-    <!--<li class="tutorial-list-difficulty">{{ site.data.tutorials.difficulties[page.tutorial_difficulty] }}</li>-->
-{% for page in tutorials.items %}
+{% for tutorial_groups in diffs %}
+    <!--<li class="tutorial-list-difficulty"></li>-->
+    
+    {% assign tutorials = tutorial_groups.items | sort: 'tutorial_order','last' %}
+    {% for page in tutorials %}
 
-{% if page.tutorial_enabled or site.debug %}
+    {% if page.tutorial_enabled or site.debug %}
     <li class="tutorial-list-item {% unless page.tutorial_enabled %}tutorial-disabled{% endunless %}">
         <div class="tutorial-item-icon"><i class="fa fa-{{ page.tutorial_icon }}"></i></div>
         <h4 class="page-item-title"><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
             {% for i in (1..page.tutorial_difficulty) %}
             <i class="tutorial-diff-{{ page.tutorial_difficulty }} fa fa-rocket"></i>
             {% endfor %}
+            {% if site.debug %}(order: {{ page.tutorial_order }}){% endif %}
         </h4>
         <p class="page-item-excerpt"><i>{{ page.excerpt }}</i></p>
     </li>
