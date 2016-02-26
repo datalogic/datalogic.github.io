@@ -1,8 +1,18 @@
+{% assign parent = false %}
+{% assign page_parent_ = page.url | remove_first: '/' | split: '/' %}
+{% if page_parent_.size > 1 and page_parent_[1].size > 0 and page_parent_[1] != 'index.html' %}
+{% capture page_parent %}/{{page_parent_ | first }}/index.html{% endcapture %}
+{% for m in site.pages %}
+    {% if m.url == page_parent %}
+    {% assign parent = m %}
+    {% endif %}
+{% endfor %}
+{% endif %}
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -19,6 +29,11 @@
     </section>
 
     <section class="main-content">
+        {% if page.title %}<h1>
+            {% if parent %}<a href="{{ site.url }}{{ parent.url }}">{{ parent.title }}</a>
+                <i class="fa fa-angle-right"></i>{% endif %}
+                {{ page.title }}</h1>
+        {% endif %}
         {{ content }}
     </section>
 

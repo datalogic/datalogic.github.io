@@ -5,7 +5,7 @@
 - name: 'Tutorials'
   url: '/tutorials/'
 - name: 'APIs'
-  url: '/docs'
+  url: '/docs/'
   items:
       - name: API16
       - name: API19

@@ -2,6 +2,7 @@
 ---
 
 var site_url = "{{ site.url }}";
+var site_url_len = site_url.length;
 
 $(function() {
     initMenu();
@@ -11,12 +12,18 @@ $(function() {
 function initMenu() {
     var path = window.location.protocol + '//' + window.location.host +
         window.location.pathname;
-    path = decodeURIComponent(path);
+    path = decodeURIComponent(path).substring(site_url_len);
+    if (!path.endsWith('/')) {
+        path = path.split('/');
+        path.splice(-1,1);
+        path = path.join('/');
+    }
+    path = path.replace(/\/$/,'');
 
     $("#main-menu .menu-item a").each(function () {
         var href = $(this).attr('href');
-        href = href.replace('^'+site_url, '');
-        //if (path.substring(0, href.length) === href) {
+        href = href.substring(site_url_len).replace(/\/$/,'');
+        console.log(path, href);
         if (path == href) {
             $(this).closest('li').addClass('active');
         }
