@@ -245,6 +245,7 @@ a:focus {
     margin-bottom: 0;
     word-break: normal; }
 .main-content .highlight pre, .main-content pre {
+  padding: 0.8em;
   padding: 0.8rem;
   overflow: auto;
   font-size: 0.9rem;
@@ -282,7 +283,7 @@ a:focus {
   .main-content table th {
     font-weight: bold; }
   .main-content table th, .main-content table td {
-    padding: 0.5rem 1rem;
+    padding: 0.5em 1em;
 }
 .main-content dl {
   padding: 0; }
@@ -301,11 +302,15 @@ a:focus {
   background-color: #eff0f1;
   border: 0; }
 
+.main-content {
+    max-width: 64em;
+    padding: 2em 4em;
+    margin: 0 auto;
+}
 @media screen and (min-width: 64em) {
   .main-content {
     max-width: 64rem;
     padding: 2rem 6rem;
-    margin: 0 auto;
     font-size: 1.1rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
@@ -319,6 +324,7 @@ a:focus {
     font-size: 1rem; } }
 
 .site-footer {
+  padding-top: 2em;
   padding-top: 2rem;
   margin-top: 2rem;
   border-top: solid 1px #eff0f1; }
