@@ -99,17 +99,16 @@ a:focus {
   .page-header, .page-footer {
     padding: 2rem 1rem; } }
 
-.page-header, .page-footer {
-    padding: 20px;
+.footer-copyright {
+  color: #FFFFFF;
+  background-color: #606C71;
+  text-align: justify;
+  font-size: .8em;
 }
 
 .header-logo {
     height: 70px;
     background: #FFFFFF;
-}
-
-.page-footer {
-  text-align: center;
 }
 
 .project-name {
@@ -323,29 +322,23 @@ a:focus {
     padding: 2rem 1rem;
     font-size: 1rem; } }
 
-.site-footer {
-  padding-top: 2em;
-  padding-top: 2rem;
-  margin-top: 2rem;
-  border-top: solid 1px #eff0f1; }
-
-.site-footer-owner {
-  display: block;
-  font-weight: bold; }
-
-.site-footer-credits {
-  color: #819198; }
+.page-footer {
+  border-top: solid 1px #eff0f1;
+}
+.footer-col {
+  padding: 0 5px;
+}
 
 @media screen and (min-width: 64em) {
-  .site-footer {
+  .page-footer-content {
     font-size: 1rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  .site-footer {
+  .page-footer-content {
     font-size: 1rem; } }
 
 @media screen and (max-width: 42em) {
-  .site-footer {
+  .page-footer-content {
     font-size: 0.9rem; } }
 
 .man-link {
