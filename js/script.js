@@ -26,11 +26,12 @@ function initMenu() {
     }
     path = path.replace(/\/$/,'');
 
-    $("#main-menu .menu-item a").each(function () {
+    $(".main-menu li a").each(function () {
         var href = $(this).attr('href');
         href = href.substring(site_url_len).replace(/\/$/,'');
         console.log(path, href);
         if (path == href) {
+            //$(this).closest('li').addClass('pure-menu-selected');
             $(this).closest('li').addClass('active');
         }
     });

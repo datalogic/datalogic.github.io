@@ -1,3 +1,11 @@
+---
+# ciao
+---
+
+@import 'mixins';
+
+$treehouse-auto: #fa9300, #66c9ee, #c9c9c9, #82b964, #d24d33, #fffbdb, #2e77bb, #6bd5b1, #f87aa0, #c9c9c9, #72664e, #ccd600, #fffbdb, #df620e, #993838, #ff9600, #d24d33, #8960a7, #82b964, #f87aa0, #d43f3f, #668000, #ff9600, #8960a7, #c9c9c9, #993838, #ccd600, #668000, #f4cc13, #72664e, #fa9300, #66c9ee, #c9c9c9, #82b964, #ccd600, #fffbdb, #2e77bb, #6bd5b1, #f87aa0, #c9c9c9, #fa9300, #66c9ee, #c9c9c9, #82b964, #ccd600, #fffbdb, #fa9300;
+
 * {
   box-sizing: border-box;
 }
@@ -76,6 +84,7 @@ a:focus {
   /*text-align: center;*/
   background-color: #155E8B;
   background-image: url('../images/triangles-background.jpg');
+  /*@include stripes(gradient-list(#FFF, #1264AA, 10), 190deg);*/
 }
 .page-header h1 {
     font-weight: 400;
@@ -87,17 +96,17 @@ a:focus {
 
 @media screen and (min-width: 64em) {
     .page-header, .page-footer {
-        padding: 2rem 6rem;
+        padding: 1rem 4rem;
     } 
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header, .page-footer {
-    padding: 1rem 4rem; } }
+    padding: 1rem 3rem; } }
 
 @media screen and (max-width: 42em) {
   .page-header, .page-footer {
-    padding: 2rem 1rem; } }
+    padding: 1rem 1rem; } }
 
 .footer-copyright {
   color: #FFFFFF;
@@ -107,8 +116,10 @@ a:focus {
 }
 
 .header-logo {
-    height: 70px;
-    background: #FFFFFF;
+  max-width: 100%;
+  max-height: 4em;
+  display: block;
+  background: white;
 }
 
 .project-name {
@@ -150,13 +161,15 @@ a:focus {
   .project-tagline {
     font-size: 1rem; } }
 
-#main-menu {
-    list-style: none;
-    margin: 0 40px 0 0;
-    /*padding: 4rem 0 10px 0;*/
-    padding: 0;
-    float: right;
-    font-size: 1.5em;
+.main-menu {
+  text-align: right;
+
+  .pure-menu-link {
+    color: #FFFFFF;
+    &:hover {
+      color: #606C71;
+    }
+  }
 }
 
 .footer-menu {
@@ -171,8 +184,8 @@ a:focus {
     padding: 16px 12px;
     line-height: 70px;
 }
-.menu-item.active {
-    border-top: 3px solid white;
+.main-menu li.active {
+    border-top: 2px solid #E3E3E3;
 }
 .menu-item a {
     color: inherit;

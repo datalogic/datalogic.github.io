@@ -1,0 +1,38 @@
+@mixin stripes($colors, $direction: "to bottom") {  
+    $stripe-width: 100% / length($colors);
+    $auto:         if( type-of(nth($colors, 1)) == list, false, true );
+    $gradient:     ();
+    
+    @for $i from 1 through length($colors) {
+        $item: nth($colors, $i);
+        $dump: ();
+      
+        @if $auto == true {
+            $dump: $item $stripe-width * ($i - 1), $item $stripe-width * $i;
+        }
+      
+        @else {   
+            @if $i > 1 {
+                $previous-item: nth($colors, $i - 1);
+                $dump: append($dump, nth($item, 1) nth($previous-item, 2));
+            }
+            $dump: append($dump, $item);
+        }
+
+        $gradient: join($gradient, $dump, comma);
+    }		
+
+    background-image: linear-gradient($direction, $gradient);
+}
+
+@function gradient-list($color-1, $color-2: #FFFFFF, $n: 10) {
+  $colors: ();
+  $color-step: ($color-1 - $color-2) / $n;
+  $step: 100% / ($n - 1);
+
+  @for $i from 1 through $n {
+    $colors: append($colors, mix($color-1, $color-2, $step * ($i - 1)));
+  }
+
+  @return $colors;
+}
