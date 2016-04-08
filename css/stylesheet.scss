@@ -1,13 +1,14 @@
 ---
-# ciao
 ---
 
 @import 'mixins';
 
-$treehouse-auto: #fa9300, #66c9ee, #c9c9c9, #82b964, #d24d33, #fffbdb, #2e77bb, #6bd5b1, #f87aa0, #c9c9c9, #72664e, #ccd600, #fffbdb, #df620e, #993838, #ff9600, #d24d33, #8960a7, #82b964, #f87aa0, #d43f3f, #668000, #ff9600, #8960a7, #c9c9c9, #993838, #ccd600, #668000, #f4cc13, #72664e, #fa9300, #66c9ee, #c9c9c9, #82b964, #ccd600, #fffbdb, #2e77bb, #6bd5b1, #f87aa0, #c9c9c9, #fa9300, #66c9ee, #c9c9c9, #82b964, #ccd600, #fffbdb, #fa9300;
-
 * {
   box-sizing: border-box;
+}
+
+html {
+  height: 100%;
 }
 
 body {
@@ -17,7 +18,10 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #606c71;
+  min-height: 100%;
+  position: relative;
+}
 
 section {
     position: relative;
@@ -94,6 +98,26 @@ a:focus {
     border: none;
 }
 
+.main-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #9E9E9E;
+  color: #FFFFFF;
+
+  a {
+    color: white;
+    border: none;
+  }
+
+  h1, h2 {
+    margin-top: 0;
+  }
+
+  .fa {
+  }
+}
+
 @media screen and (min-width: 64em) {
     .page-header, .page-footer {
         padding: 1rem 4rem;
@@ -109,10 +133,10 @@ a:focus {
     padding: 1rem 1rem; } }
 
 .footer-copyright {
-  color: #FFFFFF;
-  background-color: #606C71;
   text-align: justify;
-  font-size: .8em;
+  padding: 1em 0;
+  margin: 0 3em;
+  border-top: 1px solid #C8C8C8;
 }
 
 .header-logo {

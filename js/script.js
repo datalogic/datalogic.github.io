@@ -7,6 +7,7 @@ var site_url_len = site_url.length;
 $(function() {
     initMenu();
     initTOC();
+    initFooter();
 });
 
 if (typeof String.prototype.endsWith !== 'function') {
@@ -75,6 +76,10 @@ function initTOC() {
         li.append(link);
         toc.append(li);
     });
+}
+
+function initFooter() {
+    document.body.style.paddingBottom = $('.main-footer').height() + 'px';
 }
 
 function showBarcode(link) {
