@@ -2,8 +2,9 @@
 layout: default
 title: Tutorials
 ---
-<p>Datalogic Android SDK samples are available on
-    <a href="{{ site.samples_url }}"><i class="fa fa-github"></i> Github</a></p>
+<p>Datalogic Android SDK sample source code is available on <i class="fa fa-github"></i> Github for either
+    <a href="{{ site.samples_url.astudio }}">Android Studio</a>
+    and <a href="{{ site.samples_url.eclipse }}">Eclipse ADT</a>.</p>
 
 {% assign diffs = (site.pages | where: "layout" , "tutorial") | group_by: 'tutorial_difficulty' | sort: 'name' %}
 
