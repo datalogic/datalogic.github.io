@@ -5,7 +5,7 @@
 - name: 'Tutorials'
   url: '/tutorials/'
 - name: 'APIs'
-  url: '/docs/'
+  external_url: 'http://doc.mobile.dl.net/sdk/docs/'
   items:
       - name: API16
       - name: API19

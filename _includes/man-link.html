@@ -9,5 +9,5 @@
 {% else %}
 {% capture name %}{{ class | split: '.' | last }}{% if func %}.{{ func|split:'('|first }}(){% endif %}{% endcapture %}
 {% endif %}
-<a class="man-link" href="{{ site.url }}/docs/reference/{{ class | replace: '.','/' }}.html{% if func %}#{{ func }}{% endif %}"
+<a class="man-link" href="{{ site.baseurl }}/docs/reference/{{ class | replace: '.','/' }}.html{% if func %}#{{ func }}{% endif %}"
     title="Reference {{ include.uri }}"><i class="fa fa-book"></i>&nbsp;<span class="man-link-name">{{ name }}</span></a>

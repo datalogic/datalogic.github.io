@@ -1,7 +1,7 @@
 ---
 ---
 
-var site_url = "{{ site.url }}";
+var site_url = "{{ site.baseurl }}";
 var site_url_len = site_url.length;
 
 $(function() {
