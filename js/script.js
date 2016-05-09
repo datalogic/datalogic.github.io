@@ -79,9 +79,12 @@ function initTOC() {
 }
 
 function initFooter() {
-    $(window).resize(function() {
-        document.body.style.paddingBottom = $('.main-footer').height() + 'px';
-    });
+    $(window).resize(resizeFooter);
+    resizeFooter();
+}
+
+function resizeFooter() {
+    document.body.style.paddingBottom = $('.main-footer').height() + 'px';
 }
 
 function showBarcode(link) {
