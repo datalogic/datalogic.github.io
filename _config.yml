@@ -7,5 +7,5 @@ markdown: kramdown
 highlighter: rouge
 excerpt_separator: <!--more-->
 
-url: 'http://10.139.190.112/doc/datalogicadcsrl.github.io'
+url: 'http://doc.mobile.dl.net/doc/datalogicadcsrl.github.io'
 samples_url: 'https://github.com/DatalogicADCsrl/android-sdk-samples'
