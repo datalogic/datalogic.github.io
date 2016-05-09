@@ -14,14 +14,23 @@ layout: default
                 <td>Difficulty <span class="tutorial-diff-{{page.tutorial_difficulty}}">
                         {% include tutorial-difficulty.html difficulty=page.tutorial_difficulty %}</td>
             </tr>
-            <tr><td>Download app
-                    <a href="{{ site.samples_url }}/raw/master/apk/{{ page.title | replace:' ','' }}.apk">
-                    <i class="fa fa-download"></i> APK</a>
-                    <a href="javascript:void(0)" data-url="{{ site.samples_url }}/raw/master/apk/{{ page.title | replace:' ','' }}.apk"
-                        onclick="showBarcode(this);">
-                    <i class="fa fa-qrcode"></i> Barcode</a></td></tr>
-            <tr><td>Sources on <a href="{{ site.samples_url }}/tree/master/{{ page.title | replace:' ','' }}">
-                    <i class="fa fa-github"></i> GitHub</a></td></tr>
+            <tr><td>
+                <p>Download
+                  <a href="{{ site.samples_url.apk }}/{{ page.title | replace:' ','' }}.apk">
+                    <i class="fa fa-download"></i> APK</a></p>
+                <p>Install via
+                  <a href="javascript:void(0)" data-url="{{ site.samples_url.apk }}/{{ page.title | replace:' ','' }}.apk"
+                      onclick="showBarcode(this);">
+                    <i class="fa fa-qrcode"></i> Barcode</a></p>
+            </td></tr>
+            <tr><td>Sources on <i class="fa fa-github"></i> GitHub
+              <ul>
+                <li><i class="fa fa-angle-right"></i>
+                  <a href="{{ site.samples_url.astudio }}/{{ page.title | replace:' ','' }}">AndroidStudio</a></li>
+                <li><i class="fa fa-angle-right"></i>
+                  <a href="{{ site.samples_url.eclipse }}/{{ page.title | replace:' ','' }}">Eclipse ADT</a></li>
+              </ul>
+            </td></tr>
             {% if page.tutorial_suggested %}
             <tr><td>Suggested tutorials
             {% for sugg in page.tutorial_suggested %}

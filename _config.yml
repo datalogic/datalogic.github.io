@@ -9,4 +9,7 @@ excerpt_separator: <!--more-->
 
 url: 'http://doc.mobile.dl.net'
 baseurl: '/datalogicadcsrl.github.io'
-samples_url: 'https://github.com/DatalogicADCsrl/android-sdk-samples'
+samples_url:
+  astudio: 'https://git.mobile.dl.net/gddallolio/android-sdk-add-on/tree/master/datalogic_addon_base/samples/AndroidStudio'
+  eclipse: 'https://git.mobile.dl.net/gddallolio/android-sdk-add-on/tree/master/datalogic_addon_base/samples/Eclipse'
+  apk: 'https://git.mobile.dl.net/gddallolio/android-sdk-add-on/raw/master/datalogic_addon_base/samples/apk'
