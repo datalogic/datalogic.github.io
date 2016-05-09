@@ -401,6 +401,11 @@ a:focus {
     margin-bottom: 10px;
 }
 
+.tutorial-box ul {
+  list-style: none;
+  margin: 0;
+}
+
 .tutorial-box table {
     border: none;
 }
@@ -592,6 +597,7 @@ p.divider {
     padding: 20px;
     width: 80%;
     text-align: center;
+    color: #FFFFFF;
 }
 
 /* The Close Button */

@@ -93,7 +93,7 @@ function showBarcode(link) {
     var barcode = $('<img />');
 
     barcode.attr('src', img_src);
-    modalShow(barcode);
+    modalShow('Read the barcode with your device', barcode);
 }
 
 function hideBarcode(link) {
@@ -113,13 +113,16 @@ function generateBarcode(data, size) {
 }
 
 var modal = $("#modal");
+var modalTitle = modal.find('.modal-title');
 var modalBody = modal.find('.modal-body');
-function modalShow(body) {
+
+function modalShow(title, body) {
+    modalTitle.html(title);
     modalBody.html(body);
     modal.fadeIn();
 }
 
-function modalHide(body) {
+function modalHide() {
     modal.fadeOut(function() {
         modalBody.html('');
     });
