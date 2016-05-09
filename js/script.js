@@ -79,7 +79,9 @@ function initTOC() {
 }
 
 function initFooter() {
-    document.body.style.paddingBottom = $('.main-footer').height() + 'px';
+    $(window).resize(function() {
+        document.body.style.paddingBottom = $('.main-footer').height() + 'px';
+    });
 }
 
 function showBarcode(link) {
