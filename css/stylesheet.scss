@@ -87,7 +87,7 @@ a:focus {
   color: #f3f3f3;
   /*text-align: center;*/
   background-color: #155E8B;
-  background-image: url('../images/triangles-background.jpg');
+  /*background-image: url('../images/triangles-background.jpg');*/
   /*@include stripes(gradient-list(#FFF, #1264AA, 10), 190deg);*/
 }
 .page-header h1 {
@@ -117,6 +117,13 @@ a:focus {
 
   .fa {
   }
+}
+
+.footer-rule {
+  width: 100%;
+  height: .7em;
+  background-image: url('../images/barcode-bg.png');
+  background-repeat: repeat;
 }
 
 @media screen and (min-width: 64em) {
@@ -360,9 +367,6 @@ a:focus {
     padding: 2rem 1rem;
     font-size: 1rem; } }
 
-.page-footer {
-  border-top: solid 1px #eff0f1;
-}
 .footer-col {
   padding: 0 5px;
 }
