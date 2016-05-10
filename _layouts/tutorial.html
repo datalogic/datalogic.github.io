@@ -6,42 +6,42 @@ layout: default
 {% endif %}
 
 <section class="tutorial-header">
-    <div class="tutorial-box">
-        <table border="0" cellpadding="0" cellspacing="0">
-            <tbody>
-            <tr>
-                <td rowspan="4"><i class="tutorial-logo fa fa-{{ page.tutorial_icon }}"></i></td>
-                <td>Difficulty <span class="tutorial-diff-{{page.tutorial_difficulty}}">
-                        {% include tutorial-difficulty.html difficulty=page.tutorial_difficulty %}</td>
-            </tr>
-            <tr><td>
-                <p>Download
-                  <a href="{{ site.samples_url.apk }}/{{ page.title | replace:' ','' }}.apk">
-                    <i class="fa fa-download"></i> APK</a></p>
-                <p>Install via
-                  <a href="javascript:void(0)" data-url="{{ site.samples_url.apk }}/{{ page.title | replace:' ','' }}.apk"
-                      onclick="showBarcode(this);">
-                    <i class="fa fa-qrcode"></i> Barcode</a></p>
-            </td></tr>
-            <tr><td>Sources on <i class="fa fa-github"></i> GitHub
-              <ul>
-                <li><i class="fa fa-angle-right"></i>
-                  <a href="{{ site.samples_url.astudio }}/{{ page.title | replace:' ','' }}">AndroidStudio</a></li>
-                <li><i class="fa fa-angle-right"></i>
-                  <a href="{{ site.samples_url.eclipse }}/{{ page.title | replace:' ','' }}">Eclipse ADT</a></li>
-              </ul>
-            </td></tr>
-            {% if page.tutorial_suggested %}
-            <tr><td>Suggested tutorials
-            {% for sugg in page.tutorial_suggested %}
-            <p class="tutorial-suggested"><a href="{{ site.baseurl }}/tutorials/{{ sugg | replace:' ','-' | downcase }}.html"><i class="fa fa-angle-right"></i> {{ sugg }}</a></p>
-            {% endfor %}
-            </td></tr>
-            {% endif %}
-            </tbody>
-        </table>
-    </div>
-    <p>{{ page.excerpt }}</p>
+
+  <div class="right">
+    <h1 class="center-align"><i class="tutorial-logo fa fa-{{ page.tutorial_icon }}"></i></h1>
+
+    <h5>Difficulty <span class="tutorial-diff-{{page.tutorial_difficulty}}">
+                        {% include tutorial-difficulty.html difficulty=page.tutorial_difficulty %}</h5>
+
+    <p><a class="waves-effect waves-light btn" href="{{ site.samples_url.apk }}/{{ page.title | replace:' ','' }}.apk">
+      <i class="fa fa-download"></i> Download .apk</a></p>
+
+    <p><a class="waves-effect waves-light btn" href="javascript:void(0)" data-url="{{ site.samples_url.apk }}/{{ page.title | replace:' ','' }}.apk"
+        onclick="showBarcode(this);">
+      <i class="fa fa-qrcode"></i> Install</a></p>
+
+    <p><a class='dropdown-button btn' href='#' data-activates='sourcecode'>
+      <i class="fa fa-github"></i> Source code</a></p>
+
+    <ul id='sourcecode' class='dropdown-content'>
+      <li>
+        <a href="{{ site.samples_url.astudio }}/{{ page.title | replace:' ','' }}"
+          target="_blank">AndroidStudio</a></li>
+      <li>
+        <a href="{{ site.samples_url.eclipse }}/{{ page.title | replace:' ','' }}"
+          target="_blank">Eclipse ADT</a></li>
+    </ul>
+
+    {% if page.tutorial_suggested %}
+    <p>Suggested tutorials</p>
+    {% for sugg in page.tutorial_suggested %}
+      <p class="tutorial-suggested"><a href="{{ site.baseurl }}/tutorials/{{ sugg | replace:' ','-' | downcase }}.html"><i class="fa fa-angle-right"></i> {{ sugg }}</a></p>
+    {% endfor %}
+    {% endif %}
+
+  </div>
+
+  <!--<p>{{ page.excerpt }}</p>-->
 
     <div style="clear:both;"></div>
 
