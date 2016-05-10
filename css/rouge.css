@@ -139,6 +139,9 @@
   color: #4df4ff;
   font-weight: bold;
 }
+.highlight .n {
+  color: #b4a247;
+}
 .highlight .nb {
   font-weight: bold;
 }
