@@ -8,7 +8,7 @@ highlighter: rouge
 excerpt_separator: <!--more-->
 
 url: 'http://doc.mobile.dl.net'
-baseurl: '/datalogicadcsrl.github.io'
+baseurl: &baseurl '/datalogicadcsrl.github.io'
 samples_url:
   astudio: 'https://git.mobile.dl.net/gddallolio/android-sdk-add-on/tree/master/datalogic_addon_base/samples/AndroidStudio'
   eclipse: 'https://git.mobile.dl.net/gddallolio/android-sdk-add-on/tree/master/datalogic_addon_base/samples/Eclipse'

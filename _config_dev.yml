@@ -1,6 +1,6 @@
 debug: true
 url: 'http://localhost:4000'
-baseurl: ''
+baseurl: &baseurl ''
 samples_url:
   astudio: 'https://git.mobile.dl.net/gddallolio/android-sdk-add-on/tree/master/datalogic_addon_base/samples/AndroidStudio'
   eclipse: 'https://git.mobile.dl.net/gddallolio/android-sdk-add-on/tree/master/datalogic_addon_base/samples/Eclipse'

@@ -1,10 +1,10 @@
-#- name: 'Getting Started'
-#  url: '/getting-started.html'
-- name: 'SDK'
+- name: 'Home'
+  url: *base
+- name: 'Quick Start'
   url: '/sdk/'
 - name: 'Tutorials'
   url: '/tutorials/'
-- name: 'APIs'
+- name: 'API Reference'
   external_url: 'http://doc.mobile.dl.net/sdk/docs/'
   items:
       - name: API16
