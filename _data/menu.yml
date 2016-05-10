@@ -1,8 +1,11 @@
 - name: 'Home'
-  url: *base
+  id: 'home'
+  url: '/'
 - name: 'Quick Start'
-  url: '/sdk/'
+  id: 'quick-start'
+  url: '/quick-start/'
 - name: 'Tutorials'
+  id: 'tutorials'
   url: '/tutorials/'
 - name: 'API Reference'
   external_url: 'http://doc.mobile.dl.net/sdk/docs/'

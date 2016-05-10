@@ -3,15 +3,18 @@
     <a href="{{ site.url | append: site.baseurl }}" class="brand-logo"><img src="{{ site.baseurl }}/images/datalogic-logo.png"></a></a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
       {% for item in site.data.menu %}
-        <li><a
-          {% if item.external_url %}
-          href="{{ item.external_url }}"
-          {% else %}
-          href="{{ item.url | prepend: site.baseurl }}"
+        <li
+          {% if page.id and (page.id == item.id) %}
+          class="active"
           {% endif %}
-          >{{ item.name }}</a></li>
+          ><a
+            {% if item.external_url %}
+            href="{{ item.external_url }}"
+            {% else %}
+            href="{{ item.url | prepend: site.baseurl }}"
+            {% endif %}
+            >{{ item.name }}</a></li>
       {% endfor %}
     </ul>
   </div>
 </nav>
-
