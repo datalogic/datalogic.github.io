@@ -4,11 +4,15 @@
 - name: 'Quick Start'
   id: 'quick-start'
   url: '/quick-start/'
+  items:
+    - name: 'Android Studio'
+      id: 'quick-start'
+      url: '/quick-start/android-studio.html'
+    - name: 'Eclipse ADT'
+      id: 'quick-start'
+      url: '/quick-start/eclipse-adt.html'
 - name: 'Tutorials'
   id: 'tutorials'
   url: '/tutorials/'
 - name: 'API Reference'
   external_url: 'http://doc.mobile.dl.net/sdk/docs/'
-  items:
-      - name: API16
-      - name: API19

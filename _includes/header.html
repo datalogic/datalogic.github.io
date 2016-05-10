@@ -8,13 +8,30 @@
           class="active"
           {% endif %}
           ><a
+            {% if item.items %}
+            data-activates="nav-{{ item.id }}"
+            class="dropdown-button"
+            {% endif %}
             {% if item.external_url %}
             href="{{ item.external_url }}"
             {% else %}
             href="{{ item.url | prepend: site.baseurl }}"
             {% endif %}
-            >{{ item.name }}</a></li>
+            >{{ item.name }}
+          {% if item.items %}
+          <i class="material-icons right">arrow_drop_down</i>
+          {% endif %}
+        </a></li>
+
+        {% if item.items %}
+        <ul id="nav-{{ item.id }}" class="dropdown-content">
+        {% for sub in item.items %}
+          <li><a href="{{ sub.url | prepend: site.baseurl }}">{{ sub.name }}</a></li>
+        {% endfor %}
+        </ul>
+        {% endif %}
       {% endfor %}
     </ul>
+
   </div>
 </nav>
