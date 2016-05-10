@@ -35,17 +35,15 @@
     
     {% include header.html %}
 
-    <section class="container">
+    <main class="container">
         {% if page.title %}<h1>
             {% if parent %}<a href="{{ parent.url | prepend: site.baseurl }}">{{ parent.title }}</a>
                 <i class="fa fa-angle-right"></i>{% endif %}
                 {{ page.title }}</h1>
         {% endif %}
-    </section>
 
-    <div class="container">
       {{ content }}
-    </div>
+    </main>
 
     {% include footer.html %}
 

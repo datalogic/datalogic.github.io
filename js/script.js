@@ -5,9 +5,9 @@ var site_url = "{{ site.baseurl }}";
 var site_url_len = site_url.length;
 
 $(function() {
-    initMenu();
+    //initMenu();
     initTOC();
-    initFooter();
+    //initFooter();
 });
 
 if (typeof String.prototype.endsWith !== 'function') {
@@ -84,7 +84,7 @@ function initFooter() {
 }
 
 function resizeFooter() {
-    document.body.style.paddingBottom = $('.main-footer').height() + 'px';
+    document.body.style.paddingBottom = $('.page-footer').height() + 'px';
 }
 
 function showBarcode(link) {
