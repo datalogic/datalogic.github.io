@@ -31,7 +31,7 @@ title: Tutorials
         <span class="card-title activator">{{ page.title }}</span>
       </div>
       <div class="card-action right-align {% unless page.tutorial_enabled %}pink lighten-5{% endunless %}">
-        <a href="{{ page.url | prepend: site.baseurl }}" class="left">Open</a></span>
+        <a href="{{ page.url | prepend: site.baseurl }}" class="left datalogic-blue">Open</a></span>
         {% include tutorial-difficulty.html difficulty=tutorial_groups.name %}
       </div>
       <div class="card-reveal">
