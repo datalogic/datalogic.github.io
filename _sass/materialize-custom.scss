@@ -1,3 +1,5 @@
+$datalogic-blue: #002596;
+
 nav {
   background-color: #FFFFFF;
 
@@ -23,19 +25,22 @@ footer.page-footer {
   color: #DEBB00;
 }
 
-.datalogic-blue {
-  color: #002596 !important;
-}
-
 td,th {
   padding: 15px;
 }
 
 body {
-        display: flex;
-        min-height: 100vh;
-        flex-direction: column;
-    }
-    main {
-       flex: 1;
-    }
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.card-action {
+  a {
+    color: $datalogic-blue !important;
+  }
+}
