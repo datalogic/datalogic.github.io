@@ -25,7 +25,7 @@ function initTOC() {
     var i = 0; // main level
     var j = 0; // sub level
 
-    $('.main-content').find('h2,h3').each(function() {
+    $('body > main').find('h2,h3').each(function() {
         var par = $(this);
         var level = parseInt(this.nodeName.match(/h(\d)/i)[1]);
         if (level < curr_level || (j==1 && level <= curr_level)) {
