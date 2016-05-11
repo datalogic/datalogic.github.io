@@ -174,28 +174,23 @@ p.divider {
 }
 
 .info-box {
-    background-color: #6A7FAB;
-    color: #FFFFFF;
-    padding: 15px;
-    margin-bottom: 10px;
+  color: #FFFFFF;
+  background-color: #039BE5;
+
+  .row {
+    margin-bottom: 0;
+  }
+
+  i.fa {
+    font-size: 3em;
+  }
 }
-.info-box.warn {
+
+.warn {
     background-color: #CE6A16;
 }
-.info-box.danger {
+.danger {
     background-color: #CE1616;
-}
-
-.info-box .fa {
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 3em;
-}
-
-.info-box p {
-    display: table-cell;
-    vertical-align: middle;
-    padding-left: 15px;
 }
 
 #barcode-container {
