@@ -1,9 +1,18 @@
+{% if include.image %}
 {% assign imgs = (include.image | split: ',') %}
+{% endif %}
 <div class="device-screenshot">
     <img class="device-canvas" src="{{ site.baseurl }}/images/dl-axist-canvas.png" />
+    {% if include.image %}
     {% for img in imgs %}
     <img class="device-screen {% unless forloop.index == 1 %}hide{% endunless %}" src="{{ site.baseurl }}/images/{{ img }}"/>
     {% endfor %}
+    {% elsif include.video %}
+    <video class="device-screen" autoplay="autoplay" poster="{{ site.baseurl }}/images/{{ include.video_fallback }}">
+      <source src="{{ site.baseurl }}/images/{{ include.video }}" type="video/mp4">
+      <img class="device-screen" src="{{ site.baseurl }}/images/{{ include.video_fallback }}"/>
+    </video>
+    {% endif %}
 </div>
 <div style="clear:both;"></div>
 {% if include.caption %}
