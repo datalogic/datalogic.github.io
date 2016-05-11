@@ -30,6 +30,10 @@
     
     {% include header.html %}
 
+    {% if page.id == 'home' %}
+      {% include banner.html %}
+    {% endif %}
+
     <main class="container">
         {% if page.title %}<h1>
             {% if parent %}<a href="{{ parent.url | prepend: site.baseurl }}">{{ parent.title }}</a>

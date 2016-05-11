@@ -44,3 +44,28 @@ main {
     color: $datalogic-blue !important;
   }
 }
+
+.banner {
+  position: relative;
+  color: #FFFFFF;
+  min-height: 250px;
+
+  .banner-img {
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+  }
+
+  h1 {
+    text-shadow: 2px 2px 5px black;
+    width: 100%;
+    text-align: center;
+    padding: 0 30%;
+  }
+
+  .device-screenshot {
+    float: right;
+  }
+}

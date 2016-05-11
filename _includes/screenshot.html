@@ -1,6 +1,9 @@
+{% assign imgs = (include.image | split: ',') %}
 <div class="device-screenshot">
-    <img class="device-canvas" src="/images/dl-axist-canvas.png" />
-    <img class="device-screen" src="/images/{{ include.image }}"/>
+    <img class="device-canvas" src="{{ site.baseurl }}/images/dl-axist-canvas.png" />
+    {% for img in imgs %}
+    <img class="device-screen {% unless forloop.index == 1 %}hide{% endunless %}" src="{{ site.baseurl }}/images/{{ img }}"/>
+    {% endfor %}
 </div>
 <div style="clear:both;"></div>
 {% if include.caption %}

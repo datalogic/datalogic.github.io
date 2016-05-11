@@ -6,6 +6,7 @@ var site_url_len = site_url.length;
 
 $(function() {
     initTOC();
+    //initBanner();
     //initFooter();
     $(".button-collapse").sideNav();
 });
@@ -54,6 +55,25 @@ function initTOC() {
         li.append(link);
         toc.append(li);
     });
+}
+
+function initBanner() {
+  var current = 0;
+  var imgs = $('.banner .device-screenshot .device-screen');
+
+  setInterval(function() {
+    imgs.each(function(i) {
+      console.log(i, current);
+      if (i == current)
+        $(this).removeClass('hide');
+      else
+        $(this).addClass('hide');
+    });
+
+    current++;
+    if (current >= imgs.length)
+      current = 0;
+  }, 5000);
 }
 
 function initFooter() {
