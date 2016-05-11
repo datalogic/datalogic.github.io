@@ -1,7 +1,8 @@
 <nav>
   <div class="nav-wrapper">
     <a href="{{ site.url | append: site.baseurl }}" class="brand-logo"><img src="{{ site.baseurl }}/images/datalogic-logo.png"></a></a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
+    <a href="#" data-activates="nav-main" class="button-collapse black-text"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
       {% for item in site.data.menu %}
         <li
           {% if page.id and (page.id == item.id) %}
@@ -27,6 +28,32 @@
         <ul id="nav-{{ item.id }}" class="dropdown-content">
         {% for sub in item.items %}
           <li><a href="{{ sub.url | prepend: site.baseurl }}">{{ sub.name }}</a></li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    <!-- Mobile only menu -->
+    <ul id="nav-main" class="side-nav">
+      {% for item in site.data.menu %}
+        <li
+          {% if page.id and (page.id == item.id) %}
+          class="active"
+          {% endif %}
+          ><a
+            {% if item.external_url %}
+            href="{{ item.external_url }}"
+            {% else %}
+            href="{{ item.url | prepend: site.baseurl }}"
+            {% endif %}
+            >{{ item.name }}
+        </a></li>
+
+        {% if item.items %}
+        <ul id="nav-{{ item.id }}" class="ropdown-content">
+        {% for sub in item.items %}
+        <li><a href="{{ sub.url | prepend: site.baseurl }}"><i class="material-icons left">chevron_right</i> {{ sub.name }}</a></li>
         {% endfor %}
         </ul>
         {% endif %}

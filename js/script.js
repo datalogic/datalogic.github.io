@@ -7,6 +7,7 @@ var site_url_len = site_url.length;
 $(function() {
     initTOC();
     //initFooter();
+    $(".button-collapse").sideNav();
 });
 
 if (typeof String.prototype.endsWith !== 'function') {
