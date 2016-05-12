@@ -24,6 +24,12 @@
     <![endif]-->
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    {% unless site.debug %}
+    {% if site.analytics_tracking_id %}
+    {% include google-analytics.html tracking_id=site.analytics_tracking_id %}
+    {% endif %}
+    {% endunless %}
   </head>
 
   <body>
