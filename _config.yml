@@ -1,4 +1,5 @@
 # Site settings
+debug: false
 title: 'Datalogic ADC Mobile Computing'
 tagline: 'Android Development'
 
@@ -7,10 +8,11 @@ markdown: kramdown
 highlighter: rouge
 excerpt_separator: <!--more-->
 
-url: 'http://doc.mobile.dl.net'
-baseurl: &baseurl '/datalogicadcsrl.github.io'
-apireference_url: &apireference_url 'http://doc.mobile.dl.net/sdk/docs/'
+url: 'http://datalogic.github.io'
+baseurl: &baseurl ''
+analytics_tracking_id: 'UA-77632025-1'
+apireference_url: &apireference_url 'http://datalogic.github.io/android-sdk-docs'
 samples_url:
-  astudio: 'https://git.mobile.dl.net/gddallolio/android-sdk-add-on/tree/master/datalogic_addon_base/samples/AndroidStudio'
-  eclipse: 'https://git.mobile.dl.net/gddallolio/android-sdk-add-on/tree/master/datalogic_addon_base/samples/Eclipse'
-  apk: 'https://git.mobile.dl.net/gddallolio/android-sdk-add-on/raw/master/datalogic_addon_base/samples/apk'
+  astudio: 'https://github.com/datalogic/android-sdk-samples-androidstudio'
+  eclipse: 'https://github.com/datalogic/android-sdk-samples-eclipse'
+  apk: 'https://github.com/datalogic/android-sdk-samples-androidstudio/raw/master/apk'
