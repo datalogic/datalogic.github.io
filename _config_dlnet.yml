@@ -2,6 +2,7 @@ debug: false
 
 url: 'http://doc.mobile.dl.net'
 baseurl: &baseurl '/datalogicadcsrl.github.io'
+analytics_tracking_id: false
 apireference_url: &apireference_url 'http://doc.mobile.dl.net/sdk/docs/'
 samples_url:
   astudio: 'https://git.mobile.dl.net/gddallolio/android-sdk-add-on/tree/master/datalogic_addon_base/samples/AndroidStudio'
