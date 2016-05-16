@@ -1,5 +1,21 @@
 $datalogic-blue: #002596;
 
+@mixin filter($f) {
+  -webkit-filter: $f;
+     -moz-filter: $f;
+       -o-filter: $f;
+      -ms-filter: $f;
+          filter: $f;
+}
+
+@mixin transition($t) {
+  -webkit-transition: $t;
+     -moz-transition: $t;
+       -o-transition: $t;
+      -ms-transition: $t;
+          transition: $t;
+}
+
 nav {
   background-color: #FFFFFF;
 
@@ -12,8 +28,20 @@ nav {
   height: 64px;
 }
 
-footer.page-footer {
-  background-color: #002596;
+footer {
+  font-size: 90%;
+
+  &.page-footer {
+    background-color: $datalogic-blue;
+  }
+
+  h5 {
+    font-size: 1.64em;
+  }
+
+  a {
+    color: #FFFFFF;
+  }
 }
 
 .tut-icon {
@@ -68,5 +96,38 @@ main {
   .device-screenshot {
     float: right;
     margin-right: 10%;
+  }
+}
+
+.copyright {
+  padding: 1em 0;
+}
+
+.social-links {
+  font-size: 1.8em;
+}
+
+video {
+  position: relative;
+  @include transition(all 0.5s linear);
+
+  &.paused {
+    @include filter(blur(5px));
+
+    & + .play-button .fa {
+      display: block;
+    }
+  }
+}
+
+.play-button {
+  width: 73.8%;
+  text-align: center;
+  font-size: 3em;
+  cursor: pointer;
+
+  .fa {
+    margin: 0 auto;
+    display: none;
   }
 }
