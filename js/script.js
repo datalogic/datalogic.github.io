@@ -103,43 +103,10 @@ function resizeFooter() {
     document.body.style.paddingBottom = $('.page-footer').height() + 'px';
 }
 
-function showBarcode(link) {
-    var url = $(link).data('url');
-    var img_src = generateBarcode(url);
-    var barcode = $('<img />');
-
-    barcode.attr('src', img_src);
-    modalShow('Read the barcode with your device', barcode);
-}
-
-function hideBarcode(link) {
-    modalHide();
-}
-
-function generateBarcode(data, size) {
-    if (!data) {
-        console.err('Need some data');
-        return;
-    }
-
-    if (!size)
-        size = 150;
-
-    return 'https://api.qrserver.com/v1/create-qr-code/?qzone=4&size='+size+'x'+size+'&data='+data;
-}
-
-var modal = $("#modal");
-var modalTitle = modal.find('.modal-title');
-var modalBody = modal.find('.modal-body');
-
-function modalShow(title, body) {
-    modalTitle.html(title);
-    modalBody.html(body);
-    modal.fadeIn();
-}
-
-function modalHide() {
-    modal.fadeOut(function() {
-        modalBody.html('');
-    });
-}
+/**
+ * Init triggers for materializecss modals
+ */
+$(document).ready(function(){
+  // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+  $('.modal-trigger').leanModal();
+});

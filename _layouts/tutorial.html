@@ -16,8 +16,7 @@ layout: default
     <p><a class="waves-effect waves-light btn" href="{{ site.samples_url.apk }}/{{ page.title | replace:' ','' }}.apk">
       <i class="fa fa-download"></i> Download .apk</a></p>
 
-    <p><a class="waves-effect waves-light btn" href="javascript:void(0)" data-url="{{ site.samples_url.apk }}/{{ page.title | replace:' ','' }}.apk"
-        onclick="showBarcode(this);">
+    <p><a class="waves-effect waves-light btn modal-trigger" href="#modal-barcode">
       <i class="fa fa-qrcode"></i> Install</a></p>
 
     <p><a class='dropdown-button btn' href='#' data-activates='sourcecode'>
@@ -45,9 +44,15 @@ layout: default
 
     <div style="clear:both;"></div>
 
-    <div id="barcode-container">
-        <p><a href="javascript:void(0)" onclick="hideBarcode(this);"><i class="fa fa-close"></i> close</a></p>
-        <img src=""/>
-    </div>
 </section>
 {{ content }}
+
+<div id="modal-barcode" class="modal">
+  <div class="modal-content">
+    <h4>Read the barcode with your device</h4>
+    <p class="center-align"><img src="https://api.qrserver.com/v1/create-qr-code/?qzone=4&size=150x150&data={{ site.samples_url.apk }}/{{ page.title | replace:' ','' }}.apk" /></p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-blue btn-flat">OK</a>
+  </div>
+</div>
