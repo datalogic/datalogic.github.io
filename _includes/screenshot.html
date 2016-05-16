@@ -8,10 +8,12 @@
     <img class="device-screen {% unless forloop.index == 1 %}hide{% endunless %}" src="{{ site.baseurl }}/images/{{ img }}"/>
     {% endfor %}
     {% elsif include.video %}
-    <video class="device-screen" autoplay="autoplay" poster="{{ site.baseurl }}/images/{{ include.video_fallback }}">
+    <video class="device-screen paused" poster="{{ site.baseurl }}/images/{{ include.video_fallback }}">
       <source src="{{ site.baseurl }}/images/{{ include.video }}" type="video/mp4">
-      <img class="device-screen" src="{{ site.baseurl }}/images/{{ include.video_fallback }}"/>
     </video>
+    <div class="device-screen play-button valign-wrapper">
+      <i class="fa fa-play-circle valign"></i>
+    </div>
     {% endif %}
 </div>
 <div style="clear:both;"></div>

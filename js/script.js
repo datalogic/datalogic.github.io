@@ -8,6 +8,7 @@ $(function() {
     initTOC();
     //initBanner();
     //initFooter();
+    initVideoControl();
     $(".button-collapse").sideNav();
 });
 
@@ -15,6 +16,23 @@ if (typeof String.prototype.endsWith !== 'function') {
     String.prototype.endsWith = function(suffix) {
         return this.indexOf(suffix, this.length - suffix.length) !== -1;
     };
+}
+
+function initVideoControl() {
+  $('.play-button').click(function() {
+    var video = $(this).siblings('video');
+    if (video.length > 0) {
+      video = video[0];
+
+      if (video.paused) {
+        video.play();
+        video.classList.remove('paused');
+      } else {
+        video.pause();
+        video.classList.add('paused');
+      }
+    }
+  });
 }
 
 /**
