@@ -41,7 +41,7 @@ nav {
     }
   }
 
-  ul {
+  ul, .side-nav {
     li.active {
       background: $color-gray-light;
     }
@@ -50,6 +50,10 @@ nav {
       color: $color-brand;
     }
   }
+}
+
+.dropdown-content li a {
+  color: $color-brand;
 }
 
 footer {
