@@ -72,6 +72,15 @@ footer {
   }
 }
 
+.highlight {
+  background-color: $color-gray-light;
+  padding: 1em;
+
+  pre {
+    margin: 0;
+  }
+}
+
 .tut-icon {
   font-size: 6em;
   text-align: center;
