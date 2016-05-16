@@ -41,10 +41,8 @@
     {% endif %}
 
     <main class="container">
-        {% if page.title %}<h1>
-            {% if parent %}<a href="{{ parent.url | prepend: site.baseurl }}">{{ parent.title }}</a>
-                <i class="fa fa-angle-right"></i>{% endif %}
-                {{ page.title }}</h1>
+        {% if page.title %}
+        <h1>{{ page.title }}</h1>
         {% endif %}
 
       {{ content }}
