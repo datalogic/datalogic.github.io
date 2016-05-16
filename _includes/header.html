@@ -1,8 +1,8 @@
 <nav>
-  <div class="nav-wrapper">
-    <a href="{{ site.url | append: site.baseurl }}" class="brand-logo"><img src="{{ site.baseurl }}/images/datalogic-logo.png"></a></a>
-    <a href="#" data-activates="nav-main" class="button-collapse black-text"><i class="material-icons">menu</i></a>
-    <ul class="right hide-on-med-and-down">
+  <div class="nav-wrapper container">
+    <a href="{{ site.url | append: site.baseurl }}" class="brand-logo left"><img src="{{ site.baseurl }}/images/datalogic-logo.png"></a></a>
+    <a href="#" data-activates="nav-main" class="button-collapse black-text right"><i class="material-icons">menu</i></a>
+    <ul class="left hide-on-med-and-down">
       {% for item in site.data.menu %}
         <li
           {% if page.id and (page.id == item.id) %}
