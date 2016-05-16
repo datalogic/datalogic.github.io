@@ -1,4 +1,7 @@
-$datalogic-blue: #002596;
+$color-text: #999999;
+$color-brand: #002596;
+$color-gray-light: #efefef;
+$color-accent: #8fd510;
 
 @mixin filter($f) {
   -webkit-filter: $f;
@@ -16,6 +19,14 @@ $datalogic-blue: #002596;
           transition: $t;
 }
 
+body {
+  color: $color-text;
+}
+
+h1,h2,h3,h4,h5 {
+  color: $color-brand;
+}
+
 nav {
   background-color: #FFFFFF;
 
@@ -30,8 +41,18 @@ nav {
     }
   }
 
-  ul a {
-    color: #6F7170;
+  ul {
+    li.active {
+      background: $color-gray-light;
+    }
+
+    a {
+      color: $color-brand;
+
+      &:hover {
+        color: #FFFFFF;
+      }
+    }
   }
 }
 
@@ -39,7 +60,7 @@ footer {
   font-size: 90%;
 
   &.page-footer {
-    background-color: $datalogic-blue;
+    background-color: $color-brand;
   }
 
   h5 {
@@ -56,8 +77,12 @@ footer {
   text-align: center;
 }
 
+.tutorial-logo {
+  color: $color-text;
+}
+
 .promo-icon {
-  color: #DEBB00;
+  color: $color-accent;
 }
 
 td,th {
@@ -74,9 +99,13 @@ main {
   flex: 1;
 }
 
+.card-panel {
+  background-color: $color-brand;
+}
+
 .card-action {
   a {
-    color: $datalogic-blue !important;
+    color: $color-brand !important;
   }
 }
 
@@ -98,16 +127,13 @@ main {
     width: 100%;
     text-align: center;
     padding: 0 30%;
+    color: #FFFFFF;
   }
 
   .device-screenshot {
     float: right;
     margin-right: 10%;
   }
-}
-
-.copyright {
-  padding: 1em 0;
 }
 
 .social-links {
