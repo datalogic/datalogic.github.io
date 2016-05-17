@@ -86,8 +86,15 @@ footer {
   text-align: center;
 }
 
-.tutorial-logo {
-  color: $color-text;
+.tutorial-header {
+
+  h5 {
+    color: $color-text;
+  }
+
+  .tutorial-logo {
+    color: $color-text;
+  }
 }
 
 .promo-icon {
@@ -171,5 +178,13 @@ video {
   .fa {
     margin: 0 auto;
     display: none;
+  }
+}
+
+.btn, .btn-large {
+  background-color: $color-accent;
+
+  &:hover {
+    background-color: lighten($color-accent, 5%);
   }
 }
