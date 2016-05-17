@@ -11,6 +11,8 @@
           ><a
             {% if item.items %}
             data-activates="nav-{{ item.id }}"
+            data-beloworigin="true"
+            data-hover="true"
             class="dropdown-button"
             {% endif %}
             {% if item.external_url %}
