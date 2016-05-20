@@ -182,6 +182,14 @@ video {
 }
 
 .btn, .btn-large {
+  background-color: $color-brand;
+
+  &:hover {
+    background-color: lighten($color-brand, 5%);
+  }
+}
+
+footer .btn, .btn-large {
   background-color: $color-accent;
 
   &:hover {
