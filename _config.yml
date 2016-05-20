@@ -16,4 +16,4 @@ addonxml_url: 'http://datalogic.github.io/android-sdk-addon/addon.xml'
 samples_url:
   astudio: 'https://github.com/datalogic/android-samples-astudio/tree/SDKv1'
   eclipse: 'https://github.com/datalogic/android-samples-eclipse/tree/SDKv1'
-  apk: 'https://github.com/datalogic/android-samples-astudio/releases/'
+  apk: 'https://github.com/datalogic/android-samples-astudio/releases/download/v1'

@@ -3,8 +3,3 @@ debug: false
 url: 'http://doc.mobile.dl.net'
 baseurl: &baseurl '/datalogicadcsrl.github.io'
 analytics_tracking_id: false
-apireference_url: &apireference_url 'http://datalogic.github.io/android-sdk-docs'
-samples_url:
-  astudio: 'https://github.com/datalogic/android-samples-astudio/tree/SDKv1'
-  eclipse: 'https://github.com/datalogic/android-samples-eclipse/tree/SDKv1'
-  apk: 'https://github.com/datalogic/android-samples-astudio/releases/'
