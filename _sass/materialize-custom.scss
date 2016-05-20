@@ -134,21 +134,32 @@ main {
     position: absolute;
     height: 70%;
     width: 100%;
-    background-image: url("../images/banner.jpg");
+    background-image: url("../images/banner-dark.jpg");
     background-size: cover;
   }
 
   h1 {
-    text-shadow: 2px 2px 5px black;
     width: 100%;
     text-align: center;
     padding: 0 30%;
     color: #FFFFFF;
+
+    span {
+      background-color: transparentize($color-brand, 0.5);
+      padding: 5px 20px;
+    }
   }
 
   .device-screenshot {
     float: right;
     margin-right: 10%;
+  }
+
+  .photo-referral {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: $color-gray-light;
   }
 }
 
