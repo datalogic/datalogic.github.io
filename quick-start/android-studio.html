@@ -50,11 +50,53 @@ Once the installation is complete, the <i>Status</i> of the Datalogic SDK v1 Add
 {% include img.html src='install-sdk-as-selected-confirm-installed.png' %}
 
 <h2 id="use-sdk">Use Datalogic SDK</h2>
+When it comes to develop new applications and take advantage of Datalogic devices, simply follow these guided steps.
 
 <h3 id="create-apps">Create new applications</h3>
+<p>When creating a new project choose <i>Start a new Android Studio project</i> from the Android Studio Welcome screen.</p>
+{% include img.html src='start-as-new-project.png' %}
+
+{% include info-box.html level='warn' msg='Please notice that you must select the <i>Minimum SDK</i> level in accordance with the installed Android firmware version on your Datalogic device. For example, a device running Android Jelly Bean, can support applications built with Minimum SDK level selected up to 16. Greater values will produce an incompatible Android app.'%}
+<p>When creating a new project choose the most correct Minimum SDK API level and press <i>Next</i>.</p>
+{% include img.html src='start-as-new-project-wizard-minimum-sdk.png' %}
+
+<p>The wizard will guide through the creation of a new application</p>
+{% include img.html src='start-as-new-project-wizard.png' %}
+
+<p>With a basic layout and Activity choice.</p>
+{% include img.html src='start-as-new-project-activity.png' %}
+
+<p>Complete the guided wizard and let the IDE settle down. A generic Android application, runnable on all Android devices, is now ready for development.</p>
 
 <h3 id="compile-project">Compile projects</h3>
+With the previous steps, you have simply prepared a basic environment for a generic Android application. Through the next steps, instead, your basic application will leverage on custom Datalogic SDK functionalities and will be compiled to be compatible with a Datalogic device.
+
+<p>In order to gain access to the SDK functionalities, applications need to be compiled with the right Datalogic SDK environment.
+To do so, right click on <i>app</i> folder under the Android project module, then select <i>Open Module Settings</i>.</p>
+{% include img.html src='start-as-right-compile.png' %}
+
+<p>In the following window point to <i>Project Structure</i> &gt; <i>Modules app</i> tab <i>Properties</i> and change the <i>Compile Sdk Version</i> accordingly, matching the right Datalogic SDK with the API level in use. In the showed example we are compiling apps with the latest Android 6.0 API level, meaning we need to select a corresponding Datalogic SDK matching the same level (rember to download and install the matching Datalogic Add-on). Confirm the choice by pressing <i>OK</i>.
+{% include info-box.html msg='The following step is mandatory in order to prepare the enviroment correctly' %}
+{% include img.html src='start-as-right-compile-with-sdk.png' %}
+
+<p>Android Studio will now switch to the Datalogic SDK v1, allowing you to develop and extend your app to the Datalogic Android APIs. Take a look at the <a href="https://datalogic.github.io/android-sdk-docs">API reference</a> and available <a href="../tutorials">examples</a>.</p>
 
 <h3 id="gradle-scripts">Gradle scripts</h3>
+Compiling an application with the Datalogic SDK it is a matter of matching and using the most correct configuration of the <i>build.gradle</i> file associated to the application. In the following example we are matching the <i>targetSdkVersion</i> with a corresponding level of Datalogic SDK Add-on (the trailing number is exactly <i>23</i>).
 
-<h2 id="troubleshooting">Troubleshooting</h2>
+{% highlight groovy %}
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 'Datalogic:Datalogic SDK v1:23'
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.example.generic.myapplication"
+        minSdkVersion 16
+        targetSdkVersion 23
+    }
+}
+{% endhighlight %}
+
+<p>If you are pointing to a different target version, install the matching Datalogic SDK v1 Add-on through the Android SDK Manager.</p>
