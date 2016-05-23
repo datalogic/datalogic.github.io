@@ -8,11 +8,11 @@ markdown: kramdown
 highlighter: rouge
 excerpt_separator: <!--more-->
 
-url: 'http://datalogic.github.io'
+url: 'https://datalogic.github.io'
 baseurl: &baseurl ''
 analytics_tracking_id: 'UA-77632025-1'
-apireference_url: &apireference_url 'http://datalogic.github.io/android-sdk-docs'
-addonxml_url: 'http://datalogic.github.io/android-sdk-addon/addon.xml'
+apireference_url: &apireference_url 'https://datalogic.github.io/android-sdk-docs'
+addonxml_url: 'https://datalogic.github.io/android-sdk-addon/addon.xml'
 samples_url:
   astudio: 'https://github.com/datalogic/android-samples-astudio/tree/SDKv1'
   eclipse: 'https://github.com/datalogic/android-samples-eclipse/tree/SDKv1'
