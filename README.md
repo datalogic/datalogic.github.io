@@ -25,8 +25,13 @@ sudo apt-get install rubygems
 
 Install jekyll:
 ```
-sudo gem install jekyll -v 2.5.3
+sudo gem install --no-ri --no-rdoc jekyll -v 2.5.3
 ```
+Install rouge:
+```
+sudo gem install --no-ri --no-rdoc rouge
+```
+
 You need a javascript interpreter as jekyll also compile javascript files (coffeescript),
 if you don't have any, please install nodejs or something else:
 ```
