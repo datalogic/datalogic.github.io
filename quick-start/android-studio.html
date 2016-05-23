@@ -9,16 +9,13 @@ title: Android Studio
 {% include info-box.html msg='Please notice that the following instructions are valid for Android Studio versions released on the <i>stable</i>, there is no support for the <i>beta</i> channel' %}
 
 Download Android Studio from the <a href="http://developer.android.com/sdk/index.html">official website</a>
-and follow the <a href="http://developer.android.com/sdk/installing/index.html?pkg=studio">installation instruction</a>.
-
-After installing Android Studio, install the proper Android SDK version for your device (i.e. SDK level 16 for Android
-4.1.1).
+and follow the <a href="http://developer.android.com/sdk/installing/index.html?pkg=studio">installation instructions</a>. After installing Android Studio, install the Android SDK through the Android SDK Manager or provide a correct path to one already installed. Since developers are encouraged to target the most recent and updated Android SDK release while developing an application, choose the most new API level released and download the associated platform.
 
 <h2 id="install-sdk">Install Datalogic SDK Add-on</h2>
 
-<p>From Android Studio launch window, click on <i>Configure</i> &gt; <i>Android SDK Manager</i>
+<p>From Android Studio launch window, click on <i>Configure</i> &gt; <i>SDK Manager</i>
 to open Android SDK Manager</p>
-{% include img.html src='install-sdk-as-configure.png' %}
+{% include img.html src='install-sdk-as.png' %}
 {% include img.html src='install-sdk-as-menu.png' %}
 
 <p>Select the tab <i>SDK Update Sites</i> and click the <i class="fa fa-plus"></i>
@@ -29,26 +26,32 @@ to open Android SDK Manager</p>
 {% highlight none %}
 {{ site.addonxml_url }}
 {% endhighlight %}
+</br>
 {% include img.html src='install-sdk-as-site-url.png' %}
 
-<p>Now select the tab <i>SDK Platforms</i> and check the checkbox on the
-bottom right <i>Show Package Details</i>.
-Under the section <i>Android 4.1.2</i> (API 16) Datalogic SDK Add-on should appear.
-To install it, check Datalogic SDK Add-on checkbox and a small icon on the left should appear</p>
-{% include info-box.html level='warn' msg='Please notice that you must also install the Android API platform matching your Android version (i.e. API 16 is required to compile apps for Android 4.1.1)' %}
+<p>Now select the tab <i>SDK Platforms</i> in the Android SDK settings panel and check the checkbox on the
+bottom right <i>Show Package Details</i>.</p>
+{% include img.html src='install-sdk-as-checkbox.png' %}
+
+<p>Under each displayed section, corresponding to the Android releases available, <b>Datalogic SDK v1</b> Add-on should appear. Choose and install the development kit in accordance with your Android platform of choice. To install it, check Datalogic SDK v1 checkbox and a small icon on the left should appear</p>
+{% include info-box.html level='warn' msg='Please notice that you must also install the Android API platform matching your Android version in use for development (i.e. API 23 is required to compile apps supported up to Android 6.0)' %}
 
 {% include img.html src='install-sdk-as-before-install.png' %}
 
-<p>Click on the button <i>Apply</i> to install the selected packages.
-Once the installation is complete, the <i>Status</i> of the Datalogic SDK Add-on changes from
-<i>Not installed</i> to <i>Installed</i></p>
-{% include img.html src='install-sdk-as-installed.png' %}
+<p>Click on the button <i>Apply</i> to install the selected packages and confirm the choice.</p>
+{% include img.html src='install-sdk-as-selected-confirm.png' %}
+
+<p>Now, read the corresponding End-User License Agreement (EULA) available in the next window. Accept it, in order to install Datalogic Android SDK.</p>
+{% include img.html src='install-sdk-as-selected-confirm-eula.png' %}
+{% include img.html src='install-sdk-as-selected-confirm-eula-installed.png' %}
+
+Once the installation is complete, the <i>Status</i> of the Datalogic SDK v1 Add-on changes from
+<i>Not installed</i> to <i>Installed</i>. You are now ready to start developing applications compatible with Datalogic devices.</p>
+{% include img.html src='install-sdk-as-selected-confirm-installed.png' %}
 
 <h2 id="use-sdk">Use Datalogic SDK</h2>
 
 <h3 id="create-apps">Create new applications</h3>
-<p>When creating a new project choose <i>Datalogic Add-on SDK 1.0</i> as <i>Minimum SDK</i> option</p>
-{% include img.html src='install-sdk-as-create-project.png' %}
 
 <h3 id="compile-project">Compile projects</h3>
 
