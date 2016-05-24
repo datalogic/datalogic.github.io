@@ -4,7 +4,7 @@
 var site_url = "{{ site.baseurl }}";
 var site_url_len = site_url.length;
 
-$(function() {
+$(window).load(function() {
     initTOC();
     //initBanner();
     //initFooter();
@@ -21,7 +21,6 @@ if (typeof String.prototype.endsWith !== 'function') {
 
 function centerDeviceScreenShot() {
   $('.device-canvas').each(function() {
-    console.log(this)
     $(this).parent().width($(this).width()+'px');
   });
 }
