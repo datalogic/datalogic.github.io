@@ -9,6 +9,7 @@ $(function() {
     //initBanner();
     //initFooter();
     initVideoControl();
+    centerDeviceScreenShot();
     $(".button-collapse").sideNav();
 });
 
@@ -16,6 +17,13 @@ if (typeof String.prototype.endsWith !== 'function') {
     String.prototype.endsWith = function(suffix) {
         return this.indexOf(suffix, this.length - suffix.length) !== -1;
     };
+}
+
+function centerDeviceScreenShot() {
+  $('.device-canvas').each(function() {
+    console.log(this)
+    $(this).parent().width($(this).width()+'px');
+  });
 }
 
 function initVideoControl() {
