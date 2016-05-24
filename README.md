@@ -1,10 +1,3 @@
-This repository contains the source code for
-http://10.139.190.112/doc/datalogicadcsrl.github.io.
-
-The source is automatically compiled
-and deployed by a jenkins job, so any modification to this repo is
-reflected to the actual website.
-
 ## Local development
 
 __NOTICE:__ This is not the correct way to install ruby and rubygems, if you are using
@@ -42,7 +35,7 @@ Run jekyll and open your browser at http://localhost:4000, jekyll starts a webse
 to serve the folder \_site/ where the compiled HTML is stored:
 
 ```
-cd datalogicadcsrl-github-io/
+cd datalogic.github.io/
 jekyll serve --watch --trace --config _config.yml,_config_dev.yml
 ```
 
