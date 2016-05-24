@@ -1,7 +1,7 @@
 $color-text: #999999;
 $color-brand: #002596;
 $color-gray-light: #efefef;
-$color-accent: #8fd510;
+$color-accent: #F77B55;
 
 @mixin filter($f) {
   -webkit-filter: $f;
@@ -146,7 +146,7 @@ main {
   h1 {
     text-align: center;
     color: #FFFFFF;
-    background-color: transparentize($color-brand, 0.35);
+    background-color: transparentize($color-text, 0.45);
     padding: .2em .3em;
   }
 
