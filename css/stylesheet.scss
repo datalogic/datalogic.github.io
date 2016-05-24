@@ -114,12 +114,12 @@ ol, ul {
 
 .device-screenshot {
     position: relative;
-    height: 450px;
     float: right;
-    margin: 15px 5px;
+    max-width: 100%;
 }
 .device-canvas {
     height: 100%;
+    max-width: 100%;
 }
 .device-screen {
     position: absolute;

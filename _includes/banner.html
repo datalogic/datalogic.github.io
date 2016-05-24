@@ -1,11 +1,21 @@
 <div class="banner">
-  <div class="banner-img valign-wrapper">
-    <h1 class="valign"><span>{{ site.tagline }}</span></h1>
-    <a class="photo-referral" href="https://www.flickr.com/photos/rbulmahn/6179578363/">
-    Photo by Rob Bulmahn</a>
+    <div class="banner-img">
+      <a class="photo-referral" href="https://www.flickr.com/photos/rbulmahn/6179578363/">
+      Photo by Rob Bulmahn</a>
+    </div>
+
+    <div class="container" style="position:relative;">
+      <div class="row">
+        <div class="col s12 m6 offset-m3 valign-wrapper">
+          <h1 class="valign">{{ site.tagline }}</h1>
+        </div>
+
+        <div class="col s8 offset-s2 m6 offset-m3 l3">
+          <!--{% include screenshot.html image='banner-screen-1.jpg' %}-->
+          {% include screenshot.html video='promo-vertical.mp4' video_fallback='banner-screen-1.jpg' %}
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="hide-on-small-only">
-    <!--{% include screenshot.html image='banner-screen-1.jpg' %}-->
-    {% include screenshot.html video='promo-vertical.mp4' video_fallback='banner-screen-1.jpg' %}
-  </div>
+
 </div>

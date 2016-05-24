@@ -133,6 +133,7 @@ main {
   position: relative;
   color: #FFFFFF;
   min-height: 250px;
+  margin-bottom: 2em;
 
   .banner-img {
     position: absolute;
@@ -143,20 +144,10 @@ main {
   }
 
   h1 {
-    width: 100%;
     text-align: center;
-    padding: 0 30%;
     color: #FFFFFF;
-
-    span {
-      background-color: transparentize($color-brand, 0.5);
-      padding: 5px 20px;
-    }
-  }
-
-  .device-screenshot {
-    float: right;
-    margin-right: 10%;
+    background-color: transparentize($color-brand, 0.35);
+    padding: .2em .3em;
   }
 
   .photo-referral {
