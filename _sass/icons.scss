@@ -1,0 +1,36 @@
+.icon {
+    background-image: url('../images/icons.png');
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+
+    &.library { background-position: 0 0; }
+    &.knowledge { background-position: -250px 0; }
+    &.research { background-position: -500px 0; }
+    &.ebooks { background-position: -750px 0; }
+    &.explore { background-position: -1000px 0; }
+
+    &.experiment { background-position: 0 -250px; }
+    &.discover { background-position: -250px -250px; }
+    &.study { background-position: -500px -250px; }
+    &.training { background-position: -750px -250px; }
+    &.adventure { background-position: -1000px -250px; }
+
+    &.learn { background-position: 0 -500px; }
+    &.creative { background-position: -250px -500px; }
+    &.school { background-position: -500px -500px; }
+    &.online_education { background-position: -750px -500px; }
+    &.all_education { background-position: -1000px -500px; }
+
+    &.test { background-position: 0 -750px; }
+    &.think { background-position: -250px -750px; }
+    &.way_knowledge { background-position: -500px -750px; }
+    &.brain { background-position: -750px -750px; }
+    &.know_how { background-position: -1000px -750px; }
+
+    &.education { background-position: 0 -1000px; }
+    &.tutorials { background-position: -250px -1000px; }
+    &.university { background-position: -500px -1000px; }
+    &.award { background-position: -750px -1000px; }
+    &.wisdom { background-position: -1000px -1000px; }
+}
