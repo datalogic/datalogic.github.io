@@ -206,3 +206,16 @@ footer .btn, .btn-large {
 .material-icons {
   font-size: inherit;
 }
+
+.promo-icons {
+  h4 {
+    a {
+      color: darken($color-text, 20%);
+    }
+  }
+
+  img {
+    border-radius: 50%;
+    width: 70%;
+  }
+}
