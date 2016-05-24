@@ -6,64 +6,65 @@ title: Android Studio
 
 <h2 id="install-android-studio">Install Android Studio</h2>
 
-{% include info-box.html msg='Please notice that the following instructions are valid for Android Studio versions released on the <i>stable</i>, there is no support for the <i>beta</i> channel' %}
+{% include info-box.html msg='Please notice that the following instructions are valid for Android Studio versions released on the <em><strong>stable</strong></em> channel, there is no support for the <em>beta</em> channel' %}
 
 Download Android Studio from the <a href="http://developer.android.com/sdk/index.html">official website</a>
 and follow the <a href="http://developer.android.com/sdk/installing/index.html?pkg=studio">installation instructions</a>. After installing Android Studio, install the Android SDK through the Android SDK Manager or provide a correct path to one already installed. Since developers are encouraged to target the most recent and updated Android SDK release while developing an application, choose the most new API level released and download the associated platform.
 
 <h2 id="install-sdk">Install Datalogic SDK Add-on</h2>
 
-<p>From Android Studio launch window, click on <i>Configure</i> &gt; <i>SDK Manager</i>
-to open Android SDK Manager</p>
+<p>From Android Studio launch window, click on <em><strong>Configure</strong></em> &gt; <em><strong>SDK Manager</strong></em>
+to open Android SDK Manager.</p>
 {% include img.html src='install-sdk-as.png' %}
 {% include img.html src='install-sdk-as-menu.png' %}
 
-<p>Select the tab <i>SDK Update Sites</i> and click the <i class="fa fa-plus"></i>
-(plus) icon on the right-side toolbar</p>
+<p>Select the tab <em><strong>SDK Update Sites</strong></em> and click the <em class="fa fa-plus"></em>
+(plus) icon on the right-side toolbar.</p>
 {% include img.html src='install-sdk-as-sdk-manager.png' %}
 
-<p>In the new window insert the following URL, optionally a name and the press <i>OK</i></p>
+<p>In the new window insert the following URL, optionally a name and the press <em><strong>OK</strong></em>.</p>
 {% highlight none %}
 {{ site.addonxml_url }}
 {% endhighlight %}
 </br>
 {% include img.html src='install-sdk-as-site-url.png' %}
 
-<p>Now select the tab <i>SDK Platforms</i> in the Android SDK settings panel and check the checkbox on the
-bottom right <i>Show Package Details</i>.</p>
+<p>Now select the tab <em><strong>SDK Platforms</strong></em> in the Android SDK settings panel and check the checkbox on the
+bottom right <em><strong>Show Package Details</strong></em>.</p>
 {% include img.html src='install-sdk-as-checkbox.png' %}
 
-<p>Under each displayed section, corresponding to the Android releases available, <b>Datalogic SDK v1</b> Add-on should appear. Choose and install the development kit in accordance with your Android platform of choice. To install it, check Datalogic SDK v1 checkbox and a small icon on the left should appear</p>
-{% include info-box.html level='warn' msg='Please notice that you must also install the Android API platform matching your Android version in use for development (i.e. API 23 is required to compile apps supported up to Android 6.0)' %}
+<p>Under each displayed section, corresponding to the Android releases available, <b>Datalogic SDK v1</b> Add-on should appear. Choose and install the development kit in accordance with your Android platform of choice.<br/>
+To install it, check Datalogic SDK v1 checkbox and a small icon on the left should appear.</p>
+{% include info-box.html level='warn' msg='Please notice that you must also install the Android API platform matching the Android version in use for development in your environment (i.e. API 23 is required to compile apps supported up to Android 6.0). See <a href="https://developer.android.com/guide/practices/compatibility.html#Versions"><span class="blue-grey-text text-darken-2">Platform version</span></a> for further details' %}
 
 {% include img.html src='install-sdk-as-before-install.png' %}
 
-<p>Click on the button <i>Apply</i> to install the selected packages and confirm the choice.</p>
+<p>Click on the button <em><strong>Apply</strong></em> to install the selected packages and confirm the choice in the next dialog.</p>
 {% include img.html src='install-sdk-as-selected-confirm.png' %}
 
-<p>Now, read the corresponding End-User License Agreement (EULA) available in the next window. Accept it, in order to install Datalogic Android SDK.</p>
+<p>Now, read and understand the corresponding End-User License Agreement (EULA) available in the next window. Accept it, in order to install Datalogic Android SDK.</p>
 {% include img.html src='install-sdk-as-selected-confirm-eula.png' %}
 {% include img.html src='install-sdk-as-selected-confirm-eula-installed.png' %}
 
-<p>Once the installation is complete, the <i>Status</i> of the Datalogic SDK v1 Add-on changes from
-<i>Not installed</i> to <i>Installed</i>. You are now ready to start developing applications compatible with Datalogic devices.</p>
+<p>Once the installation is complete, the <em>Status</em> of the Datalogic SDK v1 Add-on changes from
+<em>Not installed</em> to <em>Installed</em>. You are now ready to start developing applications compatible with Datalogic devices.</p>
 {% include img.html src='install-sdk-as-selected-confirm-installed.png' %}
 
 <h2 id="use-sdk">Use Datalogic SDK</h2>
 When it comes to develop new applications and take advantage of Datalogic devices, simply follow these guided steps.
 
 <h3 id="create-apps">Create new applications</h3>
-<p>When creating a new project choose <i>Start a new Android Studio project</i> from the Android Studio Welcome screen.</p>
+<p>When creating a new project choose <em><strong>Start a new Android Studio project</strong></em> from the Android Studio Welcome screen.</p>
 {% include img.html src='start-as-new-project.png' %}
 
-{% include info-box.html level='warn' msg='Please notice that you must select the <i>Minimum SDK</i> level in accordance with the installed Android firmware version on your Datalogic device. For example, a device running Android Jelly Bean, can support applications built with Minimum SDK level selected up to 16. Greater values will produce an incompatible Android app.'%}
-<p>When creating a new project choose the most correct Minimum SDK API level and press <i>Next</i>.</p>
+{% include info-box.html level='warn' msg='Please notice that you must select the <em>Minimum SDK</em> level in accordance with the installed Android firmware version on your Datalogic device. For example, a device running Android Jelly Bean, can support applications built with Minimum SDK level selected up to 16. Greater values will produce an incompatible Android app'%}
+<p>When creating a new project choose the most correct Minimum SDK API level and press <em><strong>Next</strong></em>.</p>
 {% include img.html src='start-as-new-project-wizard-minimum-sdk.png' %}
 
-<p>The wizard will guide through the creation of a new application</p>
+<p>The wizard will guide through the creation of a new application.</p>
 {% include img.html src='start-as-new-project-wizard.png' %}
 
-<p>With a basic layout and Activity choice.</p>
+<p>With a choice of basic layout and Activity styles.</p>
 {% include img.html src='start-as-new-project-activity.png' %}
 
 <p>Complete the guided wizard and let the IDE settle down. A generic Android application, runnable on all Android devices, is now ready for development.</p>
@@ -72,19 +73,19 @@ When it comes to develop new applications and take advantage of Datalogic device
 With the previous steps, you have simply prepared a basic environment for a generic Android application. Through the next steps, instead, your basic application will leverage on custom Datalogic SDK functionalities and will be compiled to be compatible with a Datalogic device.
 
 <p>In order to gain access to the SDK functionalities, applications need to be compiled with the right Datalogic SDK environment.
-To do so, right click on <i>app</i> folder under the Android project module, then select <i>Open Module Settings</i>.</p>
+To do so, right click on <em>app</em> folder under the Android project module, then select <em><strong>Open Module Settings</strong></em>.</p>
 {% include img.html src='start-as-right-compile.png' %}
 
-<p>In the following window point to <i>Project Structure</i> &gt; <i>Modules app</i> tab <i>Properties</i> and change the <i>Compile Sdk Version</i> accordingly, matching the right Datalogic SDK with the API level in use. In the showed example we are compiling apps with the latest Android 6.0 API level, meaning we need to select a corresponding Datalogic SDK matching the same level (rember to download and install the matching Datalogic Add-on). Confirm the choice by pressing <i>OK</i>.</p>
+<p>In the following window point to <em>Project Structure</em> &gt; <em>Modules app</em> tab <em>Properties</em> and change the <em><strong>Compile Sdk Version</strong></em> accordingly, matching the right Datalogic SDK with the API level in use. In the showed example we are compiling apps with the latest Android 6.0 API level, meaning we need to select a corresponding Datalogic SDK matching the same level (rember to download and install the matching Datalogic Add-on). Confirm the choice by pressing <em><strong>OK</strong></em>.</p>
 {% include info-box.html msg='The following step is mandatory in order to prepare the enviroment correctly' %}
 {% include img.html src='start-as-right-compile-with-sdk.png' %}
 
 <p>Android Studio will now switch to the Datalogic SDK v1, allowing you to develop and extend your app to the Datalogic Android APIs. Take a look at the <a href="https://datalogic.github.io/android-sdk-docs">API reference</a> and available <a href="../tutorials">examples</a>.</p>
 
 <h3 id="gradle-scripts">Gradle scripts</h3>
-Compiling an application with the Datalogic SDK it is a matter of matching and using the most correct configuration of the <i>build.gradle</i> file associated to the application.
+Compiling an application with the Datalogic SDK it is a matter of matching and using the most correct configuration of the <em>build.gradle</em> file associated to the application.
 
-<p>In the following example we are matching the <i>targetSdkVersion</i> with a corresponding level of Datalogic SDK Add-on (the trailing number is exactly <i>23</i>):</p>
+<p>In the following example we are matching the <em>targetSdkVersion</em> with a corresponding level of Datalogic SDK Add-on (the trailing number is exactly <em>23</em>):</p>
 {% highlight groovy %}
 apply plugin: 'com.android.application'
 
@@ -103,9 +104,9 @@ android {
 <p>If you are pointing to a different target version, install the matching Datalogic SDK v1 Add-on through the Android SDK Manager.</p>
 
 <h3 id="android-manifest">Android application manifest</h3>
-Android applications must have generally an <a href="https://developer.android.com/guide/topics/manifest/manifest-intro.html"><i>App Manifest</i> (AndroidManifest.xml)</a>, where all information about the application itself are exposed. Datalogic device compatible apps, relying on Datalogic SDK, do not require a mandatory change to the Android application manifest in order to work, however it is recommended, as guideline, the right usage of <a href="https://developer.android.com/guide/topics/manifest/uses-library-element.html"><i>&lt;uses-library&gt;</i></a> tag, to protect the developed applications against misuse and installation on incompatible devices.<br/>
+Android applications must have generally an <a href="https://developer.android.com/guide/topics/manifest/manifest-intro.html"><em>App Manifest</em> (AndroidManifest.xml)</a>, where all information about the application itself are exposed. Datalogic device compatible apps, relying on Datalogic SDK, do not require a mandatory change to the Android application manifest in order to work, however it is recommended, as guideline, the right usage of <a href="https://developer.android.com/guide/topics/manifest/uses-library-element.html"><em>&lt;uses-library&gt;</em></a> tag, to protect the developed applications against misuse and installation on incompatible devices.<br/>
 <p>
-A suggested approach for application development, is the inclusion of the following tag (within the <a href="https://developer.android.com/guide/topics/manifest/application-element.html"><i>&lt;application&gt;</i></a> element)in all Android applications built with a Datalogic SDK:</p>
+A suggested approach for application development, is the inclusion of the following tag (within the <a href="https://developer.android.com/guide/topics/manifest/application-element.html"><em>&lt;application&gt;</em></a> element)in all Android applications built with a Datalogic SDK:</p>
 {% highlight xml %}
 <application
         android:allowBackup="true"
