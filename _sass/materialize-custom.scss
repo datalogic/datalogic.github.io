@@ -219,3 +219,10 @@ footer .btn, .btn-large {
     width: 50%;
   }
 }
+
+.table-of-contents a {
+  &.active,
+  &:hover {
+    border-color: $color-brand;
+  }
+}

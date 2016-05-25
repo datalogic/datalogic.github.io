@@ -42,47 +42,27 @@ function initVideoControl() {
   });
 }
 
+function capitalizeFirst(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 /**
  * Build the table of content (TOC) from h* elements, the elements
  * should be h2,h3, while h1 is reserved to the page title
  */
 function initTOC() {
     var toc = $('.table-of-contents');
-    var curr_level = 999;
-    var i = 0; // main level
-    var j = 0; // sub level
 
-    $('body > main').find('h2,h3').each(function() {
-        var par = $(this);
-        var level = parseInt(this.nodeName.match(/h(\d)/i)[1]);
-        if (level < curr_level || (j==1 && level <= curr_level)) {
-            i += 1;
-            j = 1;
-        } else {
-            j += 1;
-        }
-        curr_level = level;
+    $('.scrollspy').scrollSpy().each(function() {
+      var $this = $(this);
+      var title = $this.data('section') ||
+          capitalizeFirst(this.id.replace(/[-_]/, ' '));
 
-        var li = $('<li></li>');
-        var link = $('<a href="#'+par.attr('id')+'">&nbsp;&nbsp;'+par.text()+'</a>');
-        if (j == 1) {
-            link.prepend(i + '');
-            li.addClass('toc-level-1');
-        } else {
-            link.prepend(i + '.' + j);
-            li.addClass('toc-level-2');
-        }
-
-        if (!par.attr('id')) {
-            li.css('text-decoration', 'line-through');
-        }
-
-        li.append(link);
-        toc.append(li);
+      var link = $('<li><a href="#' + this.id + '">' + title + '</a></li>');
+      toc.append(link);
     });
 
-    $('.scrollspy').scrollSpy();
-    $('.table-of-contents').pushpin({ top: $('.toc-wrapper').offset().top });
+    toc.pushpin({ top: $('.toc-wrapper').offset().top });
 }
 
 function initBanner() {
