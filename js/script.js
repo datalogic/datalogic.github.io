@@ -47,7 +47,7 @@ function initVideoControl() {
  * should be h2,h3, while h1 is reserved to the page title
  */
 function initTOC() {
-    var toc = $('.toc-container ul');
+    var toc = $('.table-of-contents');
     var curr_level = 999;
     var i = 0; // main level
     var j = 0; // sub level
@@ -80,6 +80,9 @@ function initTOC() {
         li.append(link);
         toc.append(li);
     });
+
+    $('.scrollspy').scrollSpy();
+    $('.table-of-contents').pushpin({ top: $('.toc-wrapper').offset().top });
 }
 
 function initBanner() {

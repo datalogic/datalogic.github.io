@@ -2,11 +2,18 @@
 layout: default
 ---
 
-<div class="toc-container">
-    <ul></ul>
-</div>
-<div style="clear:both;"></div>
+<div class="row">
 
-{{ content }}
+  <div class="col s12 m9">
+    {{ content }}
+  </div>
+
+  <div class="col hide-on-small-only m3">
+    <div class="toc-wrapper">
+      <ul class="section table-of-contents"></ul>
+    </div>
+  </div>
+
+</div>
 
 <div class="goto-top"><a href="#"><i class="fa fa-arrow-circle-up"></i></a></div>
