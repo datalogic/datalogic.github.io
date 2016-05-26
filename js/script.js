@@ -52,7 +52,10 @@ function capitalizeFirst(string) {
  */
 function initTOC() {
     var toc = $('.table-of-contents');
-    if (toc.length <= 0) return;
+    var toTop = toc.find('.to-top');
+
+    if (toc.length <= 0)
+      return;
 
     $('.scrollspy').scrollSpy().each(function() {
       var $this = $(this);
@@ -60,10 +63,19 @@ function initTOC() {
           capitalizeFirst(this.id.replace(/[-_]/, ' '));
 
       var link = $('<li><a href="#' + this.id + '">' + title + '</a></li>');
-      toc.append(link);
+      link.insertBefore(toTop);
     });
 
     toc.pushpin({ top: toc.parent().offset().top });
+
+    // Back to top link
+    Materialize.scrollFire([{
+      selector: 'body > .container',
+      offset: $(window).height() * 2,
+      callback: function() {
+        $('.to-top').fadeIn();
+      }
+    }]);
 }
 
 function initBanner() {

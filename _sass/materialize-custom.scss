@@ -220,9 +220,25 @@ footer .btn, .btn-large {
   }
 }
 
-.table-of-contents a {
-  &.active,
-  &:hover {
-    border-color: $color-brand;
+.table-of-contents {
+  a {
+    color: $color-text;
+
+    &.active,
+    &:hover {
+      border-color: $color-brand;
+    }
+  }
+
+  .to-top {
+    display: none;
+    margin-top: 1em;
+
+    a {
+      &.active,
+      &:hover {
+        border-color: transparent;
+      }
+    }
   }
 }
