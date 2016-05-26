@@ -52,6 +52,7 @@ function capitalizeFirst(string) {
  */
 function initTOC() {
     var toc = $('.table-of-contents');
+    if (toc.length <= 0) return;
 
     $('.scrollspy').scrollSpy().each(function() {
       var $this = $(this);
@@ -62,7 +63,7 @@ function initTOC() {
       toc.append(link);
     });
 
-    toc.pushpin({ top: $('.toc-wrapper').offset().top });
+    toc.pushpin({ top: toc.parent().offset().top });
 }
 
 function initBanner() {
