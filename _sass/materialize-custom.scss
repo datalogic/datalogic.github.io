@@ -19,6 +19,15 @@ $color-accent: #F77B55;
           transition: $t;
 }
 
+$prefixes: webkit moz o ms;
+
+@mixin prefix($property, $value) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+  #{$property}: $value;
+}
+
 body {
   color: $color-text;
 }
@@ -115,7 +124,7 @@ body {
   flex-direction: column;
 
   & > .container {
-    flex: 1;
+    @include prefix(flex, 1 0 0);
   }
 }
 
