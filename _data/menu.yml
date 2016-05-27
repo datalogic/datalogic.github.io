@@ -15,4 +15,4 @@
   id: 'tutorials'
   url: '/tutorials/'
 - name: 'API Reference'
-  external_url: 'http://datalogic.github.io/android-sdk-docs'
+  external_url: 'https://datalogic.github.io/android-sdk-docs'
