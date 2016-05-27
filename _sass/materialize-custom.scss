@@ -3,22 +3,6 @@ $color-brand: #002596;
 $color-gray-light: #efefef;
 $color-accent: #F77B55;
 
-@mixin filter($f) {
-  -webkit-filter: $f;
-     -moz-filter: $f;
-       -o-filter: $f;
-      -ms-filter: $f;
-          filter: $f;
-}
-
-@mixin transition($t) {
-  -webkit-transition: $t;
-     -moz-transition: $t;
-       -o-transition: $t;
-      -ms-transition: $t;
-          transition: $t;
-}
-
 $prefixes: webkit moz o ms;
 
 @mixin prefix($property, $value) {
@@ -173,10 +157,12 @@ body {
 
 video {
   position: relative;
-  @include transition(all 0.5s linear);
+  @include prefix(transition, all 0.5s linear);
 
   &.paused {
-    @include filter(blur(5px));
+    filter: url(blur.svg#blur);
+    @include prefix(filter, blur(5px));
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5');
 
     & + .play-button .fa {
       display: block;
