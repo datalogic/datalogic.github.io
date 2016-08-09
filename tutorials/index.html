@@ -22,7 +22,7 @@ title: Tutorials
   {% assign tutorials = tutorial_groups.items | sort: 'tutorial_order','last' %}
   {% for page in tutorials %}
   {% if page.tutorial_enabled or site.debug %}
-  <div class="col s12 m4">
+  <div class="col s12 m4 l3">
     <div class="card small">
       <div class="card-image waves-effect waves-block waves-light activator tut-icon">
         <i class="fa fa-{{ page.tutorial_icon }}"></i>
