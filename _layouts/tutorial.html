@@ -75,7 +75,8 @@ layout: default
 </div>
 
 {% if page.tutorial_frame %}
+{% assign frame_src = "//datalogic.github.io/android-samples-astudio/" | append: page.tutorial_frame %}
 <div class="device-frame-container">
-  {% include screenshot.html frame=page.tutorial_frame %}
+  {% include screenshot.html frame=frame_src %}
 </div>
 {% endif %}
