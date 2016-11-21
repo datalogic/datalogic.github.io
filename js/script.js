@@ -113,12 +113,13 @@ function showDeviceFrame() {
 function initDeviceFrame() {
   var deviceFrame = $('.device-frame-container');
 
-  console.log('bottom (1349)', $(document).height() - $('.page-footer').height() - deviceFrame.height());
-  console.log('offset (485)', $(window).height() - deviceFrame.height());
-
-  deviceFrame.pushpin({
+  deviceFrame
+    .pushpin({
       bottom: $(document).height() - $('.page-footer').height() - deviceFrame.height(),
       offset: $(window).height() - deviceFrame.height()
+    })
+    .find('iframe').prop('src', function() {
+      return $(this).data('src');
     });
 }
 
