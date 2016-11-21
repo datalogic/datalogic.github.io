@@ -36,6 +36,12 @@ layout: default
               target="_blank">Eclipse ADT</a></li>
         </ul>
 
+        {% if page.tutorial_frame %}
+        <p><button class="waves-effect waves-light btn btn-accent"
+            onclick="showDeviceFrame()">
+          <i class="fa fa-play"></i> Run in browser</button></p>
+        {% endif %}
+
         {% if page.tutorial_suggested %}
         <p>Suggested tutorials</p>
         {% for sugg in page.tutorial_suggested %}
@@ -67,3 +73,9 @@ layout: default
     <a href="#!" class=" modal-action modal-close waves-effect waves-blue btn-flat">OK</a>
   </div>
 </div>
+
+{% if page.tutorial_frame %}
+<div class="device-frame-container">
+  {% include screenshot.html frame=page.tutorial_frame %}
+</div>
+{% endif %}

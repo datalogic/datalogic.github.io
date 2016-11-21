@@ -14,6 +14,8 @@
     <div class="device-screen play-button valign-wrapper">
       <i class="fa fa-play-circle valign"></i>
     </div>
+    {% elsif include.frame %}
+    <iframe class="device-screen device-frame" src="{{ include.frame }}"></iframe>
     {% endif %}
 </div>
 <div style="clear:both;"></div>
