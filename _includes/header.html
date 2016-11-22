@@ -1,7 +1,7 @@
 <nav class="top-nav">
   <div class="nav-wrapper container">
     <a href="{{ site.url | append: site.baseurl }}" class="brand-logo left"><img src="{{ site.baseurl }}/images/datalogic-logo.png"></a></a>
-    <a href="#" data-activates="nav-main" class="button-collapse black-text right"><i class="material-icons">menu</i></a>
+    <a href="#" data-activates="nav-main" class="button-collapse black-text right"><i class="fa fa-bars"></i></a>
     <ul class="left hide-on-med-and-down">
       {% for item in site.data.menu %}
         <li
@@ -61,7 +61,14 @@
         {% if item.items %}
         <ul id="nav-{{ item.id }}" class="ropdown-content">
         {% for sub in item.items %}
-        <li><a href="{{ sub.url | prepend: site.baseurl }}"><i class="material-icons left">chevron_right</i> {{ sub.name }}</a></li>
+        <li><a
+          {% if sub.external_url %}
+          href="{{ sub.external_url }}"
+          {% else %}
+          href="{{ sub.url | prepend: site.baseurl }}"
+          {% endif %}
+          ><i class="fa fa-chevron-right"></i> {{ sub.name }}</a>
+        </li>
         {% endfor %}
         </ul>
         {% endif %}
