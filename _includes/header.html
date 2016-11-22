@@ -29,7 +29,13 @@
         {% if item.items %}
         <ul id="nav-{{ item.id }}" class="dropdown-content">
         {% for sub in item.items %}
-          <li><a href="{{ sub.url | prepend: site.baseurl }}">{{ sub.name }}</a></li>
+          <li><a
+            {% if sub.external_url %}
+            href="{{ sub.external_url }}"
+            {% else %}
+            href="{{ sub.url | prepend: site.baseurl }}"
+            {% endif %}
+            >{{ sub.name }}</a></li>
         {% endfor %}
         </ul>
         {% endif %}
