@@ -15,4 +15,10 @@
   id: 'tutorials'
   url: '/tutorials/'
 - name: 'API Reference'
-  external_url: 'https://datalogic.github.io/android-sdk-docs'
+  id: 'docs'
+  url: '/docs/'
+  items:
+    - name: 'SDK'
+      external_url: 'https://datalogic.github.io/android-sdk-docs'
+    - name: 'SelfShopping SDK extension'
+      external_url: 'https://datalogic.github.io/android-sdk-extension-selfshopping-docs'
