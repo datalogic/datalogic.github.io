@@ -16,7 +16,7 @@
   url: '/tutorials/'
 - name: 'API Reference'
   id: 'docs'
-  url: '/docs/'
+  url: '#'
   items:
     - name: 'SDK'
       external_url: 'https://datalogic.github.io/android-sdk-docs'
