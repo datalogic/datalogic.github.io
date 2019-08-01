@@ -213,3 +213,35 @@ p.divider {
     background: white;
   }
 }
+
+.quick-start-desc{
+    color:black;
+    text-align: left;
+    background:#ECECEC;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.quick-start-ele{
+    border-radius: 20px;
+    background:#D0D0D0;
+    
+}
+
+.quick-start-ele:hover {
+    background:#7C7C7C;
+    color: white;
+}
+
+.qs-info{
+    padding-bottom: 15px;
+    color: black;
+}
+
+.qs-text{
+    color:darkgray;
+}
+
+.qs-text:hover{
+    color:red;
+}
