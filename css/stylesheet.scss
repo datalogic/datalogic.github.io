@@ -217,34 +217,28 @@ p.divider {
 .quick-start-desc{
     color:black;
     text-align: left;
+    padding: 20px;
     background:#ECECEC;
-    padding: 10px;
     border-radius: 20px;
 }
 
-.quick-start-ele{
-    border-radius: 20px;
-    background:#D0D0D0;
-    display:table;
-    width:100%
-}
 
 .quick-start-ele:hover {
-    background:#7C7C7C;
-    color: white;
+    border-radius: 20px;
+    background:#EDEDED;
     
-
 }
 
 .quick-start-ele:hover .qs-text {
-    background:#7C7C7C;
-    color: white;
+    background:#EDEDED;
 
 }
 
 .qs-info{
-    padding-bottom: 15px;
-    color: black;
+    padding-bottom: 10px;
+    color: #7C7C7C;
+    font-size: 18px;
+    text-align:left;
 }
 
 .qs-text{
