@@ -225,12 +225,21 @@ p.divider {
 .quick-start-ele{
     border-radius: 20px;
     background:#D0D0D0;
-    
+    display:table;
+    width:100%
 }
 
 .quick-start-ele:hover {
     background:#7C7C7C;
     color: white;
+    
+
+}
+
+.quick-start-ele:hover .qs-text {
+    background:#7C7C7C;
+    color: white;
+
 }
 
 .qs-info{
@@ -239,9 +248,14 @@ p.divider {
 }
 
 .qs-text{
-    color:darkgray;
+    color:#195BA9;
 }
 
-.qs-text:hover{
-    color:red;
+.code-grey{
+    background:#EDEDED;
+    display:block;
+}
+
+.code-grey-small{
+    background:#EDEDED;
 }
