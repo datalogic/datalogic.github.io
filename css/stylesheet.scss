@@ -222,11 +222,22 @@ p.divider {
     border-radius: 20px;
 }
 
+.quick-start-desc-A{
+    color:black;
+    text-align: left;
+    padding: 20px;
+    padding-bottom:35px;
+    background:#ECECEC;
+    border-radius: 20px;
+}
+
+.quick-start-ele{
+    min-width: 350px;
+}
 
 .quick-start-ele:hover {
     border-radius: 20px;
     background:#EDEDED;
-    
 }
 
 .quick-start-ele:hover .qs-text {
@@ -242,7 +253,8 @@ p.divider {
 }
 
 .qs-text{
-    color:#195BA9;
+    color:rgba(3,71, 151, 1);
+    // font-weight: 300;
 }
 
 .code-grey{
