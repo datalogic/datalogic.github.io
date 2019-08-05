@@ -6,21 +6,25 @@ title: Maven
 
 <div id="install" class="section scrollspy">
     <h2>Add SDK as Maven Dependency</h2>
+    Datalogic maintains two ways to use the Datalogic Android SDK in your project:
+    <ol>
+        <li>Install an Android SDK add-on component in the Android SDK Manager, as described <a
+                href="{{ site.base.url}}/quick-start/android-studio.html">here</a>.</li>
+        <li>Add a gradle dependency for the SDK, which is available through the JitPack.io Maven repository. This option
+            is described below.</li>
+    </ol>
+
+
 </div>
 
 <div id="install-SDK" class="section scrollspy">
 
     <div style="color:black">
-        <h5>How to use</h5>
-
-        To include the Datalogic Android SDK in your project (using Maven):
-
-        Add a gradle dependency for the SDK, which is available through the JitPack.io Maven repository.
-        This option is described below.
 
         <h5>Add jitpack.io repository</h5>
 
-        Add a reference to jitpack.io to the <code class="code-grey-small">build.gradle</code> file at your project's base/root directory:
+        Add a reference to jitpack.io to the <code class="code-grey-small">build.gradle</code> file at your project's
+        base/root directory:
 
         <pre><code class="code-grey" >
         allprojects {
@@ -34,8 +38,10 @@ title: Maven
 
         <h5>Add a dependency on the SDK</h5>
 
-        Add a reference to the specific version of the SDK you would like to use to your <code class="code-grey-small">app/build.gradle</code> file. In
-        this example, we are using version <code class="code-grey-small">1.12</code>. You can see a list of all released versions
+        Add a reference to the specific version of the SDK you would like to use to your <code
+            class="code-grey-small">app/build.gradle</code> file. In
+        this example, we are using version <code class="code-grey-small">1.12</code>. You can see a list of all released
+        versions
         <a href="https://github.com/datalogic/datalogic-android-sdk/releases">here</a>.
 
         <pre>
