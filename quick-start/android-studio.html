@@ -117,10 +117,18 @@ android {
 
 <div id="android-manifest" class="section scrollspy">
 <h3>Android application manifest</h3>
-Android applications must have generally an <a href="https://developer.android.com/guide/topics/manifest/manifest-intro.html"><em>App Manifest</em> (AndroidManifest.xml)</a>, where all information about the application itself are exposed. Datalogic device compatible apps, relying on Datalogic SDK, require a mandatory change to the Android application manifest in order to work. It is strictly necessary the right usage of <a href="https://developer.android.com/guide/topics/manifest/uses-library-element.html"><em>&lt;uses-library&gt;</em></a> tag, to protect the developed applications against misuse and installation on incompatible devices. In addition the <a href="https://developer.android.com/guide/topics/manifest/uses-library-element.html"><em>&lt;uses-library&gt;</em></a> links your application against the Datalogic SDK or possible Datalogic SDK Extension whenever is launched.<br/>
-{% include info-box.html level='warn' msg='Please notice that this step is <em><strong>mandatory</strong></em> to make your application fully compatible with the Datalogic SDK installed on the device. Don not forget to include all the libraries that you rely on or use, inside the AndroidManifest.xml.' %}
+Android applications must have generally an <a href="https://developer.android.com/guide/topics/manifest/manifest-intro.html"><em>App Manifest</em> (AndroidManifest.xml)</a>,
+ where all information about the application itself are exposed. Datalogic device compatible apps, relying on Datalogic SDK, 
+ require a mandatory change to the Android application manifest in order to work. 
+ It is strictly necessary the right usage of <a href="https://developer.android.com/guide/topics/manifest/uses-library-element.html"><em>&lt;uses-library&gt;</em></a> tag, 
+ to protect the developed applications against misuse and installation on incompatible devices. 
+ In addition the <a href="https://developer.android.com/guide/topics/manifest/uses-library-element.html"><em>&lt;uses-library&gt;</em></a> 
+ links your application against the Datalogic SDK or possible Datalogic SDK Extension whenever is launched.<br/>
+{% include info-box.html level='warn' msg='Please notice that this step is <em><strong>mandatory</strong></em> to make your application fully compatible 
+with the Datalogic SDK installed on the device. Do not forget to include all the libraries that you rely on or use, inside the AndroidManifest.xml.' %}
 <p>
-The inclusion of the following tag (within the <a href="https://developer.android.com/guide/topics/manifest/application-element.html"><em>&lt;application&gt;</em></a> element) in <strong>all</strong> Android applications built with the Datalogic SDK is necessary:</p>
+The inclusion of the following tag (within the <a href="https://developer.android.com/guide/topics/manifest/application-element.html"><em>&lt;application&gt;</em></a> element) 
+in <strong>all</strong> Android applications built with the Datalogic SDK is necessary:</p>
 {% highlight xml %}
 <application
         android:allowBackup="true"
@@ -144,5 +152,20 @@ While, in case of use of a further Datalogic SDK Extension, the following change
         android:required="true" />
 
 {% endhighlight %}
-<p>Pay attention while changing the required libraries inside your application's AndroidManifest. If you strictly rely on certain extension, do not forget to emphasize it with <strong><em>android:required</em></strong> tag. Thanks to it, you will protect your application from installation on incompatible devices.</p>
+<p>Pay attention while changing the required libraries inside your application's AndroidManifest. 
+    If you strictly rely on certain extension, do not forget to emphasize it with <strong><em>android:required</em></strong> tag. 
+    Thanks to it, you will protect your application from installation on incompatible devices.</p>
+</div>
+
+
+<div id="Sample app" class="section scrollspy">
+    <h3>Sample app</h3>
+We have provided one sample app setup in the way described in this tutorial: <a href="{{ site.samples_url.astudio }}/Kotlin/DecodeListenerAlt">DecodeListenerAlt</a>.
+However, we do encourage you to use the <a href="/quick-start/jitpack-maven.html">Maven dependency method</a> which the majority
+of sample apps implement preferentially.
+
+
+
+
+
 </div>

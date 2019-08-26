@@ -4,13 +4,6 @@
 - name: 'Quick Start'
   id: 'quick-start'
   url: '/quick-start/'
-  items:
-    - name: 'Android Studio'
-      id: 'quick-start'
-      url: '/quick-start/android-studio.html'
-    - name: 'Eclipse ADT'
-      id: 'quick-start'
-      url: '/quick-start/eclipse-adt.html'
 - name: 'Tutorials'
   id: 'tutorials'
   url: '/tutorials/'
@@ -20,5 +13,5 @@
   items:
     - name: 'SDK'
       external_url: 'https://datalogic.github.io/android-sdk-docs'
-    - name: 'SelfShopping SDK extension'
+    - name: 'SelfShopping SDK'
       external_url: 'https://datalogic.github.io/android-sdk-extension-selfshopping-docs'

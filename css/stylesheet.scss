@@ -213,3 +213,54 @@ p.divider {
     background: white;
   }
 }
+
+.quick-start-desc{
+    color:black;
+    text-align: left;
+    padding: 20px;
+    background:#ECECEC;
+    border-radius: 20px;
+}
+
+.quick-start-desc-A{
+    color:black;
+    text-align: left;
+    padding: 20px;
+    padding-bottom:35px;
+    background:#ECECEC;
+    border-radius: 20px;
+}
+
+.quick-start-ele{
+    min-width: 350px;
+}
+
+.quick-start-ele:hover {
+    border-radius: 20px;
+    background:#EDEDED;
+}
+
+.quick-start-ele:hover .qs-text {
+    background:#EDEDED;
+}
+
+.qs-info{
+    padding-bottom: 10px;
+    color: #7C7C7C;
+    font-size: 18px;
+    text-align:left;
+}
+
+.qs-text{
+    color:rgba(3,71, 151, 1);
+    // font-weight: 300;
+}
+
+.code-grey{
+    background:#EDEDED;
+    display:block;
+}
+
+.code-grey-small{
+    background:#EDEDED;
+}
