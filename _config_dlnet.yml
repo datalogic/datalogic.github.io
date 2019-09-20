@@ -1,5 +1,0 @@
-debug: false
-
-url: 'http://doc.mobile.dl.net'
-baseurl: &baseurl '/datalogicadcsrl.github.io'
-analytics_tracking_id: false

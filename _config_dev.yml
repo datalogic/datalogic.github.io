@@ -1,5 +1,0 @@
-debug: true
-
-url: 'http://localhost:4000'
-baseurl: &baseurl ''
-analytics_tracking_id: false

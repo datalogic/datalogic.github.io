@@ -1,0 +1,12 @@
+{
+    "Sidebar": {
+        "Android SDK": ["android/overview", "android/faq", "android/samples"],
+        "Xamarin SDK": ["xamarin/overview", "xamarin/faq","xamarin/samples"],
+        "Cordova SDK": ["cordova/overview", "cordova/api", "cordova/samples"],
+        "Scan2Deploy": ["scan2deploy/overview", "scan2deploy/studio", "scan2deploy/android", "scan2deploy/android-schema"],
+        "DXU": ["dxu/overview", "dxu/connect-to-devices", "dxu/features"],
+        "OEMConfig": ["oemconfig/overview", "oemconfig/symbology-settings", "oemconfig/scanner-settings", "oemconfig/firmware"],
+        "Windows CE SDK":["ce/overview"],
+        "CE Sync SDK":["cesync/overview", "cesync/api", "cesync/samples", "cesync/usblan", "cesync/usblan-faq"]
+    }
+}

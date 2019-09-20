@@ -1,1 +1,0 @@
-<img class="responsive-img hoverable" src="{{site.baseurl}}/images/icons/icon_{{ include.icon }}.png" />
