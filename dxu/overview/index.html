@@ -324,12 +324,14 @@ return to DXU’s main view).</p></li>
 <h4><a class="anchor" aria-hidden="true" id="enable-automatic-discovery-of-devices"></a><a href="#enable-automatic-discovery-of-devices" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Enable Automatic Discovery of Devices</h4>
 <p>You can enable the automatic discovery of Datalogic mobile computers by
 DXU. This is not enabled by default.</p>
-<div class="info-box"> <img src="/img/dxu_desktop/image42.png" > <b>Warning</b>: do not enable automatic discovery if
-you have more than one user of DXU console in your subnet, or you risk
-having two DXU administrators changing the settings on any particular
-device in your subnet at once. DXU will warn you if it launches and
-detects another instance of DXU already running in your subnet.</div>
-<p>To enable automatic discovery of devices:</p>
+
+    <div class="admonition admonition-warning">
+      <div class="admonition-heading">
+        <h5><div class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg></div> warning</h5>
+      </div>
+      <div class="admonition-content">
+    <p>Do not enable automatic discovery if you have more than one user of DXU console in your subnet, or you risk having two DXU administrators changing the settings on any particular device in your subnet at once. DXU will warn you if it launches and detects another instance of DXU already running in your subnet.</p>
+</div></div><p>To enable automatic discovery of devices:</p>
 <ol>
 <li><p>In DXU’s main view, click the <strong>Settings</strong> button.</p></li>
 <li><p>Click the “<strong>Advanced Settings</strong>” tab.</p></li>
@@ -402,14 +404,18 @@ greater capacity than on-board flash. MicroSD cards are also persistent.</p>
 <ol>
 <li><p>Resume your mobile computer and unlock its screen.</p></li>
 <li><p>Launch the <strong>DXU Agent</strong> application.</p></li>
-<li><p>Tap the <strong>Menu</strong> button to display the menu.</p></li>
+<li><p>Tap the <strong>Menu</strong> button ( <i class="fa fa-ellipsis-v"></i> ) to display the menu.</p></li>
 <li><p>Tap the <strong>Settings</strong> button.</p></li>
-<li><p>Uncheck the “<strong>Enable Service</strong>” checkbox.</p>
-<p><div class="info-box"> <img src="/img/dxu_desktop/image41.png"/>
-Caution: you must uncheck “Enable Service” before
-you can change any setting in DXU Agent.</p>
-   </div>
-</li>
+<li><p>Uncheck the “<strong>Enable Service</strong>” checkbox.</p></li>
+</ol>
+
+    <div class="admonition admonition-note">
+      <div class="admonition-heading">
+        <h5><div class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"/></svg></div> note</h5>
+      </div>
+      <div class="admonition-content">
+    <p>You must uncheck “Enable Service” before you can change any setting in DXU Agent.</p>
+</div></div><ol>
 <li><p>Check the “<strong>Enable Log</strong>” checkbox.</p></li>
 <li><p>Check the “<strong>Enable Service</strong>” checkbox.</p></li>
 <li><p>Clean up by tapping the <strong>Home</strong> button.</p></li>
@@ -418,15 +424,10 @@ you can change any setting in DXU Agent.</p>
 <ol>
 <li><p>Resume your mobile computer and unlock its screen.</p></li>
 <li><p>Launch the <strong>DXU Agent</strong> application.</p></li>
-<li><p>Tap the <strong>Menu</strong> button to display the menu.</p></li>
+<li><p>Tap the <strong>Menu</strong> button ( <i class="fa fa-ellipsis-v"></i> ) to display the menu.</p></li>
 <li><p>Tap the <strong>Settings</strong> button.</p></li>
-<li><p>Uncheck the “<strong>Enable Service</strong>” checkbox.
-<div class="info-box"> <img src="/img/dxu_desktop/image41.png" class="idea"/>
-Note: you must uncheck “Enable Service” before
-you can change any setting in DXU Agent.</p>
-   </div>
-</li>
-<li><p>Tap the “<strong>Change Log File Location</strong>” button.</p></li>
+<li><p>Uncheck the “<strong>Enable Service</strong>” checkbox.</p></li>
+<li><p>Tap the <strong>Change Log File Location</strong> button.</p></li>
 <li><p>Type a valid path on your device into the “Change Log File Location”
 field, and then tap the <strong>OK</strong> button.</p></li>
 <li><p>(Optional, but desired if you wish to log to this new location)
@@ -434,7 +435,14 @@ Check the “<strong>Enable Log</strong>” checkbox.</p></li>
 <li><p>Check the “<strong>Enable Service</strong>” checkbox.</p></li>
 <li><p>Clean up by tapping the <strong>Home</strong> button.</p></li>
 </ol>
-<h3><a class="anchor" aria-hidden="true" id="security"></a><a href="#security" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Security</h3>
+
+    <div class="admonition admonition-tip">
+      <div class="admonition-heading">
+        <h5><div class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"/></svg></div> tip</h5>
+      </div>
+      <div class="admonition-content">
+    <p>You must uncheck “Enable Service” before you can change any setting in DXU Agent.</p>
+</div></div><h3><a class="anchor" aria-hidden="true" id="security"></a><a href="#security" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Security</h3>
 <p>Configurations and configuration files can require authentication to
 open and apply. DXU implements an invisible sort of authentication by
 automatically applying a default user name and password to every DXU
@@ -451,23 +459,25 @@ enabled with a single checkbox in DXU Agent.</p>
 <ol>
 <li><p>Resume your mobile computer and unlock its screen.</p></li>
 <li><p>Launch the <strong>DXU Agent</strong> application.</p></li>
-<li><p>Tap the <strong>Menu</strong> button to display the menu.</p></li>
+<li><p>Tap the <strong>Menu</strong> button ( <i class="fa fa-ellipsis-v"></i> ) to display the menu.</p></li>
 <li><p>Tap the <strong>Settings</strong> button.</p></li>
-<li><p>Uncheck the “<strong>Enable Service</strong>” checkbox.
-<div class="info-box"> <img src="/img/dxu_desktop/image41.png" class="idea"/>
-Caution: you must uncheck “Enable Service” before
-you can change any setting in DXU Agent.</p>
-   </div>
-</li>
+<li><p>Uncheck the “<strong>Enable Service</strong>” checkbox.</p></li>
 <li><p>Check the “<strong>Is Authentication Required</strong>” checkbox.</p></li>
 <li><p>Check the “<strong>Enable Service</strong>” checkbox.</p></li>
 <li><p>Clean up by tapping the <strong>Home</strong> button.</p></li>
 </ol>
-<p>To authenticate while opening DXU Agent’s Settings window:</p>
+
+    <div class="admonition admonition-tip">
+      <div class="admonition-heading">
+        <h5><div class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"/></svg></div> tip</h5>
+      </div>
+      <div class="admonition-content">
+    <p>You must uncheck “Enable Service” before you can change any setting in DXU Agent.</p>
+</div></div><p>To authenticate while opening DXU Agent’s Settings window:</p>
 <ol>
 <li><p>Resume your mobile computer and unlock its screen.</p></li>
 <li><p>Launch the <strong>DXU Agent</strong> application.</p></li>
-<li><p>Tap the <strong>Menu</strong> button to display the menu.</p></li>
+<li><p>Tap the <strong>Menu</strong> button ( <i class="fa fa-ellipsis-v"></i> ) to display the menu.</p></li>
 <li><p>Tap the <strong>Settings</strong> button.</p></li>
 <li><p>Type your password into the “<strong>Enter Password</strong>” field, and then tap
 the <strong>OK</strong> button.</p>
@@ -482,14 +492,9 @@ access the configuration in DXU.</p>
 <ol>
 <li><p>Resume your mobile computer and unlock its screen.</p></li>
 <li><p>Launch the <strong>DXU Agent</strong> application.</p></li>
-<li><p>Tap the <strong>Menu</strong> button to display the menu.</p></li>
+<li><p>Tap the <strong>Menu</strong> button ( <i class="fa fa-ellipsis-v"></i> ) to display the menu.</p></li>
 <li><p>Tap the <strong>Settings</strong> button.</p></li>
-<li><p>Uncheck the “<strong>Enable Service</strong>” checkbox.
-<div class="info-box"> <img src="/img/dxu_desktop/image41.png" class="idea"/>
-Caution: you must uncheck “Enable Service” before
-you can change any setting in DXU Agent.</p>
-   </div>
-</li>
+<li><p>Uncheck the “<strong>Enable Service</strong>” checkbox.</p></li>
 <li><p>Tap the “<strong>User Name</strong>” button.</p></li>
 <li><p>Delete the contents of the field, and type a new user name.</p></li>
 <li><p>Tap the <strong>OK</strong> button.</p></li>
@@ -497,21 +502,31 @@ you can change any setting in DXU Agent.</p>
 <li><p>Check the “<strong>Enable Service</strong>” checkbox.</p></li>
 <li><p>Clean up by tapping the <strong>Home</strong> button.</p></li>
 </ol>
-<h4><a class="anchor" aria-hidden="true" id="change-the-password-in-dxu-agent"></a><a href="#change-the-password-in-dxu-agent" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Change the Password in DXU Agent</h4>
+
+    <div class="admonition admonition-tip">
+      <div class="admonition-heading">
+        <h5><div class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"/></svg></div> tip</h5>
+      </div>
+      <div class="admonition-content">
+    <p>You must uncheck “Enable Service” before you can change any setting in DXU Agent.</p>
+</div></div><h4><a class="anchor" aria-hidden="true" id="change-the-password-in-dxu-agent"></a><a href="#change-the-password-in-dxu-agent" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Change the Password in DXU Agent</h4>
 <p>Editing the password ensures the simplest means to keep untrusted actors
 out of DXU Agent configuration settings. The default password is “0000.”</p>
 <p>To change the Password:</p>
 <ol>
 <li><p>Resume your mobile computer and unlock its screen.</p></li>
 <li><p>Launch the <strong>DXU Agent</strong> application.</p></li>
-<li><p>Tap the <strong>Menu</strong> button to display the menu.</p></li>
+<li><p>Tap the <strong>Menu</strong> button ( <i class="fa fa-ellipsis-v"></i> ) to display the menu.</p></li>
 <li><p>Tap the <strong>Settings</strong> button.</p></li>
-<li><p>Uncheck the “<strong>Enable Service</strong>” checkbox.
-<div class="info-box"> <img src="/img/dxu_desktop/image41.png" class="idea"/>
-Note: you must uncheck “Enable Service” before
-you can change any setting in DXU Agent.</p>
-   </div>
-</li>
+<li><p>Uncheck the “<strong>Enable Service</strong>” checkbox.</p>
+
+    <div class="admonition admonition-tip">
+      <div class="admonition-heading">
+        <h5><div class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"/></svg></div> tip</h5>
+      </div>
+      <div class="admonition-content">
+    <p>You must uncheck “Enable Service” before you can change any setting in DXU Agent.</p>
+</div></div></li>
 <li><p>Tap the <strong>Password</strong> button.</p></li>
 <li><p>Delete the contents of the field, and type a password.</p></li>
 <li><p>Tap the <strong>OK</strong> button.</p></li>
@@ -528,8 +543,8 @@ settings into operation.</p>
 <p>Find these settings in the DXU Agent application on the mobile computer.</p>
 <ol>
 <li><p>Launch the DXU Agent application.</p></li>
-<li><p>Tap the Menu button (<img src="/img/dxu_desktop/image45.png" alt="Menu button">) to display the menu.</p></li>
-<li><p>Tap the Settings button.</p>
+<li><p>Tap the <strong>Menu</strong> button ( <i class="fa fa-ellipsis-v"></i> ) to display the menu.</p></li>
+<li><p>Tap the <strong>Settings</strong> button.</p>
 <p><img src="/img/dxu_desktop/image46.png" alt="Settings button"></p></li>
 <li><p>Tap the Settings item</p></li>
 </ol>
@@ -662,4 +677,4 @@ most VNC clients for connections.</p>
 <p>This page displays the DXU Agent version number.</p>
 <h3><a class="anchor" aria-hidden="true" id="dxu-agent-windows-ce"></a><a href="#dxu-agent-windows-ce" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DXU Agent Windows CE</h3>
 <p>DXU Agent for Windows CE can be found in the device's Control Panel.</p>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/scan2deploy/android-schema"><span class="arrow-prev">← </span><span>Android Schema</span></a><a class="docs-next button" href="/dxu/connect-to-devices"><span>Connect to devices</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#downloads">Downloads</a></li><li><a href="#overview">Overview</a><ul class="toc-headings"><li><a href="#how-dxu-works">How DXU Works</a></li><li><a href="#supported-datalogic-mobile-computers">Supported Datalogic Mobile Computers</a></li><li><a href="#dxu-desktop-tasks">DXU Desktop Tasks</a></li><li><a href="#configure-dxu">Configure DXU</a></li><li><a href="#command-line">Command Line</a></li><li><a href="#logging">Logging</a></li><li><a href="#security">Security</a></li><li><a href="#dxu-agent-android">DXU Agent Android</a></li><li><a href="#dxu-agent-windows-ce">DXU Agent Windows CE</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><div class="link-div"><p class="footer-heading">Links</p><p class="footer-heading-right">Social Media</p><br class="footer-heading"/><a href="https://github.com/datalogic" target="_blank" class="footer-link gh">Datalogic Github  <i class="fa fa-external-link"></i></a><section id="lab_social_icon_footer"><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/><div class="container"><div class="text-center center-block"><a href="https://www.facebook.com/DatalogicGroup/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a><a href="https://twitter.com/DatalogicGroup"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a><a href="https://www.linkedin.com/company/datalogic/"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a><a href="https://www.youtube.com/user/DatalogicGroup"><i id="social-yt" class="fa fa-youtube-square fa-3x social"></i></a></div></div></section><div class="limit"><section class="copyright"><div style="text-align:center"><a href="http://www.datalogic.com/eng/legal-notice-pa-92.html" class="footer-link">Legal Notice</a> | <a href="http://www.datalogic.com/eng/privacy-policy-pa-112.html" class="footer-link">Privacy Policy</a> | <a href="http://www.datalogic.com/eng/terms-and-conditions-pa-93.html" class="footer-link">Terms and Conditions</a><br/></div><a href="https://datalogic.com" class="footer-link">datalogic.com</a> © 2019 Datalogic S.p.A. and/or its affiliates. All rights reserved. Datalogic and the Datalogic logo are registered trademarks of Datalogic S.p.A. in many countries including the U.S.A. and the E.U. All other trademarks are the property of their respective owners.</section></div></div></footer></div></body></html>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/scan2deploy/android-schema"><span class="arrow-prev">← </span><span>Android Schema</span></a><a class="docs-next button" href="/dxu/connect-to-devices"><span>Connect to devices</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#downloads">Downloads</a></li><li><a href="#overview">Overview</a><ul class="toc-headings"><li><a href="#how-dxu-works">How DXU Works</a></li><li><a href="#supported-datalogic-mobile-computers">Supported Datalogic Mobile Computers</a></li><li><a href="#dxu-desktop-tasks">DXU Desktop Tasks</a></li><li><a href="#configure-dxu">Configure DXU</a></li><li><a href="#command-line">Command Line</a></li><li><a href="#logging">Logging</a></li><li><a href="#security">Security</a></li><li><a href="#dxu-agent-android">DXU Agent Android</a></li><li><a href="#dxu-agent-windows-ce">DXU Agent Windows CE</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><div class="link-div"><p class="footer-heading">Links</p><p class="footer-heading-right">Social Media</p><br class="footer-heading"/><a href="https://github.com/datalogic" target="_blank" class="footer-link gh"><i class="fa fa-github"></i> Datalogic Github</a><section id="lab_social_icon_footer"><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/><div class="container"><div class="text-center center-block"><a href="https://www.facebook.com/DatalogicGroup/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a><a href="https://twitter.com/DatalogicGroup"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a><a href="https://www.linkedin.com/company/datalogic/"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a><a href="https://www.youtube.com/user/DatalogicGroup"><i id="social-yt" class="fa fa-youtube-square fa-3x social"></i></a></div></div></section><br/><br/><br/><div class="limit"><section class="copyright"><div style="text-align:center"><a href="http://www.datalogic.com/eng/legal-notice-pa-92.html" class="footer-link">Legal Notice</a> | <a href="http://www.datalogic.com/eng/privacy-policy-pa-112.html" class="footer-link">Privacy Policy</a> | <a href="http://www.datalogic.com/eng/terms-and-conditions-pa-93.html" class="footer-link">Terms and Conditions</a><br/></div><a href="https://datalogic.com" class="footer-link">datalogic.com</a> © 2019 Datalogic S.p.A. and/or its affiliates. All rights reserved. Datalogic and the Datalogic logo are registered trademarks of Datalogic S.p.A. in many countries including the U.S.A. and the E.U. All other trademarks are the property of their respective owners.</section></div></div></footer></div></body></html>

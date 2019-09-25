@@ -59,11 +59,11 @@
 <a class="man-link" href="https://datalogic.github.io/xamarin/xamarin-sdk-docs/html/T_Com_Datalogic_Decode_IReadListener.htm" title="Reference T.Com.Datalogic.Decode.IReadListener"><i class="fa fa-book"></i> <span class="man-link-name">IReadListener</span></a>
 in your <code>Activity.OnResume()</code>
 to receive read events on successful barcode reads:</p>
-<pre><code class="hljs css language-java"><span class="hljs-function"><span class="hljs-keyword">protected</span> override <span class="hljs-keyword">void</span> <span class="hljs-title">OnResume</span><span class="hljs-params">()</span>
-</span>{
-    base.OnResume();
+<pre><code class="hljs css language-csharp"><span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">override</span> <span class="hljs-keyword">void</span> <span class="hljs-title">OnResume</span>(<span class="hljs-params"></span>)</span>
+{
+    <span class="hljs-keyword">base</span>.OnResume();
 
-    <span class="hljs-keyword">if</span> (decoder == <span class="hljs-keyword">null</span>)
+    <span class="hljs-keyword">if</span> (decoder == <span class="hljs-literal">null</span>)
     {
         decoder = <span class="hljs-keyword">new</span> BarcodeManager();
     }
@@ -79,11 +79,11 @@ to receive read events on successful barcode reads:</p>
 }
 </code></pre>
 <p>Unregister the IReadListener in your <code>Activity.onPause()</code>:</p>
-<pre><code class="hljs css language-java"><span class="hljs-function"><span class="hljs-keyword">protected</span> override <span class="hljs-keyword">void</span> <span class="hljs-title">OnPause</span><span class="hljs-params">()</span>
-</span>{
-    base.OnPause();
+<pre><code class="hljs css language-csharp"><span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">override</span> <span class="hljs-keyword">void</span> <span class="hljs-title">OnPause</span>(<span class="hljs-params"></span>)</span>
+{
+    <span class="hljs-keyword">base</span>.OnPause();
 
-    <span class="hljs-keyword">if</span> (decoder != <span class="hljs-keyword">null</span>)
+    <span class="hljs-keyword">if</span> (decoder != <span class="hljs-literal">null</span>)
     {
         <span class="hljs-keyword">try</span>
         {
@@ -107,8 +107,8 @@ you need to call
 and get a
 <a class="man-link" href="https://datalogic.github.io/xamarin/xamarin-sdk-docs/html/T_Com_Datalogic_Decode_Configuration_ScannerProperties.htm" title="Reference T.Com.Datalogic.Decode.Configuration.ScannerProperties"><i class="fa fa-book"></i> <span class="man-link-name">ScannerProperties</span></a>
 instance.</p>
-<pre><code class="hljs css language-java">BarcodeManager manager = <span class="hljs-keyword">null</span>;
-ScannerProperties configuration = <span class="hljs-keyword">null</span>;
+<pre><code class="hljs css language-csharp">BarcodeManager manager = <span class="hljs-literal">null</span>;
+ScannerProperties configuration = <span class="hljs-literal">null</span>;
 ...
 manager = <span class="hljs-keyword">new</span> BarcodeManager();
 ...
@@ -117,19 +117,19 @@ configuration = ScannerProperties.Edit(manager);
 <p>Properties are organized hierarchically
 Each property has the method <code>Set</code> that requires a different
 argument depending on the property type (i.e.: int, boolean, String, etc...):</p>
-<pre><code class="hljs css language-java">configuration.Code39.EnableChecksum.Set(<span class="hljs-keyword">true</span>);
-configuration.Code39.FullAscii.Set(<span class="hljs-keyword">true</span>);
+<pre><code class="hljs css language-csharp">configuration.Code39.EnableChecksum.Set(<span class="hljs-literal">true</span>);
+configuration.Code39.FullAscii.Set(<span class="hljs-literal">true</span>);
 configuration.Code39.Length1.Set(<span class="hljs-number">20</span>);
 ...
-configuration.code39.userID.set(<span class="hljs-string">'x'</span>);
+configuration.code39.userID.<span class="hljs-keyword">set</span>(<span class="hljs-string">'x'</span>);
 ...
  <span class="hljs-keyword">if</span> (configuration.QrCode.IsSupported)
 {
-    configuration.QrCode.Enable.Set(<span class="hljs-keyword">false</span>);
+    configuration.QrCode.Enable.Set(<span class="hljs-literal">false</span>);
 }
 </code></pre>
 <p>For the configuration to be actually applied, you must call the ScannerProperties' <code>Store</code> method:</p>
-<pre><code class="hljs css language-java">configuration.Store(manager, <span class="hljs-keyword">true</span>);
+<pre><code class="hljs css language-csharp">configuration.Store(manager, <span class="hljs-literal">true</span>);
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="how-can-i-retreive-device-information"></a><a href="#how-can-i-retreive-device-information" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How can I retreive device information?</h2>
 <p>The Datalogic Android SDK provides many common operations done on an Android device to
@@ -139,7 +139,7 @@ gather information.</p>
 <a class="man-link" href="https://datalogic.github.io/xamarin/xamarin-sdk-docs/html/T_Com_Datalogic_Device_Info_SYSTEM.htm" title="Reference T.Com.Datalogic.Device.Info.SYSTEM"><i class="fa fa-book"></i> <span class="man-link-name">SYSTEM</span></a>
 , which
 exposes Wi-Fi type, keyboard type and others as static members. Example usage:</p></p>
-<pre><code class="hljs css language-java">Com.Datalogic.Device.Info.SYSTEM.SdkVersionInt;
+<pre><code class="hljs css language-csharp">Com.Datalogic.Device.Info.SYSTEM.SdkVersionInt;
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="power"></a><a href="#power" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Power</h3>
 <p>To get information about the battery, Xamarin broadcasts the <code>Intent</code>
@@ -149,7 +149,7 @@ the status of the battery changes and once when you register a receiver, notice 
 this particular behavior happens because the battery intent is a STICKY one
 <a class="man-link" href="https://developer.xamarin.com/api/member/Android.Content.Context.SendStickyBroadcast/" title="Reference Android.Content.Context.SendStickyBroadcast"><i class="fa fa-book"></i> <span class="man-link-name">SendStickyBroadcast</span></a>
 .</p>
-<pre><code class="hljs css language-java">Intent currentBatteryStatus = RegisterReceiver(<span class="hljs-keyword">null</span>, <span class="hljs-keyword">new</span> IntentFilter(
+<pre><code class="hljs css language-csharp">Intent currentBatteryStatus = RegisterReceiver(<span class="hljs-literal">null</span>, <span class="hljs-keyword">new</span> IntentFilter(
     Android.Content.Intent.ActionBatteryChanged));
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="location"></a><a href="#location" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Location</h3>
@@ -158,7 +158,7 @@ thus an application must ask to the user to manually do it. Datalogic SDK overco
 by providing the class
 <a class="man-link" href="https://datalogic.github.io/xamarin/xamarin-sdk-docs/html/T_Com_Datalogic_Device_Location_LocationManager.htm" title="Reference T.Com.Datalogic.Device.Location.LocationManager"><i class="fa fa-book"></i> <span class="man-link-name">LocationManager</span></a>
 . Here's how to use it:</p></p>
-<pre><code class="hljs css language-java">Com.Datalogic.Device.Location.LocationManager loc = <span class="hljs-keyword">null</span>;
+<pre><code class="hljs css language-csharp">Com.Datalogic.Device.Location.LocationManager loc = <span class="hljs-literal">null</span>;
 <span class="hljs-keyword">try</span>
 {
     loc = <span class="hljs-keyword">new</span> Com.Datalogic.Device.Location.LocationManager();
@@ -169,13 +169,13 @@ by providing the class
     Log.Error(<span class="hljs-keyword">this</span>.LocalClassName, <span class="hljs-string">"Exception while switching location mode "</span>, e);
 }
 </code></pre>
-<h3><a class="anchor" aria-hidden="true" id="nfc"></a><a href="#nfc" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Nfc</h3>
+<h3><a class="anchor" aria-hidden="true" id="nfc"></a><a href="#nfc" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>NFC</h3>
 <p>Standard Android SDK doesn't allow to turn on or off the NFC adapter,
 thus an application must ask to the user to manually do it. Datalogic SDK overcomes this limit by
 providing the class
 <a class="man-link" href="https://datalogic.github.io/xamarin/xamarin-sdk-docs/html/T_Com_Datalogic_Device_Nfc_NfcManager.htm" title="Reference T.Com.Datalogic.Device.Nfc.NfcManager"><i class="fa fa-book"></i> <span class="man-link-name">NfcManager</span></a>.
 Below is an example of how to use it:</p></p>
-<pre><code class="hljs css language-java">NfcManager nfc = <span class="hljs-keyword">new</span> Com.Datalogic.Device.Nfc.NfcManager();
+<pre><code class="hljs css language-csharp">NfcManager nfc = <span class="hljs-keyword">new</span> Com.Datalogic.Device.Nfc.NfcManager();
 nfc.EnableNfcAdapter(enable);
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="notifications"></a><a href="#notifications" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Notifications</h3>
@@ -185,7 +185,7 @@ notifications system still works, though you are limited to 1 LED, while
 Datalogic devices may have more LEDs, and it is easier to control them using the Datalogic
 <a class="man-link" href="https://datalogic.github.io/xamarin/xamarin-sdk-docs/html/T_Com_Datalogic_Device_Notification_LedManager.htm" title="Reference T.Com.Datalogic.Device.Notification.LedManager"><i class="fa fa-book"></i> <span class="man-link-name">LedManager</span></a>
 than the standard API.</p>
-<pre><code class="hljs css language-java">LedManager led = <span class="hljs-keyword">new</span> LedManager();
+<pre><code class="hljs css language-csharp">LedManager led = <span class="hljs-keyword">new</span> LedManager();
 led.blinkLed(Led.LedGreenSpot, <span class="hljs-number">1</span>, <span class="hljs-number">500</span>, <span class="hljs-number">500</span>);
 </code></pre>
 <p>Please notice that not all LEDs on a device can be freely controlled by
@@ -194,10 +194,10 @@ a user application, as some are reserved to the system.</p>
 <p>The class
 <a class="man-link" href="https://datalogic.github.io/xamarin/xamarin-sdk-docs/html/T_Com_Datalogic_Device_Input_TouchManager.htm" title="Reference T.Com.Datalogic.Device.Input.TouchManager"><i class="fa fa-book"></i> <span class="man-link-name">TouchManager</span></a>
 can be used to lock the touchscreen.</p>
-<pre><code class="hljs css language-java">TouchManager tm = <span class="hljs-keyword">new</span> TouchManager();
-tm.lockInput(<span class="hljs-keyword">true</span>);
+<pre><code class="hljs css language-csharp">TouchManager tm = <span class="hljs-keyword">new</span> TouchManager();
+tm.lockInput(<span class="hljs-literal">true</span>);
 Thread.sleep(<span class="hljs-number">2000</span>);
-tm.lockInput(<span class="hljs-keyword">false</span>);
+tm.lockInput(<span class="hljs-literal">false</span>);
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="sleep-and-wakeup"></a><a href="#sleep-and-wakeup" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sleep and Wakeup</h3>
 <p>Datalogic
@@ -209,18 +209,18 @@ can be set
 with a condition: the device running on battery or the device plugged to a power source, the function
 <a class="man-link" href="https://datalogic.github.io/xamarin/xamarin-sdk-docs/html/M_Com_Datalogic_Device_Power_PowerManager_SetSuspendTimeout.htm" title="Reference M.Com.Datalogic.Device.Power.PowerManager#SetSuspendTimeout"><i class="fa fa-book"></i> <span class="man-link-name">PowerManager.SetSuspendTimeout()</span></a>
 has a boolean argument for it.</p>
-<pre><code class="hljs css language-java">PowerManager pm = <span class="hljs-keyword">new</span> PowerManager();
+<pre><code class="hljs css language-csharp">PowerManager pm = <span class="hljs-keyword">new</span> PowerManager();
 
-pm.setSuspendTimeout(SuspendTimeout.Minutes5, <span class="hljs-keyword">false</span>); <span class="hljs-comment">// battery</span>
+pm.setSuspendTimeout(SuspendTimeout.Minutes5, <span class="hljs-literal">false</span>); <span class="hljs-comment">// battery</span>
 
-pm.setSuspendTimeout(SuspendTimeout.Never, <span class="hljs-keyword">true</span>); <span class="hljs-comment">// ext power</span>
+pm.setSuspendTimeout(SuspendTimeout.Never, <span class="hljs-literal">true</span>); <span class="hljs-comment">// ext power</span>
 </code></pre>
 <p>Please note that not all the
 <a class="man-link" href="https://datalogic.github.io/xamarin/xamarin-sdk-docs/html/T_Com_Datalogic_Device_Power_WakeupSource.htm" title="Reference T.Com.Datalogic.Device.Power.WakeupSource"><i class="fa fa-book"></i> <span class="man-link-name">WakeupSource</span></a>
 s
 available in the SDK are supported by a device, thus it is better to check
 if they are supported before enabling/disabling them.</p>
-<pre><code class="hljs css language-java"><span class="hljs-keyword">if</span> (pm.isWakeupSupported(WakeupSource.TrigLeft) &amp;&amp;
+<pre><code class="hljs css language-csharp"><span class="hljs-keyword">if</span> (pm.isWakeupSupported(WakeupSource.TrigLeft) &amp;&amp;
         !pm.isWakeupActive(WakeupSource.TrigLeft)) {
     pm.activateWakeup(WakeupSource.TrigLeft);
 }
@@ -243,31 +243,31 @@ is a software reboot of the device.</p>
 <p>Access details such as whether or not the device is in a cradle, the cradle's version, device insertion count, slot index, and whether or not fast charging is supported. These details are stored in the
 <a class="man-link" href="https://datalogic.github.io/xamarin/xamarin-sdk-selfshopping/html/T_Com_Datalogic_Extension_Selfshopping_Cradle_Joyatouch_StateInfo.htm" title="Reference T.Com.Datalogic.Extension.Selfshopping.Cradle.Joyatouch.StateInfo"><i class="fa fa-book"></i> <span class="man-link-name">StateInfo</span></a>
 class. Example usage:</p>
-<pre><code class="hljs css language-java">ICradleJoyaTouch jtCradle  = (ICradleJoyaTouch) CradleManager.Cradle;
+<pre><code class="hljs css language-csharp">ICradleJoyaTouch jtCradle  = (ICradleJoyaTouch) CradleManager.Cradle;
 
 StateInfo state = <span class="hljs-keyword">new</span> StateInfo();
 <span class="hljs-keyword">if</span> (jtCradle.GetCradleState(state))
-  string insCount = <span class="hljs-string">"Insertion count: "</span> + state.InsertionCount;
+  <span class="hljs-keyword">string</span> insCount = <span class="hljs-string">"Insertion count: "</span> + state.InsertionCount;
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="cradle-leds"></a><a href="#cradle-leds" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cradle LEDs</h3>
 <p>Change the state of the LEDs on the cradle by using the
 <a class="man-link" href="https://datalogic.github.io/xamarin/xamarin-sdk-selfshopping/html/T_Com_Datalogic_Extension_Selfshopping_Cradle_Joyatouch_LedAction.htm" title="Reference T.Com.Datalogic.Extension.Selfshopping.Cradle.Joyatouch.LedAction"><i class="fa fa-book"></i> <span class="man-link-name">LedAction</span></a>
 class. Example usage:</p>
-<pre><code class="hljs css language-java">ICradleJoyaTouch jtCradle  = (ICradleJoyaTouch) CradleManager.Cradle;
+<pre><code class="hljs css language-csharp">ICradleJoyaTouch jtCradle  = (ICradleJoyaTouch) CradleManager.Cradle;
 jtCradle.ControlLed(LedAction.BlinkSlow);
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="cradle-lock"></a><a href="#cradle-lock" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cradle Lock</h3>
 <p>Change the state of the cradle lock using the
 <a class="man-link" href="https://datalogic.github.io/xamarin/xamarin-sdk-selfshopping/html/T_Com_Datalogic_Extension_Selfshopping_Cradle_Joyatouch_LockAction.htm" title="Reference T.Com.Datalogic.Extension.Selfshopping.Cradle.Joyatouch.LockAction"><i class="fa fa-book"></i> <span class="man-link-name">LockAction</span></a>
 class. Example usage:</p>
-<pre><code class="hljs css language-java">ICradleJoyaTouch jtCradle  = (ICradleJoyaTouch) CradleManager.Cradle;
+<pre><code class="hljs css language-csharp">ICradleJoyaTouch jtCradle  = (ICradleJoyaTouch) CradleManager.Cradle;
 jtCradle.ControlLock(Action.UnlockWithLedOn);
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="cradle-config-area"></a><a href="#cradle-config-area" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cradle Config Area</h3>
 <p>Use the
 <a class="man-link" href="https://datalogic.github.io/xamarin/xamarin-sdk-selfshopping/html/T_Com_Datalogic_Extension_Selfshopping_Cradle_Joyatouch_ConfigArea.htm" title="Reference T.Com.Datalogic.Extension.Selfshopping.Cradle.Joyatouch.ConfigArea"><i class="fa fa-book"></i> <span class="man-link-name">ConfigArea</span></a>
 class to access the current cradle slot's configuration area, consisting of an array of bytes. Also, an exposed method allows to get or set the fast charge value contained in one of the bytes of the configuration area.</p>
-<pre><code class="hljs css language-java">ICradleJoyaTouch jtCradle  = (ICradleJoyaTouch) CradleManager.Cradle;
+<pre><code class="hljs css language-csharp">ICradleJoyaTouch jtCradle  = (ICradleJoyaTouch) CradleManager.Cradle;
 ConfigArea config = <span class="hljs-keyword">new</span> ConfigArea();
 <span class="hljs-keyword">byte</span>[] configValues;
 <span class="hljs-keyword">if</span> (jtCradle.ReadConfigArea(config))
@@ -279,7 +279,7 @@ ConfigArea config = <span class="hljs-keyword">new</span> ConfigArea();
 <p>Use the
 <a class="man-link" href="https://datalogic.github.io/xamarin/xamarin-sdk-selfshopping/html/T_Com_Datalogic_Extension_Selfshopping_Cradle_Joyatouch_CustomArea.htm" title="Reference T.Com.Datalogic.Extension.Selfshopping.Cradle.Joyatouch.CustomArea"><i class="fa fa-book"></i> <span class="man-link-name">CustomArea</span></a>
 class to access the custom data area of the cradle slot being occupied.</p>
-<pre><code class="hljs css language-java">    ICradleJoyaTouch jtCradle  = (ICradleJoyaTouch) CradleManager.Cradle;
+<pre><code class="hljs css language-csharp">ICradleJoyaTouch jtCradle  = (ICradleJoyaTouch) CradleManager.Cradle;
 CustomArea custom = <span class="hljs-keyword">new</span> CustomArea();
 <span class="hljs-keyword">byte</span>[] customValues;
 <span class="hljs-keyword">if</span> (jtCradle.ReadCustomArea(custom, custom.Size))
@@ -287,4 +287,4 @@ CustomArea custom = <span class="hljs-keyword">new</span> CustomArea();
   customValues = custom.GetContent();
 }
 </code></pre>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/xamarin/overview"><span class="arrow-prev">← </span><span>Xamarin SDK Overview</span></a><a class="docs-next button" href="/xamarin/samples"><span>Sample Apps</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#how-can-i-receive-barcode-data-in-my-app">How can I receive barcode data in my app?</a></li><li><a href="#how-can-i-configure-decoder-properties">How can I configure Decoder properties?</a></li><li><a href="#how-can-i-retreive-device-information">How can I retreive device information?</a><ul class="toc-headings"><li><a href="#info">Info</a></li><li><a href="#power">Power</a></li><li><a href="#location">Location</a></li><li><a href="#nfc">Nfc</a></li><li><a href="#notifications">Notifications</a></li><li><a href="#touch">Touch</a></li><li><a href="#sleep-and-wakeup">Sleep and Wakeup</a></li><li><a href="#reset">Reset</a></li></ul></li><li><a href="#how-can-i-access-the-self-shopping-cradle">How can I access the self-shopping cradle?</a><ul class="toc-headings"><li><a href="#cradle-state">Cradle State</a></li><li><a href="#cradle-leds">Cradle LEDs</a></li><li><a href="#cradle-lock">Cradle Lock</a></li><li><a href="#cradle-config-area">Cradle Config Area</a></li><li><a href="#cradle-custom-area">Cradle Custom Area</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><div class="link-div"><p class="footer-heading">Links</p><p class="footer-heading-right">Social Media</p><br class="footer-heading"/><a href="https://github.com/datalogic" target="_blank" class="footer-link gh">Datalogic Github  <i class="fa fa-external-link"></i></a><section id="lab_social_icon_footer"><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/><div class="container"><div class="text-center center-block"><a href="https://www.facebook.com/DatalogicGroup/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a><a href="https://twitter.com/DatalogicGroup"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a><a href="https://www.linkedin.com/company/datalogic/"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a><a href="https://www.youtube.com/user/DatalogicGroup"><i id="social-yt" class="fa fa-youtube-square fa-3x social"></i></a></div></div></section><div class="limit"><section class="copyright"><div style="text-align:center"><a href="http://www.datalogic.com/eng/legal-notice-pa-92.html" class="footer-link">Legal Notice</a> | <a href="http://www.datalogic.com/eng/privacy-policy-pa-112.html" class="footer-link">Privacy Policy</a> | <a href="http://www.datalogic.com/eng/terms-and-conditions-pa-93.html" class="footer-link">Terms and Conditions</a><br/></div><a href="https://datalogic.com" class="footer-link">datalogic.com</a> © 2019 Datalogic S.p.A. and/or its affiliates. All rights reserved. Datalogic and the Datalogic logo are registered trademarks of Datalogic S.p.A. in many countries including the U.S.A. and the E.U. All other trademarks are the property of their respective owners.</section></div></div></footer></div></body></html>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/xamarin/overview"><span class="arrow-prev">← </span><span>Xamarin SDK Overview</span></a><a class="docs-next button" href="/xamarin/samples"><span>Sample Apps</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#how-can-i-receive-barcode-data-in-my-app">How can I receive barcode data in my app?</a></li><li><a href="#how-can-i-configure-decoder-properties">How can I configure Decoder properties?</a></li><li><a href="#how-can-i-retreive-device-information">How can I retreive device information?</a><ul class="toc-headings"><li><a href="#info">Info</a></li><li><a href="#power">Power</a></li><li><a href="#location">Location</a></li><li><a href="#nfc">NFC</a></li><li><a href="#notifications">Notifications</a></li><li><a href="#touch">Touch</a></li><li><a href="#sleep-and-wakeup">Sleep and Wakeup</a></li><li><a href="#reset">Reset</a></li></ul></li><li><a href="#how-can-i-access-the-self-shopping-cradle">How can I access the self-shopping cradle?</a><ul class="toc-headings"><li><a href="#cradle-state">Cradle State</a></li><li><a href="#cradle-leds">Cradle LEDs</a></li><li><a href="#cradle-lock">Cradle Lock</a></li><li><a href="#cradle-config-area">Cradle Config Area</a></li><li><a href="#cradle-custom-area">Cradle Custom Area</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><div class="link-div"><p class="footer-heading">Links</p><p class="footer-heading-right">Social Media</p><br class="footer-heading"/><a href="https://github.com/datalogic" target="_blank" class="footer-link gh"><i class="fa fa-github"></i> Datalogic Github</a><section id="lab_social_icon_footer"><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/><div class="container"><div class="text-center center-block"><a href="https://www.facebook.com/DatalogicGroup/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a><a href="https://twitter.com/DatalogicGroup"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a><a href="https://www.linkedin.com/company/datalogic/"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a><a href="https://www.youtube.com/user/DatalogicGroup"><i id="social-yt" class="fa fa-youtube-square fa-3x social"></i></a></div></div></section><br/><br/><br/><div class="limit"><section class="copyright"><div style="text-align:center"><a href="http://www.datalogic.com/eng/legal-notice-pa-92.html" class="footer-link">Legal Notice</a> | <a href="http://www.datalogic.com/eng/privacy-policy-pa-112.html" class="footer-link">Privacy Policy</a> | <a href="http://www.datalogic.com/eng/terms-and-conditions-pa-93.html" class="footer-link">Terms and Conditions</a><br/></div><a href="https://datalogic.com" class="footer-link">datalogic.com</a> © 2019 Datalogic S.p.A. and/or its affiliates. All rights reserved. Datalogic and the Datalogic logo are registered trademarks of Datalogic S.p.A. in many countries including the U.S.A. and the E.U. All other trademarks are the property of their respective owners.</section></div></div></footer></div></body></html>

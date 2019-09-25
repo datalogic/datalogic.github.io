@@ -79,45 +79,56 @@ Next, follow Microsoft's <a href="https://msdn.microsoft.com/en-us/library/mt613
 Setup and install directions for Xamarin and Visual Studio 2015</a>.</p>
 <h3><a class="anchor" aria-hidden="true" id="create-a-xamarin-project"></a><a href="#create-a-xamarin-project" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Create a Xamarin Project</h3>
 <p>Open Visual Studio and select <strong><em>New Project...</em></strong></p>
-<p><img src="/img/xamarin/visual-studio-new.png" class="reasonable"></p>
+<p><img src="/img/xamarin/visual-studio-new.png" alt="New Project"></p>
 <p>In the New Project window, navigate to <strong><em>Installed &gt; Templates &gt; Visual C# &gt; Cross-Platform</em></strong>.
 Select <strong><em>Blank App (Android)</em></strong>(or another of the Blank App types, depending on your use case).</p>
-<p><img src="/img/xamarin/visual-studio-new-project.png" class="reasonable"></p>
+<p><img src="/img/xamarin/visual-studio-new-project.png" alt="New Project &gt; Android"></p>
 <p>If you get a Xamarin Mac Agent prompt, click <strong><em>Close</em></strong>.
 Your new project should now be created. In <strong><em>Solution Explorer</em></strong>, find and open <strong><em>MainActivity.cs</em></strong>.
 Your window should now look similar to this:</p>
-<p><img src="/img/xamarin/visual-studio-MainActivity.png" class="reasonable"></p>
-<p><strong>Note</strong>: If you would rather just start with an example Xamarin project that is already configured
-to use the Datalogic Xamarin SDK, check out the
-<a href="/xamarin/samples">DecodeListener</a>
-sample project.</p>
-<h3><a class="anchor" aria-hidden="true" id="nuget"></a><a href="#nuget" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>NuGet</h3>
+<p><img src="/img/xamarin/visual-studio-MainActivity.png" alt="MainActivity"></p>
+
+    <div class="admonition admonition-tip">
+      <div class="admonition-heading">
+        <h5><div class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"/></svg></div> tip</h5>
+      </div>
+      <div class="admonition-content">
+    <p>If you would rather just start with an example Xamarin project that is already configured to use the Datalogic Xamarin SDK, check out the <a href="/xamarin/samples">DecodeListener</a> sample project.</p>
+</div></div><h3><a class="anchor" aria-hidden="true" id="nuget"></a><a href="#nuget" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>NuGet</h3>
 <p><a href="https://www.nuget.org/">NuGet</a> is a widely used package manager for .NET development that comes
 preinstalled in Visual Studio. Datalogic uses NuGet to distribute the Datalogic Xamarin SDK.
 First, open NuGet by navigating to <strong><em>Tools &gt; NuGet Package Manager &gt; Manage NuGet Packages for Solution</em></strong>.</p>
-<p><img src="/img/xamarin/visual-studio-nuget-open.png" class="reasonable"></p>
+<p><img src="/img/xamarin/visual-studio-nuget-open.png" alt="NuGet Open"></p>
 <p>In the 'NuGet - Solution' tab, Click <strong><em>Browse</em></strong>. Type <strong><em>datalogic</em></strong> in the search box.
 Select the result titled <strong><em>datalogic-xamarin-sdk</em></strong>.</p>
-<p><img src="/img/xamarin/visual-studio-nuget-browse.png" class="reasonable"></p>
+<p><img src="/img/xamarin/visual-studio-nuget-browse.png" alt="NuGet Browse"></p>
 <p>Next, select the <strong><em>MyXamarinApp.Droid</em></strong> Project and click <strong><em>Install</em></strong>.</p>
-<p><img src="/img/xamarin/visual-studio-nuget-install.png" class="reasonable"></p>
+<p><img src="/img/xamarin/visual-studio-nuget-install.png" alt="NuGet Install"></p>
 <p>Click Installed at the top of the window. You will now see 'datalogic-xamarin-sdk'
 listed as an installed package.</p>
-<p><img src="/img/xamarin/visual-studio-nuget-installed.png" class="reasonable"></p>
+<p><img src="/img/xamarin/visual-studio-nuget-installed.png" alt="NuGet Installed"></p>
 <p>You can now close the NuGet tab.</p>
 <h3><a class="anchor" aria-hidden="true" id="android-manifest"></a><a href="#android-manifest" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Android manifest</h3>
 <p>You will need to make a small change to the Android manifest file to use the
 Datalogic Xamarin SDK. In the <strong><em>Solution Explorer</em></strong> window, navigate to
 <strong><em>MyXamarinApp.Droid &gt; Properties</em></strong>, and double click on <strong><em>AndroidManifest.xml</em></strong>.</p>
 <p>Add the following line to file, as a child node inside the applicaiton node.
-In other words, before the closing &lt;/application&gt; tag:</p>
-<pre><code class="hljs css language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">uses-library</span> <span class="hljs-attr">android:name</span>=<span class="hljs-string">"com.datalogic.device"</span>&gt;</span> android:required="true"/&gt;;
+In other words, before the closing <code>&lt;/application&gt;</code> tag:</p>
+<pre><code class="hljs css language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">uses-library</span>
+  <span class="hljs-attr">android:name</span>=<span class="hljs-string">"com.datalogic.device"</span>
+  <span class="hljs-attr">android:required</span>=<span class="hljs-string">"true"</span>/&gt;</span>
 </code></pre>
-<p><img src="/img/xamarin/visual-studio-android-manifest.png" class="reasonable"></p>
+<p><img src="/img/xamarin/visual-studio-android-manifest.png" alt="Android Manifest"></p>
 <p>Alternatively, you can add the following line to your project's <strong><em>AssemblyInfo.cs</em></strong>:</p>
 <pre><code class="hljs css language-cs">[<span class="hljs-meta">assembly: UsesLibrary(<span class="hljs-meta-string">"com.datalogic.device"</span>, true)</span>]
 </code></pre>
-<p><strong>Note</strong>: If you are using the Selfshopping extension SDK, you will need to add the following line as well:</p>
+
+    <div class="admonition admonition-warn">
+      <div class="admonition-heading">
+        <h5><div class="admonition-icon"></div> warn</h5>
+      </div>
+      <div class="admonition-content">
+    <p>If you are using the Selfshopping extension SDK, you will need to add the following line as well:</p>
 <p>Alternatively, you can add the following line to your project's <strong><em>AssemblyInfo.cs</em></strong>:</p>
 <pre><code class="hljs css language-cs">[<span class="hljs-meta">assembly: UsesLibrary(<span class="hljs-meta-string">"com.datalogic.extension.selfshopping"</span>, true)</span>]
 </code></pre>
@@ -132,10 +143,10 @@ along with documentation for each. To open the Object browser, double click on <
 under <strong><em>MyXamarinApp.Droid &gt; References</em></strong> in the <strong><em>Solution Explorer</em></strong> window.
 Now, in the <strong><em>Object Browser</em></strong> window, expand the <strong><em>datalogic-xamarin-sdk</em></strong>
 Assembly and find the item you are interested in researching.</p>
-<p><img src="/img/xamarin/visual-studio-object-browser.png" class="reasonable"></p>
+<p><img src="/img/xamarin/visual-studio-object-browser.png" alt="A"></p>
 <h3><a class="anchor" aria-hidden="true" id="compile-and-run"></a><a href="#compile-and-run" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compile and Run</h3>
 <p>Connect your Datalogic mobile computer running Android to your computer via USB cable and click the <strong><em>Run button</em></strong>.</p>
-<p><img src="/img/xamarin/visual-studio-run.png"></p>
+<p>![A](/img/xamarin/visual-studio-run.png&quot;&gt;</p>
 <p>Congratulations, you are all set up! Head over to the <a href="/xamarin/samples">Samples apps</a>
 to learn how to use various parts of the Datalogic Xamarin SDK.</p>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/android/samples"><span class="arrow-prev">← </span><span>Sample Apps</span></a><a class="docs-next button" href="/xamarin/faq"><span>Frequently Asked Questions</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#overview">Overview</a><ul class="toc-headings"><li><a href="#standard-api">Standard API</a></li><li><a href="#self-shopping-api">Self-shopping API</a></li></ul></li><li><a href="#using-the-sdk">Using the SDK</a><ul class="toc-headings"><li><a href="#install-visual-studio">Install Visual Studio</a></li><li><a href="#create-a-xamarin-project">Create a Xamarin Project</a></li><li><a href="#nuget">NuGet</a></li><li><a href="#android-manifest">Android manifest</a></li><li><a href="#use-the-sdk">Use the SDK</a></li><li><a href="#compile-and-run">Compile and Run</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><div class="link-div"><p class="footer-heading">Links</p><p class="footer-heading-right">Social Media</p><br class="footer-heading"/><a href="https://github.com/datalogic" target="_blank" class="footer-link gh">Datalogic Github  <i class="fa fa-external-link"></i></a><section id="lab_social_icon_footer"><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/><div class="container"><div class="text-center center-block"><a href="https://www.facebook.com/DatalogicGroup/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a><a href="https://twitter.com/DatalogicGroup"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a><a href="https://www.linkedin.com/company/datalogic/"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a><a href="https://www.youtube.com/user/DatalogicGroup"><i id="social-yt" class="fa fa-youtube-square fa-3x social"></i></a></div></div></section><div class="limit"><section class="copyright"><div style="text-align:center"><a href="http://www.datalogic.com/eng/legal-notice-pa-92.html" class="footer-link">Legal Notice</a> | <a href="http://www.datalogic.com/eng/privacy-policy-pa-112.html" class="footer-link">Privacy Policy</a> | <a href="http://www.datalogic.com/eng/terms-and-conditions-pa-93.html" class="footer-link">Terms and Conditions</a><br/></div><a href="https://datalogic.com" class="footer-link">datalogic.com</a> © 2019 Datalogic S.p.A. and/or its affiliates. All rights reserved. Datalogic and the Datalogic logo are registered trademarks of Datalogic S.p.A. in many countries including the U.S.A. and the E.U. All other trademarks are the property of their respective owners.</section></div></div></footer></div></body></html>
+</div></div></span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/android/samples"><span class="arrow-prev">← </span><span>Sample Apps</span></a><a class="docs-next button" href="/xamarin/faq"><span>Frequently Asked Questions</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#overview">Overview</a><ul class="toc-headings"><li><a href="#standard-api">Standard API</a></li><li><a href="#self-shopping-api">Self-shopping API</a></li></ul></li><li><a href="#using-the-sdk">Using the SDK</a><ul class="toc-headings"><li><a href="#install-visual-studio">Install Visual Studio</a></li><li><a href="#create-a-xamarin-project">Create a Xamarin Project</a></li><li><a href="#nuget">NuGet</a></li><li><a href="#android-manifest">Android manifest</a></li><li><a href="#use-the-sdk">Use the SDK</a></li><li><a href="#compile-and-run">Compile and Run</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><div class="link-div"><p class="footer-heading">Links</p><p class="footer-heading-right">Social Media</p><br class="footer-heading"/><a href="https://github.com/datalogic" target="_blank" class="footer-link gh"><i class="fa fa-github"></i> Datalogic Github</a><section id="lab_social_icon_footer"><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/><div class="container"><div class="text-center center-block"><a href="https://www.facebook.com/DatalogicGroup/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a><a href="https://twitter.com/DatalogicGroup"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a><a href="https://www.linkedin.com/company/datalogic/"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a><a href="https://www.youtube.com/user/DatalogicGroup"><i id="social-yt" class="fa fa-youtube-square fa-3x social"></i></a></div></div></section><br/><br/><br/><div class="limit"><section class="copyright"><div style="text-align:center"><a href="http://www.datalogic.com/eng/legal-notice-pa-92.html" class="footer-link">Legal Notice</a> | <a href="http://www.datalogic.com/eng/privacy-policy-pa-112.html" class="footer-link">Privacy Policy</a> | <a href="http://www.datalogic.com/eng/terms-and-conditions-pa-93.html" class="footer-link">Terms and Conditions</a><br/></div><a href="https://datalogic.com" class="footer-link">datalogic.com</a> © 2019 Datalogic S.p.A. and/or its affiliates. All rights reserved. Datalogic and the Datalogic logo are registered trademarks of Datalogic S.p.A. in many countries including the U.S.A. and the E.U. All other trademarks are the property of their respective owners.</section></div></div></footer></div></body></html>
