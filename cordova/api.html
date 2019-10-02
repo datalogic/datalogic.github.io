@@ -66,11 +66,11 @@
 <tr><th>Namespace</th><th>Description</th></tr>
 </thead>
 <tbody>
-<tr><td><a href="#barcodeManager">barcodeManager</a></td><td>receive barcode data</td></tr>
-<tr><td><a href="#autoScanTrigger">autoScanTrigger</a></td><td>work the the autoscan features</td></tr>
-<tr><td><a href="#keyboardManager">keyboardManager</a></td><td>set usable device triggers</td></tr>
-<tr><td><a href="#ledManager">ledManager</a></td><td>control device LEDs</td></tr>
-<tr><td><a href="#scannerProperties">scannerProperties</a></td><td>define availabled symbologies</td></tr>
+<tr><td><a href="#barcodemanager">barcodeManager</a></td><td>receive barcode data</td></tr>
+<tr><td><a href="#autoscantrigger">autoScanTrigger</a></td><td>work the the autoscan features</td></tr>
+<tr><td><a href="#keyboardmanager">keyboardManager</a></td><td>set usable device triggers</td></tr>
+<tr><td><a href="#ledmanager">ledManager</a></td><td>control device LEDs</td></tr>
+<tr><td><a href="#scannerproperties">scannerProperties</a></td><td>define availabled symbologies</td></tr>
 </tbody>
 </table>
 <h3><a class="anchor" aria-hidden="true" id="barcodemanager"></a><a href="#barcodemanager" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>barcodeManager</h3>
@@ -80,13 +80,13 @@
 <tr><th>Function</th><th>Description</th></tr>
 </thead>
 <tbody>
-<tr><td><a href="#addreadlistenersuccesscallback-errorcallback-object">addReadListener</a></td><td>Register to recieve barcode data on each scan.</td></tr>
-<tr><td><a href="#presstriggersuccesscallback-errorcallback-object">pressTrigger</a></td><td>Simulate a trigger button press.</td></tr>
-<tr><td><a href="#releasetriggersuccesscallback-errorcallback-object">releaseTrigger</a></td><td>Simulate a trigger button release.</td></tr>
+<tr><td><a href="#addreadlistner-successcallback-errorcallback-object">addReadListner</a></td><td>Register to recieve barcode data on each scan.</td></tr>
+<tr><td><a href="#presstrigger-successcallback-errorcallback-object">pressTrigger</a></td><td>Simulate a trigger button press.</td></tr>
+<tr><td><a href="#releasetrigger-successcallback-errorcallback-object">releaseTrigger</a></td><td>Simulate a trigger button release.</td></tr>
 </tbody>
 </table>
-<h4><a class="anchor" aria-hidden="true" id="addreadlistener-successcallback-errorcallback-object"></a><a href="#addreadlistener-successcallback-errorcallback-object" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>.addReadListener(<code>successCallback</code>, <code>errorCallback</code>): Object</h4>
-<p>Register to recieve barcode data on each scan. <code>successCallback</code> will be called <strong><em>every time</em></strong> a barcode is successfully scanned. Therefore, you will typically only need to call <code>barcodeManager.addReadListener()</code> <em>once</em> in your application.</p>
+<h4><a class="anchor" aria-hidden="true" id="addreadlistner-successcallback-errorcallback-object"></a><a href="#addreadlistner-successcallback-errorcallback-object" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>.addReadListner(<code>successCallback</code>, <code>errorCallback</code>): Object</h4>
+<p>Register to recieve barcode data on each scan. <code>successCallback</code> will be called <strong><em>every time</em></strong> a barcode is successfully scanned. Therefore, you will typically only need to call <code>barcodeManager.addReadListner()</code> <em>once</em> in your application.</p>
 <h5><a class="anchor" aria-hidden="true" id="response"></a><a href="#response" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Response</h5>
 <ul>
 <li><code>barcodeData</code> : <code>string</code> - the barcode data scanned.</li>
@@ -135,10 +135,10 @@ barcodeManager.addReadListner(
 <tr><th>Function</th><th>Description</th></tr>
 </thead>
 <tbody>
-<tr><td><a href="#isavailablesuccesscallback-errorcallback-object">isAvailable</a></td><td>Determine if the auto scan feature is available on this device.</td></tr>
-<tr><td><a href="#getsupportedrangessuccesscallback-errorcallback-object">getSupportedRanges</a></td><td>Get the supported ranges of the autoscan feature.</td></tr>
-<tr><td><a href="#getcurrentrangesuccesscallback-errorcallback-object">getCurrentRange</a></td><td>Get the current range of the autoscan feature.</td></tr>
-<tr><td><a href="#setcurrentrangeid-successcallback-errorcallback-object">setCurrentRange</a></td><td>Set the current range of the autoscan feature.</td></tr>
+<tr><td><a href="#isavailable-successcallback-errorcallback-object">isAvailable</a></td><td>Determine if the auto scan feature is available on this device.</td></tr>
+<tr><td><a href="#getsupportedranges-successcallback-errorcallback-object">getSupportedRanges</a></td><td>Get the supported ranges of the autoscan feature.</td></tr>
+<tr><td><a href="#getcurrentrange-successcallback-errorcallback-object">getCurrentRange</a></td><td>Get the current range of the autoscan feature.</td></tr>
+<tr><td><a href="#setcurrentrange-id-successcallback-errorcallback-object">setCurrentRange</a></td><td>Set the current range of the autoscan feature.</td></tr>
 </tbody>
 </table>
 <h4><a class="anchor" aria-hidden="true" id="isavailable-successcallback-errorcallback-object"></a><a href="#isavailable-successcallback-errorcallback-object" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>.isAvailable(<code>successCallback</code>, <code>errorCallback</code>): Object</h4>
@@ -251,8 +251,8 @@ autoScanTrigger.getCurrentRange(
 </thead>
 <tbody>
 <tr><td><a href="#getallavailabletriggers-successcallback-errorcallback-object">getAllAvailableTriggers</a></td><td>Get all the available triggers of the device.</td></tr>
-<tr><td><a href="#setallavailabletriggersenable-successcallback-errorcallback-object">setAllAvailableTriggers</a></td><td>Set all the devices triggers on or off.</td></tr>
-<tr><td><a href="#settriggersconfig-successcallback-errorcallback-object">setTriggers</a></td><td>Set one or more triggers on or off.</td></tr>
+<tr><td><a href="#setallavailabletriggers-enable-successcallback-errorcallback-object">setAllAvailableTriggers</a></td><td>Set all the devices triggers on or off.</td></tr>
+<tr><td><a href="#settriggers-config-successcallback-errorcallback-object">setTriggers</a></td><td>Set one or more triggers on or off.</td></tr>
 </tbody>
 </table>
 <h4><a class="anchor" aria-hidden="true" id="getallavailabletriggers-successcallback-errorcallback-object"></a><a href="#getallavailabletriggers-successcallback-errorcallback-object" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>.getAllAvailableTriggers (<code>successCallback</code>, <code>errorCallback</code>): Object</h4>
@@ -337,7 +337,7 @@ keyboardManager.getAllAvailableTriggers(
 <tr><th>Function</th><th>Description</th></tr>
 </thead>
 <tbody>
-<tr><td><a href="#setledledconfig-successcallback-errorcallback-object">setLed</a></td><td>Set various device LEDs.</td></tr>
+<tr><td><a href="#setled-ledconfig-successcallback-errorcallback-object">setLed</a></td><td>Set various device LEDs.</td></tr>
 </tbody>
 </table>
 <h4><a class="anchor" aria-hidden="true" id="setled-ledconfig-successcallback-errorcallback-object"></a><a href="#setled-ledconfig-successcallback-errorcallback-object" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>.setLed(<code>ledConfig</code>, <code>successCallback</code>, <code>errorCallback</code>): Object</h4>
@@ -354,8 +354,8 @@ keyboardManager.getAllAvailableTriggers(
 <tr><th>Function</th><th>Description</th></tr>
 </thead>
 <tbody>
-<tr><td><a href="#editsuccesscallback-errorcallback-object">edit</a></td><td>Get a list of supported properties along with the state of each (enabled or disabled).</td></tr>
-<tr><td><a href="#storeproperties-successcallback-errorcallback-object">store</a></td><td>Apply changes to one or more properties with the values supplied.</td></tr>
+<tr><td><a href="#edit-successcallback-errorcallback-object">edit</a></td><td>Get a list of supported properties along with the state of each (enabled or disabled).</td></tr>
+<tr><td><a href="#store-properties-successcallback-errorcallback-object">store</a></td><td>Apply changes to one or more properties with the values supplied.</td></tr>
 </tbody>
 </table>
 <h4><a class="anchor" aria-hidden="true" id="edit-successcallback-errorcallback-object"></a><a href="#edit-successcallback-errorcallback-object" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>.edit(<code>successCallback</code>, <code>errorCallback</code>): Object</h4>
