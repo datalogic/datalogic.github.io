@@ -55,7 +55,7 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Symbology Settings</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="symbologies"></a><a href="#symbologies" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Symbologies</h2>
-<p>For all symbologies, the restrictions for the symbology will only be changed if the symbology is enabled.</p>
+<p>For all symbologies, the restrictions for the symbology can be changed even if the symbology is disabled, but won't take effect until the symbology type itself is enabled.</p>
 <h3><a class="anchor" aria-hidden="true" id="australia-post"></a><a href="#australia-post" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Australia Post</h3>
 <ul>
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>false</em></strong>.</p></li>
@@ -66,8 +66,14 @@
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>true</em></strong>.</p></li>
 <li><p><code>User ID</code>: Specifies the symbology identifier. The default character value is <strong><em>d</em></strong>.</p></li>
 <li><p><code>Length control</code>: The length control mode for the label. Valid values are displayed in a single select list. The default value is <strong><em>Range</em></strong>.</p></li>
-<li><p><code>L1 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> to set the L1 length. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>1</em></strong>.</p></li>
-<li><p><code>L2 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>Two fixed</em></strong> or <strong><em>Range</em></strong> to set the L2 length. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>3750</em></strong>.</p></li>
+<li><p><code>L1 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>1</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>L2 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>3750</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 <li><p><code>Character set mode</code>: Controls the character set in use for the decoded label. Valid values are displayed in a single select list. The default value is <strong><em>Windows-1252 Latin 1</em></strong>.</p></li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="codabar"></a><a href="#codabar" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Codabar</h3>
@@ -75,10 +81,19 @@
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>true</em></strong>.</p></li>
 <li><p><code>User ID</code>: Specifies the symbology identifier. The default character value is <strong><em>I</em></strong>.</p></li>
 <li><p><code>Length control</code>: The length control mode for the label. Valid values are displayed in a single select list. The default value is <strong><em>Range</em></strong>.</p></li>
-<li><p><code>L1 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> to set the L1 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>4</em></strong>.</p></li>
-<li><p><code>L2 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>Two fixed</em></strong> or <strong><em>Range</em></strong> to set the L2 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>20</em></strong>.</p></li>
+<li><p><code>L1 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>4</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>L2 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>20</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 <li><p><code>Enable checksum</code>: A boolean to require the use of checksum characters to verify a barcode. The default value is <strong><em>false</em></strong>.</p></li>
-<li><p><code>Send checksum</code>: A boolean to include the checksum in the label transmission. <code>Enable checksum</code> must be <strong><em>true</em></strong> to enable send checksum. The default value is <strong><em>false</em></strong>.</p></li>
+<li><p><code>Send checksum</code>: A boolean to include the checksum in the label transmission. The default value is <strong><em>false</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Enable checksum</code> must be <strong><em>true</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 <li><p><code>Send start/stop</code>: A boolean to enable the transmission of the decoded start and stop characters. The default value is <strong><em>false</em></strong>.</p></li>
 <li><p><code>Convert to CLSI</code>: A boolean to restrict the decoding to only read labels that conform to CLSI specifications. The default value is <strong><em>false</em></strong>.</p></li>
 </ul>
@@ -87,8 +102,15 @@
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>true</em></strong>.</p></li>
 <li><p><code>User ID</code>: Specifies the symbology identifier. The default character value is <strong><em>K</em></strong>.</p></li>
 <li><p><code>Length control</code>: The length control mode for the label. Valid values are displayed in a single select list. The default value is <strong><em>Range</em></strong>.</p></li>
-<li><p><code>L1 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> to set the L1 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>2</em></strong>.</p></li>
-<li><p><code>L2 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>Two fixed</em></strong> or <strong><em>Range</em></strong> to set the L2 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>40</em></strong>.</p></li>
+<li><p><code>L1 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>2</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>L2 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>40</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>Aggressiveness</code>: The level of aggressiveness in decoding the symbology. Valid values are displayed in a single select list. The default value is <strong><em>Medium</em></strong>.</p></li>
 </ul>
 <h4><a class="anchor" aria-hidden="true" id="gs1-128"></a><a href="#gs1-128" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>&gt; GS1-128</h4>
 <ul>
@@ -99,22 +121,37 @@
 <ul>
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>false</em></strong>.</p></li>
 <li><p><code>Mode</code>: Specifies the allowed ISBT 128 barcode symbologies. Valid values are displayed in a single select list. The default value is <strong><em>Single</em></strong>.</p></li>
-<li><p><code>Concatenated list enable</code>: A boolean to enable the concatenation of commonly concatenated pairs. <code>Mode</code> must be <strong><em>Concatenated</em></strong> or <strong><em>Both</em></strong>. The default value is <strong><em>false</em></strong>.</p></li>
+<li><p><code>Concatenated list enable</code>: A boolean to enable the concatenation of commonly concatenated pairs. The default value is <strong><em>false</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Mode</code> must be <strong><em>Concatenated</em></strong> or <strong><em>Both</em></strong> for this value to have an effect</p>
+</blockquote></li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="code-39"></a><a href="#code-39" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Code 39</h3>
 <ul>
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>true</em></strong>.</p></li>
 <li><p><code>User ID</code>: Specifies the symbology identifier. The default character value is <strong><em>C</em></strong>.</p></li>
 <li><p><code>Length control</code>: The length control mode for the label. Valid values are displayed in a single select list. The default value is <strong><em>Range</em></strong>.</p></li>
-<li><p><code>L1 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> to set the L1 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>1</em></strong>.</p></li>
-<li><p><code>L2 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>Two fixed</em></strong> or <strong><em>Range</em></strong> to set the L2 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>20</em></strong>.</p></li>
+<li><p><code>L1 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>1</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>L2 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>20</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 <li><p><code>Enable checksum</code>: A boolean to require the use of checksum characters to verify a barcode. The default value is <strong><em>false</em></strong>.</p></li>
-<li><p><code>Send checksum</code>: A boolean to include the checksum in the label transmission. <code>Enable checksum</code> must be <strong><em>true</em></strong> to enable send checksum. The default value is <strong><em>false</em></strong>.</p></li>
+<li><p><code>Send checksum</code>: A boolean to include the checksum in the label transmission. The default value is <strong><em>false</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Enable checksum</code> must be <strong><em>true</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 <li><p><code>Full ASCII conversion</code>: A boolean to enable full ASCII conversion. The default value is <strong><em>false</em></strong>.</p></li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="code-32"></a><a href="#code-32" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Code 32</h3>
 <ul>
-<li><p><code>Enable</code>: A boolean to enable the symbology. <code>Code 39</code> must be <strong><em>true</em></strong> to enable Code 32. The default value is <strong><em>false</em></strong>.</p></li>
+<li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>false</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Code 39 Enable</code> must be <strong><em>true</em></strong> for this value to have an effect</p>
+</blockquote></li>
 <li><p><code>User ID</code>: Specifies the symbology identifier. The default character value is <strong><em>Y</em></strong>.</p></li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="tri-optic"></a><a href="#tri-optic" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tri-Optic</h3>
@@ -127,8 +164,14 @@
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>false</em></strong>.</p></li>
 <li><p><code>User ID</code>: Specifies the symbology identifier. The default character value is <strong><em>L</em></strong>.</p></li>
 <li><p><code>Length control</code>: The length control mode for the label. Valid values are displayed in a single select list. The default value is <strong><em>Range</em></strong>.</p></li>
-<li><p><code>L1 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> to set the L1 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>2</em></strong>.</p></li>
-<li><p><code>L2 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>Two fixed</em></strong> or <strong><em>Range</em></strong> to set the L2 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>20</em></strong>.</p></li>
+<li><p><code>L1 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>2</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>L2 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>20</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="composite"></a><a href="#composite" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Composite</h3>
 <ul>
@@ -142,8 +185,14 @@
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>true</em></strong>.</p></li>
 <li><p><code>User ID</code>: Specifies the symbology identifier. The default character value is <strong><em>V</em></strong>.</p></li>
 <li><p><code>Length control</code>: The length control mode for the label. Valid values are displayed in a single select list. The default value is <strong><em>Range</em></strong>.</p></li>
-<li><p><code>L1 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> to set the L1 length. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>1</em></strong>.</p></li>
-<li><p><code>L2 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>Two fixed</em></strong> or <strong><em>Range</em></strong> to set the L2 length. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>1500</em></strong>.</p></li>
+<li><p><code>L1 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>1</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>L2 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>1500</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 <li><p><code>Character set mode</code>: Controls the character set in use for the decoded label. Valid values are displayed in a single select list. The default value is <strong><em>Windows-1252 Latin 1</em></strong>.</p></li>
 <li><p><code>Data Matrix operating mode</code>: Controls the operating mode. Valid values are displayed in a single select list. The default value is <strong><em>Fast</em></strong>.</p></li>
 </ul>
@@ -157,8 +206,14 @@
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>false</em></strong>.</p></li>
 <li><p><code>User ID</code>: Specifies the symbology identifier. The default character value is <strong><em>F</em></strong>.</p></li>
 <li><p><code>Length control</code>: The length control mode for the label. Valid values are displayed in a single select list. The default value is <strong><em>Range</em></strong>.</p></li>
-<li><p><code>L1 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> to set the L1 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>6</em></strong>.</p></li>
-<li><p><code>L2 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>Two fixed</em></strong> or <strong><em>Range</em></strong> to set the L2 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>10</em></strong>.</p></li>
+<li><p><code>L1 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>6</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>L2 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>10</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="ean-13"></a><a href="#ean-13" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>EAN-13</h3>
 <ul>
@@ -182,8 +237,14 @@
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>true</em></strong>.</p></li>
 <li><p><code>User ID</code>: Specifies the symbology identifier. The default character value is <strong><em>R</em></strong>.</p></li>
 <li><p><code>Length control</code>: The length control mode for the label. Valid values are displayed in a single select list. The default value is <strong><em>Range</em></strong>.</p></li>
-<li><p><code>L1 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> to set the L1 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>1</em></strong>.</p></li>
-<li><p><code>L2 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>Two fixed</em></strong> or <strong><em>Range</em></strong> to set the L2 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>74</em></strong>.</p></li>
+<li><p><code>L1 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>1</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>L2 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>74</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 <li><p><code>Convert to GS1-128</code>: A boolean to enable the conversion of the composite label to a sequence of one or more GS1-128 barcodes. The default value is <strong><em>false</em></strong>.</p></li>
 </ul>
 <h4><a class="anchor" aria-hidden="true" id="gs1-databar-limited"></a><a href="#gs1-databar-limited" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GS1 DataBar Limited</h4>
@@ -203,10 +264,19 @@
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>true</em></strong>.</p></li>
 <li><p><code>User ID</code>: Specifies the symbology identifier. The default character value is <strong><em>B</em></strong>.</p></li>
 <li><p><code>Length control</code>: The length control mode for the label. Valid values are displayed in a single select list. The default value is <strong><em>Range</em></strong>.</p></li>
-<li><p><code>L1 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> to set the L1 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>6</em></strong>.</p></li>
-<li><p><code>L2 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>Two fixed</em></strong> or <strong><em>Range</em></strong> to set the L2 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>10</em></strong>.</p></li>
+<li><p><code>L1 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>6</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>L2 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>10</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 <li><p><code>Enable checksum</code>: A boolean to require the use of checksum characters to verify a barcode. The default value is <strong><em>false</em></strong>.</p></li>
-<li><p><code>Send checksum</code>: A boolean to include the checksum in the label transmission. <code>Enable checksum</code> must be <strong><em>true</em></strong> to enable send checksum. The default value is <strong><em>false</em></strong>.</p></li>
+<li><p><code>Send checksum</code>: A boolean to include the checksum in the label transmission. The default value is <strong><em>false</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Enable checksum</code> must be <strong><em>true</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="japan-post"></a><a href="#japan-post" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Japan Post</h3>
 <ul>
@@ -218,24 +288,42 @@
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>true</em></strong>.</p></li>
 <li><p><code>User ID</code>: Specifies the symbology identifier. The default character value is <strong><em>D</em></strong>.</p></li>
 <li><p><code>Length control</code>: The length control mode for the label. Valid values are displayed in a single select list. The default value is <strong><em>Range</em></strong>.</p></li>
-<li><p><code>L1 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> to set the L1 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>6</em></strong>.</p></li>
-<li><p><code>L2 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>Two fixed</em></strong> or <strong><em>Range</em></strong> to set the L2 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>10</em></strong>.</p></li>
+<li><p><code>L1 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>6</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>L2 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>10</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="maxicode"></a><a href="#maxicode" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MaxiCode</h3>
 <ul>
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>false</em></strong>.</p></li>
 <li><p><code>User ID</code>: Specifies the symbology identifier. The default character value is <strong><em>W</em></strong>.</p></li>
 <li><p><code>Length control</code>: The length control mode for the label. Valid values are displayed in a single select list. The default value is <strong><em>Range</em></strong>.</p></li>
-<li><p><code>L1 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> to set the L1 length. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>1</em></strong>.</p></li>
-<li><p><code>L2 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>Two fixed</em></strong> or <strong><em>Range</em></strong> to set the L2 length. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>138</em></strong>.</p></li>
+<li><p><code>L1 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>1</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>L2 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>138</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="micro-pdf417"></a><a href="#micro-pdf417" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Micro PDF417</h3>
 <ul>
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>false</em></strong>.</p></li>
 <li><p><code>User ID</code>: Specifies the symbology identifier. The default character value is <strong><em>a</em></strong>.</p></li>
 <li><p><code>Length control</code>: The length control mode for the label. Valid values are displayed in a single select list. The default value is <strong><em>Range</em></strong>.</p></li>
-<li><p><code>L1 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> to set the L1 length. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>1</em></strong>.</p></li>
-<li><p><code>L2 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>Two fixed</em></strong> or <strong><em>Range</em></strong> to set the L2 length. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>366</em></strong>.</p></li>
+<li><p><code>L1 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>1</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>L2 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>366</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 <li><p><code>Character set mode</code>: Controls the character set in use for the decoded label. Valid values are displayed in a single select list. The default value is <strong><em>Windows-1252 Latin 1</em></strong>.</p></li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="micro-qr-code"></a><a href="#micro-qr-code" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Micro QR Code</h3>
@@ -243,8 +331,14 @@
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>false</em></strong>.</p></li>
 <li><p><code>User ID</code>: Specifies the symbology identifier. The default character value is <strong><em>c</em></strong>.</p></li>
 <li><p><code>Length control</code>: The length control mode for the label. Valid values are displayed in a single select list. The default value is <strong><em>Range</em></strong>.</p></li>
-<li><p><code>L1 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> to set the L1 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>1</em></strong>.</p></li>
-<li><p><code>L2 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>Two fixed</em></strong> or <strong><em>Range</em></strong> to set the L2 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>35</em></strong>.</p></li>
+<li><p><code>L1 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>1</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>L2 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>35</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 <li><p><code>Character set mode</code>: Controls the character set in use for the decoded label. Valid values are displayed in a single select list. The default value is <strong><em>Windows-1252 Latin 1</em></strong>.</p></li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="msi"></a><a href="#msi" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MSI</h3>
@@ -252,19 +346,35 @@
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>false</em></strong>.</p></li>
 <li><p><code>User ID</code>: Specifies the symbology identifier. The default character value is <strong><em>H</em></strong>.</p></li>
 <li><p><code>Length control</code>: The length control mode for the label. Valid values are displayed in a single select list. The default value is <strong><em>Range</em></strong>.</p></li>
-<li><p><code>L1 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> to set the L1 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>4</em></strong>.</p></li>
-<li><p><code>L2 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>Two fixed</em></strong> or <strong><em>Range</em></strong> to set the L2 length. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>10</em></strong>.</p></li>
+<li><p><code>L1 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>4</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>L2 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 99. The default value is <strong><em>10</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 <li><p><code>Send checksum</code>: A boolean to include the checksum in the label transmission. The default value is <strong><em>false</em></strong>.</p></li>
 <li><p><code>Require second checksum</code>: A boolean to require that a label contain two check digits. The default value is <strong><em>false</em></strong>.</p></li>
-<li><p><code>Second checksum mod 11</code>: A boolean to allow the second check digit to be interpreted as module 11 instead of module 10. <code>Require second checksum</code> must be <strong><em>true</em></strong> to interpret as module 11. The default value is <strong><em>false</em></strong>.</p></li>
+<li><p><code>Second checksum mod 11</code>: A boolean to allow the second check digit to be interpreted as module 11 instead of module 10. The default value is <strong><em>false</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Require second checksum</code> must be <strong><em>true</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>Aggressiveness</code>: The level of aggressiveness in decoding the symbology. Valid values are displayed in a single select list. The default value is <strong><em>Medium</em></strong>.</p></li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="pdf417"></a><a href="#pdf417" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PDF417</h3>
 <ul>
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>true</em></strong>.</p></li>
 <li><p><code>User ID</code>: Specifies the symbology identifier. The default character value is <strong><em>S</em></strong>.</p></li>
 <li><p><code>Length control</code>: The length control mode for the label. Valid values are displayed in a single select list. The default value is <strong><em>Range</em></strong>.</p></li>
-<li><p><code>L1 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> to set the L1 length. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>1</em></strong>.</p></li>
-<li><p><code>L2 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>Two fixed</em></strong> or <strong><em>Range</em></strong> to set the L2 length. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>2710</em></strong>.</p></li>
+<li><p><code>L1 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>1</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>L2 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>2710</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 <li><p><code>Character set mode</code>: Controls the character set in use for the decoded label. Valid values are displayed in a single select list. The default value is <strong><em>Windows-1252 Latin 1</em></strong>.</p></li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="postnl-kix-code"></a><a href="#postnl-kix-code" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PostNL KIX-code</h3>
@@ -277,8 +387,14 @@
 <li><p><code>Enable</code>: A boolean to enable the symbology. The default value is <strong><em>true</em></strong>.</p></li>
 <li><p><code>User ID</code>: Specifies the symbology identifier. The default character value is <strong><em>c</em></strong>.</p></li>
 <li><p><code>Length control</code>: The length control mode for the label. Valid values are displayed in a single select list. The default value is <strong><em>Range</em></strong>.</p></li>
-<li><p><code>L1 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> to set the L1 length. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>1</em></strong>.</p></li>
-<li><p><code>L2 length</code>: One of two configurable label lengths. <code>Length control</code> must be <strong><em>Two fixed</em></strong> or <strong><em>Range</em></strong> to set the L2 length. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>3500</em></strong>.</p></li>
+<li><p><code>L1 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>1</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
+<li><p><code>L2 length</code>: One of two configurable label lengths. A valid value is an integer in the inclusive range of 1 to 9999. The default value is <strong><em>3500</em></strong>.</p>
+<blockquote>
+<p>Note: <code>Length control</code> must be <strong><em>One fixed</em></strong>, <strong><em>Two fixed</em></strong>, or <strong><em>Range</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 <li><p><code>Enable Wi-Fi Configuration Format</code>: A boolean to enable the QR code Wi-Fi configuration format. The default value is <strong><em>true</em></strong>.</p></li>
 <li><p><code>Character set mode</code>: Controls the character set in use for the decoded label. Valid values are displayed in a single select list. The default value is <strong><em>Windows-1252 Latin 1</em></strong>.</p></li>
 </ul>
@@ -293,7 +409,10 @@
 <ul>
 <li><p><code>Enable 2-digit extensions</code>: A boolean to require a 2-digit extension to be verified for a successful decode of a label. The default value is <strong><em>true</em></strong>.</p></li>
 <li><p><code>Enable 5-digit extensions</code>: A boolean to require a 5-digit extension to be verified for a successful decode of a label. The default value is <strong><em>true</em></strong>.</p></li>
-<li><p><code>Require extensions</code>: A boolean to enable the reading of only barcodes with a supplemental label. Either <code>Enable 2-digit extensions</code> or <code>Enable 5-digit extensions</code> must be <strong><em>true</em></strong> to require extensions. The default value is <strong><em>false</em></strong>.</p></li>
+<li><p><code>Require extensions</code>: A boolean to enable the reading of only barcodes with a supplemental label. The default value is <strong><em>false</em></strong>.</p>
+<blockquote>
+<p>Note: At least one of <code>Enable 2-digit extensions</code> or <code>Enable 5-digit extensions</code> must be <strong><em>true</em></strong> for this value to have an effect.</p>
+</blockquote></li>
 </ul>
 <h4><a class="anchor" aria-hidden="true" id="upc-a"></a><a href="#upc-a" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>UPC-A</h4>
 <ul>
@@ -333,6 +452,7 @@
 <ul>
 <li><p><code>Enable UPC/EAN reduced</code>: A boolean to enable the decoding of UPC/EAN labels with short margins. The default value is <strong><em>false</em></strong>.</p></li>
 <li><p><code>Enable Code 39 reduced</code>: A boolean to enable the decoding of Code 39 labels with short margins. The default value is <strong><em>false</em></strong>.</p></li>
+<li><p><code>Enable Code 128 reduced</code>: A boolean to enable the decoding of Code 128 labels with short margins. The default value is <strong><em>false</em></strong>.</p></li>
 </ul>
 <h4><a class="anchor" aria-hidden="true" id="inverted-decoding"></a><a href="#inverted-decoding" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Inverted Decoding</h4>
 <ul>
