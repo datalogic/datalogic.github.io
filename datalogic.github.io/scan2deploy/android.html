@@ -1,0 +1,240 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Scan2Deploy Android · Technical Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="![Screenshot](/img/scan2deploy_android/scan2deploy-qr.png)"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Scan2Deploy Android · Technical Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://datalogic.github.io/"/><meta property="og:description" content="![Screenshot](/img/scan2deploy_android/scan2deploy-qr.png)"/><meta property="og:image" content="https://datalogic.github.io/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://datalogic.github.io/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/dl-favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/dl-logo.png" alt="Technical Documentation"/><h2 class="headerTitleWithLogo">Technical Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="https://developer.datalogic.com/" target="_self">Developer Site</a></li><li class=""><a href="https://github.com/datalogic/" target="_self">Github</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Scan2Deploy</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Andorid SDKs<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Android Studio SDK</h4><ul><li class="navListItem"><a class="navItem" href="/android/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/android/faq">Frequently Asked Questions</a></li><li class="navListItem"><a class="navItem" href="/android/samples">Sample Apps</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Xamarin SDK</h4><ul><li class="navListItem"><a class="navItem" href="/xamarin/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/xamarin/faq">Frequently Asked Questions</a></li><li class="navListItem"><a class="navItem" href="/xamarin/samples">Sample Apps</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Cordova SDK</h4><ul><li class="navListItem"><a class="navItem" href="/cordova/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/cordova/faq">Frequently Asked Questions</a></li><li class="navListItem"><a class="navItem" href="/cordova/api">API</a></li><li class="navListItem"><a class="navItem" href="/cordova/samples">Sample Apps</a></li></ul></div></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Configuration Tools<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Scan2Deploy</h4><ul><li class="navListItem"><a class="navItem" href="/scan2deploy/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/scan2deploy/studio">Studio</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/scan2deploy/android">Android</a></li><li class="navListItem"><a class="navItem" href="/scan2deploy/android-schema">Android Schema</a></li><li class="navListItem"><a class="navItem" href="/scan2deploy/ce">Windows CE</a></li><li class="navListItem"><a class="navItem" href="/scan2deploy/ce-schema">Windows CE Schema</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">DXU</h4><ul><li class="navListItem"><a class="navItem" href="/dxu/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/dxu/connect-to-devices">Connect to devices</a></li><li class="navListItem"><a class="navItem" href="/dxu/features">Features</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">OEMConfig</h4><ul><li class="navListItem"><a class="navItem" href="/oemconfig/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/oemconfig/symbology-settings">Symbology Settings</a></li><li class="navListItem"><a class="navItem" href="/oemconfig/scanner-settings">Scanner Settings</a></li><li class="navListItem"><a class="navItem" href="/oemconfig/enterprise-settings">Enterprise Settings</a></li><li class="navListItem"><a class="navItem" href="/oemconfig/system-settings">System Settings</a></li><li class="navListItem"><a class="navItem" href="/oemconfig/firmware">Firmware Update</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Wi-Fi QR Code Generator</h4><ul><li class="navListItem"><a class="navItem" href="/wifiqrdoc/overview">Overview</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Android Enterprise QR Code Generator</h4><ul><li class="navListItem"><a class="navItem" href="/aeqr/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/aeqr/generate">Generate QR Code</a></li></ul></div></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Windows CE SDKs<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Windows CE SDK</h4><ul><li class="navListItem"><a class="navItem" href="/ce/overview">Overview</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">CE Sync SDK</h4><ul><li class="navListItem"><a class="navItem" href="/cesync/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/cesync/api">API</a></li><li class="navListItem"><a class="navItem" href="/cesync/samples">Sample Apps</a></li><li class="navListItem"><a class="navItem" href="/cesync/usblan">USBLAN</a></li><li class="navListItem"><a class="navItem" href="/cesync/usblan-faq">USBLAN FAQ</a></li></ul></div></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Scan2Deploy Android</h1></header><article><div><span><p><img src="/img/scan2deploy_android/scan2deploy-qr.png" alt="Screenshot"></p>
+<p><code>Scan2Deploy</code> is an application devoted to the initial staging of Android devices by reading a barcode sequence. Depending on the content of the staging barcodes <code>Scan2Deploy</code> will, in this order:</p>
+<ul>
+<li>configure the device Wi-Fi network,</li>
+<li>control some device inner system settings (e.g. the lock-screen enabled state),</li>
+<li>download a data archive from a HTTP/HTTPS server and unpack it to the device,</li>
+<li>install/update applications and the system image, and</li>
+<li>run a customary script (to perform any additional setup).</li>
+</ul>
+<p>It's worth noticing that the application is <em>not</em> a resident service. The above-mentioned actions are performed as long as <code>Scan2Deploy</code> is active and in use.</p>
+<h2><a class="anchor" aria-hidden="true" id="downloads"></a><a href="#downloads" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Downloads</h2>
+<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-android/releases">Releases</a> section on the Scan2Deploy Android Github page.</p>
+<h2><a class="anchor" aria-hidden="true" id="enable-scan2deploy"></a><a href="#enable-scan2deploy" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Enable Scan2Deploy</h2>
+<p>Scan2Deploy acts as an Android Enterprise <a href="https://developer.android.com/work/dpc/build-dpc">Device Policy Cotroller (DPC)</a>, running in <a href="https://developers.google.com/android/work/play/emm-api/prov-devices#modes_of_operation">device owner mode</a>. This allows Scan2Deploy to configure many protected device settings that would otherwise not be possible. Any DPC app that acts as a device owner must be configured to do so during device setup. By scanning a QR code at the first page of the Android Setup Wizard (&quot;Hi There! page) on a new or factory-reset device, Scan2Deploy is configured as device owner. There are 2 types of QR codes that are supported:</p>
+<ul>
+<li><a href="#Android-Enterprise-provisioning-QR-code">Android Enterprise provisiong QR code</a></li>
+<li><a href="#creating-scan2deploy-files">Scan2Deploy QR Code</a></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="android-enterprise-provisioning-qr-code"></a><a href="#android-enterprise-provisioning-qr-code" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Android Enterprise provisioning QR code</h3>
+<p>Scan the following QR code at the <code>Hi There!</code> page to enroll <code>Scan2Deploy</code> as device owner:</p>
+<p><img src="/img/scan2deploy_android/scan2deploy-default.gif" alt="Latest Version"></p>
+<p><strong>Note:</strong> When <a href="#barcode-generation">generating Scan2Deploy QR codes</a>, add <code>&quot;enroll&quot;: true</code> in your <code>&quot;layout&quot;</code> section to cause this same QR code to be displayed in the upper right-hand corner of the page created.</p>
+<pre><code class="hljs css language-json">    "layout": {
+        "enroll": true
+    },
+
+</code></pre>
+<h4><a class="anchor" aria-hidden="true" id="install-a-new-version-of-scan2deploy"></a><a href="#install-a-new-version-of-scan2deploy" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Install a new version of Scan2Deploy</h4>
+<p>Scan2Deploy is pre-installed on Datalogic Android devices, however, if you want to use an updated version instead, you can create a custom Android Enterprise enrollment barcode that pulls a new version from Github (or another location of your choosing). The list of valid fields you can choose from are <a href="https://developers.google.com/android/work/play/emm-api/prov-devices#create_a_qr_code">documented here</a>.  A sample configuration and pre-generated barcode are provided below.</p>
+<p>There are several tools you can use to encode your JSON data into a QR code. A few options are provided below.</p>
+<ul>
+<li><a href="https://fukuchi.org/works/qrencode/index.html.en">qrencode</a> - Linux command line utility. Example usage: <code>qrencode -o s2dupdate.png &lt; s2dupdate.json</code></li>
+<li><a href="https://kazuhikoarase.github.io/qrcode-generator/js/demo/">QR Code Generator</a> - online tool suitable for copy-paste of JSON data.</li>
+</ul>
+<h5><a class="anchor" aria-hidden="true" id="version-111"></a><a href="#version-111" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Version 1.11</h5>
+<p>The JSON and associated barcode for version <code>1.11</code> are provided below:</p>
+<pre><code class="hljs css language-json">{
+    <span class="hljs-attr">"android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME"</span>: <span class="hljs-string">"com.datalogic.scan2deploy/com.datalogic.scan2deploy.DeviceOwnerReceiver"</span>,
+    <span class="hljs-attr">"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED"</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">"android.app.extra.PROVISIONING_SKIP_ENCRYPTION"</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">"android.app.extra.PROVISIONING_DEVICE_ADMIN_SIGNATURE_CHECKSUM"</span>: <span class="hljs-string">"6CG8ls-pzlKcJNeoZtAC-neobD_ypZCI853n_TBGEHI="</span>,
+<span class="hljs-attr">"android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION"</span>: <span class="hljs-string">"https://github.com/datalogic/scan2deploy-android/releases/download/v1.11/Scan2Deploy.apk"</span>
+}
+</code></pre>
+<p><img src="/img/scan2deploy_android/scan2deploy1-11.png" alt="Scan2Deploy v1.11"></p>
+<h2><a class="anchor" aria-hidden="true" id="creating-scan2deploy-files"></a><a href="#creating-scan2deploy-files" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating Scan2Deploy files</h2>
+<p>You will need to create your Scan2Deploy JSON files using a text editor. A JSON schemas is available to help ensure valid file content. There are several advantages to using an editor that supports this schema:</p>
+<ul>
+<li>Provides help text for each field</li>
+<li>Provides real-time compiler-like messages letting you know when you have made a mistake</li>
+<li>Allows you to write files faster and with fewer mistakes</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="schema"></a><a href="#schema" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>$schema</h3>
+<p>A <a href="https://json-schema.org/">JSON schema</a> file is used to define the structure and features available in Scan2Deploy. The <code>$schema</code> tag is used to indicate which version of the schema you are using. You can versions of schema along with complete field documentation at the <a href="https://github.com/datalogic/scan2deploy-android-schema">Scan2Deploy Android schema</a> repo.</p>
+<p>🔗 <a href="https://github.com/datalogic/scan2deploy-android-schema">Schema Reference</a></p>
+<p>The latest schema can be referenced like this:</p>
+<pre><code class="hljs css language-json">{
+    <span class="hljs-attr">"$schema"</span>: <span class="hljs-string">"https://raw.githubusercontent.com/datalogic/scan2deploy-android-schema/master/schema.json"</span>
+}
+</code></pre>
+<p>You can also point to a specific version of the schema by pointing to the desired tag. For example:</p>
+<pre><code class="hljs css language-json">{
+    <span class="hljs-attr">"$schema"</span>: <span class="hljs-string">"https://raw.githubusercontent.com/datalogic/scan2deploy-android-schema/v1-1-0/schema.json"</span>
+}
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="choosing-an-editor"></a><a href="#choosing-an-editor" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Choosing an editor</h3>
+<p>There are several good JSON editors available. We reccommend <a href="https://code.visualstudio.com/">Visual Studio Code</a>. It is free and has <a href="https://code.visualstudio.com/docs/languages/json">many features designed to make writing JSON files easier</a>, including utilizing JSON schemas.</p>
+<p>By including the aforementioned <code>$schema</code> tag in you JSON file, Visual Studio Code will provide automatic tool tips and error underlining:</p>
+<p>Some other editors know to use the schema files on schemastore.org when a given file uses a specific file extension that is registered on schemastore.org:  <code>file-name.dla.json</code></p>
+<h3><a class="anchor" aria-hidden="true" id="barcode-generation"></a><a href="#barcode-generation" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Barcode Generation</h3>
+<p>Scan2Deploy barcodes are generated with the <code>Scan2Deploy</code> UI inside DXU Desktop. From the main <em>Device Configuration Utility</em> page, click the <em>Scan2Deploy (Beta)</em> button:</p>
+<p><img src="/img/scan2deploy_android/image81.png" alt="Scan2Deploy button"></p>
+<p>Once you are at the Scan2Deploy UI page, you can browse to the JSON file you have created and then click <code>Generate PDF</code>.</p>
+<p><img src="/img/scan2deploy_android/image82.png" alt="Scan2Deploy button"></p>
+<p>A PDF page will open up in your default PDF viewer, ready for you to print, save, or scan.</p>
+<p><img src="/img/scan2deploy_android/image83.png" alt="Scan2Deploy button"></p>
+<h2><a class="anchor" aria-hidden="true" id="examples"></a><a href="#examples" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Examples</h2>
+<h3><a class="anchor" aria-hidden="true" id="detailed"></a><a href="#detailed" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Detailed</h3>
+<pre><code class="hljs css language-json">{
+    <span class="hljs-attr">"$schema"</span>: <span class="hljs-string">"http://json.schemastore.org/datalogic-scan2deploy-android"</span>,
+    <span class="hljs-attr">"layout"</span>: {
+        <span class="hljs-attr">"description"</span>: <span class="hljs-string">"This is for our Android devices"</span>,
+        <span class="hljs-attr">"enroll"</span>: <span class="hljs-literal">true</span>
+    },
+    <span class="hljs-attr">"padlock"</span>: {
+        <span class="hljs-attr">"valid-until"</span>: <span class="hljs-string">"20991231235959"</span>,
+        <span class="hljs-attr">"key"</span>: <span class="hljs-string">"ihavenomouthandimustscream"</span>,
+        <span class="hljs-attr">"state"</span>: <span class="hljs-string">"locked"</span>,
+        <span class="hljs-attr">"hide-from-launcher"</span>: <span class="hljs-literal">false</span>
+    },
+    <span class="hljs-attr">"global"</span>: {
+        <span class="hljs-attr">"target-path"</span>: <span class="hljs-string">"/mnt/sdcard/airwatch"</span>,
+        <span class="hljs-attr">"install-path"</span>: <span class="hljs-string">"/mnt/sdcard/airwatch"</span>,
+        <span class="hljs-attr">"update-path"</span>: <span class="hljs-string">"/mnt/sdcard/airwatch"</span>,
+        <span class="hljs-attr">"purge-target-path"</span>: <span class="hljs-literal">true</span>,
+        <span class="hljs-attr">"auto-scan"</span>: <span class="hljs-literal">true</span>,
+        <span class="hljs-attr">"script"</span>: <span class="hljs-string">"setup.s"</span>,
+        <span class="hljs-attr">"action"</span>: <span class="hljs-string">"close"</span>,
+        <span class="hljs-attr">"backup-to-enterprise"</span>: <span class="hljs-literal">true</span>,
+        <span class="hljs-attr">"script"</span>: [
+            <span class="hljs-string">"[Post-Install]"</span>,
+            <span class="hljs-string">"DISABLE_APP com.android.chrome"</span>
+        ]
+    },
+    <span class="hljs-attr">"settings"</span>: {
+        <span class="hljs-attr">"date-time"</span>: <span class="hljs-string">"Thu, 19 Apr 2018 07:51:37 GMT"</span>,
+        <span class="hljs-attr">"auto-time"</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">"auto-time-zone"</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">"auto-time-server"</span>: <span class="hljs-string">"pool.ntp.org"</span>,
+        <span class="hljs-attr">"debug-bridge"</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">"lock-screen"</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">"status-bar"</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">"navigation-bar"</span>: <span class="hljs-literal">true</span>,
+        <span class="hljs-attr">"charge-threshold"</span>: <span class="hljs-number">0</span>,
+        <span class="hljs-attr">"usb-profile"</span>: <span class="hljs-string">"NONE"</span>,
+        <span class="hljs-attr">"usb-function"</span>: <span class="hljs-string">"CHARGING"</span>
+    },
+    <span class="hljs-attr">"network"</span>: {
+        <span class="hljs-attr">"essid"</span>: <span class="hljs-string">"TESTTKIP"</span>,
+        <span class="hljs-attr">"hidden"</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">"mode"</span>: <span class="hljs-string">"wpa-psk"</span>,
+        <span class="hljs-attr">"mode-key"</span>: <span class="hljs-string">"datalogic"</span>,
+        <span class="hljs-attr">"mode-key-encrypted"</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">"ephemeral"</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">"wait-for-connection"</span>: <span class="hljs-literal">true</span>
+    },
+    <span class="hljs-attr">"deployment"</span>: {
+        <span class="hljs-attr">"scheme"</span>: <span class="hljs-string">"http"</span>,
+        <span class="hljs-attr">"host"</span>: <span class="hljs-string">"172.19.0.77"</span>,
+        <span class="hljs-attr">"port"</span>: <span class="hljs-number">8080</span>,
+        <span class="hljs-attr">"path"</span>: <span class="hljs-string">"/airwatch.zip"</span>,
+        <span class="hljs-attr">"ping-timeout"</span>: <span class="hljs-number">1000</span>,
+        <span class="hljs-attr">"fetch-timeout"</span>: <span class="hljs-number">60000</span>,
+        <span class="hljs-attr">"working-archive"</span>: <span class="hljs-string">"/mnt/sdcard/target.zip"</span>,
+        <span class="hljs-attr">"skip-inflation"</span>: <span class="hljs-literal">true</span>
+    },
+    <span class="hljs-attr">"blobs"</span>: [
+        {
+            <span class="hljs-attr">"file"</span>: <span class="hljs-string">"/mnt/sdcard/airwatch/credentials.bin"</span>,
+            <span class="hljs-attr">"content"</span>: <span class="hljs-string">"fd09B1iL/k4jRWrjrP0/sO44teY            +B3UafBLsMsCEqd1KOv6b6JYBXLVv70FmHdZhIVoEOQvHu7O4PUJStpZQ+4PYjPqCO+NQr81M7GOF421Ke8L2u4EYyqDE5qXfLy2shEgaRwRpr2f35/38WZkh6edyiWZQJjyLeZcuI7WiaJPpw7Jcw7ye7mb7Rl+ePNFmfvUrpeRFtN+5kUsx/SbB1v0gDyOOuoep"</span>
+        }
+    ]
+}
+</code></pre>
+<p>Each section is <em>optional</em> in nature. Sections <code>padlock</code>, <code>settings</code>, <code>network</code>, <code>deployment</code>, and <code>blobs</code> are skipped when missing. Also, for the <code>settings</code> section, the configuration parameters are <em>optional</em> and when not provided the current setting is kept.</p>
+<h3><a class="anchor" aria-hidden="true" id="update-datalogic-tools"></a><a href="#update-datalogic-tools" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Update Datalogic Tools</h3>
+<p>The following example will update the Datalogic tools on the device to the following versions:</p>
+<ul>
+<li>DXU Agent 1.20.168</li>
+<li>SoftSpot 1.8.92</li>
+</ul>
+<pre><code class="hljs css language-json">{
+    <span class="hljs-attr">"$schema"</span>: <span class="hljs-string">"http://json.schemastore.org/datalogic-scan2deploy-android"</span>,
+    <span class="hljs-attr">"global"</span>: {
+        <span class="hljs-attr">"auto-scan"</span>: <span class="hljs-literal">true</span>,
+        <span class="hljs-attr">"target-path"</span>: <span class="hljs-string">"/sdcard/Download/"</span>
+    },
+    <span class="hljs-attr">"deployment"</span>: {
+        <span class="hljs-attr">"scheme"</span>: <span class="hljs-string">"https"</span>,
+        <span class="hljs-attr">"host"</span>: <span class="hljs-string">"github.com"</span>,
+        <span class="hljs-attr">"port"</span>: <span class="hljs-number">443</span>,
+        <span class="hljs-attr">"path"</span>: <span class="hljs-string">"/datalogic/sandbox/raw/master/demo.zip"</span>
+    }
+}
+</code></pre>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/scan2deploy/studio"><span class="arrow-prev">← </span><span>Studio</span></a><a class="docs-next button" href="/scan2deploy/android-schema"><span>Android Schema</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#downloads">Downloads</a></li><li><a href="#enable-scan2deploy">Enable Scan2Deploy</a><ul class="toc-headings"><li><a href="#android-enterprise-provisioning-qr-code">Android Enterprise provisioning QR code</a></li></ul></li><li><a href="#creating-scan2deploy-files">Creating Scan2Deploy files</a><ul class="toc-headings"><li><a href="#schema">$schema</a></li><li><a href="#choosing-an-editor">Choosing an editor</a></li><li><a href="#barcode-generation">Barcode Generation</a></li></ul></li><li><a href="#examples">Examples</a><ul class="toc-headings"><li><a href="#detailed">Detailed</a></li><li><a href="#update-datalogic-tools">Update Datalogic Tools</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><div class="link-div"><p class="footer-heading-right">Social Media</p><br class="footer-heading"/><section id="lab_social_icon_footer"><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/><div class="container"><div class="text-center center-block"><a href="https://www.facebook.com/DatalogicGroup/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a><a href="https://twitter.com/DatalogicGroup"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a><a href="https://www.linkedin.com/company/datalogic/"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a><a href="https://www.youtube.com/user/DatalogicGroup"><i id="social-yt" class="fa fa-youtube-square fa-3x social"></i></a></div></div></section><br/><br/><br/><div class="limit"><section class="copyright"><div style="text-align:center"><a href="http://www.datalogic.com/eng/legal-notice-pa-92.html" class="footer-link">Legal Notice</a> | <a href="http://www.datalogic.com/eng/privacy-policy-pa-112.html" class="footer-link">Privacy Policy</a> | <a href="http://www.datalogic.com/eng/terms-and-conditions-pa-93.html" class="footer-link">Terms and Conditions</a><br/></div><a href="https://datalogic.com" class="footer-link">datalogic.com</a> © 2019 Datalogic S.p.A. and/or its affiliates. All rights reserved. Datalogic and the Datalogic logo are registered trademarks of Datalogic S.p.A. in many countries including the U.S.A. and the E.U. All other trademarks are the property of their respective owners.</section></div></div></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '3848fc3b88f9a1047bfc81d7a826657d',
+                indexName: 'datalogic',
+                inputSelector: '#search_input_react'
+              });
+            </script></body></html>
