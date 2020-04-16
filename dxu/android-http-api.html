@@ -1,0 +1,207 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Android HTTP API · Technical Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="While `DXU Service` is enabled and running, DXU Android provides an HTTP endpoint that can be used by local applications to control the scanner. This is useful for web-based applications that need to be able to control the scanner."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Android HTTP API · Technical Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://datalogic.github.io/"/><meta property="og:description" content="While `DXU Service` is enabled and running, DXU Android provides an HTTP endpoint that can be used by local applications to control the scanner. This is useful for web-based applications that need to be able to control the scanner."/><meta property="og:image" content="https://datalogic.github.io/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://datalogic.github.io/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/dl-favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/dl-logo.png" alt="Technical Documentation"/><h2 class="headerTitleWithLogo">Technical Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="https://developer.datalogic.com/" target="_self">Developer Site</a></li><li class=""><a href="https://github.com/datalogic/" target="_self">Github</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>DXU</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Android SDKs<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Android Studio SDK</h4><ul><li class="navListItem"><a class="navItem" href="/android/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/android/faq">Frequently Asked Questions</a></li><li class="navListItem"><a class="navItem" href="/android/samples">Sample Apps</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Xamarin SDK</h4><ul><li class="navListItem"><a class="navItem" href="/xamarin/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/xamarin/faq">Frequently Asked Questions</a></li><li class="navListItem"><a class="navItem" href="/xamarin/samples">Sample Apps</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Cordova SDK</h4><ul><li class="navListItem"><a class="navItem" href="/cordova/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/cordova/faq">Frequently Asked Questions</a></li><li class="navListItem"><a class="navItem" href="/cordova/api">API</a></li><li class="navListItem"><a class="navItem" href="/cordova/samples">Sample Apps</a></li></ul></div></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Configuration Tools<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Scan2Deploy</h4><ul><li class="navListItem"><a class="navItem" href="/scan2deploy/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/scan2deploy/studio">Studio</a></li><li class="navListItem"><a class="navItem" href="/scan2deploy/android">Android</a></li><li class="navListItem"><a class="navItem" href="/scan2deploy/android-schema">Android Schema</a></li><li class="navListItem"><a class="navItem" href="/scan2deploy/ce">Windows CE</a></li><li class="navListItem"><a class="navItem" href="/scan2deploy/ce-schema">Windows CE Schema</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">DXU</h4><ul><li class="navListItem"><a class="navItem" href="/dxu/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/dxu/connect-to-devices">Connect to devices</a></li><li class="navListItem"><a class="navItem" href="/dxu/features">Features</a></li><li class="navListItem"><a class="navItem" href="/dxu/dxu-faq">Frequently Asked Questions</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/dxu/android-http-api">Android HTTP API</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">OEMConfig</h4><ul><li class="navListItem"><a class="navItem" href="/oemconfig/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/oemconfig/symbology-settings">Symbology Settings</a></li><li class="navListItem"><a class="navItem" href="/oemconfig/scanner-settings">Scanner Settings</a></li><li class="navListItem"><a class="navItem" href="/oemconfig/enterprise-settings">Enterprise Settings</a></li><li class="navListItem"><a class="navItem" href="/oemconfig/network-settings">Network Settings</a></li><li class="navListItem"><a class="navItem" href="/oemconfig/system-settings">System Settings</a></li><li class="navListItem"><a class="navItem" href="/oemconfig/firmware">Firmware Update</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Wi-Fi QR Code Generator</h4><ul><li class="navListItem"><a class="navItem" href="/wifiqrdoc/overview">Overview</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Android Enterprise QR Code Generator</h4><ul><li class="navListItem"><a class="navItem" href="/aeqrdoc/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/aeqrdoc/generate">Generate QR Code</a></li></ul></div></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Windows CE SDKs<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Windows CE SDK</h4><ul><li class="navListItem"><a class="navItem" href="/ce/overview">Overview</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">CE Sync SDK</h4><ul><li class="navListItem"><a class="navItem" href="/cesync/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/cesync/api">API</a></li><li class="navListItem"><a class="navItem" href="/cesync/samples">Sample Apps</a></li><li class="navListItem"><a class="navItem" href="/cesync/usblan">USBLAN</a></li><li class="navListItem"><a class="navItem" href="/cesync/usblan-faq">USBLAN FAQ</a></li></ul></div></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Android HTTP API</h1></header><article><div><span><p>While <code>DXU Service</code> is enabled and running, DXU Android provides an HTTP endpoint that can be used by local applications to control the scanner. This is useful for web-based applications that need to be able to control the scanner.</p>
+<h2><a class="anchor" aria-hidden="true" id="conventions"></a><a href="#conventions" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conventions</h2>
+<p>In the documentation below, the following conventions are used:</p>
+<ul>
+<li><p><code>dxuPort</code> is used to indicate the port on which DXU is running. The default value is <code>8080</code>.</p></li>
+<li><p>Only <code>localhost</code> connections are allowed, i.e. connections to <code>http://127.0.0.1:dxuPort/scan</code>.</p></li>
+<li><p>All APIs, unless otherwise noted, are <code>HTTP GET</code> methods.</p></li>
+<li><p>API responses return no content unless otherwise indicated.</p></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="apis"></a><a href="#apis" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>APIs</h2>
+<h3><a class="anchor" aria-hidden="true" id="start-scan-trigger"></a><a href="#start-scan-trigger" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Start scan trigger</h3>
+<p>Causes the device's scanner to turn on and scan a barcode.</p>
+<table>
+<thead>
+<tr><th>URI</th><th><code>/scan?action=start_trigger</code></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Optional Query Parameters</strong></td><td><code>timeout=[integer]</code> where <code>timeout</code> is the number of miliseconds delay before the barcode scan attempt times out. Default value is <code>3000</code> (3 seconds).</td></tr>
+<tr><td><strong>Success Response</strong></td><td><code>200 OK</code> when the scanner could be turned on.</td></tr>
+<tr><td><strong>Error Response</strong></td><td><code>500 INTERNAL SERVER ERROR</code> when the scanner could not be turned on.</td></tr>
+<tr><td><strong>Available since</strong></td><td>DXU Agent 1.0</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="release-scan-trigger"></a><a href="#release-scan-trigger" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Release scan trigger</h3>
+<p>Causes the device's scanner to turn off and stop any barcode scan attempt in progress.</p>
+<table>
+<thead>
+<tr><th>URI</th><th><code>/scan?action=stop_trigger</code></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Success Response</strong></td><td><code>200 OK</code> when the scanner could be turned off.</td></tr>
+<tr><td><strong>Error Response</strong></td><td><code>500 INTERNAL SERVER ERROR</code> when the scanner could not be turned off.</td></tr>
+<tr><td><strong>Available since</strong></td><td>DXU Agent 1.0</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="register-scan-start-listener"></a><a href="#register-scan-start-listener" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Register scan start listener</h3>
+<p>Register a scan start listener to be notified when a scan started event is triggered.</p>
+<table>
+<thead>
+<tr><th>URI</th><th><code>/scan?action=start_listener</code></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Success Response</strong></td><td><code>200 OK</code> when the listener could be registered</td></tr>
+<tr><td><strong>Error Response</strong></td><td><code>500 INTERNAL SERVER ERROR</code> when the listener could not be registered</td></tr>
+<tr><td><strong>Available since</strong></td><td>DXU Agent 1.0</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="register-stop-scan-listener"></a><a href="#register-stop-scan-listener" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Register stop scan listener</h3>
+<p>Register a scan stop listener to be notified when a scan stopped event is triggered.</p>
+<table>
+<thead>
+<tr><th>URI</th><th><code>/scan?action=stop_listener</code></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Success Response</strong></td><td><code>200 OK</code> when the listener could be registered</td></tr>
+<tr><td><strong>Error Response</strong></td><td><code>500 INTERNAL SERVER ERROR</code> when the listener could not be registered</td></tr>
+<tr><td><strong>Available since</strong></td><td>DXU Agent 1.0</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="register-a-scan-timeout-listener"></a><a href="#register-a-scan-timeout-listener" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Register a scan timeout listener</h3>
+<p>Register a scan timeout listener to be notified when a scan timeout event is triggered.</p>
+<table>
+<thead>
+<tr><th>URI</th><th><code>/scan?action=timeout_listener</code></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Success Response</strong></td><td><code>200 OK</code> when the listener could be registered</td></tr>
+<tr><td><strong>Error Response</strong></td><td><code>500 INTERNAL SERVER ERROR</code> when the listener could not be registered</td></tr>
+<tr><td><strong>Available since</strong></td><td>DXU Agent 1.0</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="register-a-scan-read-listener"></a><a href="#register-a-scan-read-listener" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Register a scan read listener</h3>
+<p>Register a scan read listener to be notified when a read event is triggered and received data is ready</p>
+<table>
+<thead>
+<tr><th>URI</th><th><code>/scan?action=read_listener</code></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Optional Query Parameters</strong></td><td><code>output=[value]</code> where <code>output</code> specifies the format in which the barcode data should be returned. The default value is <code>text</code>. Valid values are <code>text</code>, <code>json</code> and <code>xml</code>.</td></tr>
+<tr><td><strong>Success Response</strong></td><td><code>200 OK</code> when data is available. Data is returned in the format specificed using the <code>output</code> parameter. <br><br> <strong>text example:</strong><br><code>353309092150281</code> <br><br> <strong>json example:</strong><br>{&quot;codeID&quot;:7,&quot;dataAsText&quot;:&quot;353309092150281\n&quot;,&quot;rawData&quot;:[51,53,51,51,48,57,48,57,50,49,53,48,50,56,49]}<br><br><strong>xml example:</strong><br> &lt;com.datalogic.decode.Barcode&gt;<br>&lt;codeID&gt;7&lt;/codeID&gt;<br>  &lt;dataAsText&gt;353309092150281 &lt;/dataAsText&gt;<br> &lt;rawData&gt;MzUzMzA5MDkyMTUwMjgx&lt;/rawData&gt;<br>&lt;/com.datalogic.decode.Barcode&gt;<br><br></td><td>```</td></tr>
+<tr><td><strong>Error Response</strong></td><td><code>500 INTERNAL SERVER ERROR</code> when the data could not be retreived.</td></tr>
+<tr><td><strong>Available since</strong></td><td>DXU Agent 1.0</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="disable-all-physical-triggers"></a><a href="#disable-all-physical-triggers" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Disable all physical triggers</h3>
+<p>Use to disable all physical triggers on the device.</p>
+<table>
+<thead>
+<tr><th>URI</th><th><code>/scan?action=disable_all_triggers</code></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Success Response</strong></td><td><code>200 OK</code> when the physical triggers were successfully disabled</td></tr>
+<tr><td><strong>Error Response</strong></td><td><code>500 INTERNAL SERVER ERROR</code> when the physical triggers couldn't be disabled</td></tr>
+<tr><td><strong>Available since</strong></td><td>DXU Agent 1.29</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="enable-all-physical-triggers"></a><a href="#enable-all-physical-triggers" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Enable all physical triggers</h3>
+<p>Use to enable all physical triggers on the device.</p>
+<table>
+<thead>
+<tr><th>URI</th><th><code>/scan?action=enable_all_triggers</code></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Success Response</strong></td><td><code>200 OK</code> when the physical triggers were successfully enabled</td></tr>
+<tr><td><strong>Error Response</strong></td><td><code>500 INTERNAL SERVER ERROR</code> when the physical triggers couldn't be enabled</td></tr>
+<tr><td><strong>Available since</strong></td><td>DXU Agent 1.29</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="disable-keyboard-wedge"></a><a href="#disable-keyboard-wedge" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Disable keyboard wedge</h3>
+<p>Use to disable the keyboard wedge feature.</p>
+<table>
+<thead>
+<tr><th>URI</th><th><code>/scan?action=disable_keyboardWedge</code></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Success Response</strong></td><td><code>200 OK</code> when keyboard wedge was successfully disabled</td></tr>
+<tr><td><strong>Error Response</strong></td><td><code>500 INTERNAL SERVER ERROR</code> when keyboard wedge couldn't be disabled</td></tr>
+<tr><td><strong>Available since</strong></td><td>DXU Agent 1.29</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="enable-keyboard-wedge"></a><a href="#enable-keyboard-wedge" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Enable keyboard wedge</h3>
+<p>Use to enable the keyboard wedge feature.</p>
+<table>
+<thead>
+<tr><th>URI</th><th><code>/scan?action=disable_keyboardWedge</code></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Success Response</strong></td><td><code>200 OK</code> when keyboard wedge was successfully enabled</td></tr>
+<tr><td><strong>Error Response</strong></td><td><code>500 INTERNAL SERVER ERROR</code> when keyboard wedge couldn't be enabled</td></tr>
+<tr><td><strong>Available since</strong></td><td>DXU Agent 1.29</td></tr>
+</tbody>
+</table>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/dxu/dxu-faq"><span class="arrow-prev">← </span><span>Frequently Asked Questions</span></a><a class="docs-next button" href="/oemconfig/overview"><span>Overview</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#conventions">Conventions</a></li><li><a href="#apis">APIs</a><ul class="toc-headings"><li><a href="#start-scan-trigger">Start scan trigger</a></li><li><a href="#release-scan-trigger">Release scan trigger</a></li><li><a href="#register-scan-start-listener">Register scan start listener</a></li><li><a href="#register-stop-scan-listener">Register stop scan listener</a></li><li><a href="#register-a-scan-timeout-listener">Register a scan timeout listener</a></li><li><a href="#register-a-scan-read-listener">Register a scan read listener</a></li><li><a href="#disable-all-physical-triggers">Disable all physical triggers</a></li><li><a href="#enable-all-physical-triggers">Enable all physical triggers</a></li><li><a href="#disable-keyboard-wedge">Disable keyboard wedge</a></li><li><a href="#enable-keyboard-wedge">Enable keyboard wedge</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><div class="link-div"><p class="footer-heading-right">Social Media</p><br class="footer-heading"/><section id="lab_social_icon_footer"><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/><div class="container"><div class="text-center center-block"><a href="https://www.facebook.com/DatalogicGroup/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a><a href="https://twitter.com/DatalogicGroup"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a><a href="https://www.linkedin.com/company/datalogic/"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a><a href="https://www.youtube.com/user/DatalogicGroup"><i id="social-yt" class="fa fa-youtube-square fa-3x social"></i></a></div></div></section><br/><br/><br/><div class="limit"><section class="copyright"><div style="text-align:center"><a href="http://www.datalogic.com/eng/legal-notice-pa-92.html" class="footer-link">Legal Notice</a> | <a href="http://www.datalogic.com/eng/privacy-policy-pa-112.html" class="footer-link">Privacy Policy</a> | <a href="http://www.datalogic.com/eng/terms-and-conditions-pa-93.html" class="footer-link">Terms and Conditions</a><br/></div><div><a href="https://datalogic.com" class="footer-link">datalogic.com</a> © 2019 Datalogic S.p.A. and/or its affiliates. All rights reserved. Datalogic and the Datalogic logo are registered trademarks of Datalogic S.p.A. in many countries including the U.S.A. and the E.U. All other trademarks are the property of their respective owners.</div><br/><div style="text-align:center">Version 1.0.6</div></section></div></div></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '3848fc3b88f9a1047bfc81d7a826657d',
+                indexName: 'datalogic',
+                inputSelector: '#search_input_react'
+              });
+            </script></body></html>
