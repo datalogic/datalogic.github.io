@@ -1,0 +1,158 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Statistics Tab · Technical Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Overview"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Statistics Tab · Technical Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://datalogic.github.io/"/><meta property="og:description" content="## Overview"/><meta property="og:image" content="https://datalogic.github.io/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://datalogic.github.io/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/dl-favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/dl-logo.png" alt="Technical Documentation"/><h2 class="headerTitleWithLogo">Technical Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="https://developer.datalogic.com/" target="_self">Developer Site</a></li><li class=""><a href="https://github.com/datalogic/" target="_self">Github</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>WiFi Guard</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">WiFi Guard<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/wifiguard/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/wifiguard/ping">Ping Tab</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/wifiguard/stat">Statistics Tab</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Statistics Tab</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="overview"></a><a href="#overview" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overview</h2>
+<p>The Statistics tab allows the user to collect information about the Wi-Fi access points that are visible by the device.  It reports signal strength, roaming events and detailed information on access points, which can be used to determine the signal coverage of a wireless network.  The tab displays a graph of RSSI results, an optional legend, and controls for changing the graph content.</p>
+<p><img src="/img/wifiguard/statFull.png" alt="Statistics Tab"></p>
+<h3><a class="anchor" aria-hidden="true" id="graph-legend"></a><a href="#graph-legend" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Graph Legend</h3>
+<p>The button in the upper right corner of the tab toggles the display of the graph legend.  When visible, the legend presents a scrollable list of each access point included in the graph.  To help identify each line in the graph, the BSSID and SSID (in parenthesis) for each entry is shown in a color which matches the color of the line drawn in the graph.  The visibility of each line can be toggled on/off by using the checkbox of each entry.  This can help reduce clutter on graphs which contain a large number of access points.</p>
+<p>While graphing new RSSI data, any new access points that become visible are added to the top of the list.  The access point that the device is currently connected to is always listed first, and designated with a trailing asterisk (&quot;*&quot;).</p>
+<h3><a class="anchor" aria-hidden="true" id="graph-controls"></a><a href="#graph-controls" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Graph Controls</h3>
+<p><img src="/img/wifiguard/statSheet.png" alt="Statistics Controls"></p>
+<p>The sheet with the graphing controls is at the bottom of the display and can be expanded by dragging up the gripper at its top center.  It can be collapsed by dragging it down.  The following controls are available:</p>
+<ul>
+<li><p><strong>Minimum/Maximum/Average RSSI:</strong> These three checkbox controls toggle the visibility of additional lines on the graph.  These lines represent the calculated minimum, maximum, or average RSSI value over all sampled access points at each point along the graph.</p></li>
+<li><p><strong>Roaming threshold:</strong> This checkbox toggles the display of the RSSI threshold used by the device to initiate roaming.  When shown it is represented by a horizontal dashed line.</p></li>
+<li><p><strong>SSID Filter:</strong> This pop-up list specifies the SSID to use for selecting which access points to include in the graph.  Since several access points are often in range of the device as it changes location, this is useful for ignoring APs which are not of interest.  The list's contents will update as soon as new SSIDs become visible to the device, and is reset when you start graphing.  Two special values in the list are:</p>
+<ul>
+<li><p><strong>Any:</strong> This selects any SSID (effectively disabling the filter).</p></li>
+<li><p><strong>Connected:</strong> This selects any SSID that matches the Wi-Fi network the device is currently connected to.  It is the default value.  Note that the exact name of the SSID may change if the device roams between two Wi-Fi networks with different SSIDs.</p></li>
+</ul></li>
+<li><p><strong>Scan List:</strong> This button takes you to the <a href="#scan-results">Scan Results</a> screen where you can see a complete list of APs and detailed information on each of them.</p></li>
+</ul>
+<p>While graphing is active, the SSID Filter cannot be changed and the Scan List button is disabled.</p>
+<h2><a class="anchor" aria-hidden="true" id="collecting-rssi-statistics"></a><a href="#collecting-rssi-statistics" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Collecting RSSI statistics</h2>
+<p>To begin graphing RSSI data, tap the blue Play button.  When tapped, the control sheet will automatically collapse to reveal the graph results, and the Play button will change to a Stop button.  To stop graphing, tap this button again.</p>
+<p>While graphing, the RSSI values of visible access points are displayed in the graph, with each access point shown in a unique color.  The graph displays the time of each sample on the horizontal axis, and the RSSI value on the vertical axis.  Note that RSSI values are negative, with less negative (i.e. higher) values representing a stronger signal.</p>
+<p>The line representing the AP the device is currently connected to (at the time) is drawn slightly thicker than the others.  The specific thicker line may change as the device roams between APs.  Any gaps in the graphed line represents a period where the access point was out of range.</p>
+<h3><a class="anchor" aria-hidden="true" id="events"></a><a href="#events" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Events</h3>
+<p>Space at the bottom of the graph is used to display icons which represent various events that can take place while graphing.  The possible events and their icons are:</p>
+<table>
+<thead>
+<tr><th>Event</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="/img/wifiguard/connEvt.svg" align="left" /><strong>Connect</strong></td><td>The device connected to a network.</td></tr>
+<tr><td><img src="/img/wifiguard/disconnEvt.svg" align="left" /><strong>Disconnect</strong></td><td>The device disconnected from a network.</td></tr>
+<tr><td><img src="/img/wifiguard/roamEvt.svg" align="left" /><strong>Roam</strong></td><td>The device roamed between access points.  The APs do not necessarily need to have the same SSID.</td></tr>
+</tbody>
+</table>
+<p>It is not necessary to be in range of an access point when starting a graph.  In this case, no lines will be drawn until an AP is seen.  At this point, the lines for those APs will be drawn, and a connect event will also be shown (if it applies).</p>
+<h2><a class="anchor" aria-hidden="true" id="scan-results"></a><a href="#scan-results" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Scan Results</h2>
+<p>This screen displays a list of all access points seen by the device.  The list includes details on each AP, which are regularly updated.  You can go back to the Statistics tab by tapping the &quot;X&quot; in the upper right corner, or the Android Back button.</p>
+<p><img src="/img/wifiguard/scanFull.png" alt="Scan Results"></p>
+<p>The top of the screen contains controls for the access point list:</p>
+<ul>
+<li><p><strong>SSID Filter:</strong> This pop-up list specifies the SSID to use for selecting which access points to display in the list.  It operates in the same way as the control on the main Statistics tab.</p></li>
+<li><p><strong>Refresh:</strong> This button resets the list of access points and initiates a rescan.  This is useful if the AP list contains a significant number of entries which are out of range.</p></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="access-point-entry"></a><a href="#access-point-entry" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Access Point Entry</h3>
+<p>Each entry in the access point list contains the following basic information on an access point:</p>
+<p><img src="/img/wifiguard/scanCard.png" alt="AP Information"></p>
+<ul>
+<li><p><strong>SSID / BSSID:</strong> These fields uniquely identify the access point in the list.  &quot;(connected)&quot; is shown next to the SSID if the device is currently connected to it.</p></li>
+<li><p><strong>RSSI:</strong> This field reports the current RSSI value of the access point.  The color of this field corresponds to the RSSI level: Red = Low, Yellow = Medium, Green = High.  If the access point is out of range, this field displays &quot;Offline&quot;.</p></li>
+<li><p><strong>Security:</strong>  This field displays a summary of security protocols supported.</p></li>
+<li><p><strong>Band:</strong> This displays the Wi-Fi band (2.4 GHz or 5.0 GHz) currently being used.</p></li>
+<li><p><strong>Channel:</strong> This displays the Wi-Fi channel currently being used.</p></li>
+</ul>
+<p>Tapping on an access point entry in the list will take you to the <a href="#access-point-details">AP Details</a> screen where you can see additional details on that AP.</p>
+<h2><a class="anchor" aria-hidden="true" id="access-point-details"></a><a href="#access-point-details" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Access Point Details</h2>
+<p>This screen displays detailed information for a specific access point.  The title displays the SSID of the specific access point.  You can go back to the previous screen by tapping the &quot;X&quot; in the upper right corner, or the Android Back button.  The information is shown in a scrollable list and organized into several groups.</p>
+<p><img src="/img/wifiguard/scanDetail.png" alt="Scan Details"></p>
+<ul>
+<li><p><strong>Connection:</strong> This section is displayed only visible if the device is connected to the displayed access point.</p>
+<ul>
+<li><p><strong>IP Address:</strong> This is the current IP address assigned to the device.</p></li>
+<li><p><strong>DNS:</strong> This is the IP address of the domain name server.</p></li>
+<li><p><strong>DHCP:</strong> This is the IP address of the DHCP server.</p></li>
+<li><p><strong>Gateway:</strong> This is the IP address of the gateway server.</p></li>
+</ul></li>
+<li><p><strong>General</strong></p>
+<ul>
+<li><p><strong>BSSID:</strong> This uniquely identifies the access point in the list.</p></li>
+<li><p><strong>RSSI:</strong> This is regularly updated to report the current RSSI value of the access point.  If the access point is out of range, this field displays &quot;Offline&quot;.</p></li>
+<li><p><strong>Channel (Band):</strong> This is regularly updated to display the Wi-Fi channel and band currently being used to communicate with the network.</p></li>
+<li><p><strong>Protocols:</strong> This displays the 802.11 protocols available from the access point.</p></li>
+<li><p><strong>Device MAC:</strong> This is the MAC address of the radio module in the device.</p></li>
+</ul></li>
+<li><p><strong>Security</strong></p>
+<ul>
+<li><p><strong>WPA 3/2/1:</strong> These fields show support for each of the security programs.</p></li>
+<li><p><strong>Group ciphers:</strong> This displays ciphers supported for broadcast packets.</p></li>
+<li><p><strong>Pairwise ciphers:</strong> This displays ciphers supported for unicast packets.</p></li>
+<li><p><strong>Key management:</strong> This shows the supported methods for managing security keys.</p></li>
+</ul></li>
+</ul>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/wifiguard/ping"><span class="arrow-prev">← </span><span>Ping Tab</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#overview">Overview</a><ul class="toc-headings"><li><a href="#graph-legend">Graph Legend</a></li><li><a href="#graph-controls">Graph Controls</a></li></ul></li><li><a href="#collecting-rssi-statistics">Collecting RSSI statistics</a><ul class="toc-headings"><li><a href="#events">Events</a></li></ul></li><li><a href="#scan-results">Scan Results</a><ul class="toc-headings"><li><a href="#access-point-entry">Access Point Entry</a></li></ul></li><li><a href="#access-point-details">Access Point Details</a></li></ul></nav></div><footer class="nav-footer" id="footer"><div class="link-div"><p class="footer-heading-right">Social Media</p><br class="footer-heading"/><section id="lab_social_icon_footer"><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/><div class="container"><div class="text-center center-block"><a href="https://www.facebook.com/DatalogicGroup/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a><a href="https://twitter.com/DatalogicGroup"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a><a href="https://www.linkedin.com/"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a><a href="https://www.youtube.com/user/DatalogicGroup"><i id="social-yt" class="fa fa-youtube-square fa-3x social"></i></a></div></div></section><br/><br/><br/><div class="limit"><section class="copyright"><div style="text-align:center"><a href="http://www.datalogic.com/eng/legal-notice-pa-92.html" class="footer-link">Legal Notice</a> | <a href="http://www.datalogic.com/eng/privacy-policy-pa-112.html" class="footer-link">Privacy Policy</a> | <a href="http://www.datalogic.com/eng/terms-and-conditions-pa-93.html" class="footer-link">Terms and Conditions</a><br/></div><div><a href="https://datalogic.com" class="footer-link">datalogic.com</a> © 2019 Datalogic S.p.A. and/or its affiliates. All rights reserved. Datalogic and the Datalogic logo are registered trademarks of Datalogic S.p.A. in many countries including the U.S.A. and the E.U. All other trademarks are the property of their respective owners.</div><br/><div style="text-align:center">Version 1.1.6</div></section></div></div></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '3848fc3b88f9a1047bfc81d7a826657d',
+                indexName: 'datalogic',
+                inputSelector: '#search_input_react'
+              });
+            </script></body></html>
