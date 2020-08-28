@@ -1,0 +1,137 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Datalogic Xamarin SDK 1.22.4648 · Technical Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Datalogic Xamarin SDK 1.22.4648 is now ready to download. You can access the [documentation here](/xamarin/overview). The online API documentation is [availabe here](https://datalogic.github.io/xamarin-sdk-docs). And you can see the package [on NuGet here](https://www.nuget.org/packages/datalogic-xamarin-sdk/1.22.4648).  We did release version 1.21-3280-alpha earlier this year, but as far as official release builds, the last release was version 1.5.88 back in Jaunary 2018, so this update is long overdue!"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Datalogic Xamarin SDK 1.22.4648 · Technical Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://datalogic.github.io/blog/2020/07/28/datalogic-xamarin-sdk"/><meta property="og:description" content="Datalogic Xamarin SDK 1.22.4648 is now ready to download. You can access the [documentation here](/xamarin/overview). The online API documentation is [availabe here](https://datalogic.github.io/xamarin-sdk-docs). And you can see the package [on NuGet here](https://www.nuget.org/packages/datalogic-xamarin-sdk/1.22.4648).  We did release version 1.21-3280-alpha earlier this year, but as far as official release builds, the last release was version 1.5.88 back in Jaunary 2018, so this update is long overdue!"/><meta property="og:image" content="https://datalogic.github.io/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://datalogic.github.io/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/dl-favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai.min.css"/><link rel="alternate" type="application/atom+xml" href="https://datalogic.github.io/blog/atom.xml" title="Technical Documentation Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://datalogic.github.io/blog/feed.xml" title="Technical Documentation Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/dl-logo.png" alt="Technical Documentation"/><h2 class="headerTitleWithLogo">Technical Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="https://developer.datalogic.com/" target="_self">Developer Site</a></li><li class=""><a href="https://github.com/datalogic/" target="_self">Github</a></li><li class="siteNavGroupActive"><a href="/blog/" target="_self">Releases</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Recent Posts</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Recent Posts</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/blog/2020/07/28/datalogic-xamarin-sdk">Datalogic Xamarin SDK 1.22.4648</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="lonePost"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2020/07/28/datalogic-xamarin-sdk">Datalogic Xamarin SDK 1.22.4648</a></h1><p class="post-meta">July 28, 2020</p><div class="authorBlock"><p class="post-authorName"><a href="https://github.com/codybrookshear" target="_blank" rel="noreferrer noopener">Cody Brookshear</a></p></div></header><div><span><p>Datalogic Xamarin SDK 1.22.4648 is now ready to download. You can access the <a href="/xamarin/overview">documentation here</a>. The online API documentation is <a href="https://datalogic.github.io/xamarin-sdk-docs">availabe here</a>. And you can see the package <a href="https://www.nuget.org/packages/datalogic-xamarin-sdk/1.22.4648">on NuGet here</a>.  We did release version 1.21-3280-alpha earlier this year, but as far as official release builds, the last release was version 1.5.88 back in Jaunary 2018, so this update is long overdue!</p>
+<p>The MAJOR and MINOR version numbers of the Datalogic Xamairn SDK track the version numbers of the <a href="/android/overview">Datalogic Android SDK</a>, i.e. Xamarin SDK v1.22.x contains all of the features available in Anroid SDK <a href="https://github.com/datalogic/datalogic-android-sdk/releases/tag/v1.22">v1.22</a>. Therefore, this update includes all the new features introduced in the Android SDK from version 1.6 all the way up through version 1.22.</p>
+<!--truncate-->
+<p>Those features are as follows:</p>
+<ul>
+<li>Added 2nd Display configuration to allow packages to display Android notifications</li>
+<li>Added Advanced Keyboard SDK</li>
+<li>Added support to MSI short quiet zones</li>
+<li>Added FrameCapture feature</li>
+<li>Added Battery Swap Begin and End Events</li>
+<li>Added ISBT 128 user ID</li>
+<li>Added support for checking availability and enablingdisabling Second Display feature</li>
+<li>Added Code 128 and MSI aggressiveness</li>
+<li>Added Code 128 Short Margin</li>
+<li>Added configurability for Illumination type (Colour)</li>
+<li>Added configurability for Custom Image Capture Profile</li>
+<li>Added Commit Text mode to the KeyWedgeMode Options</li>
+<li>Added Battery Product Number to the Manufacturer Info</li>
+<li>Added support to Image Capture Profile on Scanner Options</li>
+<li>Added operating mode property for Data Matrix</li>
+<li>Added ISBT 128 symbology with concatenation option</li>
+<li>Added Inverse 1D and 2D barcodes support</li>
+<li>Removed deprecated device.info.BatteryInfo object and SYSTEM.getBatteryInfo() method</li>
+<li>Added cradle package with interfaces for retriving the device insertion status e the available power source level</li>
+<li>Added enabling/disabling property for WiFi QR Code scanning</li>
+<li>Added APIs to the SoftSpot package in order to set working area and custom images</li>
+<li>Introduced new Listeners (InitListener and DeinitListener), in order to be informed about Scanner Service initialization and reset;</li>
+<li>Added the method isInitialized() to the BarcodeManager, in order to obtain the current status of Scanner Service (initialized or not);</li>
+<li>Added registration/unregistration methods to the BarcodeManager, in order to register/unregister as Listener of related events;</li>
+<li>Added the LISTENER_ERROR DecodeException;</li>
+<li>Fixed WiFiType bug</li>
+<li>Added explicit intent used for SoftSpot, intead of Implicit Intents no more available from Android Oreo 8</li>
+<li>Triggers have been extended with methods for retriving the default properties values;</li>
+<li>PowerManager has been extended with the getRebootReason() method, in order to retrive information about last device power-off reason;</li>
+<li>Added Battery interface under device package;</li>
+<li>Trigger class has been extended with the isAvailable() method, in order to retrive information about supported Triggers by the device.</li>
+<li>Added Property to enable the External Formatting feature</li>
+<li>UPC-E1 support</li>
+<li>Added support for motion trigger, which causes a scan to be initiated after a shake is detected
+<ul>
+<li>the shake sensitivity can be customized between 3 values (sensitive, intermediate, dull)</li>
+<li>a vibration (that can be inhibited) will start when a shake motion is detected. The scan will start when the device is returned in a stationary position.</li>
+</ul></li>
+<li>Dotcode support</li>
+<li>Exposed Display Mode option</li>
+<li>Added support for Code 39 with short margins</li>
+<li>Added Multi Scan</li>
+<li>Added Character set support for certain 2D symbologies:
+<ul>
+<li>Aztec</li>
+<li>Data Matrix</li>
+<li>Micro PDF417</li>
+<li>Micro QR code</li>
+<li>PDF417</li>
+<li>QR code</li>
+</ul></li>
+<li>Added Composite symbology support</li>
+<li>Added Web Wedge functionality</li>
+<li>Added GS1 DataBar conversion to GS1-128</li>
+<li>Added Linear quiet zone configuration, only EAN/UPC for now</li>
+<li>Added EAN-13 send system digit configuration</li>
+</ul>
+</span></div></div><div class="blogSocialSection"></div></div><div class="blog-recent"><a class="button" href="/blog">Recent Posts</a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><div class="link-div"><p class="footer-heading-right">Social Media</p><br class="footer-heading"/><section id="lab_social_icon_footer"><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/><div class="container"><div class="text-center center-block"><a href="https://www.facebook.com/DatalogicGroup/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a><a href="https://twitter.com/DatalogicGroup"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a><a href="https://www.linkedin.com/"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a><a href="https://www.youtube.com/user/DatalogicGroup"><i id="social-yt" class="fa fa-youtube-square fa-3x social"></i></a></div></div></section><br/><br/><br/><div class="limit"><section class="copyright"><div style="text-align:center"><a href="http://www.datalogic.com/eng/legal-notice-pa-92.html" class="footer-link">Legal Notice</a> | <a href="http://www.datalogic.com/eng/privacy-policy-pa-112.html" class="footer-link">Privacy Policy</a> | <a href="http://www.datalogic.com/eng/terms-and-conditions-pa-93.html" class="footer-link">Terms and Conditions</a><br/></div><div><a href="https://datalogic.com" class="footer-link">datalogic.com</a> © 2019 Datalogic S.p.A. and/or its affiliates. All rights reserved. Datalogic and the Datalogic logo are registered trademarks of Datalogic S.p.A. in many countries including the U.S.A. and the E.U. All other trademarks are the property of their respective owners.</div><br/><div style="text-align:center">Version 1.3.6</div></section></div></div></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '3848fc3b88f9a1047bfc81d7a826657d',
+                indexName: 'datalogic',
+                inputSelector: '#search_input_react'
+              });
+            </script></body></html>

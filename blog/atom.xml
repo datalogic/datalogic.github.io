@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://datalogic.github.io/blog</id>
+    <title>Technical Documentation Blog</title>
+    <updated>2020-07-28T06:00:00Z</updated>
+    <generator>Feed for Node.js</generator>
+    <link rel="alternate" href="https://datalogic.github.io/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest Technical Documentation news and events.</subtitle>
+    <logo>https://datalogic.github.io/img/dl-logo.png</logo>
+    <rights>Copyright © 2020 Your Name or Your Company Name</rights>
+    <entry>
+        <title type="html"><![CDATA[Datalogic Xamarin SDK 1.22.4648]]></title>
+        <id>https://datalogic.github.io/blog/2020/07/28/datalogic-xamarin-sdk.html</id>
+        <link href="https://datalogic.github.io/blog/2020/07/28/datalogic-xamarin-sdk.html">
+        </link>
+        <updated>2020-07-28T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Datalogic Xamarin SDK 1.22.4648 is now ready to download. You can access the <a href="/xamarin/overview">documentation here</a>. The online API documentation is <a href="https://datalogic.github.io/xamarin-sdk-docs">availabe here</a>. And you can see the package <a href="https://www.nuget.org/packages/datalogic-xamarin-sdk/1.22.4648">on NuGet here</a>.  We did release version 1.21-3280-alpha earlier this year, but as far as official release builds, the last release was version 1.5.88 back in Jaunary 2018, so this update is long overdue!</p>
+<p>The MAJOR and MINOR version numbers of the Datalogic Xamairn SDK track the version numbers of the <a href="/android/overview">Datalogic Android SDK</a>, i.e. Xamarin SDK v1.22.x contains all of the features available in Anroid SDK <a href="https://github.com/datalogic/datalogic-android-sdk/releases/tag/v1.22">v1.22</a>. Therefore, this update includes all the new features introduced in the Android SDK from version 1.6 all the way up through version 1.22.</p>
+]]></summary>
+        <author>
+            <name>Cody Brookshear</name>
+            <uri>https://github.com/codybrookshear</uri>
+        </author>
+    </entry>
+</feed>
