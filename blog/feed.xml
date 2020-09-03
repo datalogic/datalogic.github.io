@@ -4,7 +4,7 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/blog</link>
         <description>The best place to stay up-to-date with the latest Technical Documentation news and events.</description>
-        <lastBuildDate>Tue, 28 Jul 2020 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2020 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,12 +14,19 @@
         </image>
         <copyright>Copyright © 2020 Your Name or Your Company Name</copyright>
         <item>
+            <title><![CDATA[Android Studio SDK 1.23]]></title>
+            <link>https://datalogic.github.io/blog/2020/09/03/android-studio-sdk.html</link>
+            <guid>https://datalogic.github.io/blog/2020/09/03/android-studio-sdk.html</guid>
+            <pubDate>Thu, 03 Sep 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Android Studio SDK 1.23 is now available. You can access the <a href="/android/overview">documentation here</a>. The online API documentation is <a href="https://datalogic.github.io/android-sdk-docs/">availabe here</a>.</p> <p>New features:</p> <ul> <li>added <a href="https://datalogic.github.io/android-sdk-docs/reference/com/datalogic/cradle/package-summary.html">Cradle APIs</a> to manage key insertion and unlock</li> <li>added APIs to retrieve and store the cradle firmware u...</li></ul>]]></description>
+        </item>
+        <item>
             <title><![CDATA[Datalogic Xamarin SDK 1.22.4648]]></title>
             <link>https://datalogic.github.io/blog/2020/07/28/datalogic-xamarin-sdk.html</link>
             <guid>https://datalogic.github.io/blog/2020/07/28/datalogic-xamarin-sdk.html</guid>
             <pubDate>Tue, 28 Jul 2020 06:00:00 GMT</pubDate>
             <description><![CDATA[<p>Datalogic Xamarin SDK 1.22.4648 is now ready to download. You can access the <a href="/xamarin/overview">documentation here</a>. The online API documentation is <a href="https://datalogic.github.io/xamarin-sdk-docs">availabe here</a>. And you can see the package <a href="https://www.nuget.org/packages/datalogic-xamarin-sdk/1.22.4648">on NuGet here</a>.  We did release version 1.21-3280-alpha earlier this year, but as far as official release builds, the last release was version 1.5.88 back in Jaunary 2018, so this update is long overdue!</p>
-<p>The MAJOR and MINOR version numbers of the Datalogic Xamairn SDK track the version numbers of the <a href="/android/overview">Datalogic Android SDK</a>, i.e. Xamarin SDK v1.22.x contains all of the features available in Anroid SDK <a href="https://github.com/datalogic/datalogic-android-sdk/releases/tag/v1.22">v1.22</a>. Therefore, this update includes all the new features introduced in the Android SDK from version 1.6 all the way up through version 1.22.</p>
+<p>The MAJOR and MINOR version numbers of the Datalogic Xamairn SDK track the version numbers of the <a href="/android/overview">Android Studio SDK</a>, i.e. Xamarin SDK v1.22.x contains all of the features available in Anroid SDK <a href="https://github.com/datalogic/datalogic-android-sdk/releases/tag/v1.22">v1.22</a>. Therefore, this update includes all the new features introduced in the Android Studio SDK from version 1.6 all the way up through version 1.22.</p>
 ]]></description>
         </item>
     </channel>
