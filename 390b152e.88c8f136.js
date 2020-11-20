@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[29],{88:function(a){a.exports=JSON.parse('{"allTagsPath":"/releases/tags","slug":"scan-2-deploy-android","name":"scan2deploy-android","count":4,"permalink":"/releases/tags/scan-2-deploy-android"}')}}]);
