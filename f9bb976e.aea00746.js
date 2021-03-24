@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[128],{198:function(s){s.exports=JSON.parse('{"allTagsPath":"/releases/tags","slug":"android-studio-sdk","name":"android-studio-sdk","count":4,"permalink":"/releases/tags/android-studio-sdk"}')}}]);
