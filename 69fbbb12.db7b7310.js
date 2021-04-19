@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[61],{132:function(a){a.exports=JSON.parse('{"allTagsPath":"/releases/tags","slug":"datalogic-android-sdk","name":"datalogic-android-sdk","count":4,"permalink":"/releases/tags/datalogic-android-sdk"}')}}]);
