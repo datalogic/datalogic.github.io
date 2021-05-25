@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[61],{139:function(e){e.exports=JSON.parse('{"allTagsPath":"/releases/tags","slug":"oemconfig","name":"oemconfig","count":3,"permalink":"/releases/tags/oemconfig"}')}}]);
