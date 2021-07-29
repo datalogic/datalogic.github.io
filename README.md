@@ -1,0 +1,1 @@
+[![Board Status](https://dev.azure.com/datalogicgh/51e0217e-529f-4fb7-a7a7-a9f32162b18a/c2c3998a-92cc-48db-8011-97adf2eb3279/_apis/work/boardbadge/d894d6bf-2c02-4f17-94f7-342751a57bed)](https://dev.azure.com/datalogicgh/51e0217e-529f-4fb7-a7a7-a9f32162b18a/_boards/board/t/c2c3998a-92cc-48db-8011-97adf2eb3279/Microsoft.RequirementCategory)
