@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[202],{274:function(a){a.exports=JSON.parse('{"allTagsPath":"/releases/tags","slug":"javapos","name":"javapos","count":4,"permalink":"/releases/tags/javapos"}')}}]);
