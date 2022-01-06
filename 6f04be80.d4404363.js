@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[106],{186:function(s){s.exports=JSON.parse('{"allTagsPath":"/releases/tags","slug":"dxu-desktop","name":"dxu-desktop","count":1,"permalink":"/releases/tags/dxu-desktop"}')}}]);
