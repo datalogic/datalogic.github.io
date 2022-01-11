@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{104:function(s){s.exports=JSON.parse('{"allTagsPath":"/releases/tags","slug":"scan-2-deploy-studio","name":"scan2deploy-studio","count":5,"permalink":"/releases/tags/scan-2-deploy-studio"}')}}]);
