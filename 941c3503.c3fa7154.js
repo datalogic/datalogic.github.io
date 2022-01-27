@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[143],{222:function(a){a.exports=JSON.parse('{"allTagsPath":"/releases/tags","slug":"xamarin","name":"xamarin","count":2,"permalink":"/releases/tags/xamarin"}')}}]);
