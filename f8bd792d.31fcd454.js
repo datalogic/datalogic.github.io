@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[238],{309:function(a){a.exports=JSON.parse('{"allTagsPath":"/releases/tags","slug":"wifi-guard","name":"wifi-guard","count":3,"permalink":"/releases/tags/wifi-guard"}')}}]);
