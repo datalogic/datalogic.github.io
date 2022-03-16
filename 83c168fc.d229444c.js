@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[129],{208:function(a){a.exports=JSON.parse('{"allTagsPath":"/releases/tags","slug":"dxu-android","name":"dxu-android","count":1,"permalink":"/releases/tags/dxu-android"}')}}]);
