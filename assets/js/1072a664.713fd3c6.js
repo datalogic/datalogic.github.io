@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[7704],{14769:function(t,e,u){u.r(e);var a=u(67294),i=u(76775);e.default=function(){return a.createElement(i.l_,{to:"/scan2deploy/studio"})}}}]);
