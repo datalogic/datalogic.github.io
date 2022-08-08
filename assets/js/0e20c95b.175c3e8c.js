@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[8928],{17916:function(s){s.exports=JSON.parse('{"allTagsPath":"/releases/tags","slug":"/releases/tags/scan-2-deploy-studio","name":"scan2deploy-studio","count":7,"permalink":"/releases/tags/scan-2-deploy-studio"}')}}]);
