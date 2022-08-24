@@ -1,48 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="324" height="324" viewBox="0 0 324 324">
 <g transform="translate(0,7)">
 
-<path fill="#002596"
-d="
-M310,160
-C310,77.16 242.84,10 160,10
-S10,77.16 10,160
-S77.16,310 160,310
-S310,242.84 310,160
-z" />
+  <path fill="#002596"
+d="M310,160 C310,77.16 242.84,10 160,10 S10,77.16 10,160 S77.16,310 160,310 S310,242.84 310,160 z" />
 
+  <path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="26" stroke-linejoin="round"
+d="M116,166 h91 v64 h-91 z M192,198 C192,181.43 178.57,168 162,168 S132,181.43 132,198 S145.43,228 162,228 S192,214.57 192,198 z" />
 
-<path fill="#FFFFFF"
-		stroke="#FFFFFF"
-		stroke-width="26"
-		stroke-linejoin="round"
-		d="
-M116,166
-h91
-v64
-h-91
-z
-
-M192,198
-C192,181.43 178.57,168 162,168
-S132,181.43 132,198
-S145.43,228 162,228
-S192,214.57 192,198
-z" />
-
-	<path
-    	fill-opacity="0"
-		stroke="#FFFFFF"
-		stroke-width="20"
-		stroke-linecap="square"
-		d="
-M198,141
-v-22
-c0,-19.88 -16.12,-36 -36,-36
-s-36,19.88 -36,36
-v22
-" />
-
-
-
+  <path fill-opacity="0" stroke="#FFFFFF" stroke-width="20" stroke-linecap="square"
+d="M198,141 v-22 c0,-19.88 -16.12,-36 -36,-36 s-36,19.88 -36,36 v22" />
 </g>
 </svg>
