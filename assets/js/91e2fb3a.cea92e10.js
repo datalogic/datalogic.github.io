@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[3593],{25492:function(a){a.exports=JSON.parse('{"allTagsPath":"/releases/tags","slug":"/releases/tags/react-native","name":"react-native","count":1,"permalink":"/releases/tags/react-native"}')}}]);
