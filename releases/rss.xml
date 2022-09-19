@@ -4,9 +4,27 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Fri, 16 Sep 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Sep 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Datalogic Enterprise Browser 1.0.0.7]]></title>
+            <link>https://datalogic.github.io/releases/2022/09/19/browser</link>
+            <guid>/2022/09/19/browser</guid>
+            <pubDate>Mon, 19 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datalogic Enterprise Browser is now available.  It is an Android application used for web browsing to only allowed websites.  It also includes a JavaScript interface which exposes access to the barcode scanner.  These features combine to allow the device to run web-based applications which need to access the scanner in a safe, controlled environment.  You can access the documentation here.]]></description>
+            <content:encoded><![CDATA[<p>Datalogic Enterprise Browser is now available.  It is an Android application used for web browsing to only allowed websites.  It also includes a JavaScript interface which exposes access to the barcode scanner.  These features combine to allow the device to run web-based applications which need to access the scanner in a safe, controlled environment.  You can access the <a href="/browser/overview">documentation here</a>.</p><p>The features available in the initial release are:</p><ul><li>Locked down browsing<ul><li>Prevents browsing to sites outside allowed domains (and optionally subdomains).</li><li>Access to allowed domains and device features can be configured.</li><li>Configuration protected by Admin password.</li></ul></li><li>Favorites Page<ul><li>Can launch allowed sites</li><li>UI appearance of site listing can be configured (labels, icons, layout, wallpaper).</li></ul></li><li>External control<ul><li>Configurable from device, Scan2Deploy Studio or EMM console.</li></ul></li></ul>]]></content:encoded>
+            <category>browser</category>
+        </item>
+        <item>
+            <title><![CDATA[JavaScript SDK 1.0.0]]></title>
+            <link>https://datalogic.github.io/releases/2022/09/19/javascript</link>
+            <guid>/2022/09/19/javascript</guid>
+            <pubDate>Mon, 19 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datalogic JavaScript SDK is now available.  It allows users to write web apps that interface with the features of Datalogic Android devices through the Datalogic Enterprise Browser.  You can access the documentation here.]]></description>
+            <content:encoded><![CDATA[<p>Datalogic JavaScript SDK is now available.  It allows users to write web apps that interface with the features of Datalogic Android devices through the Datalogic Enterprise Browser.  You can access the <a href="/javascript/overview">documentation here</a>.</p><p>The features available in the initial release are:</p><ul><li>JavaScript APIs<ul><li>Configuration and use of the device scanner.</li><li>Configuration of physical triggers.</li></ul></li><li>Sample pages<ul><li>HTML pages to demonstrate use of Datalogic JavaScript APIs</li><li>HTML pages to demonstrate how to access peripherals (camera, microphone, device location) using standard HTML 5 APIs.</li></ul></li><li>Porting guide<ul><li>Documentation includes information on how to port existing pages written for Zebra SDK.</li></ul></li></ul>]]></content:encoded>
+            <category>javascript</category>
+        </item>
         <item>
             <title><![CDATA[OEMConfig v2.2.2]]></title>
             <link>https://datalogic.github.io/releases/2022/09/16/oemconfig-v2.2.2</link>
