@@ -4,9 +4,18 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Mon, 19 Sep 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Oct 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Datalogic Enterprise Browser 1.0.3.11]]></title>
+            <link>https://datalogic.github.io/releases/2022/10/28/browser</link>
+            <guid>/2022/10/28/browser</guid>
+            <pubDate>Fri, 28 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Corrected defects]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="corrected-defects">Corrected defects<a class="hash-link" href="#corrected-defects" title="Direct link to heading">​</a></h2><ul><li>The app no longer requires the device to have camera, location and microphone hardware.  This allows it to appear in the list of available apps from Google Play on devices without a camera (such as Skorpio X5 XLR).</li></ul>]]></content:encoded>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[Datalogic Enterprise Browser 1.0.1.9]]></title>
             <link>https://datalogic.github.io/releases/2022/09/19/browser</link>

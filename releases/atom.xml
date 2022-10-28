@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2022-09-19T00:00:00.000Z</updated>
+    <updated>2022-10-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Datalogic Enterprise Browser 1.0.3.11]]></title>
+        <id>/2022/10/28/browser</id>
+        <link href="https://datalogic.github.io/releases/2022/10/28/browser"/>
+        <updated>2022-10-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Corrected defects]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="corrected-defects">Corrected defects<a class="hash-link" href="#corrected-defects" title="Direct link to heading">​</a></h2><ul><li>The app no longer requires the device to have camera, location and microphone hardware.  This allows it to appear in the list of available apps from Google Play on devices without a camera (such as Skorpio X5 XLR).</li></ul>]]></content>
+        <author>
+            <name>Datalogic Enterprise Browser</name>
+            <uri>/browser/overview</uri>
+        </author>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Datalogic Enterprise Browser 1.0.1.9]]></title>
         <id>/2022/09/19/browser</id>
