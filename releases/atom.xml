@@ -21,6 +21,19 @@
         <category label="browser" term="browser"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Datalogic Android SDK 1.31]]></title>
+        <id>/2022/10/26/datalogic-android-sdk-v1.32</id>
+        <link href="https://datalogic.github.io/releases/2022/10/26/datalogic-android-sdk-v1.32"/>
+        <updated>2022-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Datalogic Android SDK 1.32 is now available. The SDK add-on version supports Android API levels up to 30 (Android 11).]]></summary>
+        <content type="html"><![CDATA[<p>Datalogic Android SDK 1.32 is now available. The <a href="/android/overview#sdk-add-on">SDK add-on</a> version supports Android API levels up to 30 (Android 11).</p><p>You can access the <a href="/android/overview">documentation here</a>.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="enhancements">Enhancements<a class="hash-link" href="#enhancements" title="Direct link to heading">​</a></h2><ul><li>Introduced <a href="https://datalogic.github.io/android-sdk-docs/reference/com/datalogic/device/configuration/ProfileManager.html" target="_blank" rel="noopener noreferrer"><code>ProfileManager</code></a> to manage partial configuration that can be load and unload under given conditions</li><li>Introduced <a href="https://datalogic.github.io/android-sdk-docs/reference/com/datalogic/device/wifi/WifiManager.html" target="_blank" rel="noopener noreferrer"><code>WifiManager</code></a> class to setup networking profiles</li><li>Improved <a href="https://datalogic.github.io/android-sdk-docs/reference/com/datalogic/device/configuration/ConfigurationManager.html" target="_blank" rel="noopener noreferrer"><code>ConfigurationManager</code></a> with methods for retrieving<ul><li>Default value: <a href="https://datalogic.github.io/android-sdk-docs/reference/com/datalogic/device/configuration/Property.html#getDefault()" target="_blank" rel="noopener noreferrer"><code>getDefault()</code></a> </li><li>Reboot requirment: <a href="https://datalogic.github.io/android-sdk-docs/reference/com/datalogic/device/configuration/Property.html#getNeedReboot()" target="_blank" rel="noopener noreferrer"><code>getNeedReboot()</code></a></li><li>Property name: <a href="https://datalogic.github.io/android-sdk-docs/reference/com/datalogic/device/configuration/PropertyID.html#Name(int)" target="_blank" rel="noopener noreferrer"><code>Name (int id)</code></a></li></ul></li><li>Added support for properties in <a href="https://datalogic.github.io/android-sdk-docs/reference/com/datalogic/device/configuration/PropertyID.html" target="_blank" rel="noopener noreferrer"><code>PropertyID</code></a>:<ul><li>Whole Scanner configuration</li><li>Navigation and Status Bars</li><li>Enabling/disabling USB Charging and/or Data Transfer</li><li>Advanced Keyboard</li><li>Triggers and Wakeup Sources</li><li>Locking/unlocking Keyboard or Touch Screen inputs</li><li>Screen Off Timeout</li><li>Cradle notifications</li></ul></li></ul>]]></content>
+        <author>
+            <name>Datalogic Android SDK</name>
+            <uri>/android/overview</uri>
+        </author>
+        <category label="datalogic-android-sdk" term="datalogic-android-sdk"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Datalogic Enterprise Browser 1.0.1.9]]></title>
         <id>/2022/09/19/browser</id>
         <link href="https://datalogic.github.io/releases/2022/09/19/browser"/>
