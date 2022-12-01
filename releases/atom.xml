@@ -138,6 +138,19 @@
         <category label="scan2deploy-studio" term="scan2deploy-studio"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[JavaPOS 1.14.072 (1.14.14-072)]]></title>
+        <id>/2022/04/04/javapos-1.14.072</id>
+        <link href="https://datalogic.github.io/releases/2022/04/04/javapos-1.14.072"/>
+        <updated>2022-04-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enhancements]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="enhancements">Enhancements<a class="hash-link" href="#enhancements" title="Direct link to heading">​</a></h2><ul><li>Added support for Dock / Undock Direct I/O functionality</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="corrected-defects">Corrected defects<a class="hash-link" href="#corrected-defects" title="Direct link to heading">​</a></h2><ul><li>Corrected an issue causing the Zero Scale button in JavaPOSTest to conflict with live weight</li><li>Corrected an issue causing an incorrect data type of some symbologies after reading ABC Codabar</li></ul>]]></content>
+        <author>
+            <name>JavaPOS API</name>
+            <uri>/javapos/overview</uri>
+        </author>
+        <category label="javapos" term="javapos"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[OEMConfig v2.1.3]]></title>
         <id>/2022/3/16/oemconfig-v2.1.3</id>
         <link href="https://datalogic.github.io/releases/2022/3/16/oemconfig-v2.1.3"/>
