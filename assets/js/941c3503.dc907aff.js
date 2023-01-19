@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[9394],{61875:function(a){a.exports=JSON.parse('{"allTagsPath":"/releases/tags","slug":"/releases/tags/xamarin","name":"xamarin","count":3,"permalink":"/releases/tags/xamarin"}')}}]);
