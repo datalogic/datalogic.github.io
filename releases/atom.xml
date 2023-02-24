@@ -2,11 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2023-01-18T00:00:00.000Z</updated>
+    <updated>2023-02-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Datalogic Enterprise Browser 1.1.1.26]]></title>
+        <id>/2023/02/21/browser</id>
+        <link href="https://datalogic.github.io/releases/2023/02/21/browser"/>
+        <updated>2023-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New Features]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="new-features">New Features<a class="hash-link" href="#new-features" title="Direct link to heading">​</a></h2><ul><li>Locked down browsing<ul><li>You can now allow pages to browse to any web site (regardless of defined domains).</li></ul></li><li>Configuration.<ul><li>Settings can be exported to a file, which can then be imported on another device using Scan2Deploy Studio (or EMM).  (Available on newer firmware images.  See table <a href="/browser/export">here</a>.)</li><li>Resetting settings to defaults is now protected with a confirmation dialog.</li></ul></li><li>Favorites Screen appearance<ul><li>The text color for icon labels can now be configured.</li></ul></li></ul>]]></content>
+        <author>
+            <name>Datalogic Enterprise Browser</name>
+            <uri>/browser/overview</uri>
+        </author>
+        <category label="browser" term="browser"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Datalogic Launcher 1.1.2.27]]></title>
+        <id>/2023/02/21/launcher</id>
+        <link href="https://datalogic.github.io/releases/2023/02/21/launcher"/>
+        <updated>2023-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New Features]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="new-features">New Features<a class="hash-link" href="#new-features" title="Direct link to heading">​</a></h2><ul><li>Locked down operation<ul><li>You can now allow apps to launch any other app, even if it is not displayed on the Home Screen.</li><li>Launching apps from the Home Screen can now be protected with a password.</li></ul></li><li>Configuration.<ul><li>Settings can now be exported to a file, which can then be imported on another device using Scan2Deploy Studio (or EMM).  (Available on newer firmware images.  See table <a href="/launcher/export">here</a>.)</li><li>Resetting settings to defaults is now protected with a confirmation dialog.</li></ul></li><li>Home Screen appearance<ul><li>A title bar may be added to the Home Screen<ul><li>The title can include device variables, such as serial number and device name.</li><li>The appearance (text size, foreground/background color) of the title bar can be configured.</li></ul></li><li>The text color for icon labels can now be configured.</li></ul></li></ul>]]></content>
+        <author>
+            <name>Datalogic Launcher</name>
+            <uri>/launcher/overview</uri>
+        </author>
+        <category label="launcher" term="launcher"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MAUI / Xamarin SDK 1.32]]></title>
         <id>/2023/1/18/maui-xamarin-sdk-v1.32</id>
