@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[5340],{20947:function(e){e.exports=JSON.parse('{"permalink":"/releases/tags/datalogic-android-sdk","page":1,"postsPerPage":10,"totalPages":1,"totalCount":10,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
