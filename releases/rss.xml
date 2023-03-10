@@ -4,9 +4,18 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Wed, 08 Mar 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Mar 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Datalogic Enterprise Browser 1.1.2.28]]></title>
+            <link>https://datalogic.github.io/releases/2023/03/09/browser</link>
+            <guid>/2023/03/09/browser</guid>
+            <pubDate>Thu, 09 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Corrected Defects]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="corrected-defects">Corrected Defects<a class="hash-link" href="#corrected-defects" title="Direct link to heading">​</a></h2><ul><li>Web Storage and IndexedDB APIs<ul><li>The browser now supports access to these APIs when JavaScript is enabled.  With previous versions, any web page that tried to use these APIs from JavaScript would fail to load properly.</li></ul></li></ul>]]></content:encoded>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[OEMConfig v2.3.0]]></title>
             <link>https://datalogic.github.io/releases/2023/03/08/oemconfig-v2.3.0</link>
