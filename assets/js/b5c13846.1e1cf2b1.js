@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[5761],{55161:function(e,t,a){a.r(t);var i=a(67294),u=a(16550);t.default=function(){return i.createElement(u.l_,{to:"/xamarin/overview"})}}}]);

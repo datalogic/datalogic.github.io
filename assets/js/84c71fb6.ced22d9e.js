@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[8135],{3384:function(e,t,i){i.r(t);var o=i(67294),u=i(76775);t.default=function(){return o.createElement(u.l_,{to:"/oemconfig/overview"})}}}]);
