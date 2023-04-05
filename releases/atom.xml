@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2023-04-04T00:00:00.000Z</updated>
+    <updated>2023-04-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Scan2Deploy Agent v2.0.5]]></title>
+        <id>https://datalogic.github.io/releases/2023/04/05/scan2deploy-agent</id>
+        <link href="https://datalogic.github.io/releases/2023/04/05/scan2deploy-agent"/>
+        <updated>2023-04-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Corrected defects]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected defects" title="Direct link to Corrected defects">​</a></h2><ul><li>Corrected issue with Barcode Only profiles failing to deploy with status message "Unable to find metadata".</li></ul>]]></content>
+        <author>
+            <name>Scan2Deploy Agent</name>
+            <uri>/scan2deploy/android</uri>
+        </author>
+        <category label="scan2deploy-android" term="scan2deploy-android"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scan2Deploy Studio 1.8.4]]></title>
         <id>https://datalogic.github.io/releases/2023/04/04/scan2deploy-studio-v1.8.4</id>
