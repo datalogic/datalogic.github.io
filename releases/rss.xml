@@ -4,18 +4,36 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Wed, 05 Apr 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Apr 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Scan2Deploy Agent v2.0.5]]></title>
-            <link>https://datalogic.github.io/releases/2023/04/05/scan2deploy-agent</link>
-            <guid>https://datalogic.github.io/releases/2023/04/05/scan2deploy-agent</guid>
-            <pubDate>Wed, 05 Apr 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Corrected defects]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected defects" title="Direct link to Corrected defects">​</a></h2><ul><li>Corrected issue with Barcode Only profiles failing to deploy with status message "Unable to find metadata".</li></ul>]]></content:encoded>
+            <title><![CDATA[JavaScript SDK 1.0.2]]></title>
+            <link>https://datalogic.github.io/releases/2023/04/27/javascript</link>
+            <guid>https://datalogic.github.io/releases/2023/04/27/javascript</guid>
+            <pubDate>Thu, 27 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[JavaScript SDK bug patch.]]></description>
+            <content:encoded><![CDATA[<p>JavaScript SDK bug patch.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2><ul><li>JavaScript API now full supported on AOSP devices.</li></ul>]]></content:encoded>
+            <category>javascript</category>
+        </item>
+        <item>
+            <title><![CDATA[Scan2Deploy Agent v2.0.8]]></title>
+            <link>https://datalogic.github.io/releases/2023/04/27/scan2deploy-agent</link>
+            <guid>https://datalogic.github.io/releases/2023/04/27/scan2deploy-agent</guid>
+            <pubDate>Thu, 27 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Improved feedback of multi-label profiles.</li><li>Added feedback from OEMConfig.</li><li>Added feedback from OTA updates.</li><li>Improved script command processing.</li><li>Improved feedback when using Agent service.</li><li>Increased performance by reducing time to process profile.</li><li>Enhanced profile message content.</li><li>Added a log file of the previous profile.</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected defects" title="Direct link to Corrected defects">​</a></h2><ul><li>Corrected numerous stability issues.</li><li>Corrected issue where Profile Manager policies might fail to apply on devices with limited space in the enterprise partition.</li><li>Corrected issue failing to complete deployment when installing Keyboard mapping files.</li><li>Corrected "Unable to reach archive server" error when switching from an existing network connection to a different one defined in a profile.</li><li>Corrected intermittent failures when installing Visual Formatter files.</li><li>Added more filters to avoid misinterpreting short Code-128 labels as old DL-Stager labels.</li></ul>]]></content:encoded>
             <category>scan2deploy-android</category>
+        </item>
+        <item>
+            <title><![CDATA[JavaScript SDK 1.0.1]]></title>
+            <link>https://datalogic.github.io/releases/2023/04/24/javascript</link>
+            <guid>https://datalogic.github.io/releases/2023/04/24/javascript</guid>
+            <pubDate>Mon, 24 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[JavaScript SDK sample pages have been refactored to work more consistencey across devices.]]></description>
+            <content:encoded><![CDATA[<p>JavaScript SDK sample pages have been refactored to work more consistencey across devices.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2><ul><li>JavaScript API<ul><li>Fixed bug when passing boolean into setProperties function in Barcode Manager.</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Sample pages<ul><li>Refactored sample pages to split HTML, CSS, and JavaScript into seperate files.</li><li>Changed console error message when attempting to use SDK functions when Barcode Manager or Keyboard Manager is not available.</li><li>Sample pages are now more accessible on desktop or wide displays.</li><li>Sample page functionalities are now independent of other pages.</li></ul></li></ul>]]></content:encoded>
+            <category>javascript</category>
         </item>
         <item>
             <title><![CDATA[Scan2Deploy Studio 1.8.4]]></title>
@@ -25,15 +43,6 @@
             <description><![CDATA[Scan2Deploy Studio 1.8.4 is now available. It includes a minor update to device availability. Read below for more details.]]></description>
             <content:encoded><![CDATA[<p>Scan2Deploy Studio 1.8.4 is now available. It includes a minor update to device availability. Read below for more details.</p><p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Added Memor 11 device selection support</li></ul>]]></content:encoded>
             <category>scan2deploy-studio</category>
-        </item>
-        <item>
-            <title><![CDATA[Scan2Deploy Agent v2.0.4]]></title>
-            <link>https://datalogic.github.io/releases/2023/03/31/scan2deploy-agent</link>
-            <guid>https://datalogic.github.io/releases/2023/03/31/scan2deploy-agent</guid>
-            <pubDate>Fri, 31 Mar 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Improved feedback of multi-label profiles.</li><li>Added feedback from OEMConfig.</li><li>Added feedback from OTA updates.</li><li>Improved script command processing.</li><li>Improved feedback when using Agent service.</li><li>Increased performance by reducing time to process profile.</li><li>Enhanced profile message content.</li><li>Added a log file of the previous profile.</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected defects" title="Direct link to Corrected defects">​</a></h2><ul><li>Corrected numerous stability issues.</li></ul>]]></content:encoded>
-            <category>scan2deploy-android</category>
         </item>
         <item>
             <title><![CDATA[Datalogic Enterprise Browser 1.1.3.30]]></title>

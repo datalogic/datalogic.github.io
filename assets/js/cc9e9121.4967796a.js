@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[9199],{43280:function(a){a.exports=JSON.parse('{"label":"javascript","permalink":"/releases/tags/javascript","allTagsPath":"/releases/tags","count":1}')}}]);
