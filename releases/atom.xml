@@ -2,11 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2023-06-07T00:00:00.000Z</updated>
+    <updated>2023-06-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Datalogic Enterprise Browser 1.2.1]]></title>
+        <id>https://datalogic.github.io/releases/2023/06/09/browser</id>
+        <link href="https://datalogic.github.io/releases/2023/06/09/browser"/>
+        <updated>2023-06-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New Features]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-features">New Features<a href="#new-features" class="hash-link" aria-label="Direct link to New Features" title="Direct link to New Features">​</a></h2><ul><li>Web page display<ul><li>Full screen operation<ul><li>Pages can be viewed using a full height viewport.</li><li>The browser and system navigation bars automatically hide when browsing a web page.</li></ul></li><li>Wide viewport disable<ul><li>Web pages can be forced to use a viewport whose width matches the physical screen.  This can help with pages which otherwise appear very small.</li></ul></li></ul></li><li>SDK Enhancements<ul><li>Supports the new Cradle Manager APIs</li></ul></li><li>Debugging<ul><li>Support optional logging of JavaScript console messages.</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2><ul><li>After changing the list of allowed web sites, the navigation history is now cleared to prevent accessing those sites.</li><li>JavaScript objects were not being injected under certain conditions, preventing use of the JavaScript SDK.</li><li>Not all images were listed when selecting a custom image for the wallpaper or icon on the Favorites screen.</li><li>When tapping the back navigation from a blocked site, the browser would go back two pages (instead of just one).</li><li>When configuring allowed sites through an EMM or Scan2Deploy, the title was not always displayed when configured to use the title from its web page.</li></ul>]]></content>
+        <author>
+            <name>Datalogic Enterprise Browser</name>
+            <uri>/javascript/overview</uri>
+        </author>
+        <category label="javascript" term="javascript"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScript SDK 1.1.0]]></title>
+        <id>https://datalogic.github.io/releases/2023/06/09/javascript</id>
+        <link href="https://datalogic.github.io/releases/2023/06/09/javascript"/>
+        <updated>2023-06-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JavaScript SDK cradle manager feature release. This allows you to access certain functions of the Datalogic Cradle. You can access the documentation here]]></summary>
+        <content type="html"><![CDATA[<p>JavaScript SDK cradle manager feature release. This allows you to access certain functions of the Datalogic Cradle. You can access the <a href="/javascript/cradle">documentation here</a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-features">New Features<a href="#new-features" class="hash-link" aria-label="Direct link to New Features" title="Direct link to New Features">​</a></h2><ul><li>Cradle Manager<ul><li>You now have access to the Cradle Manager API. This allows you to control the following cradle functions:</li><li>Unlock/lock the cradle.</li><li>Insertion/extraction listeners.</li><li>Read/write to the cradle custom area (JoyaTouch Cradles only).</li><li>Control the cradle LEDs (JoyaTouch Cradles only).</li><li>Requires Browser v1.2 or above.</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Sample pages<ul><li>Reorganized home page to be more readable.</li><li>Added cradle manager sample functionality.</li></ul></li></ul>]]></content>
+        <author>
+            <name>JavaScript SDK</name>
+            <uri>/javascript/overview</uri>
+        </author>
+        <category label="javascript" term="javascript"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scan2Deploy Studio 1.9.0]]></title>
         <id>https://datalogic.github.io/releases/2023/06/07/scan2deploy-studio-v1.9.0</id>
@@ -26,7 +52,7 @@
         <link href="https://datalogic.github.io/releases/2023/04/27/javascript"/>
         <updated>2023-04-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[JavaScript SDK bug patch.]]></summary>
-        <content type="html"><![CDATA[<p>JavaScript SDK bug patch.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2><ul><li>JavaScript API now full supported on AOSP devices.</li></ul>]]></content>
+        <content type="html"><![CDATA[<p>JavaScript SDK bug patch.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2><ul><li>JavaScript API now fully supported on AOSP devices.</li></ul>]]></content>
         <author>
             <name>JavaScript SDK</name>
             <uri>/javascript/overview</uri>
@@ -51,8 +77,8 @@
         <id>https://datalogic.github.io/releases/2023/04/24/javascript</id>
         <link href="https://datalogic.github.io/releases/2023/04/24/javascript"/>
         <updated>2023-04-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JavaScript SDK sample pages have been refactored to work more consistencey across devices.]]></summary>
-        <content type="html"><![CDATA[<p>JavaScript SDK sample pages have been refactored to work more consistencey across devices.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2><ul><li>JavaScript API<ul><li>Fixed bug when passing boolean into setProperties function in Barcode Manager.</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Sample pages<ul><li>Refactored sample pages to split HTML, CSS, and JavaScript into seperate files.</li><li>Changed console error message when attempting to use SDK functions when Barcode Manager or Keyboard Manager is not available.</li><li>Sample pages are now more accessible on desktop or wide displays.</li><li>Sample page functionalities are now independent of other pages.</li></ul></li></ul>]]></content>
+        <summary type="html"><![CDATA[JavaScript SDK sample pages have been refactored to work more consistently across devices.]]></summary>
+        <content type="html"><![CDATA[<p>JavaScript SDK sample pages have been refactored to work more consistently across devices.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2><ul><li>JavaScript API<ul><li>Fixed bug when passing boolean into setProperties function in Barcode Manager.</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Sample pages<ul><li>Refactored sample pages to split HTML, CSS, and JavaScript into separate files.</li><li>Changed console error message when attempting to use SDK functions when Barcode Manager or Keyboard Manager is not available.</li><li>Sample pages are now more accessible on desktop or wide displays.</li><li>Sample page functionalities are now independent of other pages.</li></ul></li></ul>]]></content>
         <author>
             <name>JavaScript SDK</name>
             <uri>/javascript/overview</uri>
