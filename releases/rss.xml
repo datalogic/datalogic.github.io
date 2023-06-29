@@ -4,10 +4,19 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Fri, 09 Jun 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Jun 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Scan2Deploy Agent v2.1.0]]></title>
+            <link>https://datalogic.github.io/releases/2023/06/29/scan2deploy-agent</link>
+            <guid>https://datalogic.github.io/releases/2023/06/29/scan2deploy-agent</guid>
+            <pubDate>Thu, 29 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Corrected defects]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected defects" title="Direct link to Corrected defects">​</a></h2><ul><li>Incorrectly reports "Done" after "Checking for archive server" if WiFi is not connected or no network is defined in profile.</li><li>The following failures are now treated as warnings instead of (fatal) errors.<ul><li>Failure to update/remove existing networks.</li><li>Attempting to downgrade pre-installed APKs.</li></ul></li><li>Visual Formatter files are persisted with the wrong persistence type.</li><li>Visual Formatter files are installed but disabled when profile also includes a self-update.</li><li>Profile policies filter out some valid property IDs.</li><li>Agent v2.0.8 fails to complete a self-update to a newer version of Agent.</li><li>Restoring Enterprise backup fails if profile includes a self-update to a newer version of Agent.</li><li>Fails waiting to get a valid IP address under the following conditions:<ul><li>No download deployment is used and networks are only defined with "after-staging" availability.</li><li>Location mode is disabled.</li></ul></li><li>Timeout waiting for OEMConfig when restoring from Enterprise backup.</li><li>Deploying a profile with a keyboard remapping file can result in applying a previous profile.</li><li>Download percentage can display unexpected values with very large profiles.</li><li>Agent attempts to install all ZIP files from the Download folder as an OTA file.</li><li>Reset after OTA update fails when used with silent deploy.</li><li>Disabling Enterprise Agent APK can fail.</li></ul>]]></content:encoded>
+            <category>scan2deploy-android</category>
+        </item>
         <item>
             <title><![CDATA[Datalogic Enterprise Browser 1.2.1]]></title>
             <link>https://datalogic.github.io/releases/2023/06/09/browser</link>
