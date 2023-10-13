@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[7478],{31259:function(e){e.exports=JSON.parse('{"permalink":"/releases/tags/oemconfig/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":11,"previousPage":"/releases/tags/oemconfig","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

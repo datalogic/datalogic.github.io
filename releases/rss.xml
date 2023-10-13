@@ -4,12 +4,75 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Thu, 29 Jun 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Oct 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Scan2Deploy Agent v2.1.0]]></title>
+            <title><![CDATA[Datalogic Enterprise Browser 1.3.2]]></title>
+            <link>https://datalogic.github.io/releases/2023/10/13/browser</link>
+            <guid>https://datalogic.github.io/releases/2023/10/13/browser</guid>
+            <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Updated to support Android 13</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2><ul><li>Navigating back from an error page did not work correctly.</li><li>Override administrator settings option was incorrectly checked after navigating to Settings screen without making any setting changes.</li></ul>]]></content:encoded>
+            <category>browser</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic Launcher 1.2.3]]></title>
+            <link>https://datalogic.github.io/releases/2023/10/13/launcher</link>
+            <guid>https://datalogic.github.io/releases/2023/10/13/launcher</guid>
+            <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Updated to support Android 13</li><li>If the default browser for the device is changed after Launcher is started, the new selection will be respected when launching URLs.</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2><ul><li>If the default browser for the device is not specified, Launcher will automatically choose one to use for launching URLs.</li><li>Improved the ability to read wallpaper images from the Download folder on Android 11+.</li><li>When editing allowed apps, setting a label to blank will revert to displaying the name specified in the package.</li><li>Global Actions Dialog renamed to Power Button Menu</li></ul>]]></content:encoded>
+            <category>launcher</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic Logger 1.1.4]]></title>
+            <link>https://datalogic.github.io/releases/2023/10/13/logger</link>
+            <guid>https://datalogic.github.io/releases/2023/10/13/logger</guid>
+            <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Updated to support Android 13</li></ul>]]></content:encoded>
+            <category>logger</category>
+        </item>
+        <item>
+            <title><![CDATA[OEMConfig 2.4.3]]></title>
+            <link>https://datalogic.github.io/releases/2023/10/13/oemconfig</link>
+            <guid>https://datalogic.github.io/releases/2023/10/13/oemconfig</guid>
+            <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Updated to support Android 13</li><li>Improved support for WiFi settings:<ul><li>Added <a href="/oemconfig/network-settings#wi-fi">WiFi enable</a></li><li>Removed WiFi sleep policy</li></ul></li><li>Added support for new <a href="/oemconfig/key-settings#motion-trigger">MotionTrigger</a> scanner setting</li><li>Updated support for keyboard remapping to include missing keys/actions</li><li>Improved feedback messages to Scan2Deploy Agent</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2><ul><li>Crash when setting any symbology ID to an empty string</li><li>Unable to set a symbology ID to a non-printable character</li><li>Unable to set scanner input selection</li><li>Crash when run on Android 8.1</li></ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
+        <item>
+            <title><![CDATA[Scan2Deploy Agent 2.2.3]]></title>
+            <link>https://datalogic.github.io/releases/2023/10/13/scan2deploy-agent</link>
+            <guid>https://datalogic.github.io/releases/2023/10/13/scan2deploy-agent</guid>
+            <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Updated to support Android 13</li><li>Added selection of default browser</li><li>Enhanced support for EAP network configuration<ul><li>WPA3 EAP networks</li><li>CA Certificates</li><li>Online certificate status</li><li>Domain filters</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2><ul><li>Scanning a set of 10 or more v3 labels fails if not scanned in order</li><li>Scanning an invalid profile barcode label presents a blank screen</li><li>Replacing or removing an existing WiFi network fails</li></ul>]]></content:encoded>
+            <category>scan2deploy-android</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic SoftSpot 3.0.2]]></title>
+            <link>https://datalogic.github.io/releases/2023/10/13/softspot</link>
+            <guid>https://datalogic.github.io/releases/2023/10/13/softspot</guid>
+            <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Updated to support Android 13</li><li>Supports display of custom images for spot actions</li><li>Scanning behavior now respects scanner settings from the system Settings app</li><li>Configuration settings can be exported to a file, which can then be imported on another device using Scan2Deploy Studio (or EMM).  (Available on newer firmware images.  See table <a href="/softspot/export">here</a>.)</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2><ul><li>Configuration settings were inconsistent between the different methods (Scan2Deploy/EMM, application and SDK)</li><li>SoftSpot SDK<ul><li>SoftSpot SDK in previous versions was not reliable.  Support has been entirely removed.  Calls to the SDK will now return an error.</li><li>An intent-based API is now available which exposes the ability to enable/disable and hide/show the SoftSpot</li></ul></li><li>Touch gestures (such as Swipe to Hide) are more reliable</li></ul>]]></content:encoded>
+            <category>softspot</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic WiFi Guard 1.3.1]]></title>
+            <link>https://datalogic.github.io/releases/2023/10/13/wifiguard</link>
+            <guid>https://datalogic.github.io/releases/2023/10/13/wifiguard</guid>
+            <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Updated to support Android 13</li></ul>]]></content:encoded>
+            <category>wifi-guard</category>
+        </item>
+        <item>
+            <title><![CDATA[Scan2Deploy Agent 2.1.0]]></title>
             <link>https://datalogic.github.io/releases/2023/06/29/scan2deploy-agent</link>
             <guid>https://datalogic.github.io/releases/2023/06/29/scan2deploy-agent</guid>
             <pubDate>Thu, 29 Jun 2023 00:00:00 GMT</pubDate>
@@ -54,7 +117,7 @@
             <category>javascript</category>
         </item>
         <item>
-            <title><![CDATA[Scan2Deploy Agent v2.0.8]]></title>
+            <title><![CDATA[Scan2Deploy Agent 2.0.8]]></title>
             <link>https://datalogic.github.io/releases/2023/04/27/scan2deploy-agent</link>
             <guid>https://datalogic.github.io/releases/2023/04/27/scan2deploy-agent</guid>
             <pubDate>Thu, 27 Apr 2023 00:00:00 GMT</pubDate>
@@ -99,7 +162,7 @@
             <category>browser</category>
         </item>
         <item>
-            <title><![CDATA[OEMConfig v2.3.0]]></title>
+            <title><![CDATA[OEMConfig 2.3.0]]></title>
             <link>https://datalogic.github.io/releases/2023/03/08/oemconfig-v2.3.0</link>
             <guid>https://datalogic.github.io/releases/2023/03/08/oemconfig-v2.3.0</guid>
             <pubDate>Wed, 08 Mar 2023 00:00:00 GMT</pubDate>
@@ -154,7 +217,7 @@
             <category>scan2deploy-studio</category>
         </item>
         <item>
-            <title><![CDATA[OEMConfig v2.2.3]]></title>
+            <title><![CDATA[OEMConfig 2.2.3]]></title>
             <link>https://datalogic.github.io/releases/2022/12/20/oemconfig-v2.2.3</link>
             <guid>https://datalogic.github.io/releases/2022/12/20/oemconfig-v2.2.3</guid>
             <pubDate>Tue, 20 Dec 2022 00:00:00 GMT</pubDate>
@@ -208,7 +271,7 @@
             <category>javascript</category>
         </item>
         <item>
-            <title><![CDATA[OEMConfig v2.2.2]]></title>
+            <title><![CDATA[OEMConfig 2.2.2]]></title>
             <link>https://datalogic.github.io/releases/2022/09/16/oemconfig-v2.2.2</link>
             <guid>https://datalogic.github.io/releases/2022/09/16/oemconfig-v2.2.2</guid>
             <pubDate>Fri, 16 Sep 2022 00:00:00 GMT</pubDate>
@@ -262,7 +325,7 @@
             <category>javapos</category>
         </item>
         <item>
-            <title><![CDATA[OEMConfig v2.1.3]]></title>
+            <title><![CDATA[OEMConfig 2.1.3]]></title>
             <link>https://datalogic.github.io/releases/2022/03/16/oemconfig-v2.1.3</link>
             <guid>https://datalogic.github.io/releases/2022/03/16/oemconfig-v2.1.3</guid>
             <pubDate>Wed, 16 Mar 2022 00:00:00 GMT</pubDate>
@@ -307,7 +370,7 @@
             <category>datalogic-android-sdk</category>
         </item>
         <item>
-            <title><![CDATA[OEMConfig v2.1.1]]></title>
+            <title><![CDATA[OEMConfig 2.1.1]]></title>
             <link>https://datalogic.github.io/releases/2022/01/10/oemconfig-v2.1.1</link>
             <guid>https://datalogic.github.io/releases/2022/01/10/oemconfig-v2.1.1</guid>
             <pubDate>Mon, 10 Jan 2022 00:00:00 GMT</pubDate>
@@ -352,7 +415,7 @@
             <category>javapos</category>
         </item>
         <item>
-            <title><![CDATA[OEMConfig v2.0.0]]></title>
+            <title><![CDATA[OEMConfig 2.0.0]]></title>
             <link>https://datalogic.github.io/releases/2021/10/11/oemconfig-v2.0.0</link>
             <guid>https://datalogic.github.io/releases/2021/10/11/oemconfig-v2.0.0</guid>
             <pubDate>Mon, 11 Oct 2021 00:00:00 GMT</pubDate>
@@ -361,7 +424,7 @@
             <category>oemconfig</category>
         </item>
         <item>
-            <title><![CDATA[OEMConfig v1.10.0]]></title>
+            <title><![CDATA[OEMConfig 1.10.0]]></title>
             <link>https://datalogic.github.io/releases/2021/08/24/oemconfig-v1.10.0</link>
             <guid>https://datalogic.github.io/releases/2021/08/24/oemconfig-v1.10.0</guid>
             <pubDate>Tue, 24 Aug 2021 00:00:00 GMT</pubDate>
@@ -397,7 +460,7 @@
             <category>javapos</category>
         </item>
         <item>
-            <title><![CDATA[OEMConfig v1.9.0]]></title>
+            <title><![CDATA[OEMConfig 1.9.0]]></title>
             <link>https://datalogic.github.io/releases/2021/07/14/oemconfig-v1.9.0</link>
             <guid>https://datalogic.github.io/releases/2021/07/14/oemconfig-v1.9.0</guid>
             <pubDate>Wed, 14 Jul 2021 00:00:00 GMT</pubDate>
@@ -451,7 +514,7 @@
             <category>react-native</category>
         </item>
         <item>
-            <title><![CDATA[OEMConfig v1.8.2]]></title>
+            <title><![CDATA[OEMConfig 1.8.2]]></title>
             <link>https://datalogic.github.io/releases/2021/03/26/oemconfig-v1.8.2</link>
             <guid>https://datalogic.github.io/releases/2021/03/26/oemconfig-v1.8.2</guid>
             <pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate>
@@ -460,7 +523,7 @@
             <category>oemconfig</category>
         </item>
         <item>
-            <title><![CDATA[OEMConfig v1.8.1]]></title>
+            <title><![CDATA[OEMConfig 1.8.1]]></title>
             <link>https://datalogic.github.io/releases/2021/03/23/oemconfig-v1.8.1</link>
             <guid>https://datalogic.github.io/releases/2021/03/23/oemconfig-v1.8.1</guid>
             <pubDate>Tue, 23 Mar 2021 00:00:00 GMT</pubDate>
@@ -469,7 +532,7 @@
             <category>oemconfig</category>
         </item>
         <item>
-            <title><![CDATA[OEMConfig v1.8.0]]></title>
+            <title><![CDATA[OEMConfig 1.8.0]]></title>
             <link>https://datalogic.github.io/releases/2021/03/19/oemconfig-v1.8.0</link>
             <guid>https://datalogic.github.io/releases/2021/03/19/oemconfig-v1.8.0</guid>
             <pubDate>Fri, 19 Mar 2021 00:00:00 GMT</pubDate>
@@ -506,7 +569,16 @@
             <category>scan2deploy-android</category>
         </item>
         <item>
-            <title><![CDATA[DXU Android v1.33]]></title>
+            <title><![CDATA[OEMConfig 1.7.2]]></title>
+            <link>https://datalogic.github.io/releases/2021/02/10/oemconfig-v1.7.2</link>
+            <guid>https://datalogic.github.io/releases/2021/02/10/oemconfig-v1.7.2</guid>
+            <pubDate>Wed, 10 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Corrected Defects]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2><ul><li>Fixed <a href="/oemconfig/system-settings#language">Language</a> setting not persisting through reboot</li></ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
+        <item>
+            <title><![CDATA[DXU Android 1.33]]></title>
             <link>https://datalogic.github.io/releases/2021/02/04/dxu-android-v1.33</link>
             <guid>https://datalogic.github.io/releases/2021/02/04/dxu-android-v1.33</guid>
             <pubDate>Thu, 04 Feb 2021 00:00:00 GMT</pubDate>
@@ -569,7 +641,7 @@
             <category>datalogic-android-sdk</category>
         </item>
         <item>
-            <title><![CDATA[Scan2Deploy Android Schema v1-9-0]]></title>
+            <title><![CDATA[Scan2Deploy Android Schema 1-9-0]]></title>
             <link>https://datalogic.github.io/releases/2020/10/30/scan2deploy-schema-v1-9-0</link>
             <guid>https://datalogic.github.io/releases/2020/10/30/scan2deploy-schema-v1-9-0</guid>
             <pubDate>Fri, 30 Oct 2020 00:00:00 GMT</pubDate>
@@ -605,7 +677,7 @@
             <category>scan2deploy-android</category>
         </item>
         <item>
-            <title><![CDATA[Scan2Deploy Android Schema v1-7-0]]></title>
+            <title><![CDATA[Scan2Deploy Android Schema 1-7-0]]></title>
             <link>https://datalogic.github.io/releases/2020/09/22/scan2deploy-schema-v1-7-0</link>
             <guid>https://datalogic.github.io/releases/2020/09/22/scan2deploy-schema-v1-7-0</guid>
             <pubDate>Tue, 22 Sep 2020 00:00:00 GMT</pubDate>
@@ -623,7 +695,7 @@
             <category>wifi-guard</category>
         </item>
         <item>
-            <title><![CDATA[Scan2Deploy Android Schema v1-6-0]]></title>
+            <title><![CDATA[Scan2Deploy Android Schema 1-6-0]]></title>
             <link>https://datalogic.github.io/releases/2020/09/20/scan2deploy-schema-v1-6-0</link>
             <guid>https://datalogic.github.io/releases/2020/09/20/scan2deploy-schema-v1-6-0</guid>
             <pubDate>Sun, 20 Sep 2020 00:00:00 GMT</pubDate>
@@ -650,6 +722,15 @@
             <category>scan2deploy-android</category>
         </item>
         <item>
+            <title><![CDATA[OEMConfig 1.7.1]]></title>
+            <link>https://datalogic.github.io/releases/2020/08/04/oemconfig-v1.7.1</link>
+            <guid>https://datalogic.github.io/releases/2020/08/04/oemconfig-v1.7.1</guid>
+            <pubDate>Tue, 04 Aug 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Changed default behavior when started from Scan2Deploy</li></ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
+        <item>
             <title><![CDATA[Xamarin SDK 1.22.4648]]></title>
             <link>https://datalogic.github.io/releases/2020/07/28/xamarin-sdk-v1.22</link>
             <guid>https://datalogic.github.io/releases/2020/07/28/xamarin-sdk-v1.22</guid>
@@ -657,6 +738,24 @@
             <description><![CDATA[Xamarin SDK 1.22.4648 is now ready to download. You can access the documentation here. The online API documentation is available here. And you can see the package on NuGet here.  We did release version 1.21-3280-alpha earlier this year, but as far as official release builds, the last release was version 1.5.88 back in January 2018, so this update is long overdue!]]></description>
             <content:encoded><![CDATA[<p>Xamarin SDK 1.22.4648 is now ready to download. You can access the <a href="/xamarin/overview">documentation here</a>. The online API documentation is <a href="https://datalogic.github.io/xamarin-sdk-docs" target="_blank" rel="noopener noreferrer">available here</a>. And you can see the package <a href="https://www.nuget.org/packages/datalogic-xamarin-sdk/1.22.4648" target="_blank" rel="noopener noreferrer">on NuGet here</a>.  We did release version 1.21-3280-alpha earlier this year, but as far as official release builds, the last release was version 1.5.88 back in January 2018, so this update is long overdue!</p><p>The MAJOR and MINOR version numbers of the Datalogic Xamarin SDK track the version numbers of the <a href="/android/overview">Datalogic Android SDK</a>, i.e. Xamarin SDK v1.22.x contains all of the features available in Android SDK <a href="https://github.com/datalogic/datalogic-android-sdk/releases/tag/v1.22" target="_blank" rel="noopener noreferrer">v1.22</a>. Therefore, this update includes all the new features introduced in the Datalogic Android SDK from version 1.6 all the way up through version 1.22.</p><p>Those features are as follows:</p><ul><li>Added 2nd Display configuration to allow packages to display Android notifications</li><li>Added Advanced Keyboard SDK</li><li>Added support to MSI short quiet zones</li><li>Added FrameCapture feature</li><li>Added Battery Swap Begin and End Events</li><li>Added ISBT 128 user ID</li><li>Added support for checking availability and enabling and disabling Second Display feature</li><li>Added Code 128 and MSI aggressiveness</li><li>Added Code 128 Short Margin</li><li>Added configurability for Illumination type (Colour)</li><li>Added configurability for Custom Image Capture Profile</li><li>Added Commit Text mode to the KeyWedgeMode Options</li><li>Added Battery Product Number to the Manufacturer Info</li><li>Added support to Image Capture Profile on Scanner Options</li><li>Added operating mode property for Data Matrix</li><li>Added ISBT 128 symbology with concatenation option</li><li>Added Inverse 1D and 2D barcodes support</li><li>Removed deprecated device.info.BatteryInfo object and SYSTEM.getBatteryInfo() method</li><li>Added cradle package with interfaces for retrieving the device insertion status e the available power source level</li><li>Added enabling/disabling property for WiFi QR Code scanning</li><li>Added APIs to the SoftSpot package in order to set working area and custom images</li><li>Introduced new Listeners (InitListener and DeinitListener), in order to be informed about Scanner Service initialization and reset;</li><li>Added the method isInitialized() to the BarcodeManager, in order to obtain the current status of Scanner Service (initialized or not);</li><li>Added registration/unregistration methods to the BarcodeManager, in order to register/unregister as Listener of related events;</li><li>Added the LISTENER_ERROR DecodeException;</li><li>Fixed WiFiType bug</li><li>Added explicit intent used for SoftSpot, instead of Implicit Intents no more available from Android Oreo 8</li><li>Triggers have been extended with methods for retrieving the default properties values;</li><li>PowerManager has been extended with the getRebootReason() method, in order to retrieve information about last device power-off reason;</li><li>Added Battery interface under device package;</li><li>Trigger class has been extended with the isAvailable() method, in order to retrieve information about supported Triggers by the device.</li><li>Added Property to enable the External Formatting feature</li><li>UPC-E1 support</li><li>Added support for motion trigger, which causes a scan to be initiated after a shake is detected<ul><li>the shake sensitivity can be customized between 3 values (sensitive, intermediate, dull)</li><li>a vibration (that can be inhibited) will start when a shake motion is detected. The scan will start when the device is returned in a stationary position.</li></ul></li><li>Dotcode support</li><li>Exposed Display Mode option</li><li>Added support for Code 39 with short margins</li><li>Added Multi Scan</li><li>Added Character set support for certain 2D symbologies:<ul><li>Aztec</li><li>Data Matrix</li><li>Micro PDF417</li><li>Micro QR code</li><li>PDF417</li><li>QR code</li></ul></li><li>Added Composite symbology support</li><li>Added Web Wedge functionality</li><li>Added GS1 DataBar conversion to GS1-128</li><li>Added Linear quiet zone configuration, only EAN/UPC for now</li><li>Added EAN-13 send system digit configuration</li></ul>]]></content:encoded>
             <category>xamarin</category>
+        </item>
+        <item>
+            <title><![CDATA[OEMConfig 1.7.0]]></title>
+            <link>https://datalogic.github.io/releases/2020/07/17/oemconfig-v1.7.0</link>
+            <guid>https://datalogic.github.io/releases/2020/07/17/oemconfig-v1.7.0</guid>
+            <pubDate>Fri, 17 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Added <a href="/oemconfig/overview#feedback-channel">Feedback Channel</a> support</li><li>Added <a href="/oemconfig/system-settings#usb">USB Debugging</a> setting</li><li>Added <a href="/oemconfig/system-settings#language">Language</a> setting</li><li>Added <a href="/oemconfig/scanner-settings#linear-quiet-zones">MSI Linear Quiet Zone</a> setting</li></ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
+        <item>
+            <title><![CDATA[OEMConfig 1.6.2]]></title>
+            <link>https://datalogic.github.io/releases/2020/06/08/oemconfig-v1.6.2</link>
+            <guid>https://datalogic.github.io/releases/2020/06/08/oemconfig-v1.6.2</guid>
+            <pubDate>Mon, 08 Jun 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Corrected Defects]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2><ul><li>Fixed space character trimming for scanner <a href="/oemconfig/scanner-settings#formatting">formatting</a> settings (escape sequence now allowed)</li></ul>]]></content:encoded>
+            <category>oemconfig</category>
         </item>
         <item>
             <title><![CDATA[Scan2Deploy Studio 1.3]]></title>
@@ -668,6 +767,15 @@
             <category>scan2deploy-studio</category>
         </item>
         <item>
+            <title><![CDATA[OEMConfig 1.6.1]]></title>
+            <link>https://datalogic.github.io/releases/2020/04/27/oemconfig-v1.6.1</link>
+            <guid>https://datalogic.github.io/releases/2020/04/27/oemconfig-v1.6.1</guid>
+            <pubDate>Mon, 27 Apr 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Updated settings organization</li><li>Added <a href="/oemconfig/scanner-settings#code-128-isbt-128">ISBT 128 User ID</a> settings</li></ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
+        <item>
             <title><![CDATA[JavaPOS 1.14.060 (1.14.10-060)]]></title>
             <link>https://datalogic.github.io/releases/2020/04/08/javapos-1.14.060</link>
             <guid>https://datalogic.github.io/releases/2020/04/08/javapos-1.14.060</guid>
@@ -677,6 +785,15 @@
             <category>javapos</category>
         </item>
         <item>
+            <title><![CDATA[OEMConfig 1.6.0]]></title>
+            <link>https://datalogic.github.io/releases/2020/04/08/oemconfig-v1.6.0</link>
+            <guid>https://datalogic.github.io/releases/2020/04/08/oemconfig-v1.6.0</guid>
+            <pubDate>Wed, 08 Apr 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Added <a href="/oemconfig/network-settings">Network</a> settings<ul><li><a href="/oemconfig/network-settings#general">Airplane Mode</a></li><li><a href="/oemconfig/network-settings#bluetooth">Bluetooth</a></li><li><a href="/oemconfig/network-settings#mobile-network">Mobile Network</a><ul><li><a href="/oemconfig/network-settings#access-point-name-apn">Access Point Name (APN)</a></li></ul></li></ul></li><li>Added <a href="/oemconfig/system-settings#system-settings">System</a> settings<ul><li><a href="/oemconfig/system-settings#date-and-time">Date and Time</a> and <a href="/oemconfig/system-settings#ntp">NTP</a></li><li><a href="/oemconfig/system-settings#display">Display</a></li><li><a href="/oemconfig/system-settings#sound">Sound</a> and <a href="/oemconfig/system-settings#volume">Volume</a></li></ul></li></ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
+        <item>
             <title><![CDATA[JavaPOS 1.14.059 (1.14.09-059)]]></title>
             <link>https://datalogic.github.io/releases/2020/02/05/javapos-1.14.059</link>
             <guid>https://datalogic.github.io/releases/2020/02/05/javapos-1.14.059</guid>
@@ -684,6 +801,60 @@
             <description><![CDATA[Enhancements]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Firmware update now always sends reset to the device.</li><li>Added support for DLS Secondary Handheld Serial Number into IHS Parser.</li><li>Serial port handling refactored and improved.</li><li>Statistics has been rewritten entirely and now uses a configurable parsing table to parse Information, Health and Statistics responses.<ul><li>Added <a href="/javapos/configref/ihsparsercsv">IHSParser.csv</a> to installation location.</li><li>Added <strong>IHSParserFile</strong> configuration option to <a href="/javapos/configref/dlsproperties">dls.properties</a>.</li></ul></li><li>Added a 9XXX-series custom Direct I/O command to support Cradled Host functionality.</li><li>Firmware update now immediately exits on a <strong>BEL</strong> response from the device.</li><li>Added support for battery specific fields to statistics.</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected defects" title="Direct link to Corrected defects">​</a></h2><ul><li>Corrected an error in WinXXHid.dll nativeSendData causing crashes.</li><li>Corrected an error in <strong>JavaPOSTest</strong> causing Cell Phone Scan Exit to call Cell Phone Scan Enter.</li><li>Added a secondary search for comparing firmware versions.</li><li>Corrected an error in <strong>JavaPOSTest</strong> causing the previous weight to remain on screen.</li><li>Corrected several issues in Statistics implementation.</li><li>Removed the Edit menu from <strong>JavaPOSTest</strong> as it was not being used.</li><li>Removed <em>java.ext.dirs</em> dependencies from the JavaPOS API.</li><li>Converted Linux USB-OEM implementation to an asynchronous listener.</li><li>Corrected an encoding error in parsing HDL files.</li><li>Corrected an error causing Health checks to fail after firmware update.</li></ul>]]></content:encoded>
             <category>javapos</category>
+        </item>
+        <item>
+            <title><![CDATA[OEMConfig 1.5.1]]></title>
+            <link>https://datalogic.github.io/releases/2020/01/31/oemconfig-v1.5.1</link>
+            <guid>https://datalogic.github.io/releases/2020/01/31/oemconfig-v1.5.1</guid>
+            <pubDate>Fri, 31 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Corrected Defects]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2><ul><li>Fixed service notification icon format</li></ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
+        <item>
+            <title><![CDATA[OEMConfig 1.5.0]]></title>
+            <link>https://datalogic.github.io/releases/2019/12/30/oemconfig-v1.5.0</link>
+            <guid>https://datalogic.github.io/releases/2019/12/30/oemconfig-v1.5.0</guid>
+            <pubDate>Mon, 30 Dec 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Added <a href="/oemconfig/key-settings#key-remapping">Key remapping</a> settings</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2><ul><li>Changed default value for keyboard wedge input mode</li><li>Fixed mismatch in restrictions schema for firmware update</li></ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
+        <item>
+            <title><![CDATA[OEMConfig 1.4.0]]></title>
+            <link>https://datalogic.github.io/releases/2019/11/22/oemconfig-v1.4.0</link>
+            <guid>https://datalogic.github.io/releases/2019/11/22/oemconfig-v1.4.0</guid>
+            <pubDate>Fri, 22 Nov 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Added <a href="/oemconfig/power-settings#wireless-charging">Charging profile</a> setting</li><li>Added <a href="/oemconfig/system-settings#location">Location mode</a> setting</li><li>Added <a href="/oemconfig/network-settings#nfc">NFC configuration</a> setting</li><li>Added <a href="/oemconfig/power-settings#general">Power management</a> settings</li><li>Added <a href="/oemconfig/key-settings#key-triggers">Key trigger configuration</a> settings</li></ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
+        <item>
+            <title><![CDATA[OEMConfig 1.3.0]]></title>
+            <link>https://datalogic.github.io/releases/2019/10/22/oemconfig-v1.3.0</link>
+            <guid>https://datalogic.github.io/releases/2019/10/22/oemconfig-v1.3.0</guid>
+            <pubDate>Tue, 22 Oct 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Improved <a href="/oemconfig/scanner-settings#notification">Good read audio file</a> selection (split into separate custom and default values)</li><li>Added <a href="/oemconfig/scanner-settings#msi">MSI</a> and <a href="/oemconfig/scanner-settings#code-128">Code 128</a> aggressiveness settings</li><li>Added <a href="/oemconfig/scanner-settings#advanced-barcode-options">Code 128 linear quiet zone</a> setting</li><li>Added <a href="/oemconfig/scanner-settings#scanner-options-multi-scan">Scanning illumination type</a> setting</li><li>Added <a href="/oemconfig/scanner-settings#scanner-options-multi-scan">Image capture profile</a> setting</li><li>Added <a href="/oemconfig/scanner-settings#scanner-options-multi-scan">Custom image capture profile</a> setting</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2><ul><li>Removed value dependencies, allowing any setting to be configured regardless of another setting's state</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="other-notes">Other Notes<a href="#other-notes" class="hash-link" aria-label="Direct link to Other Notes" title="Direct link to Other Notes">​</a></h2><ul><li>Removed top level bundle arrays from schema</li></ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
+        <item>
+            <title><![CDATA[OEMConfig 1.2.0]]></title>
+            <link>https://datalogic.github.io/releases/2019/09/13/oemconfig-v1.2.0</link>
+            <guid>https://datalogic.github.io/releases/2019/09/13/oemconfig-v1.2.0</guid>
+            <pubDate>Fri, 13 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Unconfigured settings have their default value applied</li></ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
+        <item>
+            <title><![CDATA[OEMConfig 1.1.0]]></title>
+            <link>https://datalogic.github.io/releases/2019/09/10/oemconfig-v1.1.0</link>
+            <guid>https://datalogic.github.io/releases/2019/09/10/oemconfig-v1.1.0</guid>
+            <pubDate>Tue, 10 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Compatibility]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="compatibility">Compatibility<a href="#compatibility" class="hash-link" aria-label="Direct link to Compatibility" title="Direct link to Compatibility">​</a></h2><ul><li>Android 8 and above</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2><ul><li>Added <a href="/oemconfig/scanner-settings#notification">Notification</a> settings</li><li>Added <a href="/oemconfig/scanner-settings#good-read">Good Read</a> settings</li><li>Added <a href="/oemconfig/scanner-settings#formatting">Formatting</a> settings</li><li>Added <a href="/oemconfig/scanner-settings#scanner-options--multi-scan">Scanner Options &amp; Multi Scan</a> settings</li><li>Added <a href="/oemconfig/scanner-settings#wedge">Wedge</a> settings</li><li>Added <a href="/oemconfig/scanner-settings#symbologies">Symbology</a> settings</li><li>Added <a href="/oemconfig/firmware">Firmware Update</a> settings</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="other-notes">Other Notes<a href="#other-notes" class="hash-link" aria-label="Direct link to Other Notes" title="Direct link to Other Notes">​</a></h2><ul><li>Initial release in Play Store</li></ul>]]></content:encoded>
+            <category>oemconfig</category>
         </item>
     </channel>
 </rss>
