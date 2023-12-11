@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[5774],{50199:(e,t,a)=>{a.r(t),a.d(t,{default:()=>c});var i=a(67294),u=a(16550);const c=function(){return i.createElement(u.l_,{to:"/hhs/overview"})}}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[2697],{16844:(t,e,o)=>{o.r(e),o.d(e,{default:()=>u});var a=o(67294),i=o(16550);const u=function(){return a.createElement(i.l_,{to:"/softspot/overview"})}}}]);
