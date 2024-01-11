@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[9190],{99375:(e,t,a)=>{a.r(t),a.d(t,{default:()=>u});var i=a(67294),c=a(16550);const u=function(){return i.createElement(c.l_,{to:"/reactnative/overview"})}}}]);

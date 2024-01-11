@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[4466],{66596:s=>{s.exports=JSON.parse('{"label":"softspot","permalink":"/releases/tags/softspot","allTagsPath":"/releases/tags","count":1,"unlisted":false}')}}]);

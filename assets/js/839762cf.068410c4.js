@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[9115],{61333:(e,t,a)=>{a.r(t),a.d(t,{default:()=>i});var o=a(67294),c=a(16550);const i=function(){return o.createElement(c.l_,{to:"/cordova/overview"})}}}]);

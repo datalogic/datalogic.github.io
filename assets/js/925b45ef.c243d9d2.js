@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[1857],{84644:a=>{a.exports=JSON.parse('{"label":"launcher","permalink":"/releases/tags/launcher","allTagsPath":"/releases/tags","count":3,"unlisted":false}')}}]);

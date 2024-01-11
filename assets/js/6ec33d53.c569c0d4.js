@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[2729],{36016:(e,t,i)=>{i.r(t),i.d(t,{default:()=>c});var a=i(67294),u=i(16550);const c=function(){return a.createElement(u.l_,{to:"/wifiguard/overview"})}}}]);
