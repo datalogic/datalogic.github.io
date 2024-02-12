@@ -52,6 +52,34 @@
             <category>aladdin</category>
         </item>
         <item>
+            <title><![CDATA[Scan2Deploy Studio 2.1.0]]></title>
+            <link>https://datalogic.github.io/releases/2024/02/12/scan2deploy-studio-v2.1.0</link>
+            <guid>https://datalogic.github.io/releases/2024/02/12/scan2deploy-studio-v2.1.0</guid>
+            <pubDate>Mon, 12 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Scan2Deploy Studio 2.1.0 is now available. It includes new enhancements and bug fixes. Read below for more details.]]></description>
+            <content:encoded><![CDATA[<p>Scan2Deploy Studio 2.1.0 is now available. It includes new enhancements and bug fixes. Read below for more details.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/02/12/scan2deploy-studio-v2.1.0#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added <a href="https://datalogic.github.io/aladdin/overview">Aladdin</a> APK support for Memor 11 devices</li>
+<li>Visual Formatter<!-- -->
+<ul>
+<li>Added <a href="https://datalogic.github.io/scan2deploy/visual-formatter-basic-concepts#actions">Key Event Number</a> action to enable sending Android keycode events</li>
+<li>Added new symbologies (GS1 DataMatrix, GS1 QR Code, OCR, ITF-14, Han Xin)</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/02/12/scan2deploy-studio-v2.1.0#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Visual Formatter<!-- -->
+<ul>
+<li>Fixed an issue where managed events and hide output label flags were not loaded correctly from a saved profile</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+            <category>scan2deploy-studio</category>
+        </item>
+        <item>
             <title><![CDATA[Scan2Deploy Studio 2.0.0]]></title>
             <link>https://datalogic.github.io/releases/2023/12/08/scan2deploy-studio-v2.0.0</link>
             <guid>https://datalogic.github.io/releases/2023/12/08/scan2deploy-studio-v2.0.0</guid>
@@ -584,27 +612,6 @@
 <li>Added Memor 11 device selection support</li>
 </ul>]]></content:encoded>
             <category>scan2deploy-studio</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Enterprise Browser 1.1.3.30]]></title>
-            <link>https://datalogic.github.io/releases/2023/03/27/browser</link>
-            <guid>https://datalogic.github.io/releases/2023/03/27/browser</guid>
-            <pubDate>Mon, 27 Mar 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Corrected Defects]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2023/03/27/browser#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Managed configuration<!-- -->
-<ul>
-<li>Changes to the following configuration items will now be accepted:<!-- -->
-<ul>
-<li>"Allow all sites to be browsed"</li>
-<li>"Enable device access to settings and exit"</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>]]></content:encoded>
-            <category>browser</category>
         </item>
     </channel>
 </rss>
