@@ -4,10 +4,53 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Fri, 08 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Aladdin Mobile App 3.0.5]]></title>
+            <link>https://datalogic.github.io/releases/2024/02/12/aladdin-v3.0.5</link>
+            <guid>https://datalogic.github.io/releases/2024/02/12/aladdin-v3.0.5</guid>
+            <pubDate>Mon, 12 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Aladdin Mobile Application 3.0.5 is now available. This is the initial version of the Aladdin Mobile Application.]]></description>
+            <content:encoded><![CDATA[<p>The Aladdin Mobile Application 3.0.5 is now available. This is the initial version of the Aladdin Mobile Application.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="https://datalogic.github.io/releases/2024/02/12/aladdin-v3.0.5#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bluetooth-connections">Bluetooth Connections<a href="https://datalogic.github.io/releases/2024/02/12/aladdin-v3.0.5#bluetooth-connections" class="hash-link" aria-label="Direct link to Bluetooth Connections" title="Direct link to Bluetooth Connections">​</a></h3>
+<ul>
+<li>Easy BT pairing using a barcode.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="handheld-scanner-battery-management">Handheld Scanner Battery Management<a href="https://datalogic.github.io/releases/2024/02/12/aladdin-v3.0.5#handheld-scanner-battery-management" class="hash-link" aria-label="Direct link to Handheld Scanner Battery Management" title="Direct link to Handheld Scanner Battery Management">​</a></h3>
+<ul>
+<li>Battery level indication</li>
+<li>Battery information</li>
+<li>Battery management profile control</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="handheld-scanner-information">Handheld Scanner Information<a href="https://datalogic.github.io/releases/2024/02/12/aladdin-v3.0.5#handheld-scanner-information" class="hash-link" aria-label="Direct link to Handheld Scanner Information" title="Direct link to Handheld Scanner Information">​</a></h3>
+<ul>
+<li>Scanner type</li>
+<li>Firmware version</li>
+<li>Device ID</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="barcode-data-integration">Barcode Data Integration<a href="https://datalogic.github.io/releases/2024/02/12/aladdin-v3.0.5#barcode-data-integration" class="hash-link" aria-label="Direct link to Barcode Data Integration" title="Direct link to Barcode Data Integration">​</a></h3>
+<ul>
+<li>The Aladdin Mobile Application provides four different methods for getting the barcode data from the handheld scanner.<!-- -->
+<ul>
+<li>Keyboard (data input as keystrokes)</li>
+<li>Intent (data input as intents to application)</li>
+<li>WebSocket (data input as web socket events)</li>
+<li>SDK (interface used by Android apps to get data)</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="other-features">Other Features<a href="https://datalogic.github.io/releases/2024/02/12/aladdin-v3.0.5#other-features" class="hash-link" aria-label="Direct link to Other Features" title="Direct link to Other Features">​</a></h3>
+<ul>
+<li>Aladdin on-screen keyboard</li>
+<li>Scanning history</li>
+</ul>]]></content:encoded>
+            <category>aladdin</category>
+        </item>
         <item>
             <title><![CDATA[Scan2Deploy Studio 2.0.0]]></title>
             <link>https://datalogic.github.io/releases/2023/12/08/scan2deploy-studio-v2.0.0</link>
@@ -558,22 +601,6 @@
 <li>"Enable device access to settings and exit"</li>
 </ul>
 </li>
-</ul>
-</li>
-</ul>]]></content:encoded>
-            <category>browser</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Enterprise Browser 1.1.2.28]]></title>
-            <link>https://datalogic.github.io/releases/2023/03/09/browser</link>
-            <guid>https://datalogic.github.io/releases/2023/03/09/browser</guid>
-            <pubDate>Thu, 09 Mar 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Corrected Defects]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2023/03/09/browser#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Web Storage and IndexedDB APIs<!-- -->
-<ul>
-<li>The browser now supports access to these APIs when JavaScript is enabled.  With previous versions, any web page that tried to use these APIs from JavaScript would fail to load properly.</li>
 </ul>
 </li>
 </ul>]]></content:encoded>
