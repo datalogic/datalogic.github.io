@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[52197],{87768:a=>{a.exports=JSON.parse('{"permalink":"/releases/tags/javapos/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":11,"previousPage":"/releases/tags/javapos","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

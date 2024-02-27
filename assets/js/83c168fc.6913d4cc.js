@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[1079],{37634:a=>{a.exports=JSON.parse('{"label":"dxu-android","permalink":"/releases/tags/dxu-android","allTagsPath":"/releases/tags","count":1,"unlisted":false}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[9255],{51390:(i,t,e)=>{e.r(t),e.d(t,{default:()=>a});e(67294);var o=e(16550),u=e(85893);const a=function(){return(0,u.jsx)(o.l_,{to:"/wifiqrdoc/overview"})}}}]);

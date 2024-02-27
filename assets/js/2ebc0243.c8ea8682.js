@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[94577],{10602:(t,o,e)=>{e.r(o),e.d(o,{default:()=>a});e(67294);var i=e(16550),u=e(85893);const a=function(){return(0,u.jsx)(i.l_,{to:"/opos/overview"})}}}]);

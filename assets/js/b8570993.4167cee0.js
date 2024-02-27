@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[96036],{55788:a=>{a.exports=JSON.parse('{"label":"aladdin","permalink":"/releases/tags/aladdin","allTagsPath":"/releases/tags","count":1,"unlisted":false}')}}]);

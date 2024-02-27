@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[6855],{19530:a=>{a.exports=JSON.parse('{"label":"maui","permalink":"/releases/tags/maui","allTagsPath":"/releases/tags","count":1,"unlisted":false}')}}]);
