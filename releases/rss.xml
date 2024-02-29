@@ -4,10 +4,31 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Mon, 12 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[OEMConfig 2.5.0]]></title>
+            <link>https://datalogic.github.io/releases/2024/02/29/oemconfig</link>
+            <guid>https://datalogic.github.io/releases/2024/02/29/oemconfig</guid>
+            <pubDate>Thu, 29 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/02/29/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added support for enabling charging sources</li>
+<li>Added support for advanced Ethernet properties</li>
+<li>Updated support for WiFi<!-- -->
+<ul>
+<li>Updated support for WiFi roaming profile to include Legacy profile</li>
+<li>Added support for 802.11ac and 802.11ax</li>
+<li>Added support for 6 GHz bands</li>
+<li>Added support for scanning stabilization time</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
         <item>
             <title><![CDATA[Aladdin Mobile App 3.0.5]]></title>
             <link>https://datalogic.github.io/releases/2024/02/12/aladdin-v3.0.5</link>
@@ -580,19 +601,6 @@
 <li>Fixed an issue where the multiply operation within Visual Formatter was not applied correctly</li>
 </ul>]]></content:encoded>
             <category>scan2deploy-studio</category>
-        </item>
-        <item>
-            <title><![CDATA[JavaScript SDK 1.0.2]]></title>
-            <link>https://datalogic.github.io/releases/2023/04/27/javascript</link>
-            <guid>https://datalogic.github.io/releases/2023/04/27/javascript</guid>
-            <pubDate>Thu, 27 Apr 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[JavaScript SDK bug patch.]]></description>
-            <content:encoded><![CDATA[<p>JavaScript SDK bug patch.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2023/04/27/javascript#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>JavaScript API now fully supported on AOSP devices.</li>
-</ul>]]></content:encoded>
-            <category>javascript</category>
         </item>
     </channel>
 </rss>
