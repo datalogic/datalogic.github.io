@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[24130],{54236:s=>{s.exports=JSON.parse('{"label":"dlrmus","permalink":"/releases/tags/dlrmus","allTagsPath":"/releases/tags","count":2,"unlisted":false}')}}]);

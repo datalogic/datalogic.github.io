@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[75437],{13292:s=>{s.exports=JSON.parse('{"label":"opos","permalink":"/releases/tags/opos","allTagsPath":"/releases/tags","count":1,"unlisted":false}')}}]);

@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2024-03-01T00:00:00.000Z</updated>
+    <updated>2024-03-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[DLRMUS 1.0.19]]></title>
+        <id>https://datalogic.github.io/releases/2024/03/19/dlrmus-v1.0.19</id>
+        <link href="https://datalogic.github.io/releases/2024/03/19/dlrmus-v1.0.19"/>
+        <updated>2024-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Compatibility]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="compatibility">Compatibility<a href="https://datalogic.github.io/releases/2024/03/19/dlrmus-v1.0.19#compatibility" class="hash-link" aria-label="Direct link to Compatibility" title="Direct link to Compatibility">​</a></h2>
+<ul>
+<li>Windows 10</li>
+<li>Debian 6</li>
+<li>Ubuntu 22</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/03/19/dlrmus-v1.0.19#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added support for OEM bulk transfer</li>
+<li>Added IHS support for PowerScan 9600</li>
+<li>Added support for .S37 and .DAT file transfer over Service Port</li>
+<li>Added EC verification over service port</li>
+<li>Added TopModelNumber checking over service port</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected defects<a href="https://datalogic.github.io/releases/2024/03/19/dlrmus-v1.0.19#corrected-defects" class="hash-link" aria-label="Direct link to Corrected defects" title="Direct link to Corrected defects">​</a></h2>
+<ul>
+<li>Corrected some model properties for the 1100i</li>
+<li>Corrected inconsistent log files extensions</li>
+<li>Corrected issues connecting over Service Port on non-USB interfaces</li>
+</ul>]]></content>
+        <author>
+            <name>DLRMUS</name>
+            <uri>/opos/dlrmus</uri>
+        </author>
+        <category label="dlrmus" term="dlrmus"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OEMConfig 2.5.1]]></title>
         <id>https://datalogic.github.io/releases/2024/03/01/oemconfig</id>
@@ -272,6 +304,69 @@
         <category label="scan2deploy-android" term="scan2deploy-android"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[OPOS 1.14.208]]></title>
+        <id>https://datalogic.github.io/releases/2023/11/16/opos-v1.14.208</id>
+        <link href="https://datalogic.github.io/releases/2023/11/16/opos-v1.14.208"/>
+        <updated>2023-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Compatibility]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="compatibility">Compatibility<a href="https://datalogic.github.io/releases/2023/11/16/opos-v1.14.208#compatibility" class="hash-link" aria-label="Direct link to Compatibility" title="Direct link to Compatibility">​</a></h2>
+<ul>
+<li>Windows 10 and above</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/11/16/opos-v1.14.208#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>OPOS customization to mimic non UPOS compliant behavior of NCR OPOS regarding usage of <strong>DecodeData</strong> flag</li>
+<li>Single-Cable COM (<strong>SC-COM</strong>) profile now supports virtual port mode (profile key <strong>UseVirtualPort</strong>)</li>
+<li>Added new Information, Health and Statistics fields to align with VAF Specification for Fresco units.</li>
+<li>Introduced registry key <strong>UseUPOSCompliantWMI</strong> to control WMI output to be based of IHS data or to be UPOS compliant</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected defects<a href="https://datalogic.github.io/releases/2023/11/16/opos-v1.14.208#corrected-defects" class="hash-link" aria-label="Direct link to Corrected defects" title="Direct link to Corrected defects">​</a></h2>
+<ul>
+<li>Corrected a defect where under certain conditions ScanData came back empty</li>
+<li>Restored fields <strong>FirmwareRevision</strong> and <strong>PhysicalDeviceName</strong> in WMI</li>
+<li>Corrected issues with OPOS when claiming single plane scanner with attached handheld</li>
+<li>Corrected compatibility problems with Zebra devices</li>
+</ul>]]></content>
+        <author>
+            <name>OPOS</name>
+            <uri>/opos</uri>
+        </author>
+        <category label="opos" term="opos"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DLRMUS 1.0.18]]></title>
+        <id>https://datalogic.github.io/releases/2023/10/24/dlrmus-v1.0.18</id>
+        <link href="https://datalogic.github.io/releases/2023/10/24/dlrmus-v1.0.18"/>
+        <updated>2023-10-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Compatibility]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="compatibility">Compatibility<a href="https://datalogic.github.io/releases/2023/10/24/dlrmus-v1.0.18#compatibility" class="hash-link" aria-label="Direct link to Compatibility" title="Direct link to Compatibility">​</a></h2>
+<ul>
+<li>Windows 10</li>
+<li>Debian 6</li>
+<li>Ubuntu 22</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/10/24/dlrmus-v1.0.18#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Modification to DLRMUs Error Reporting to use more specific error codes when exiting. Managed by <a href="https://datalogic.github.io/opos/dlrmus/propertiesjson">Legacy Error Code</a> parameter.</li>
+<li>Improved firmware transfer speeds for USB interfaces</li>
+<li>Added new Information, Health and Statistics fields to align with VAF Specification for Fresco units.</li>
+<li>Introduced Service Port profile to support faster transfers over Service Port interface.</li>
+<li>Support for retrieving IHS content from systems having multiple devices with same interface profile name</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected defects<a href="https://datalogic.github.io/releases/2023/10/24/dlrmus-v1.0.18#corrected-defects" class="hash-link" aria-label="Direct link to Corrected defects" title="Direct link to Corrected defects">​</a></h2>
+<ul>
+<li>Restored fields <strong>FirmwareRevision</strong> and <strong>PhysicalDeviceName</strong> in WMI</li>
+<li>Corrected various issues with parsing model names when using -F/-r -F flags</li>
+<li>Corrected defect causing uses when reading response from 9600i units over SC-RS232</li>
+<li>Corrected defect causing incorrect product IDs displayed in DLRMUS logs</li>
+</ul>]]></content>
+        <author>
+            <name>DLRMUS</name>
+            <uri>/opos/dlrmus</uri>
+        </author>
+        <category label="dlrmus" term="dlrmus"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Datalogic Enterprise Browser 1.3.2]]></title>
         <id>https://datalogic.github.io/releases/2023/10/13/browser</id>
         <link href="https://datalogic.github.io/releases/2023/10/13/browser"/>
@@ -521,164 +616,5 @@
             <uri>/javapos/overview</uri>
         </author>
         <category label="javapos" term="javapos"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Datalogic Enterprise Browser 1.2.1]]></title>
-        <id>https://datalogic.github.io/releases/2023/06/09/browser</id>
-        <link href="https://datalogic.github.io/releases/2023/06/09/browser"/>
-        <updated>2023-06-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[New Features]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-features">New Features<a href="https://datalogic.github.io/releases/2023/06/09/browser#new-features" class="hash-link" aria-label="Direct link to New Features" title="Direct link to New Features">​</a></h2>
-<ul>
-<li>Web page display<!-- -->
-<ul>
-<li>Full screen operation<!-- -->
-<ul>
-<li>Pages can be viewed using a full height viewport.</li>
-<li>The browser and system navigation bars automatically hide when browsing a web page.</li>
-</ul>
-</li>
-<li>Wide viewport disable<!-- -->
-<ul>
-<li>Web pages can be forced to use a viewport whose width matches the physical screen.  This can help with pages which otherwise appear very small.</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>SDK Enhancements<!-- -->
-<ul>
-<li>Supports the new Cradle Manager APIs</li>
-</ul>
-</li>
-<li>Debugging<!-- -->
-<ul>
-<li>Support optional logging of JavaScript console messages.</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2023/06/09/browser#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>After changing the list of allowed web sites, the navigation history is now cleared to prevent accessing those sites.</li>
-<li>JavaScript objects were not being injected under certain conditions, preventing use of the JavaScript SDK.</li>
-<li>Not all images were listed when selecting a custom image for the wallpaper or icon on the Favorites screen.</li>
-<li>When tapping the back navigation from a blocked site, the browser would go back two pages (instead of just one).</li>
-<li>When configuring allowed sites through an EMM or Scan2Deploy, the title was not always displayed when configured to use the title from its web page.</li>
-</ul>]]></content>
-        <author>
-            <name>Datalogic Enterprise Browser</name>
-            <uri>/browser/overview</uri>
-        </author>
-        <category label="browser" term="browser"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JavaScript SDK 1.1.0]]></title>
-        <id>https://datalogic.github.io/releases/2023/06/09/javascript</id>
-        <link href="https://datalogic.github.io/releases/2023/06/09/javascript"/>
-        <updated>2023-06-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JavaScript SDK cradle manager feature release. This allows you to access certain functions of the Datalogic Cradle. You can access the documentation here]]></summary>
-        <content type="html"><![CDATA[<p>JavaScript SDK cradle manager feature release. This allows you to access certain functions of the Datalogic Cradle. You can access the <a href="https://datalogic.github.io/javascript/cradle">documentation here</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-features">New Features<a href="https://datalogic.github.io/releases/2023/06/09/javascript#new-features" class="hash-link" aria-label="Direct link to New Features" title="Direct link to New Features">​</a></h2>
-<ul>
-<li>Cradle Manager<!-- -->
-<ul>
-<li>You now have access to the Cradle Manager API. This allows you to control the following cradle functions:<!-- -->
-<ul>
-<li>Unlock/lock the cradle.</li>
-<li>Insertion/extraction listeners.</li>
-<li>Read/write to the cradle custom area (JoyaTouch Cradles only).</li>
-<li>Control the cradle LEDs (JoyaTouch Cradles only).</li>
-</ul>
-</li>
-<li>Requires Browser v1.2 or above.</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/06/09/javascript#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Sample pages<!-- -->
-<ul>
-<li>Reorganized home page to be more readable.</li>
-<li>Added cradle manager sample functionality.</li>
-</ul>
-</li>
-</ul>]]></content>
-        <author>
-            <name>JavaScript SDK</name>
-            <uri>/javascript/overview</uri>
-        </author>
-        <category label="javascript" term="javascript"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scan2Deploy Studio 1.9.0]]></title>
-        <id>https://datalogic.github.io/releases/2023/06/07/scan2deploy-studio-v1.9.0</id>
-        <link href="https://datalogic.github.io/releases/2023/06/07/scan2deploy-studio-v1.9.0"/>
-        <updated>2023-06-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Scan2Deploy Studio 1.9.0 is now available. It includes many new enhancements and bug fixes. Read below for more details.]]></summary>
-        <content type="html"><![CDATA[<p>Scan2Deploy Studio 1.9.0 is now available. It includes many new enhancements and bug fixes. Read below for more details.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/06/07/scan2deploy-studio-v1.9.0#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="advanced-keyboard-remapping-">Advanced Keyboard Remapping 🆕<a href="https://datalogic.github.io/releases/2023/06/07/scan2deploy-studio-v1.9.0#advanced-keyboard-remapping-" class="hash-link" aria-label="Direct link to Advanced Keyboard Remapping 🆕" title="Direct link to Advanced Keyboard Remapping 🆕">​</a></h3>
-<ul>
-<li>Added <a href="https://datalogic.github.io/scan2deploy/advanced-keyboard-page">Advanced Keyboard feature</a> for Skorpio X5 and Joya Touch 22 devices</li>
-<li>Provides visual representation of different keyboard layouts and keys for customization</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="device--scanner--application-configuration">Device &amp; Scanner / Application Configuration<a href="https://datalogic.github.io/releases/2023/06/07/scan2deploy-studio-v1.9.0#device--scanner--application-configuration" class="hash-link" aria-label="Direct link to Device &amp; Scanner / Application Configuration" title="Direct link to Device &amp; Scanner / Application Configuration">​</a></h3>
-<ul>
-<li>Improved detection of default bundle array entries. They will no longer be added to profile if not modified<!-- -->
-<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>Originally reported as an issue where SureLock configuration would contain a blank application and webpage entry if not configured</p></div></div>
-</li>
-<li>An empty Global settings policy is now removed and will no longer trigger an attempted update on the device</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="deployment-settings">Deployment Settings<a href="https://datalogic.github.io/releases/2023/06/07/scan2deploy-studio-v1.9.0#deployment-settings" class="hash-link" aria-label="Direct link to Deployment Settings" title="Direct link to Deployment Settings">​</a></h3>
-<ul>
-<li>Added option to treat warnings as failure conditions during profile deployment on the device<!-- -->
-<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>Requires Scan2deploy Agent v2.0.8 or higher. Older agents will ignore the option and continue with the deployment when warnings are encountered (default behavior)</p></div></div>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="miscellaneous">Miscellaneous<a href="https://datalogic.github.io/releases/2023/06/07/scan2deploy-studio-v1.9.0#miscellaneous" class="hash-link" aria-label="Direct link to Miscellaneous" title="Direct link to Miscellaneous">​</a></h3>
-<ul>
-<li>Minor updates to UI and overall look &amp; feel</li>
-<li>Improved feature and application filtering based on device selection</li>
-<li>Updated default device selection for new profiles to Memor 11</li>
-<li>DuraSpeed is now filtered from application list for Memor 10 &amp; 11 devices</li>
-<li>Added link to Datalogic discussion board in 'about' info</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2023/06/07/scan2deploy-studio-v1.9.0#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Applications<!-- -->
-<ul>
-<li>Fixed an issue that caused invalid URL validation and error messages in server log when a profile was loaded containing an 3rd party APK</li>
-<li>Fixed an issue where successive bundle array entries within application configuration would not increment the title index properly</li>
-<li>Fixed an issue that prevented downloads for application URLs with protocol set to HTTP instead of HTTPS</li>
-<li>Fixed an issue where the Applications page would be present when editing/importing a profile that only contained Datalogic Launcher/Browser configurations</li>
-<li>Fixed an issue where a failed remote APK download could result in an invalid file left within profile</li>
-</ul>
-</li>
-<li>Datalogic Launcher<!-- -->
-<ul>
-<li>Fixed an issue that could cause system applications to be treated as custom applications when editing/importing a profile</li>
-<li>Fixed an issue that could cause custom application entries to duplicate within the UI</li>
-<li>Fixed an issue that caused the select apps modal to not be initialized properly when editing/importing a profile</li>
-<li>Fixed an issue that prevented encryption support of password fields within application specific controls</li>
-</ul>
-</li>
-<li>Device and Scanner Settings<!-- -->
-<ul>
-<li>Fixed an issue that prevented the Device and Scanner Settings action from being removed if a Datalogic OEMConfig APK was added manually</li>
-<li>Fixed an issue that caused setting selection changes to not trigger profile updates after profile was saved</li>
-<li>Fixed an issue where additional bundle array entries could persist between selecting and unselecting the page</li>
-</ul>
-</li>
-<li>Fixed an issue that prevented using an imported configuration file for Datalogic Browser</li>
-<li>Fixed an issue where the available SKU for Joya Touch A6 devices was listed as "US GMS" instead of "AOSP (NON-GMS)"</li>
-<li>Fixed a visual issue with the loading animation for firmware update files</li>
-<li>Fixed an issue where Wi-Fi EAP Phase2 field was not visually set on profile imports/edits when saved with default value</li>
-<li>Fixed an issue where the multiply operation within Visual Formatter was not applied correctly</li>
-</ul>]]></content>
-        <author>
-            <name>Scan2Deploy Studio</name>
-            <uri>/scan2deploy/studio</uri>
-        </author>
-        <category label="scan2deploy-studio" term="scan2deploy-studio"/>
     </entry>
 </feed>
