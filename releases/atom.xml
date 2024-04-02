@@ -2,11 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2024-03-19T00:00:00.000Z</updated>
+    <updated>2024-04-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Scan2Deploy Studio 2.2.0]]></title>
+        <id>https://datalogic.github.io/releases/2024/04/02/scan2deploy-studio-v2.2.0</id>
+        <link href="https://datalogic.github.io/releases/2024/04/02/scan2deploy-studio-v2.2.0"/>
+        <updated>2024-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Scan2Deploy Studio 2.2.0 is now available. It includes new enhancements. Read below for more details.]]></summary>
+        <content type="html"><![CDATA[<p>Scan2Deploy Studio 2.2.0 is now available. It includes new enhancements. Read below for more details.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/04/02/scan2deploy-studio-v2.2.0#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added Memor 30/30X device selection support</li>
+<li>Added the ability to select "Do not validate" option for EAP CA Cert on Memor 30/30X</li>
+<li>Added the ability for the user to configure the server port number</li>
+<li>Added Memor 35/35X device selection support</li>
+<li>Added the ability for the user to configure the redis port number</li>
+<li>Visual Formatter<!-- -->
+<ul>
+<li>Added feature level 4 support
+Advanced Keyboard</li>
+<li>Added support for the Memor 30/30X</li>
+<li>Added support for the Memor 35/35X</li>
+</ul>
+</li>
+</ul>]]></content>
+        <author>
+            <name>Scan2Deploy Studio</name>
+            <uri>/scan2deploy/studio</uri>
+        </author>
+        <category label="scan2deploy-studio" term="scan2deploy-studio"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DLRMUS 1.0.19]]></title>
         <id>https://datalogic.github.io/releases/2024/03/19/dlrmus-v1.0.19</id>
@@ -597,24 +627,5 @@
             <uri>/scan2deploy/android</uri>
         </author>
         <category label="scan2deploy-android" term="scan2deploy-android"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JavaPOS 1.14.075 (1.14.15-075)]]></title>
-        <id>https://datalogic.github.io/releases/2023/06/15/javapos-1.14.075</id>
-        <link href="https://datalogic.github.io/releases/2023/06/15/javapos-1.14.075"/>
-        <updated>2023-06-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/06/15/javapos-1.14.075#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added sample <strong>jpos.xml</strong> profiles for <em>Magellan 9600</em> and <em>Magellan 9900</em> devices using USB-OEM.</li>
-<li>Added experimental support for <em>Matrix 320</em> devices.</li>
-<li>Signed DLL files for Windows 11 SAC support.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected defects<a href="https://datalogic.github.io/releases/2023/06/15/javapos-1.14.075#corrected-defects" class="hash-link" aria-label="Direct link to Corrected defects" title="Direct link to Corrected defects">​</a></h2>]]></content>
-        <author>
-            <name>JavaPOS API</name>
-            <uri>/javapos/overview</uri>
-        </author>
-        <category label="javapos" term="javapos"/>
     </entry>
 </feed>

@@ -4,10 +4,36 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Tue, 19 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Apr 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Scan2Deploy Studio 2.2.0]]></title>
+            <link>https://datalogic.github.io/releases/2024/04/02/scan2deploy-studio-v2.2.0</link>
+            <guid>https://datalogic.github.io/releases/2024/04/02/scan2deploy-studio-v2.2.0</guid>
+            <pubDate>Tue, 02 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Scan2Deploy Studio 2.2.0 is now available. It includes new enhancements. Read below for more details.]]></description>
+            <content:encoded><![CDATA[<p>Scan2Deploy Studio 2.2.0 is now available. It includes new enhancements. Read below for more details.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/04/02/scan2deploy-studio-v2.2.0#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added Memor 30/30X device selection support</li>
+<li>Added the ability to select "Do not validate" option for EAP CA Cert on Memor 30/30X</li>
+<li>Added the ability for the user to configure the server port number</li>
+<li>Added Memor 35/35X device selection support</li>
+<li>Added the ability for the user to configure the redis port number</li>
+<li>Visual Formatter<!-- -->
+<ul>
+<li>Added feature level 4 support
+Advanced Keyboard</li>
+<li>Added support for the Memor 30/30X</li>
+<li>Added support for the Memor 35/35X</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+            <category>scan2deploy-studio</category>
+        </item>
         <item>
             <title><![CDATA[DLRMUS 1.0.19]]></title>
             <link>https://datalogic.github.io/releases/2024/03/19/dlrmus-v1.0.19</link>
@@ -522,21 +548,6 @@
 <li>Disabling Enterprise Agent APK can fail.</li>
 </ul>]]></content:encoded>
             <category>scan2deploy-android</category>
-        </item>
-        <item>
-            <title><![CDATA[JavaPOS 1.14.075 (1.14.15-075)]]></title>
-            <link>https://datalogic.github.io/releases/2023/06/15/javapos-1.14.075</link>
-            <guid>https://datalogic.github.io/releases/2023/06/15/javapos-1.14.075</guid>
-            <pubDate>Thu, 15 Jun 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/06/15/javapos-1.14.075#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added sample <strong>jpos.xml</strong> profiles for <em>Magellan 9600</em> and <em>Magellan 9900</em> devices using USB-OEM.</li>
-<li>Added experimental support for <em>Matrix 320</em> devices.</li>
-<li>Signed DLL files for Windows 11 SAC support.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected defects<a href="https://datalogic.github.io/releases/2023/06/15/javapos-1.14.075#corrected-defects" class="hash-link" aria-label="Direct link to Corrected defects" title="Direct link to Corrected defects">​</a></h2>]]></content:encoded>
-            <category>javapos</category>
         </item>
     </channel>
 </rss>
