@@ -18,17 +18,16 @@
 <p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/04/02/scan2deploy-studio-v2.2.0#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
 <ul>
-<li>Added Memor 30/30X device selection support</li>
-<li>Added the ability to select "Do not validate" option for EAP CA Cert on Memor 30/30X</li>
-<li>Added the ability for the user to configure the server port number</li>
-<li>Added Memor 35/35X device selection support</li>
-<li>Added the ability for the user to configure the redis port number</li>
+<li>Added Memor 30/30X &amp; 35/35X device selection support</li>
+<li>Added the ability to <a href="https://datalogic.github.io/scan2deploy/studio#port-configuration">configure the ports</a> used by Studio processes</li>
 <li>Visual Formatter<!-- -->
 <ul>
-<li>Added feature level 4 support
-Advanced Keyboard</li>
-<li>Added support for the Memor 30/30X</li>
-<li>Added support for the Memor 35/35X</li>
+<li>Added feature level 4 support</li>
+</ul>
+</li>
+<li>Advanced Keyboard<!-- -->
+<ul>
+<li>Added support for the Memor 30/30X &amp; 35/35X</li>
 </ul>
 </li>
 </ul>]]></content:encoded>
