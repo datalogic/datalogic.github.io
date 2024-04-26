@@ -4,10 +4,57 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Tue, 02 Apr 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Apr 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[OEMConfig 2.6.1]]></title>
+            <link>https://datalogic.github.io/releases/2024/04/25/oemconfig</link>
+            <guid>https://datalogic.github.io/releases/2024/04/25/oemconfig</guid>
+            <pubDate>Thu, 25 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/04/25/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added support for Push-To-Talk</li>
+<li>Added support of eSIM</li>
+<li>Enhanced support for Bluetooth discovery/pairing</li>
+<li>Added support of new decoding properties:<!-- -->
+<ul>
+<li>GTIN format</li>
+<li>GS1 conversion/transmission</li>
+<li>GS1 Digital Link</li>
+<li>TLC39 symbology</li>
+</ul>
+</li>
+<li>Added support for battery charging persistence policy</li>
+<li>Added support for device name properties</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/04/25/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Corrected charging profile to respect default setting on Memor 30/35 models.</li>
+</ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
+        <item>
+            <title><![CDATA[Scan2Deploy Agent 2.3.0]]></title>
+            <link>https://datalogic.github.io/releases/2024/04/25/scan2deploy-agent</link>
+            <guid>https://datalogic.github.io/releases/2024/04/25/scan2deploy-agent</guid>
+            <pubDate>Thu, 25 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/04/25/scan2deploy-agent#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Better coordination with Espresso during Enterprise backup restore.</li>
+<li>Enhanced timeout for OEMConfig to avoid errors when downloading eSIM profiles.</li>
+<li>Supports ability to clear any existing application policies</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/04/25/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Applying WPA3 network profiles when Wi-Fi is disabled can fail.</li>
+<li>Unable to create an Enterprise backup when deploying from USB storage.</li>
+</ul>]]></content:encoded>
+            <category>scan2deploy-android</category>
+        </item>
         <item>
             <title><![CDATA[Scan2Deploy Studio 2.2.0]]></title>
             <link>https://datalogic.github.io/releases/2024/04/02/scan2deploy-studio-v2.2.0</link>
@@ -500,53 +547,6 @@
 <li>Touch gestures (such as Swipe to Hide) are more reliable</li>
 </ul>]]></content:encoded>
             <category>softspot</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic WiFi Guard 1.3.1]]></title>
-            <link>https://datalogic.github.io/releases/2023/10/13/wifiguard</link>
-            <guid>https://datalogic.github.io/releases/2023/10/13/wifiguard</guid>
-            <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/10/13/wifiguard#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 13</li>
-</ul>]]></content:encoded>
-            <category>wifi-guard</category>
-        </item>
-        <item>
-            <title><![CDATA[Scan2Deploy Agent 2.1.0]]></title>
-            <link>https://datalogic.github.io/releases/2023/06/29/scan2deploy-agent</link>
-            <guid>https://datalogic.github.io/releases/2023/06/29/scan2deploy-agent</guid>
-            <pubDate>Thu, 29 Jun 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Corrected defects]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected defects<a href="https://datalogic.github.io/releases/2023/06/29/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected defects" title="Direct link to Corrected defects">​</a></h2>
-<ul>
-<li>Incorrectly reports "Done" after "Checking for archive server" if WiFi is not connected or no network is defined in profile.</li>
-<li>The following failures are now treated as warnings instead of (fatal) errors.<!-- -->
-<ul>
-<li>Failure to update/remove existing networks.</li>
-<li>Attempting to downgrade pre-installed APKs.</li>
-</ul>
-</li>
-<li>Visual Formatter files are persisted with the wrong persistence type.</li>
-<li>Visual Formatter files are installed but disabled when profile also includes a self-update.</li>
-<li>Profile policies filter out some valid property IDs.</li>
-<li>Agent v2.0.8 fails to complete a self-update to a newer version of Agent.</li>
-<li>Restoring Enterprise backup fails if profile includes a self-update to a newer version of Agent.</li>
-<li>Fails waiting to get a valid IP address under the following conditions:<!-- -->
-<ul>
-<li>No download deployment is used and networks are only defined with "after-staging" availability.</li>
-<li>Location mode is disabled.</li>
-</ul>
-</li>
-<li>Timeout waiting for OEMConfig when restoring from Enterprise backup.</li>
-<li>Deploying a profile with a keyboard remapping file can result in applying a previous profile.</li>
-<li>Download percentage can display unexpected values with very large profiles.</li>
-<li>Agent attempts to install all ZIP files from the Download folder as an OTA file.</li>
-<li>Reset after OTA update fails when used with silent deploy.</li>
-<li>Disabling Enterprise Agent APK can fail.</li>
-</ul>]]></content:encoded>
-            <category>scan2deploy-android</category>
         </item>
     </channel>
 </rss>
