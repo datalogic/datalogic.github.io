@@ -4,10 +4,23 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Thu, 25 Apr 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[OEMConfig 2.6.2]]></title>
+            <link>https://datalogic.github.io/releases/2024/05/07/oemconfig</link>
+            <guid>https://datalogic.github.io/releases/2024/05/07/oemconfig</guid>
+            <pubDate>Tue, 07 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Corrected Defects]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/05/07/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Prevents crashes when used by some EMMs.</li>
+<li>Corrected behavior of PTT Walkie-Talkie app default value to reset to "None".</li>
+</ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
         <item>
             <title><![CDATA[OEMConfig 2.6.1]]></title>
             <link>https://datalogic.github.io/releases/2024/04/25/oemconfig</link>
@@ -521,32 +534,6 @@
 <li>Replacing or removing an existing WiFi network fails</li>
 </ul>]]></content:encoded>
             <category>scan2deploy-android</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic SoftSpot 3.0.2]]></title>
-            <link>https://datalogic.github.io/releases/2023/10/13/softspot</link>
-            <guid>https://datalogic.github.io/releases/2023/10/13/softspot</guid>
-            <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/10/13/softspot#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 13</li>
-<li>Supports display of custom images for spot actions</li>
-<li>Scanning behavior now respects scanner settings from the system Settings app</li>
-<li>Configuration settings can be exported to a file, which can then be imported on another device using Scan2Deploy Studio (or EMM).  (Available on newer firmware images.  See table <a href="https://datalogic.github.io/softspot/export">here</a>.)</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2023/10/13/softspot#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Configuration settings were inconsistent between the different methods (Scan2Deploy/EMM, application and SDK)</li>
-<li>SoftSpot SDK<!-- -->
-<ul>
-<li>SoftSpot SDK in previous versions was not reliable.  Support has been entirely removed.  Calls to the SDK will now return an error.</li>
-<li>An intent-based API is now available which exposes the ability to enable/disable and hide/show the SoftSpot</li>
-</ul>
-</li>
-<li>Touch gestures (such as Swipe to Hide) are more reliable</li>
-</ul>]]></content:encoded>
-            <category>softspot</category>
         </item>
     </channel>
 </rss>
