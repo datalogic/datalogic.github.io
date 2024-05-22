@@ -18,15 +18,39 @@
 <p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/05/20/scan2deploy-studio-v2.2.1#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
 <ul>
-<li>Added migration code for Aladdin package name change<!-- -->
+<li>Added support for new Aladdin package name.<!-- -->
 <ul>
-<li>now <code>com.datalogic.aladdinapp</code> instead of <code>com.datalogic.aladdin</code></li>
-<li>profiles containing the old APK will be modified to include the new version on edit/import</li>
+<li>Profiles containing the old APK will be modified to include the new version on edit/import</li>
 </ul>
 </li>
 <li>Fixed an issue that could prevent the profile from being downloaded if the server port was changed</li>
 </ul>]]></content:encoded>
             <category>scan2deploy-studio</category>
+        </item>
+        <item>
+            <title><![CDATA[CODiScan - Aladdin 3.1.0]]></title>
+            <link>https://datalogic.github.io/releases/2024/05/16/aladdin-v3.1.0</link>
+            <guid>https://datalogic.github.io/releases/2024/05/16/aladdin-v3.1.0</guid>
+            <pubDate>Thu, 16 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Aladdin 3.1.0 is now available.]]></description>
+            <content:encoded><![CDATA[<p>The Aladdin 3.1.0 is now available.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin-v2/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.  Please note that the package name has been changed to <code>com.datalogic.aladdinapp</code> starting with this version. Users will need to <em>manually uninstall any older versions of the app prior to installing any newer versions.</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="https://datalogic.github.io/releases/2024/05/16/aladdin-v3.1.0#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bluetooth-connections">Bluetooth Connections<a href="https://datalogic.github.io/releases/2024/05/16/aladdin-v3.1.0#bluetooth-connections" class="hash-link" aria-label="Direct link to Bluetooth Connections" title="Direct link to Bluetooth Connections">​</a></h3>
+<ul>
+<li>Streamlined pairing process</li>
+<li>QR codes now used for pairing</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="find-my-device-feature">Find My Device Feature<a href="https://datalogic.github.io/releases/2024/05/16/aladdin-v3.1.0#find-my-device-feature" class="hash-link" aria-label="Direct link to Find My Device Feature" title="Direct link to Find My Device Feature">​</a></h3>
+<ul>
+<li>Users can now tap a button in the app to cause a connected CODiScan to light up and play tones to assist the user in finding the scanner.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="other-features">Other features<a href="https://datalogic.github.io/releases/2024/05/16/aladdin-v3.1.0#other-features" class="hash-link" aria-label="Direct link to Other features" title="Direct link to Other features">​</a></h3>
+<ul>
+<li>Application can now be directly configured by an EMM through the Google Play store.</li>
+<li>Additional battery information (cycle count and health)</li>
+</ul>]]></content:encoded>
+            <category>aladdin</category>
         </item>
         <item>
             <title><![CDATA[OEMConfig 2.6.2]]></title>
@@ -163,13 +187,13 @@
             <category>oemconfig</category>
         </item>
         <item>
-            <title><![CDATA[Aladdin Mobile App 3.0.5]]></title>
+            <title><![CDATA[CODiScan - Aladdin 3.0.5]]></title>
             <link>https://datalogic.github.io/releases/2024/02/12/aladdin-v3.0.5</link>
             <guid>https://datalogic.github.io/releases/2024/02/12/aladdin-v3.0.5</guid>
             <pubDate>Mon, 12 Feb 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Aladdin Mobile Application 3.0.5 is now available. This is the initial version of the Aladdin Mobile Application.]]></description>
-            <content:encoded><![CDATA[<p>The Aladdin Mobile Application 3.0.5 is now available. This is the initial version of the Aladdin Mobile Application.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.</p>
+            <description><![CDATA[The Aladdin application for CODiScan version 3.0.5 is now available.   This is the initial version of the Aladdin Mobile Application.]]></description>
+            <content:encoded><![CDATA[<p>The Aladdin application for CODiScan version 3.0.5 is now available.   This is the initial version of the Aladdin Mobile Application.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin/releases/tag/v3.0.5" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="https://datalogic.github.io/releases/2024/02/12/aladdin-v3.0.5#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="bluetooth-connections">Bluetooth Connections<a href="https://datalogic.github.io/releases/2024/02/12/aladdin-v3.0.5#bluetooth-connections" class="hash-link" aria-label="Direct link to Bluetooth Connections" title="Direct link to Bluetooth Connections">​</a></h3>
 <ul>
@@ -499,34 +523,6 @@
 <li>Updated to support Android 13</li>
 </ul>]]></content:encoded>
             <category>logger</category>
-        </item>
-        <item>
-            <title><![CDATA[OEMConfig 2.4.3]]></title>
-            <link>https://datalogic.github.io/releases/2023/10/13/oemconfig</link>
-            <guid>https://datalogic.github.io/releases/2023/10/13/oemconfig</guid>
-            <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/10/13/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 13</li>
-<li>Improved support for WiFi settings:<!-- -->
-<ul>
-<li>Added <a href="https://datalogic.github.io/oemconfig/network-settings#wi-fi">WiFi enable</a></li>
-<li>Removed WiFi sleep policy</li>
-</ul>
-</li>
-<li>Added support for new <a href="https://datalogic.github.io/oemconfig/key-settings#motion-trigger">MotionTrigger</a> scanner setting</li>
-<li>Updated support for keyboard remapping to include missing keys/actions</li>
-<li>Improved feedback messages to Scan2Deploy Agent</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2023/10/13/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Crash when setting any symbology ID to an empty string</li>
-<li>Unable to set a symbology ID to a non-printable character</li>
-<li>Unable to set scanner input selection</li>
-<li>Crash when run on Android 8.1</li>
-</ul>]]></content:encoded>
-            <category>oemconfig</category>
         </item>
     </channel>
 </rss>
