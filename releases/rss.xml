@@ -4,10 +4,30 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Tue, 07 May 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Scan2Deploy Studio 2.2.1]]></title>
+            <link>https://datalogic.github.io/releases/2024/05/20/scan2deploy-studio-v2.2.1</link>
+            <guid>https://datalogic.github.io/releases/2024/05/20/scan2deploy-studio-v2.2.1</guid>
+            <pubDate>Mon, 20 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Scan2Deploy Studio 2.2.1 is now available. It includes some bug fixes. Read below for more details.]]></description>
+            <content:encoded><![CDATA[<p>Scan2Deploy Studio 2.2.1 is now available. It includes some bug fixes. Read below for more details.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/05/20/scan2deploy-studio-v2.2.1#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Added migration code for Aladdin package name change<!-- -->
+<ul>
+<li>now <code>com.datalogic.aladdinapp</code> instead of <code>com.datalogic.aladdin</code></li>
+<li>profiles containing the old APK will be modified to include the new version on edit/import</li>
+</ul>
+</li>
+<li>Fixed an issue that could prevent the profile from being downloaded if the server port was changed</li>
+</ul>]]></content:encoded>
+            <category>scan2deploy-studio</category>
+        </item>
         <item>
             <title><![CDATA[OEMConfig 2.6.2]]></title>
             <link>https://datalogic.github.io/releases/2024/05/07/oemconfig</link>
@@ -507,33 +527,6 @@
 <li>Crash when run on Android 8.1</li>
 </ul>]]></content:encoded>
             <category>oemconfig</category>
-        </item>
-        <item>
-            <title><![CDATA[Scan2Deploy Agent 2.2.3]]></title>
-            <link>https://datalogic.github.io/releases/2023/10/13/scan2deploy-agent</link>
-            <guid>https://datalogic.github.io/releases/2023/10/13/scan2deploy-agent</guid>
-            <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/10/13/scan2deploy-agent#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 13</li>
-<li>Added selection of default browser</li>
-<li>Enhanced support for EAP network configuration<!-- -->
-<ul>
-<li>WPA3 EAP networks</li>
-<li>CA Certificates</li>
-<li>Online certificate status</li>
-<li>Domain filters</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2023/10/13/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Scanning a set of 10 or more v3 labels fails if not scanned in order</li>
-<li>Scanning an invalid profile barcode label presents a blank screen</li>
-<li>Replacing or removing an existing WiFi network fails</li>
-</ul>]]></content:encoded>
-            <category>scan2deploy-android</category>
         </item>
     </channel>
 </rss>
