@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[45798],{43307:e=>{e.exports=JSON.parse('{"label":"dxu-desktop","permalink":"/releases/tags/dxu-desktop","allTagsPath":"/releases/tags","count":1,"unlisted":false}')}}]);

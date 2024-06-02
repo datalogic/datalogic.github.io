@@ -2,11 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2024-05-20T00:00:00.000Z</updated>
+    <updated>2024-05-31T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Datalogic Enterprise Browser 1.4.2]]></title>
+        <id>https://datalogic.github.io/releases/2024/05/31/browser</id>
+        <link href="https://datalogic.github.io/releases/2024/05/31/browser"/>
+        <updated>2024-05-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enhancements]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/05/31/browser#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Improved security handling<!-- -->
+<ul>
+<li>Blocks connections with SSL errors, adding an option to proceed anyway.</li>
+<li>Allows user to select a certificate when a web server requires a client certificate.</li>
+</ul>
+</li>
+<li>Improved clear browser cache management<!-- -->
+<ul>
+<li>Added option to clear browser cache when the Home button is selected.</li>
+<li>Prevents access to previous webpage from Favorites screen after clearing the cache.</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/05/31/browser#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>On-screen keyboard no longer covers up web page content.</li>
+</ul>]]></content>
+        <author>
+            <name>Datalogic Enterprise Browser</name>
+            <uri>/browser/overview</uri>
+        </author>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scan2Deploy Studio 2.2.1]]></title>
         <id>https://datalogic.github.io/releases/2024/05/20/scan2deploy-studio-v2.2.1</id>
@@ -586,21 +617,5 @@
             <uri>/launcher/overview</uri>
         </author>
         <category label="launcher" term="launcher"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Datalogic Logger 1.1.4]]></title>
-        <id>https://datalogic.github.io/releases/2023/10/13/logger</id>
-        <link href="https://datalogic.github.io/releases/2023/10/13/logger"/>
-        <updated>2023-10-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/10/13/logger#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 13</li>
-</ul>]]></content>
-        <author>
-            <name>Datalogic Logger</name>
-            <uri>/logger/overview</uri>
-        </author>
-        <category label="logger" term="logger"/>
     </entry>
 </feed>

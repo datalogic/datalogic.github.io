@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[97393],{81838:e=>{e.exports=JSON.parse('{"blogBasePath":"/releases","blogTitle":"Blog"}')}}]);
