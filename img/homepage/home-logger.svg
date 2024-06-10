@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512">
+	<path fill="#002596" d="M0,64a64,64 0 0 1 64,-64h384a64,64 0 0 1 64,64v384a64,64 0 0 1 -64,64h-384a64,64 0 0 1 -64,-64z" />
+
+  <g transform="scale(21.33)">
+
+	<!-- back -->
+	<linearGradient id="back" x1="0" x2="0" y1="0" y2="1">
+		<stop offset="0" style="stop-color:#DEBF4E"/>
+		<stop offset="1" style="stop-color:#C5A239"/>
+	</linearGradient>
+	<path style="fill:url(#back)" stroke="#9E822D" stroke-width="0.44" d="
+M18.96,4.17
+c1.0411,0 1.885,0.8439 1.885,1.885
+s-0.7134,1.595 -1.595,1.595
+h-2.9
+v-3.48
+Z" />
+	<!-- back-curl fill -->
+	<path fill="#EFE0A5" d="
+M19.25,7.65
+h-2.9
+v-1.015
+h1.885
+c0,0.56115 0.45385,1.015 1.015,1.015
+Z" />
+	<!-- back-curl edge-->
+	<path fill-opacity="0" stroke="#9E822D" stroke-width="0.44" d="
+M16.35,7.65
+h2.9
+c-0.56115,0 -1.015,-0.45385 -1.015,-1.015
+" />
+	<!-- page -->
+	<linearGradient id="page" x1="0" x2="0" y1="0" y2="1">
+		<stop offset="0" style="stop-color:#EFE0A5"/>
+		<stop offset="1" style="stop-color:#D1B560"/>
+	</linearGradient>
+	<path style="fill:url(#page)" stroke="#9E822D" stroke-width="0.44" d="
+M8.81,4.17
+h9.86
+c-2.61,0 -2.61,4.64 -1.885,6.96
+s0.725,8.7 -1.885,8.7
+h-9.86
+c2.61,0 2.61,-6.525 1.885,-8.7
+s-0.725,-6.96 1.885,-6.96
+Z" />
+	<!-- front-curl fill -->
+	<path fill="#B19233" d="
+M15.625,17.365
+c0,-0.56115 -0.45385,-1.015 -1.015,-1.015
+h-1.45
+v1.015
+Z" />
+	<!-- front-curl edge -->
+	<path fill-opacity="0" stroke="#9E822D" stroke-width="0.44" d="
+M15.625,17.365
+c0,-0.56115 -0.45385,-1.015 -1.015,-1.015
+h-1
+" />
+	<!-- front -->
+	<linearGradient id="front" x1="0" x2="0" y1="0" y2="1">
+		<stop offset="0.1" style="stop-color:#EFE0A5"/>
+		<stop offset="1" style="stop-color:#D1B560"/>
+	</linearGradient>
+	<path style="fill:url(#front)" stroke="#9E822D" stroke-width="0.44" d="
+M14.9,19.83
+h-9.86
+c-1.0411,0 -1.885,-0.8439 -1.885,-1.885
+s0.7134,-1.595 1.595,-1.595
+h9.86
+c-0.8816,0 -1.595,0.7134 -1.595,1.595
+s0.8439,1.885 1.885,1.885
+Z" />
+	<!-- text -->
+	<path stroke="#9E822D" stroke-width="0.55" stroke-linecap="round" d="
+M14.32,6.925 h-6.09
+m0,2.03 h6.09
+m0.29,2.03 h-6.09
+m0.435,2.03 h6.09
+m-6.09,2.03 h2.755
+" />
+
+</g>
+</svg>

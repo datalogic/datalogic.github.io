@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512">
+	<path fill="#002596" d="M0,64a64,64 0 0 1 64,-64h384a64,64 0 0 1 64,64v384a64,64 0 0 1 -64,64h-384a64,64 0 0 1 -64,-64z" />
+
+  <g transform="scale(21.33)">
+
+	<path fill="#009000"
+		d="M12,2a10,10 0 0 0 0,20a10,10 0 0 0 0,-20z" />
+	<path fill="#FFFFFF"
+		d="M6,7h1v10h-1v-10m3,0h1v10h-1v-10m2,0h2v10h-2v-10m3,0h2v10h-2v-10m3,0h1v10h-1v-10z" />
+
+</g>
+</svg>

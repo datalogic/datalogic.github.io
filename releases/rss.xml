@@ -4,10 +4,75 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Fri, 31 May 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Jun 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Datalogic Launcher 1.2.4]]></title>
+            <link>https://datalogic.github.io/releases/2024/06/08/launcher</link>
+            <guid>https://datalogic.github.io/releases/2024/06/08/launcher</guid>
+            <pubDate>Sat, 08 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Updated branding icons for latest Mobility Suite.]]></description>
+            <content:encoded><![CDATA[<p>Updated branding icons for latest Mobility Suite.</p>]]></content:encoded>
+            <category>launcher</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic Logger 1.2.1]]></title>
+            <link>https://datalogic.github.io/releases/2024/06/08/logger</link>
+            <guid>https://datalogic.github.io/releases/2024/06/08/logger</guid>
+            <pubDate>Sat, 08 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/06/08/logger#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Enhanced archive export to allow "Download" as the target folder.</li>
+</ul>]]></content:encoded>
+            <category>logger</category>
+        </item>
+        <item>
+            <title><![CDATA[OEMConfig 2.7.0]]></title>
+            <link>https://datalogic.github.io/releases/2024/06/08/oemconfig</link>
+            <guid>https://datalogic.github.io/releases/2024/06/08/oemconfig</guid>
+            <pubDate>Sat, 08 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/06/08/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added support for USB whitelisting</li>
+<li>Added support for DigiMarc label formatting</li>
+</ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
+        <item>
+            <title><![CDATA[Scan2Deploy Agent 2.3.1]]></title>
+            <link>https://datalogic.github.io/releases/2024/06/08/scan2deploy-agent</link>
+            <guid>https://datalogic.github.io/releases/2024/06/08/scan2deploy-agent</guid>
+            <pubDate>Sat, 08 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Updated branding icons for latest Mobility Suite.]]></description>
+            <content:encoded><![CDATA[<p>Updated branding icons for latest Mobility Suite.</p>]]></content:encoded>
+            <category>scan2deploy-android</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic SoftSpot 3.0.3]]></title>
+            <link>https://datalogic.github.io/releases/2024/06/08/softspot</link>
+            <guid>https://datalogic.github.io/releases/2024/06/08/softspot</guid>
+            <pubDate>Sat, 08 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Updated branding icons for latest Mobility Suite.]]></description>
+            <content:encoded><![CDATA[<p>Updated branding icons for latest Mobility Suite.</p>]]></content:encoded>
+            <category>softspot</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic WiFi Guard 1.4.0]]></title>
+            <link>https://datalogic.github.io/releases/2024/06/08/wifiguard</link>
+            <guid>https://datalogic.github.io/releases/2024/06/08/wifiguard</guid>
+            <pubDate>Sat, 08 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/06/08/wifiguard#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added support for 6 GHz band</li>
+<li>Added support for WPA3 profiles</li>
+</ul>]]></content:encoded>
+            <category>wifi-guard</category>
+        </item>
         <item>
             <title><![CDATA[Datalogic Enterprise Browser 1.4.2]]></title>
             <link>https://datalogic.github.io/releases/2024/05/31/browser</link>
@@ -409,135 +474,6 @@
 <li>Corrected archive file prefix to work on newer devices.</li>
 </ul>]]></content:encoded>
             <category>logger</category>
-        </item>
-        <item>
-            <title><![CDATA[Scan2Deploy Agent 2.2.4]]></title>
-            <link>https://datalogic.github.io/releases/2023/11/28/scan2deploy-agent</link>
-            <guid>https://datalogic.github.io/releases/2023/11/28/scan2deploy-agent</guid>
-            <pubDate>Tue, 28 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/11/28/scan2deploy-agent#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support latest ShopEvolution.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2023/11/28/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Disabling Wi-Fi in Device Settings can fail when also defining networks configuration.</li>
-<li>Creating Enhanced Open or WPA3-based networks can fail.</li>
-<li>Expanding profile contents can fail when used with ShopEvolution.</li>
-</ul>]]></content:encoded>
-            <category>scan2deploy-android</category>
-        </item>
-        <item>
-            <title><![CDATA[OPOS 1.14.208]]></title>
-            <link>https://datalogic.github.io/releases/2023/11/16/opos-v1.14.208</link>
-            <guid>https://datalogic.github.io/releases/2023/11/16/opos-v1.14.208</guid>
-            <pubDate>Thu, 16 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Compatibility]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="compatibility">Compatibility<a href="https://datalogic.github.io/releases/2023/11/16/opos-v1.14.208#compatibility" class="hash-link" aria-label="Direct link to Compatibility" title="Direct link to Compatibility">​</a></h2>
-<ul>
-<li>Windows 10 and above</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/11/16/opos-v1.14.208#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>OPOS customization to mimic non UPOS compliant behavior of NCR OPOS regarding usage of <strong>DecodeData</strong> flag</li>
-<li>Single-Cable COM (<strong>SC-COM</strong>) profile now supports virtual port mode (profile key <strong>UseVirtualPort</strong>)</li>
-<li>Added new Information, Health and Statistics fields to align with VAF Specification for Fresco units.</li>
-<li>Introduced registry key <strong>UseUPOSCompliantWMI</strong> to control WMI output to be based of IHS data or to be UPOS compliant</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected defects<a href="https://datalogic.github.io/releases/2023/11/16/opos-v1.14.208#corrected-defects" class="hash-link" aria-label="Direct link to Corrected defects" title="Direct link to Corrected defects">​</a></h2>
-<ul>
-<li>Corrected a defect where under certain conditions ScanData came back empty</li>
-<li>Restored fields <strong>FirmwareRevision</strong> and <strong>PhysicalDeviceName</strong> in WMI</li>
-<li>Corrected issues with OPOS when claiming single plane scanner with attached handheld</li>
-<li>Corrected compatibility problems with Zebra devices</li>
-</ul>]]></content:encoded>
-            <category>opos</category>
-        </item>
-        <item>
-            <title><![CDATA[DLRMUS 1.0.18]]></title>
-            <link>https://datalogic.github.io/releases/2023/10/24/dlrmus-v1.0.18</link>
-            <guid>https://datalogic.github.io/releases/2023/10/24/dlrmus-v1.0.18</guid>
-            <pubDate>Tue, 24 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Compatibility]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="compatibility">Compatibility<a href="https://datalogic.github.io/releases/2023/10/24/dlrmus-v1.0.18#compatibility" class="hash-link" aria-label="Direct link to Compatibility" title="Direct link to Compatibility">​</a></h2>
-<ul>
-<li>Windows 10</li>
-<li>Debian 6</li>
-<li>Ubuntu 22</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/10/24/dlrmus-v1.0.18#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Modification to DLRMUs Error Reporting to use more specific error codes when exiting. Managed by <a href="https://datalogic.github.io/opos/dlrmus/propertiesjson">Legacy Error Code</a> parameter.</li>
-<li>Improved firmware transfer speeds for USB interfaces</li>
-<li>Added new Information, Health and Statistics fields to align with VAF Specification for Fresco units.</li>
-<li>Introduced Service Port profile to support faster transfers over Service Port interface.</li>
-<li>Support for retrieving IHS content from systems having multiple devices with same interface profile name</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected defects<a href="https://datalogic.github.io/releases/2023/10/24/dlrmus-v1.0.18#corrected-defects" class="hash-link" aria-label="Direct link to Corrected defects" title="Direct link to Corrected defects">​</a></h2>
-<ul>
-<li>Restored fields <strong>FirmwareRevision</strong> and <strong>PhysicalDeviceName</strong> in WMI</li>
-<li>Corrected various issues with parsing model names when using -F/-r -F flags</li>
-<li>Corrected defect causing uses when reading response from 9600i units over SC-RS232</li>
-<li>Corrected defect causing incorrect product IDs displayed in DLRMUS logs</li>
-</ul>]]></content:encoded>
-            <category>dlrmus</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Enterprise Browser 1.3.2]]></title>
-            <link>https://datalogic.github.io/releases/2023/10/13/browser</link>
-            <guid>https://datalogic.github.io/releases/2023/10/13/browser</guid>
-            <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/10/13/browser#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 13</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2023/10/13/browser#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Navigating back from an error page did not work correctly.</li>
-<li>Override administrator settings option was incorrectly checked after navigating to Settings screen without making any setting changes.</li>
-</ul>]]></content:encoded>
-            <category>browser</category>
-        </item>
-        <item>
-            <title><![CDATA[JavaPOS 1.14.077 (1.14.16-077)]]></title>
-            <link>https://datalogic.github.io/releases/2023/10/13/javapos-1.14.077</link>
-            <guid>https://datalogic.github.io/releases/2023/10/13/javapos-1.14.077</guid>
-            <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/10/13/javapos-1.14.077#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added UPOS Compliant fields to WMI; added <strong>UPOSCompatibleWMI</strong> property to <strong>dls.properties</strong>.</li>
-<li>Added sample <strong>jpos.xml</strong> profile for <em>Gryphon GFS45XX</em> devices.</li>
-<li>Added sample <strong>jpos.xml</strong> profile for <em>Magellan 3XXX</em> series single-plane devices.</li>
-<li><strong>DLSBaseService</strong> refactor to enhance stability and improve potential user error handling.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected defects<a href="https://datalogic.github.io/releases/2023/10/13/javapos-1.14.077#corrected-defects" class="hash-link" aria-label="Direct link to Corrected defects" title="Direct link to Corrected defects">​</a></h2>
-<ul>
-<li>Corrected an issue causing the <strong>TDRType</strong> statistic to be reported twice.</li>
-</ul>]]></content:encoded>
-            <category>javapos</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Launcher 1.2.3]]></title>
-            <link>https://datalogic.github.io/releases/2023/10/13/launcher</link>
-            <guid>https://datalogic.github.io/releases/2023/10/13/launcher</guid>
-            <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/10/13/launcher#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 13</li>
-<li>If the default browser for the device is changed after Launcher is started, the new selection will be respected when launching URLs.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2023/10/13/launcher#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>If the default browser for the device is not specified, Launcher will automatically choose one to use for launching URLs.</li>
-<li>Improved the ability to read wallpaper images from the Download folder on Android 11+.</li>
-<li>When editing allowed apps, setting a label to blank will revert to displaying the name specified in the package.</li>
-<li>Global Actions Dialog renamed to Power Button Menu</li>
-</ul>]]></content:encoded>
-            <category>launcher</category>
         </item>
     </channel>
 </rss>
