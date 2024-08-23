@@ -4,10 +4,50 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Mon, 08 Jul 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Aug 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[CODiScan - Aladdin 3.2.4]]></title>
+            <link>https://datalogic.github.io/releases/2024/08/23/aladdin-v3.2.4</link>
+            <guid>https://datalogic.github.io/releases/2024/08/23/aladdin-v3.2.4</guid>
+            <pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Aladdin application for CODiScan version 3.2.4 is now available.]]></description>
+            <content:encoded><![CDATA[<p>The Aladdin application for CODiScan version 3.2.4 is now available.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin/releases/tag/v3.2.4" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/08/23/aladdin-v3.2.4#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added new intent that can cause a pairing barcode to be displayed.</li>
+<li>Pairing dialogs no longer come up when run on Datalogic devices with SDK 1.36 or newer.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/08/23/aladdin-v3.2.4#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Fixed issue with pairing to being lost on battery swap.</li>
+<li>Fixed issue with pairing to being lost on reboot.</li>
+<li>Fixed issue with pairing barcode sometimes being invalid.</li>
+<li>Fixed issue with connect button sometimes not being displayed.</li>
+</ul>]]></content:encoded>
+            <category>aladdin</category>
+        </item>
+        <item>
+            <title><![CDATA[Scan2Deploy Studio 2.3.1]]></title>
+            <link>https://datalogic.github.io/releases/2024/08/23/scan2deploy-studio-v2.3.1</link>
+            <guid>https://datalogic.github.io/releases/2024/08/23/scan2deploy-studio-v2.3.1</guid>
+            <pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Scan2Deploy Studio 2.3.1 is now available. It includes minor enhancements and a bug fix. Read below for more details.]]></description>
+            <content:encoded><![CDATA[<p>Scan2Deploy Studio 2.3.1 is now available. It includes minor enhancements and a bug fix. Read below for more details.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/08/23/scan2deploy-studio-v2.3.1#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added support for Android 13 versions of Skorpio X5, XLR Skorpio X5, Memor 11, and Memor 20.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/08/23/scan2deploy-studio-v2.3.1#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Fixed bug with application policies that could cause a new policy not to be added.</li>
+</ul>]]></content:encoded>
+            <category>scan2deploy-studio</category>
+        </item>
         <item>
             <title><![CDATA[Scan2Deploy Studio 2.3.0]]></title>
             <link>https://datalogic.github.io/releases/2024/07/08/scan2deploy-studio-v2.3.0</link>
@@ -370,120 +410,6 @@
 <li>Fixed an issue where managed events and hide output label flags were not loaded correctly from a saved profile</li>
 </ul>
 </li>
-</ul>]]></content:encoded>
-            <category>scan2deploy-studio</category>
-        </item>
-        <item>
-            <title><![CDATA[JavaPOS 1.14.078 (1.14.17-078)]]></title>
-            <link>https://datalogic.github.io/releases/2024/01/11/javapos-1.14.078</link>
-            <guid>https://datalogic.github.io/releases/2024/01/11/javapos-1.14.078</guid>
-            <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/01/11/javapos-1.14.078#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added support for new Information, Health and Statistics fields for <em>PowerScan</em> family of devices.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected defects<a href="https://datalogic.github.io/releases/2024/01/11/javapos-1.14.078#corrected-defects" class="hash-link" aria-label="Direct link to Corrected defects" title="Direct link to Corrected defects">​</a></h2>
-<ul>
-<li>Corrected a missing <strong>IHSParser.csv</strong> file for some distributions of JavaPOS.</li>
-<li>Corrected a Statistic reporting of Interface <em>1E</em> to report as <strong>USB COM SC</strong>.</li>
-</ul>]]></content:encoded>
-            <category>javapos</category>
-        </item>
-        <item>
-            <title><![CDATA[Scan2Deploy Studio 2.0.0]]></title>
-            <link>https://datalogic.github.io/releases/2023/12/08/scan2deploy-studio-v2.0.0</link>
-            <guid>https://datalogic.github.io/releases/2023/12/08/scan2deploy-studio-v2.0.0</guid>
-            <pubDate>Fri, 08 Dec 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Scan2Deploy Studio 2.0.0 is now available. It includes many new enhancements and bug fixes. Read below for more details.]]></description>
-            <content:encoded><![CDATA[<p>Scan2Deploy Studio 2.0.0 is now available. It includes many new enhancements and bug fixes. Read below for more details.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2023/12/08/scan2deploy-studio-v2.0.0#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="user-interface-redesign">User Interface Redesign<a href="https://datalogic.github.io/releases/2023/12/08/scan2deploy-studio-v2.0.0#user-interface-redesign" class="hash-link" aria-label="Direct link to User Interface Redesign" title="Direct link to User Interface Redesign">​</a></h3>
-<ul>
-<li>Major changes to look and feel</li>
-<li>Introduced some minor flow changes and relocated several settings/components<!-- -->
-<ul>
-<li>Distinction from configuration and firmware update profiles on home page</li>
-<li>Combined manage and install tabs on applications page</li>
-<li>Moved application update tab to <a href="https://datalogic.github.io/scan2deploy/save-and-scan-page#mobility-suite-updates">Save and Scan</a> page</li>
-</ul>
-</li>
-<li>Added enhanced widget controls to Datalogic settings and application configuration<!-- -->
-<ul>
-<li>Color picker</li>
-<li>File/Image picker</li>
-<li>Numerical slider</li>
-</ul>
-</li>
-<li>Improved access to saved profiles and generated barcodes (can now enlarge for scanning 🔍)</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="application-updatemanagement">Application Update/Management<a href="https://datalogic.github.io/releases/2023/12/08/scan2deploy-studio-v2.0.0#application-updatemanagement" class="hash-link" aria-label="Direct link to Application Update/Management" title="Direct link to Application Update/Management">​</a></h3>
-<ul>
-<li>Added new 'Alpha' update channel option for Studio updates<!-- -->
-<ul>
-<li>Alpha releases will grant access to pre-release features that may still be under development</li>
-</ul>
-</li>
-<li>Window size and location are saved and restored on application exit/start</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wi-fi-eap-improvements">Wi-Fi EAP improvements<a href="https://datalogic.github.io/releases/2023/12/08/scan2deploy-studio-v2.0.0#wi-fi-eap-improvements" class="hash-link" aria-label="Direct link to Wi-Fi EAP improvements" title="Direct link to Wi-Fi EAP improvements">​</a></h3>
-<ul>
-<li>Updated controls related to certificate upload and selection</li>
-<li>Improved option filtering and auto selection based on value changes</li>
-<li>Added additional guidance on required/valid fields depending on the EAP method selected for Wi-Fi networks</li>
-<li>Added missing options and controls that were added/required in newer Android versions<!-- -->
-<ul>
-<li>📌 requires <a href="https://github.com/datalogic/scan2deploy-android/releases/tag/2.2.3" target="_blank" rel="noopener noreferrer">Agent v2.2.3</a> or later</li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="advanced-keyboard">Advanced Keyboard<a href="https://datalogic.github.io/releases/2023/12/08/scan2deploy-studio-v2.0.0#advanced-keyboard" class="hash-link" aria-label="Direct link to Advanced Keyboard" title="Direct link to Advanced Keyboard">​</a></h3>
-<ul>
-<li>Added feature support for Memor 11 and Memor 20 devices</li>
-<li>Added AutoScan support for Skorpio X5</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="applications">Applications<a href="https://datalogic.github.io/releases/2023/12/08/scan2deploy-studio-v2.0.0#applications" class="hash-link" aria-label="Direct link to Applications" title="Direct link to Applications">​</a></h3>
-<ul>
-<li>Added temporary highlighting for manually added applications</li>
-<li>Added some missing application listings</li>
-<li>Improved Applications page filtering and allowed certain GMS services to be selected for disable</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="miscellaneous">Miscellaneous<a href="https://datalogic.github.io/releases/2023/12/08/scan2deploy-studio-v2.0.0#miscellaneous" class="hash-link" aria-label="Direct link to Miscellaneous" title="Direct link to Miscellaneous">​</a></h3>
-<ul>
-<li>Added profile title and hosting information to generated PDF</li>
-<li>Added <code>INSTALL</code> command to available script selections</li>
-<li>Added arrow key codes for Visual Formatter key event actions</li>
-<li>Updated hosting field enable behavior and requirements</li>
-<li>Added padlock key and state settings</li>
-<li>Added ability to copy formatted intents for common EMMs</li>
-<li>Added ability to set <a href="https://datalogic.github.io/scan2deploy/save-and-scan-page#default-browser-app">default browser</a> on device<!-- -->
-<ul>
-<li>📌 requires <a href="https://github.com/datalogic/scan2deploy-android/releases/tag/2.2.3" target="_blank" rel="noopener noreferrer">Agent v2.2.3</a> or later</li>
-</ul>
-</li>
-<li>Added separate XLR SKU for SX5 and simplified Memor 20 SKU list</li>
-<li>Allow profiles from future versions of Scan2Deploy Studio to be imported (user is warned that some features may not be supported)</li>
-<li>User is now notified if a profile deletion has failed</li>
-<li>Added timeout to discard profile request</li>
-<li>User can now change the default launcher/browser selection when a Datalogic configuration is present</li>
-<li>Improved <a href="https://datalogic.github.io/scan2deploy/save-and-scan-page#next-steps">next steps</a> error reporting</li>
-<li>Enhanced listed agent requirement for profile deployment to account for selected agent update<!-- -->
-<ul>
-<li>Should now accurately report the necessary starting agent version to apply the current profile</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2023/12/08/scan2deploy-studio-v2.0.0#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Fixed issue preventing PDF download for Barcode Only profiles</li>
-<li>Fixed issue where the Enterprise and Factory reset values were swapped for profiles applying firmware updates</li>
-<li>Fixed issue where some third-party APKs failed to upload due to icon extraction failing</li>
-<li>Fixed issue where validation of Proxy Host field would toggle when pasting a valid entry</li>
-<li>Fixed issue where fully qualified domain name was sometimes not returned with host information</li>
-<li>Fixed issues that could result in PDF creation errors in certain scenarios</li>
-<li>Fixed an issue where an enter key press within the search field on the applications page would interact with clickable elements</li>
-<li>Fixed an issue where deployment paths were not correctly updated when profile was copied</li>
 </ul>]]></content:encoded>
             <category>scan2deploy-studio</category>
         </item>
