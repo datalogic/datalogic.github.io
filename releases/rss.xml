@@ -4,10 +4,41 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Fri, 13 Sep 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Sep 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Scan2Deploy Agent 2.4.0]]></title>
+            <link>https://datalogic.github.io/releases/2024/09/19/scan2deploy-agent</link>
+            <guid>https://datalogic.github.io/releases/2024/09/19/scan2deploy-agent</guid>
+            <pubDate>Thu, 19 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/09/19/scan2deploy-agent#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Better coordination with Espresso when staging from "Hi There" screen.</li>
+<li>Supports explicit broadcast intents to packages without component name.</li>
+<li>Extended intent support for silent deploy<!-- -->
+<ul>
+<li>Added extra argument to supply QR code input from a JSON file.</li>
+</ul>
+</li>
+<li>Enhanced profile logging<!-- -->
+<ul>
+<li>Creates log history of previous profile sessions.</li>
+<li>Log history is stored in Downloads folder for access by EMM/MDMs.</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/09/19/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Corrected support for large (&gt; 2 GB) file downloads.</li>
+<li>Corrected support for SFTP downloads.</li>
+<li>Corrected handling of OTA reset options.</li>
+<li>Corrected BATTERY_OPTIMIZATION script command to run on devices with Android 13.</li>
+</ul>]]></content:encoded>
+            <category>scan2deploy-android</category>
+        </item>
         <item>
             <title><![CDATA[Datalogic Enterprise Browser 1.5.0]]></title>
             <link>https://datalogic.github.io/releases/2024/09/13/browser</link>
@@ -328,31 +359,6 @@
 <li>Unable to create an Enterprise backup when deploying from USB storage.</li>
 </ul>]]></content:encoded>
             <category>scan2deploy-android</category>
-        </item>
-        <item>
-            <title><![CDATA[Scan2Deploy Studio 2.2.0]]></title>
-            <link>https://datalogic.github.io/releases/2024/04/02/scan2deploy-studio-v2.2.0</link>
-            <guid>https://datalogic.github.io/releases/2024/04/02/scan2deploy-studio-v2.2.0</guid>
-            <pubDate>Tue, 02 Apr 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Scan2Deploy Studio 2.2.0 is now available. It includes new enhancements. Read below for more details.]]></description>
-            <content:encoded><![CDATA[<p>Scan2Deploy Studio 2.2.0 is now available. It includes new enhancements. Read below for more details.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/04/02/scan2deploy-studio-v2.2.0#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added Memor 30/30X &amp; 35/35X device selection support</li>
-<li>Added the ability to <a href="https://datalogic.github.io/scan2deploy/studio#port-configuration">configure the ports</a> used by Studio processes</li>
-<li>Visual Formatter<!-- -->
-<ul>
-<li>Added feature level 4 support</li>
-</ul>
-</li>
-<li>Advanced Keyboard<!-- -->
-<ul>
-<li>Added support for the Memor 30/30X &amp; 35/35X</li>
-</ul>
-</li>
-</ul>]]></content:encoded>
-            <category>scan2deploy-studio</category>
         </item>
     </channel>
 </rss>
