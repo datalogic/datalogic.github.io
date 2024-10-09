@@ -4,10 +4,24 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Fri, 27 Sep 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Oct 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[CODiScan - Aladdin 3.2.9]]></title>
+            <link>https://datalogic.github.io/releases/2024/10/09/aladdin-v3.2.9</link>
+            <guid>https://datalogic.github.io/releases/2024/10/09/aladdin-v3.2.9</guid>
+            <pubDate>Wed, 09 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Aladdin application for CODiScan version 3.2.9 is now available.]]></description>
+            <content:encoded><![CDATA[<p>The Aladdin application for CODiScan version 3.2.9 is now available.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin/releases/tag/v3.2.9" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/10/09/aladdin-v3.2.9#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Various improvements to BT connection stability</li>
+</ul>]]></content:encoded>
+            <category>aladdin</category>
+        </item>
         <item>
             <title><![CDATA[OEMConfig 2.8.3]]></title>
             <link>https://datalogic.github.io/releases/2024/09/27/oemconfig</link>
@@ -353,34 +367,6 @@
 <ul>
 <li>Prevents crashes when used by some EMMs.</li>
 <li>Corrected behavior of PTT Walkie-Talkie app default value to reset to "None".</li>
-</ul>]]></content:encoded>
-            <category>oemconfig</category>
-        </item>
-        <item>
-            <title><![CDATA[OEMConfig 2.6.1]]></title>
-            <link>https://datalogic.github.io/releases/2024/04/25/oemconfig</link>
-            <guid>https://datalogic.github.io/releases/2024/04/25/oemconfig</guid>
-            <pubDate>Thu, 25 Apr 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/04/25/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added support for Push-To-Talk</li>
-<li>Added support of eSIM</li>
-<li>Enhanced support for Bluetooth discovery/pairing</li>
-<li>Added support of new decoding properties:<!-- -->
-<ul>
-<li>GTIN format</li>
-<li>GS1 conversion/transmission</li>
-<li>GS1 Digital Link</li>
-<li>TLC39 symbology</li>
-</ul>
-</li>
-<li>Added support for battery charging persistence policy</li>
-<li>Added support for device name properties</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/04/25/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Corrected charging profile to respect default setting on Memor 30/35 models.</li>
 </ul>]]></content:encoded>
             <category>oemconfig</category>
         </item>
