@@ -4,10 +4,64 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Wed, 09 Oct 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 31 Oct 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[QuickBoard 1.0.0]]></title>
+            <link>https://datalogic.github.io/releases/2024/10/31/quickboard-v1.0.0</link>
+            <guid>https://datalogic.github.io/releases/2024/10/31/quickboard-v1.0.0</guid>
+            <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[QuickBoard is now available. It is an Android IME that allows the user to customize the on screen keyboard. It also allows them to scan from the custom keyboard. You can access the documentation here.]]></description>
+            <content:encoded><![CDATA[<p>QuickBoard is now available. It is an Android IME that allows the user to customize the on screen keyboard. It also allows them to scan from the custom keyboard. You can access the <a href="https://datalogic.github.io/quickboard/overview">documentation here</a>.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/quickboard/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the QuickBoard Github page.</p>]]></content:encoded>
+            <category>quickboard</category>
+        </item>
+        <item>
+            <title><![CDATA[Scan2Deploy Studio 2.4.0]]></title>
+            <link>https://datalogic.github.io/releases/2024/10/31/scan2deploy-studio-v2.4.0</link>
+            <guid>https://datalogic.github.io/releases/2024/10/31/scan2deploy-studio-v2.4.0</guid>
+            <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Scan2Deploy Studio 2.4.0 is now available. It includes many new enhancements and bug fixes. Read below for more details.]]></description>
+            <content:encoded><![CDATA[<p>Scan2Deploy Studio 2.4.0 is now available. It includes many new enhancements and bug fixes. Read below for more details.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/10/31/scan2deploy-studio-v2.4.0#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="quickboard-">QuickBoard ✨<a href="https://datalogic.github.io/releases/2024/10/31/scan2deploy-studio-v2.4.0#quickboard-" class="hash-link" aria-label="Direct link to QuickBoard ✨" title="Direct link to QuickBoard ✨">​</a></h3>
+<ul>
+<li>Visual editor for designing customized virtual keyboards for Datalogic devices</li>
+<li>Can be utilized on devices running Android 11 and above</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="key-remapping-">Key Remapping ✨<a href="https://datalogic.github.io/releases/2024/10/31/scan2deploy-studio-v2.4.0#key-remapping-" class="hash-link" aria-label="Direct link to Key Remapping ✨" title="Direct link to Key Remapping ✨">​</a></h3>
+<ul>
+<li>Provides configuration options for the Datalogic Keyboard Mapper</li>
+<li>Enables the ability to reassign physical buttons to display different keys, output strings of text, launch intents, and perform advanced script actions</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="miscellaneous">Miscellaneous<a href="https://datalogic.github.io/releases/2024/10/31/scan2deploy-studio-v2.4.0#miscellaneous" class="hash-link" aria-label="Direct link to Miscellaneous" title="Direct link to Miscellaneous">​</a></h3>
+<ul>
+<li>Added option for removing all existing application policies on device (📌requires <a href="https://github.com/datalogic/scan2deploy-android/releases/tag/2.3.0" target="_blank" rel="noopener noreferrer">Agent v2.3.0</a> or later)</li>
+<li>Added basic proxy support for Studio updates and APK downloads</li>
+<li>Changed Host Files profile behavior to not enable all Device and Scanner settings by default</li>
+<li>Added Visual Formatter level 5 support</li>
+<li>Added Routines option to change which Visual Formatter is active with Application Policies</li>
+<li>UI improvements for Advanced Keyboard page</li>
+<li>Other minor UI improvements and fixes</li>
+<li>Improved download speed of main application updates</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/10/31/scan2deploy-studio-v2.4.0#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Fixed an issue that prevented the use of uploaded files within script commands</li>
+<li>Advanced Keyboard<!-- -->
+<ul>
+<li>Android 13 devices now start with version 2 selected by default</li>
+<li>Made PTT availability more clear</li>
+</ul>
+</li>
+<li>Fixed SIM/AKA/AKA-PRIME appearing as options for EAP networks on WLAN only devices</li>
+<li>Fixed an issue where invalid server hosting controls could prevent profile save even when not hosting files</li>
+</ul>]]></content:encoded>
+            <category>scan2deploy-studio</category>
+        </item>
         <item>
             <title><![CDATA[CODiScan - Aladdin 3.2.9]]></title>
             <link>https://datalogic.github.io/releases/2024/10/09/aladdin-v3.2.9</link>
@@ -331,44 +385,6 @@
 <li>Fixed an issue that could prevent the profile from being downloaded if the server port was changed</li>
 </ul>]]></content:encoded>
             <category>scan2deploy-studio</category>
-        </item>
-        <item>
-            <title><![CDATA[CODiScan - Aladdin 3.1.0]]></title>
-            <link>https://datalogic.github.io/releases/2024/05/16/aladdin-v3.1.0</link>
-            <guid>https://datalogic.github.io/releases/2024/05/16/aladdin-v3.1.0</guid>
-            <pubDate>Thu, 16 May 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Aladdin 3.1.0 is now available.]]></description>
-            <content:encoded><![CDATA[<p>The Aladdin 3.1.0 is now available.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin-v2/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.  Please note that the package name has been changed to <code>com.datalogic.aladdinapp</code> starting with this version. Users will need to <em>manually uninstall any older versions of the app prior to installing any newer versions.</em></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="https://datalogic.github.io/releases/2024/05/16/aladdin-v3.1.0#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bluetooth-connections">Bluetooth Connections<a href="https://datalogic.github.io/releases/2024/05/16/aladdin-v3.1.0#bluetooth-connections" class="hash-link" aria-label="Direct link to Bluetooth Connections" title="Direct link to Bluetooth Connections">​</a></h3>
-<ul>
-<li>Streamlined pairing process</li>
-<li>QR codes now used for pairing</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="find-my-device-feature">Find My Device Feature<a href="https://datalogic.github.io/releases/2024/05/16/aladdin-v3.1.0#find-my-device-feature" class="hash-link" aria-label="Direct link to Find My Device Feature" title="Direct link to Find My Device Feature">​</a></h3>
-<ul>
-<li>Users can now tap a button in the app to cause a connected CODiScan to light up and play tones to assist the user in finding the scanner.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="other-features">Other features<a href="https://datalogic.github.io/releases/2024/05/16/aladdin-v3.1.0#other-features" class="hash-link" aria-label="Direct link to Other features" title="Direct link to Other features">​</a></h3>
-<ul>
-<li>Application can now be directly configured by an EMM through the Google Play store.</li>
-<li>Additional battery information (cycle count and health)</li>
-</ul>]]></content:encoded>
-            <category>aladdin</category>
-        </item>
-        <item>
-            <title><![CDATA[OEMConfig 2.6.2]]></title>
-            <link>https://datalogic.github.io/releases/2024/05/07/oemconfig</link>
-            <guid>https://datalogic.github.io/releases/2024/05/07/oemconfig</guid>
-            <pubDate>Tue, 07 May 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Corrected Defects]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/05/07/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Prevents crashes when used by some EMMs.</li>
-<li>Corrected behavior of PTT Walkie-Talkie app default value to reset to "None".</li>
-</ul>]]></content:encoded>
-            <category>oemconfig</category>
         </item>
     </channel>
 </rss>
