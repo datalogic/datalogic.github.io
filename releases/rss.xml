@@ -4,10 +4,57 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Thu, 31 Oct 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 08 Nov 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[OEMConfig 2.9.0]]></title>
+            <link>https://datalogic.github.io/releases/2024/11/08/oemconfig</link>
+            <guid>https://datalogic.github.io/releases/2024/11/08/oemconfig</guid>
+            <pubDate>Fri, 08 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/11/08/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Support of new device features<!-- -->
+<ul>
+<li>Good Read Overlay (on-screen scan notification)</li>
+<li>Snap OCR (document scanning)</li>
+<li>Pocket-Mode (power savings)</li>
+</ul>
+</li>
+<li>New scanning settings<!-- -->
+<ul>
+<li>Good Read notification tones</li>
+<li>Visual Formatting enable</li>
+</ul>
+</li>
+<li>New keyboard remapping options<!-- -->
+<ul>
+<li>Push-To-Talk key</li>
+<li>OCR decoding trigger</li>
+</ul>
+</li>
+<li>Added missing support for WWAN properties<!-- -->
+<ul>
+<li>Preferred Network Type</li>
+<li>MCC, MNC</li>
+<li>MVNO type and value</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/11/08/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Corrected potential crash when run on older devices (Android 8.1).</li>
+<li>Key Remapping settings applied from a JSON file with an EMM/MDM get deleted after OEMConfig applies its settings.<!-- -->
+<ul>
+<li>Clearing of key remapping settings is now controled with the "Reset key remapping" setting when applied with an EMM/MDM.</li>
+</ul>
+</li>
+<li>Unable to set the device name to use the Short MAC Address.</li>
+</ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
         <item>
             <title><![CDATA[QuickBoard 1.0.0]]></title>
             <link>https://datalogic.github.io/releases/2024/10/31/quickboard-v1.0.0</link>
@@ -366,25 +413,6 @@
 <li>On-screen keyboard no longer covers up web page content.</li>
 </ul>]]></content:encoded>
             <category>browser</category>
-        </item>
-        <item>
-            <title><![CDATA[Scan2Deploy Studio 2.2.1]]></title>
-            <link>https://datalogic.github.io/releases/2024/05/20/scan2deploy-studio-v2.2.1</link>
-            <guid>https://datalogic.github.io/releases/2024/05/20/scan2deploy-studio-v2.2.1</guid>
-            <pubDate>Mon, 20 May 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Scan2Deploy Studio 2.2.1 is now available. It includes some bug fixes. Read below for more details.]]></description>
-            <content:encoded><![CDATA[<p>Scan2Deploy Studio 2.2.1 is now available. It includes some bug fixes. Read below for more details.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/05/20/scan2deploy-studio-v2.2.1#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Added support for new Aladdin package name.<!-- -->
-<ul>
-<li>Profiles containing the old APK will be modified to include the new version on edit/import</li>
-</ul>
-</li>
-<li>Fixed an issue that could prevent the profile from being downloaded if the server port was changed</li>
-</ul>]]></content:encoded>
-            <category>scan2deploy-studio</category>
         </item>
     </channel>
 </rss>
