@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2024-11-08T00:00:00.000Z</updated>
+    <updated>2024-11-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Scan2Deploy Agent 2.5.0]]></title>
+        <id>https://datalogic.github.io/releases/2024/11/15/scan2deploy-agent</id>
+        <link href="https://datalogic.github.io/releases/2024/11/15/scan2deploy-agent"/>
+        <updated>2024-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enhancements]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/11/15/scan2deploy-agent#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>
+<p>Supports Proxy Auto-Config option when defining a Wi-Fi network.</p>
+</li>
+<li>
+<p>Displays a warning if OEMConfig settings are applied which are targetting a newer version of OEMConfig than what is installed on the device (without an APK upgrade).</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>These features require Scan2Deploy v2.5 or later.</p></div></div>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/11/15/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Corrected support for special characters in username and/or password for FTP/SFTP downloads.</li>
+<li>Fixed launching Agent by scanning the one of a set of QR labels from the "Hi There" screen.</li>
+<li>Enables scan triggers if they had been disabled prior to starting Agent.</li>
+</ul>]]></content>
+        <author>
+            <name>Scan2Deploy Agent</name>
+            <uri>/scan2deploy/android</uri>
+        </author>
+        <category label="scan2deploy-android" term="scan2deploy-android"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OEMConfig 2.9.0]]></title>
         <id>https://datalogic.github.io/releases/2024/11/08/oemconfig</id>
@@ -461,36 +489,5 @@
             <uri>/wifiguard/overview</uri>
         </author>
         <category label="wifi-guard" term="wifi-guard"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Datalogic Enterprise Browser 1.4.2]]></title>
-        <id>https://datalogic.github.io/releases/2024/05/31/browser</id>
-        <link href="https://datalogic.github.io/releases/2024/05/31/browser"/>
-        <updated>2024-05-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/05/31/browser#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Improved security handling<!-- -->
-<ul>
-<li>Blocks connections with SSL errors, adding an option to proceed anyway.</li>
-<li>Allows user to select a certificate when a web server requires a client certificate.</li>
-</ul>
-</li>
-<li>Improved clear browser cache management<!-- -->
-<ul>
-<li>Added option to clear browser cache when the Home button is selected.</li>
-<li>Prevents access to previous webpage from Favorites screen after clearing the cache.</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/05/31/browser#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>On-screen keyboard no longer covers up web page content.</li>
-</ul>]]></content>
-        <author>
-            <name>Datalogic Enterprise Browser</name>
-            <uri>/browser/overview</uri>
-        </author>
-        <category label="browser" term="browser"/>
     </entry>
 </feed>
