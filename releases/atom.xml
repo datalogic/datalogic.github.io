@@ -8,6 +8,31 @@
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[CODiScan - Aladdin 3.3.1]]></title>
+        <id>https://datalogic.github.io/releases/2024/11/15/aladdin</id>
+        <link href="https://datalogic.github.io/releases/2024/11/15/aladdin"/>
+        <updated>2024-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Aladdin application for CODiScan version 3.3.1 is now available.]]></summary>
+        <content type="html"><![CDATA[<p>The Aladdin application for CODiScan version 3.3.1 is now available.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin-v2/releases/tag/v3.3.1" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/11/15/aladdin#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>New native interface integration method that sends barcode data the native barcode interface when run on Datalogic devices.</li>
+<li>Removed dialogs that prompt the user to turn on keyboard integration when first launched.  (Keyboard integration not recommended on Datalogic devices.)</li>
+<li>New firmware update feature added.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/11/15/aladdin#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Pairing barcode on pairing intent dialog is unreadable if the background is set to some colors.</li>
+<li>Launching pairing dialog without extras can cause exception.</li>
+</ul>]]></content>
+        <author>
+            <name>CODiScan - Aladdin</name>
+            <uri>/aladdin/overview</uri>
+        </author>
+        <category label="aladdin" term="aladdin"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Scan2Deploy Agent 2.5.0]]></title>
         <id>https://datalogic.github.io/releases/2024/11/15/scan2deploy-agent</id>
         <link href="https://datalogic.github.io/releases/2024/11/15/scan2deploy-agent"/>
@@ -472,22 +497,5 @@
             <uri>/softspot/overview</uri>
         </author>
         <category label="softspot" term="softspot"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Datalogic WiFi Guard 1.4.0]]></title>
-        <id>https://datalogic.github.io/releases/2024/06/08/wifiguard</id>
-        <link href="https://datalogic.github.io/releases/2024/06/08/wifiguard"/>
-        <updated>2024-06-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/06/08/wifiguard#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added support for 6 GHz band</li>
-<li>Added support for WPA3 profiles</li>
-</ul>]]></content>
-        <author>
-            <name>Datalogic WiFi Guard</name>
-            <uri>/wifiguard/overview</uri>
-        </author>
-        <category label="wifi-guard" term="wifi-guard"/>
     </entry>
 </feed>
