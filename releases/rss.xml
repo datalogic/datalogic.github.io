@@ -4,10 +4,36 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Wed, 18 Dec 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Jan 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Scan2Deploy Studio 2.4.1]]></title>
+            <link>https://datalogic.github.io/releases/2025/01/02/scan2deploy-studio-v.2.4.1</link>
+            <guid>https://datalogic.github.io/releases/2025/01/02/scan2deploy-studio-v.2.4.1</guid>
+            <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Scan2Deploy Studio 2.4.1 is now available. It includes many new enhancements and bug fixes. Read below for more details.]]></description>
+            <content:encoded><![CDATA[<p>Scan2Deploy Studio 2.4.1 is now available. It includes many new enhancements and bug fixes. Read below for more details.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/01/02/scan2deploy-studio-v.2.4.1#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added Memor 12 and Memor 17 device support</li>
+<li>Added ability to change the barcode data density, resulting in fewer barcode scans for newer devices</li>
+<li>Added support for PAC URL when configuring Wi-Fi proxy settings</li>
+<li>Added versioning to Datalogic application configs to enable the Agent to indicate when there is a version mismatch</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/01/02/scan2deploy-studio-v.2.4.1#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Fixed an issue that caused a few requests to fail when a proxy server was configured</li>
+<li>Fixed an issue where manually uploaded APKs were not always removed when changing the deployment to barcode only</li>
+<li>Fixed an issue where Key Remapping configuration could result in duplicate scripts being added on profile load/import</li>
+<li>Fixed an issue where key remapping file did not always trigger the file hosting requirement</li>
+<li>Fixed an issue where some apps were missing from the list for SX5 XLR GMS A13</li>
+<li>Fixed an issue where apps installed from local files were not always removed when switching to a barcode only deployment</li>
+</ul>]]></content:encoded>
+            <category>scan2deploy-studio</category>
+        </item>
         <item>
             <title><![CDATA[Aladdin for CODiScan 3.4.1]]></title>
             <link>https://datalogic.github.io/releases/2024/12/18/aladdin</link>
@@ -427,19 +453,6 @@
 <li>Enhanced archive export to allow "Download" as the target folder.</li>
 </ul>]]></content:encoded>
             <category>logger</category>
-        </item>
-        <item>
-            <title><![CDATA[OEMConfig 2.7.0]]></title>
-            <link>https://datalogic.github.io/releases/2024/06/08/oemconfig</link>
-            <guid>https://datalogic.github.io/releases/2024/06/08/oemconfig</guid>
-            <pubDate>Sat, 08 Jun 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/06/08/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added support for USB whitelisting</li>
-<li>Added support for DigiMarc label formatting</li>
-</ul>]]></content:encoded>
-            <category>oemconfig</category>
         </item>
     </channel>
 </rss>
