@@ -2,11 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2025-01-06T00:00:00.000Z</updated>
+    <updated>2025-01-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Aladdin for CODiScan 3.5.2]]></title>
+        <id>https://datalogic.github.io/releases/2025/01/22/aladdin</id>
+        <link href="https://datalogic.github.io/releases/2025/01/22/aladdin"/>
+        <updated>2025-01-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Aladdin application for CODiScan version 3.5.2 is now available.]]></summary>
+        <content type="html"><![CDATA[<p>The Aladdin application for CODiScan version 3.5.2 is now available.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin-v2/releases/tag/v3.5.2" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/01/22/aladdin#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Extended Channel Interpretation (ECI) support added.</li>
+<li>New intent added for the Find My Device feature.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/01/22/aladdin#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Default image capture type changed to trigger to make it easier to capture images.</li>
+</ul>]]></content>
+        <author>
+            <name>Aladdin for CODiScan</name>
+            <uri>/aladdin/overview</uri>
+        </author>
+        <category label="aladdin" term="aladdin"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OEMConfig 2.9.1]]></title>
         <id>https://datalogic.github.io/releases/2025/01/06/oemconfig</id>
@@ -519,18 +542,5 @@
             <uri>/scan2deploy/studio</uri>
         </author>
         <category label="scan2deploy-studio" term="scan2deploy-studio"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Datalogic Launcher 1.2.4]]></title>
-        <id>https://datalogic.github.io/releases/2024/06/08/launcher</id>
-        <link href="https://datalogic.github.io/releases/2024/06/08/launcher"/>
-        <updated>2024-06-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Updated branding icons for latest Mobility Suite.]]></summary>
-        <content type="html"><![CDATA[<p>Updated branding icons for latest Mobility Suite.</p>]]></content>
-        <author>
-            <name>Datalogic Launcher</name>
-            <uri>/launcher/overview</uri>
-        </author>
-        <category label="launcher" term="launcher"/>
     </entry>
 </feed>
