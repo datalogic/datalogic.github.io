@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[66572],{24315:(t,i,a)=>{a.r(i),a.d(i,{default:()=>o});a(67294);var c=a(16550),e=a(85893);const o=function(){return(0,e.jsx)(c.l_,{to:"/codiscan/overview"})}}}]);
