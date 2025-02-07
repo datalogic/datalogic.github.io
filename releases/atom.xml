@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2025-01-28T00:00:00.000Z</updated>
+    <updated>2025-02-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Scan2Deploy Agent 2.5.1]]></title>
+        <id>https://datalogic.github.io/releases/2025/02/06/scan2deploy-agent</id>
+        <link href="https://datalogic.github.io/releases/2025/02/06/scan2deploy-agent"/>
+        <updated>2025-02-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enhancements]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/02/06/scan2deploy-agent#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added two new script commands:<!-- -->
+<ul>
+<li>PREFER - Set an application as preferred activity for a specified intent-filter.</li>
+<li>FORGET - Clear an application of any associated intent-filters.</li>
+</ul>
+</li>
+</ul>]]></content>
+        <author>
+            <name>Scan2Deploy Agent</name>
+            <uri>/scan2deploy/android</uri>
+        </author>
+        <category label="scan2deploy-android" term="scan2deploy-android"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CODiScan SDK v1.0.0]]></title>
         <id>https://datalogic.github.io/releases/2025/01/28/codiscan-sdk</id>
@@ -520,27 +541,5 @@
             <uri>/aladdin/overview</uri>
         </author>
         <category label="aladdin" term="aladdin"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scan2Deploy Studio 2.3.1]]></title>
-        <id>https://datalogic.github.io/releases/2024/08/23/scan2deploy-studio-v2.3.1</id>
-        <link href="https://datalogic.github.io/releases/2024/08/23/scan2deploy-studio-v2.3.1"/>
-        <updated>2024-08-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Scan2Deploy Studio 2.3.1 is now available. It includes minor enhancements and a bug fix. Read below for more details.]]></summary>
-        <content type="html"><![CDATA[<p>Scan2Deploy Studio 2.3.1 is now available. It includes minor enhancements and a bug fix. Read below for more details.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/08/23/scan2deploy-studio-v2.3.1#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added support for Android 13 versions of Skorpio X5, XLR Skorpio X5, Memor 11, and Memor 20.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/08/23/scan2deploy-studio-v2.3.1#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Fixed bug with application policies that could cause a new policy not to be added.</li>
-</ul>]]></content>
-        <author>
-            <name>Scan2Deploy Studio</name>
-            <uri>/scan2deploy/studio</uri>
-        </author>
-        <category label="scan2deploy-studio" term="scan2deploy-studio"/>
     </entry>
 </feed>
