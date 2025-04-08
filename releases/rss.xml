@@ -4,10 +4,151 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Tue, 18 Feb 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Datalogic Enterprise Browser 1.7.0]]></title>
+            <link>https://datalogic.github.io/releases/2025/04/07/browser</link>
+            <guid>https://datalogic.github.io/releases/2025/04/07/browser</guid>
+            <pubDate>Mon, 07 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/04/07/browser#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated to support Android 15</li>
+<li>Enhanced custom image selection<!-- -->
+<ul>
+<li>Images are now included in exported configuration files</li>
+</ul>
+</li>
+<li>Initial zoom can be set up to 500%</li>
+</ul>]]></content:encoded>
+            <category>browser</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic Launcher 1.4.0]]></title>
+            <link>https://datalogic.github.io/releases/2025/04/07/launcher</link>
+            <guid>https://datalogic.github.io/releases/2025/04/07/launcher</guid>
+            <pubDate>Mon, 07 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/04/07/launcher#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated to support Android 15</li>
+<li>Enhanced custom image selection<!-- -->
+<ul>
+<li>Images are now included in exported configuration files</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+            <category>launcher</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic Logger 1.4.0]]></title>
+            <link>https://datalogic.github.io/releases/2025/04/07/logger</link>
+            <guid>https://datalogic.github.io/releases/2025/04/07/logger</guid>
+            <pubDate>Mon, 07 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/04/07/logger#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated to support Android 15</li>
+<li>Added support for Ram dump logging</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/04/07/logger#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Unable to set network snapshot size with EMM</li>
+</ul>]]></content:encoded>
+            <category>logger</category>
+        </item>
+        <item>
+            <title><![CDATA[OEMConfig 2.10.0]]></title>
+            <link>https://datalogic.github.io/releases/2025/04/07/oemconfig</link>
+            <guid>https://datalogic.github.io/releases/2025/04/07/oemconfig</guid>
+            <pubDate>Mon, 07 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/04/07/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated to support Android 15</li>
+<li>Added support for new features:<!-- -->
+<ul>
+<li>Camera Wedge</li>
+<li>Camera interoperability</li>
+<li>Good Read overlay transparency</li>
+<li>Intent wedge empty values</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/04/07/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Corrected default values for:<!-- -->
+<ul>
+<li>No internet expected</li>
+<li>Image decode timeout</li>
+<li>Han Xin lengths</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
+        <item>
+            <title><![CDATA[QuickBoard 1.1.0]]></title>
+            <link>https://datalogic.github.io/releases/2025/04/07/quickboard</link>
+            <guid>https://datalogic.github.io/releases/2025/04/07/quickboard</guid>
+            <pubDate>Mon, 07 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/04/07/quickboard#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated to support Android 15</li>
+</ul>]]></content:encoded>
+            <category>quickboard</category>
+        </item>
+        <item>
+            <title><![CDATA[Scan2Deploy Agent 2.6.0]]></title>
+            <link>https://datalogic.github.io/releases/2025/04/07/scan2deploy-agent</link>
+            <guid>https://datalogic.github.io/releases/2025/04/07/scan2deploy-agent</guid>
+            <pubDate>Mon, 07 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/04/07/scan2deploy-agent#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated to support Android 15</li>
+<li>Support enrollment within profile</li>
+<li>Support deployment over non-WiFi networks (requires Scan2Deploy Studio update)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/04/07/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Unable to restore Enterprise backup that includes Agent update</li>
+</ul>]]></content:encoded>
+            <category>scan2deploy-android</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic SoftSpot 3.2.0]]></title>
+            <link>https://datalogic.github.io/releases/2025/04/07/softspot</link>
+            <guid>https://datalogic.github.io/releases/2025/04/07/softspot</guid>
+            <pubDate>Mon, 07 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/04/07/softspot#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated to support Android 15</li>
+<li>Enhanced custom image selection<!-- -->
+<ul>
+<li>Images are now included in exported configuration files</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+            <category>softspot</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic WiFi Guard 1.5.0]]></title>
+            <link>https://datalogic.github.io/releases/2025/04/07/wifiguard</link>
+            <guid>https://datalogic.github.io/releases/2025/04/07/wifiguard</guid>
+            <pubDate>Mon, 07 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/04/07/wifiguard#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated to support Android 15</li>
+</ul>]]></content:encoded>
+            <category>wifi-guard</category>
+        </item>
         <item>
             <title><![CDATA[Scan2Deploy Studio 2.4.2]]></title>
             <link>https://datalogic.github.io/releases/2025/02/18/scan2deploy-studio-v.2.4.2</link>
@@ -259,206 +400,13 @@
         </item>
         <item>
             <title><![CDATA[QuickBoard 1.0.0]]></title>
-            <link>https://datalogic.github.io/releases/2024/10/31/quickboard-v1.0.0</link>
-            <guid>https://datalogic.github.io/releases/2024/10/31/quickboard-v1.0.0</guid>
+            <link>https://datalogic.github.io/releases/2024/10/31/quickboard</link>
+            <guid>https://datalogic.github.io/releases/2024/10/31/quickboard</guid>
             <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[QuickBoard is now available. It is an Android IME that allows the user to customize the on screen keyboard. It also allows them to scan from the custom keyboard. You can access the documentation here.]]></description>
             <content:encoded><![CDATA[<p>QuickBoard is now available. It is an Android IME that allows the user to customize the on screen keyboard. It also allows them to scan from the custom keyboard. You can access the <a href="https://datalogic.github.io/quickboard/overview">documentation here</a>.</p>
 <p>Downloads are available in the <a href="https://github.com/datalogic/quickboard/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the QuickBoard Github page.</p>]]></content:encoded>
             <category>quickboard</category>
-        </item>
-        <item>
-            <title><![CDATA[Scan2Deploy Studio 2.4.0]]></title>
-            <link>https://datalogic.github.io/releases/2024/10/31/scan2deploy-studio-v2.4.0</link>
-            <guid>https://datalogic.github.io/releases/2024/10/31/scan2deploy-studio-v2.4.0</guid>
-            <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Scan2Deploy Studio 2.4.0 is now available. It includes many new enhancements and bug fixes. Read below for more details.]]></description>
-            <content:encoded><![CDATA[<p>Scan2Deploy Studio 2.4.0 is now available. It includes many new enhancements and bug fixes. Read below for more details.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/10/31/scan2deploy-studio-v2.4.0#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="quickboard-">QuickBoard ✨<a href="https://datalogic.github.io/releases/2024/10/31/scan2deploy-studio-v2.4.0#quickboard-" class="hash-link" aria-label="Direct link to QuickBoard ✨" title="Direct link to QuickBoard ✨">​</a></h3>
-<ul>
-<li>Visual editor for designing customized virtual keyboards for Datalogic devices</li>
-<li>Can be utilized on devices running Android 11 and above</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="key-remapping-">Key Remapping ✨<a href="https://datalogic.github.io/releases/2024/10/31/scan2deploy-studio-v2.4.0#key-remapping-" class="hash-link" aria-label="Direct link to Key Remapping ✨" title="Direct link to Key Remapping ✨">​</a></h3>
-<ul>
-<li>Provides configuration options for the Datalogic Keyboard Mapper</li>
-<li>Enables the ability to reassign physical buttons to display different keys, output strings of text, launch intents, and perform advanced script actions</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="miscellaneous">Miscellaneous<a href="https://datalogic.github.io/releases/2024/10/31/scan2deploy-studio-v2.4.0#miscellaneous" class="hash-link" aria-label="Direct link to Miscellaneous" title="Direct link to Miscellaneous">​</a></h3>
-<ul>
-<li>Added option for removing all existing application policies on device (📌requires <a href="https://github.com/datalogic/scan2deploy-android/releases/tag/2.3.0" target="_blank" rel="noopener noreferrer">Agent v2.3.0</a> or later)</li>
-<li>Added basic proxy support for Studio updates and APK downloads</li>
-<li>Changed Host Files profile behavior to not enable all Device and Scanner settings by default</li>
-<li>Added Visual Formatter level 5 support</li>
-<li>Added Routines option to change which Visual Formatter is active with Application Policies</li>
-<li>UI improvements for Advanced Keyboard page</li>
-<li>Other minor UI improvements and fixes</li>
-<li>Improved download speed of main application updates</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/10/31/scan2deploy-studio-v2.4.0#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Fixed an issue that prevented the use of uploaded files within script commands</li>
-<li>Advanced Keyboard<!-- -->
-<ul>
-<li>Android 13 devices now start with version 2 selected by default</li>
-<li>Made PTT availability more clear</li>
-</ul>
-</li>
-<li>Fixed SIM/AKA/AKA-PRIME appearing as options for EAP networks on WLAN only devices</li>
-<li>Fixed an issue where invalid server hosting controls could prevent profile save even when not hosting files</li>
-</ul>]]></content:encoded>
-            <category>scan2deploy-studio</category>
-        </item>
-        <item>
-            <title><![CDATA[Aladdin for CODiScan 3.2.9]]></title>
-            <link>https://datalogic.github.io/releases/2024/10/09/aladdin-v3.2.9</link>
-            <guid>https://datalogic.github.io/releases/2024/10/09/aladdin-v3.2.9</guid>
-            <pubDate>Wed, 09 Oct 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Aladdin application for CODiScan version 3.2.9 is now available.]]></description>
-            <content:encoded><![CDATA[<p>The Aladdin application for CODiScan version 3.2.9 is now available.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin/releases/tag/v3.2.9" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/10/09/aladdin-v3.2.9#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Various improvements to BT connection stability</li>
-</ul>]]></content:encoded>
-            <category>aladdin</category>
-        </item>
-        <item>
-            <title><![CDATA[OEMConfig 2.8.3]]></title>
-            <link>https://datalogic.github.io/releases/2024/09/27/oemconfig</link>
-            <guid>https://datalogic.github.io/releases/2024/09/27/oemconfig</guid>
-            <pubDate>Fri, 27 Sep 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/09/27/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Additional scanning properties<!-- -->
-<ul>
-<li>Transmit data as hex string</li>
-<li>Enable internal/external scanner</li>
-<li>Wedge Intent IDs</li>
-</ul>
-</li>
-<li>Enhanced wakeup trigger behavior</li>
-<li>Enhanced LED settings</li>
-<li>Enhanced support for Bluetooth pairing with Datalogic devices</li>
-<li>Enhanced support of network/connections controls</li>
-<li>Added support for new display settings<!-- -->
-<ul>
-<li>Desktop mode</li>
-<li>Upside down rotation</li>
-<li>Screenshot capture</li>
-</ul>
-</li>
-<li>Added support for new keyboard settings<!-- -->
-<ul>
-<li>Physical keyboard</li>
-<li>Virtual keyboard</li>
-</ul>
-</li>
-<li>Added support for User Interface controls<!-- -->
-<ul>
-<li>Notifications</li>
-<li>Block system controls</li>
-<li>Show system features</li>
-</ul>
-</li>
-<li>Added support for Virtual RAM</li>
-</ul>]]></content:encoded>
-            <category>oemconfig</category>
-        </item>
-        <item>
-            <title><![CDATA[Scan2Deploy Agent 2.4.0]]></title>
-            <link>https://datalogic.github.io/releases/2024/09/19/scan2deploy-agent</link>
-            <guid>https://datalogic.github.io/releases/2024/09/19/scan2deploy-agent</guid>
-            <pubDate>Thu, 19 Sep 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/09/19/scan2deploy-agent#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Better coordination with Espresso when staging from "Hi There" screen.</li>
-<li>Supports explicit broadcast intents to packages without component name.</li>
-<li>Extended intent support for silent deploy<!-- -->
-<ul>
-<li>Added extra argument to supply QR code input from a JSON file.</li>
-</ul>
-</li>
-<li>Enhanced profile logging<!-- -->
-<ul>
-<li>Creates log history of previous profile sessions.</li>
-<li>Log history is stored in Downloads folder for access by EMM/MDMs.</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/09/19/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Corrected support for large (&gt; 2 GB) file downloads.</li>
-<li>Corrected support for SFTP downloads.</li>
-<li>Corrected handling of OTA reset options.</li>
-<li>Corrected BATTERY_OPTIMIZATION script command to run on devices with Android 13.</li>
-</ul>]]></content:encoded>
-            <category>scan2deploy-android</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Enterprise Browser 1.5.0]]></title>
-            <link>https://datalogic.github.io/releases/2024/09/13/browser</link>
-            <guid>https://datalogic.github.io/releases/2024/09/13/browser</guid>
-            <pubDate>Fri, 13 Sep 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/09/13/browser#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Support launching Web sites from NFC tags</li>
-</ul>]]></content:encoded>
-            <category>browser</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Launcher 1.3.0]]></title>
-            <link>https://datalogic.github.io/releases/2024/09/13/launcher</link>
-            <guid>https://datalogic.github.io/releases/2024/09/13/launcher</guid>
-            <pubDate>Fri, 13 Sep 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/09/13/launcher#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Wallpaper size support for Stretch to Crop and Fill</li>
-<li>New variables for use in title bar<!-- -->
-<ul>
-<li>IP Address for both Wi-Fi and Ethernet networks</li>
-</ul>
-</li>
-<li>Additional lock-down abilities<!-- -->
-<ul>
-<li>Allow launching Web sites from NFC tags</li>
-<li>Allow self-update of apps</li>
-<li>Allow use with an external display</li>
-</ul>
-</li>
-</ul>]]></content:encoded>
-            <category>launcher</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Logger 1.3.1]]></title>
-            <link>https://datalogic.github.io/releases/2024/09/13/logger</link>
-            <guid>https://datalogic.github.io/releases/2024/09/13/logger</guid>
-            <pubDate>Fri, 13 Sep 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/09/13/logger#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added support for network packet logging.</li>
-<li>Added support for System on Chip diagnostic logging.</li>
-</ul>]]></content:encoded>
-            <category>logger</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic SoftSpot 3.1.0]]></title>
-            <link>https://datalogic.github.io/releases/2024/09/13/softspot</link>
-            <guid>https://datalogic.github.io/releases/2024/09/13/softspot</guid>
-            <pubDate>Fri, 13 Sep 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Corrected Defects]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/09/13/softspot#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Corrected range of spot position on external displays</li>
-</ul>]]></content:encoded>
-            <category>softspot</category>
         </item>
     </channel>
 </rss>
