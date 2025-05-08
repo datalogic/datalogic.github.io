@@ -4,10 +4,29 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Wed, 16 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Scan2Deploy Studio 2.5.1]]></title>
+            <link>https://datalogic.github.io/releases/2025/05/06/scan2deploy-studio-v.2.5.1</link>
+            <guid>https://datalogic.github.io/releases/2025/05/06/scan2deploy-studio-v.2.5.1</guid>
+            <pubDate>Tue, 06 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Scan2Deploy Studio 2.5.1 is now available. It includes some minor enhancements and bug fixes. Read below for more details.]]></description>
+            <content:encoded><![CDATA[<p>Scan2Deploy Studio 2.5.1 is now available. It includes some minor enhancements and bug fixes. Read below for more details.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/05/06/scan2deploy-studio-v.2.5.1#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added support for multi-select controls in Device &amp; Scanner Settings</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/05/06/scan2deploy-studio-v.2.5.1#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Fixed an issue where invalid values for Quickboard height could be saved in the configuration data under some scenarios</li>
+<li>Fixed styling of deeply nested controls in Device &amp; Scanner Settings</li>
+</ul>]]></content:encoded>
+            <category>scan2deploy-studio</category>
+        </item>
         <item>
             <title><![CDATA[Aladdin for CODiScan 3.6.0]]></title>
             <link>https://datalogic.github.io/releases/2025/04/16/aladdin</link>
@@ -380,27 +399,6 @@
 <li>Wallpaper size support for Stretch to Crop and Fill</li>
 </ul>]]></content:encoded>
             <category>browser</category>
-        </item>
-        <item>
-            <title><![CDATA[Aladdin for CODiScan 3.3.1]]></title>
-            <link>https://datalogic.github.io/releases/2024/11/15/aladdin</link>
-            <guid>https://datalogic.github.io/releases/2024/11/15/aladdin</guid>
-            <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Aladdin application for CODiScan version 3.3.1 is now available.]]></description>
-            <content:encoded><![CDATA[<p>The Aladdin application for CODiScan version 3.3.1 is now available.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin-v2/releases/tag/v3.3.1" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/11/15/aladdin#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>New native interface integration method that sends barcode data the native barcode interface when run on Datalogic devices.</li>
-<li>Removed dialogs that prompt the user to turn on keyboard integration when first launched.  (Keyboard integration not recommended on Datalogic devices.)</li>
-<li>New firmware update feature added.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/11/15/aladdin#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Pairing barcode on pairing intent dialog is unreadable if the background is set to some colors.</li>
-<li>Launching pairing dialog without extras can cause exception.</li>
-</ul>]]></content:encoded>
-            <category>aladdin</category>
         </item>
     </channel>
 </rss>
