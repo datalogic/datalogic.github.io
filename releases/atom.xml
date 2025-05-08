@@ -2,11 +2,155 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2025-05-06T00:00:00.000Z</updated>
+    <updated>2025-05-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Datalogic Enterprise Browser 1.7.1]]></title>
+        <id>https://datalogic.github.io/releases/2025/05/08/browser</id>
+        <link href="https://datalogic.github.io/releases/2025/05/08/browser"/>
+        <updated>2025-05-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Corrected Defects]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/05/08/browser#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>IME displayed outside of input fields</li>
+<li>Supports transparency pixels for custom images</li>
+<li>Failure exporting configuration with custom images</li>
+</ul>]]></content>
+        <author>
+            <name>Datalogic Enterprise Browser</name>
+            <uri>/browser/overview</uri>
+        </author>
+        <category label="browser" term="browser"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Datalogic Launcher 1.4.1]]></title>
+        <id>https://datalogic.github.io/releases/2025/05/08/launcher</id>
+        <link href="https://datalogic.github.io/releases/2025/05/08/launcher"/>
+        <updated>2025-05-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Corrected Defects]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/05/08/launcher#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Supports transparency pixels for custom images</li>
+<li>Failure exporting configuration with custom images</li>
+</ul>]]></content>
+        <author>
+            <name>Datalogic Launcher</name>
+            <uri>/launcher/overview</uri>
+        </author>
+        <category label="launcher" term="launcher"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Datalogic Logger 1.4.1]]></title>
+        <id>https://datalogic.github.io/releases/2025/05/08/logger</id>
+        <link href="https://datalogic.github.io/releases/2025/05/08/logger"/>
+        <updated>2025-05-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Corrected Defects]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/05/08/logger#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Removed RAM Dump enable from managed configuration for MDM/EMM.<!-- -->
+<ul>
+<li>Feature is only usable manually on the device.</li>
+</ul>
+</li>
+</ul>]]></content>
+        <author>
+            <name>Datalogic Logger</name>
+            <uri>/logger/overview</uri>
+        </author>
+        <category label="logger" term="logger"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OEMConfig 2.11.0]]></title>
+        <id>https://datalogic.github.io/releases/2025/05/08/oemconfig</id>
+        <link href="https://datalogic.github.io/releases/2025/05/08/oemconfig"/>
+        <updated>2025-05-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enhancements]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/05/08/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added support for new features:<!-- -->
+<ul>
+<li>Application launch on cradle events</li>
+<li>Enterprise Battery Saver (enhanced power management)</li>
+<li>Smart sharing (improved battery health)</li>
+<li>Screensaver controls</li>
+</ul>
+</li>
+</ul>]]></content>
+        <author>
+            <name>OEMConfig</name>
+            <uri>/oemconfig/overview</uri>
+        </author>
+        <category label="oemconfig" term="oemconfig"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QuickBoard 1.2.0]]></title>
+        <id>https://datalogic.github.io/releases/2025/05/08/quickboard</id>
+        <link href="https://datalogic.github.io/releases/2025/05/08/quickboard"/>
+        <updated>2025-05-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enhancements]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/05/08/quickboard#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Reduced minimum layout height to support single row layouts.</li>
+</ul>]]></content>
+        <author>
+            <name>QuickBoard</name>
+            <uri>/quickboard/overview</uri>
+        </author>
+        <category label="quickboard" term="quickboard"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scan2Deploy Agent 2.6.1]]></title>
+        <id>https://datalogic.github.io/releases/2025/05/08/scan2deploy-agent</id>
+        <link href="https://datalogic.github.io/releases/2025/05/08/scan2deploy-agent"/>
+        <updated>2025-05-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Corrected Defects]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/05/08/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Scripting can now install APKs from outside the profile</li>
+</ul>]]></content>
+        <author>
+            <name>Scan2Deploy Agent</name>
+            <uri>/scan2deploy/android</uri>
+        </author>
+        <category label="scan2deploy-android" term="scan2deploy-android"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Datalogic SoftSpot 3.2.1]]></title>
+        <id>https://datalogic.github.io/releases/2025/05/08/softspot</id>
+        <link href="https://datalogic.github.io/releases/2025/05/08/softspot"/>
+        <updated>2025-05-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Corrected Defects]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/05/08/softspot#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Supports transparency pixels for custom images</li>
+<li>Missing display of custom images</li>
+<li>Failure exporting configuration with custom images</li>
+</ul>]]></content>
+        <author>
+            <name>Datalogic SoftSpot</name>
+            <uri>/softspot/overview</uri>
+        </author>
+        <category label="softspot" term="softspot"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Datalogic WiFi Guard 1.5.1]]></title>
+        <id>https://datalogic.github.io/releases/2025/05/08/wifiguard</id>
+        <link href="https://datalogic.github.io/releases/2025/05/08/wifiguard"/>
+        <updated>2025-05-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enhancements]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/05/08/wifiguard#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated Android 15 support for new devices.</li>
+</ul>]]></content>
+        <author>
+            <name>Datalogic WiFi Guard</name>
+            <uri>/wifiguard/overview</uri>
+        </author>
+        <category label="wifi-guard" term="wifi-guard"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scan2Deploy Studio 2.5.1]]></title>
         <id>https://datalogic.github.io/releases/2025/05/06/scan2deploy-studio-v.2.5.1</id>
@@ -289,194 +433,5 @@
             <uri>/wifiguard/overview</uri>
         </author>
         <category label="wifi-guard" term="wifi-guard"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scan2Deploy Studio 2.4.2]]></title>
-        <id>https://datalogic.github.io/releases/2025/02/18/scan2deploy-studio-v.2.4.2</id>
-        <link href="https://datalogic.github.io/releases/2025/02/18/scan2deploy-studio-v.2.4.2"/>
-        <updated>2025-02-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Scan2Deploy Studio 2.4.2 is now available. It includes new enhancements to scripting.]]></summary>
-        <content type="html"><![CDATA[<p>Scan2Deploy Studio 2.4.2 is now available. It includes new enhancements to scripting.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/02/18/scan2deploy-studio-v.2.4.2#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added two new script commands:<!-- -->
-<ul>
-<li>PREFER - Set an application as preferred activity for a specified intent-filter.</li>
-<li>FORGET - Clear an application of any associated intent-filters.</li>
-</ul>
-</li>
-</ul>]]></content>
-        <author>
-            <name>Scan2Deploy Studio</name>
-            <uri>/scan2deploy/studio</uri>
-        </author>
-        <category label="scan2deploy-studio" term="scan2deploy-studio"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scan2Deploy Agent 2.5.1]]></title>
-        <id>https://datalogic.github.io/releases/2025/02/06/scan2deploy-agent</id>
-        <link href="https://datalogic.github.io/releases/2025/02/06/scan2deploy-agent"/>
-        <updated>2025-02-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/02/06/scan2deploy-agent#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added two new script commands:<!-- -->
-<ul>
-<li>PREFER - Set an application as preferred activity for a specified intent-filter.</li>
-<li>FORGET - Clear an application of any associated intent-filters.</li>
-</ul>
-</li>
-</ul>]]></content>
-        <author>
-            <name>Scan2Deploy Agent</name>
-            <uri>/scan2deploy/android</uri>
-        </author>
-        <category label="scan2deploy-android" term="scan2deploy-android"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CODiScan SDK v1.0.0]]></title>
-        <id>https://datalogic.github.io/releases/2025/01/28/codiscan-sdk</id>
-        <link href="https://datalogic.github.io/releases/2025/01/28/codiscan-sdk"/>
-        <updated>2025-01-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The CODiScan™ HS7600 SDK empowers users to write Android applications that interface with a connected CODiScan™ HS7600 wearable Bluetooth bar code reader.]]></summary>
-        <content type="html"><![CDATA[<p>The CODiScan™ HS7600 SDK empowers users to write Android applications that interface with a connected CODiScan™ HS7600 wearable Bluetooth bar code reader.</p>
-<p>SDK requires the installation of the CODiScan Service, which is available from <a href="https://github.com/datalogic/codiscan-service/releases" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
-<p>The SDK can be imported into projects via Jitpack:</p>
-<p><a href="https://jitpack.io/#datalogic/codiscan-sdk" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://jitpack.io/v/datalogic/codiscan-sdk.svg" alt="SDK Version" class="img_ev3q"></a></p>
-<p>Features include:</p>
-<ul>
-<li>Pair with a CODiScan device.</li>
-<li>Disconnect from CODiScan device.</li>
-<li>Listen to CODiScan connect/disconnect events.</li>
-<li>Trigger 'Find My Device' function.</li>
-<li>Get scan data from CODiScan.</li>
-<li>Get CODiScan battery status.</li>
-<li>Get CODiScan device data.</li>
-<li>Get CODiScan configuration values.</li>
-<li>Set CODiScan configuration values.</li>
-</ul>]]></content>
-        <author>
-            <name>CODiScan SDK</name>
-            <uri>/aladdin/codiscan/overview</uri>
-        </author>
-        <category label="codiscanSDK" term="codiscanSDK"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aladdin for CODiScan 3.5.2]]></title>
-        <id>https://datalogic.github.io/releases/2025/01/22/aladdin</id>
-        <link href="https://datalogic.github.io/releases/2025/01/22/aladdin"/>
-        <updated>2025-01-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Aladdin application for CODiScan version 3.5.2 is now available.]]></summary>
-        <content type="html"><![CDATA[<p>The Aladdin application for CODiScan version 3.5.2 is now available.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin-v2/releases/tag/v3.5.2" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/01/22/aladdin#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Extended Channel Interpretation (ECI) support added.</li>
-<li>New intent added for the Find My Device feature.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/01/22/aladdin#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Default image capture type changed to trigger to make it easier to capture images.</li>
-</ul>]]></content>
-        <author>
-            <name>Aladdin for CODiScan</name>
-            <uri>/aladdin/overview</uri>
-        </author>
-        <category label="aladdin" term="aladdin"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OEMConfig 2.9.1]]></title>
-        <id>https://datalogic.github.io/releases/2025/01/06/oemconfig</id>
-        <link href="https://datalogic.github.io/releases/2025/01/06/oemconfig"/>
-        <updated>2025-01-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/01/06/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Support rain mode touch sensitivity for Memor 12/17</li>
-</ul>]]></content>
-        <author>
-            <name>OEMConfig</name>
-            <uri>/oemconfig/overview</uri>
-        </author>
-        <category label="oemconfig" term="oemconfig"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scan2Deploy Studio 2.4.1]]></title>
-        <id>https://datalogic.github.io/releases/2025/01/02/scan2deploy-studio-v.2.4.1</id>
-        <link href="https://datalogic.github.io/releases/2025/01/02/scan2deploy-studio-v.2.4.1"/>
-        <updated>2025-01-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Scan2Deploy Studio 2.4.1 is now available. It includes many new enhancements and bug fixes. Read below for more details.]]></summary>
-        <content type="html"><![CDATA[<p>Scan2Deploy Studio 2.4.1 is now available. It includes many new enhancements and bug fixes. Read below for more details.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/01/02/scan2deploy-studio-v.2.4.1#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added Memor 12 and Memor 17 device support</li>
-<li>Added ability to change the barcode data density, resulting in fewer barcode scans for newer devices</li>
-<li>Added support for PAC URL when configuring Wi-Fi proxy settings</li>
-<li>Added versioning to Datalogic application configs to enable the Agent to indicate when there is a version mismatch</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/01/02/scan2deploy-studio-v.2.4.1#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Fixed an issue that caused a few requests to fail when a proxy server was configured</li>
-<li>Fixed an issue where manually uploaded APKs were not always removed when changing the deployment to barcode only</li>
-<li>Fixed an issue where Key Remapping configuration could result in duplicate scripts being added on profile load/import</li>
-<li>Fixed an issue where key remapping file did not always trigger the file hosting requirement</li>
-<li>Fixed an issue where some apps were missing from the list for SX5 XLR GMS A13</li>
-<li>Fixed an issue where apps installed from local files were not always removed when switching to a barcode only deployment</li>
-</ul>]]></content>
-        <author>
-            <name>Scan2Deploy Studio</name>
-            <uri>/scan2deploy/studio</uri>
-        </author>
-        <category label="scan2deploy-studio" term="scan2deploy-studio"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aladdin for CODiScan 3.4.1]]></title>
-        <id>https://datalogic.github.io/releases/2024/12/18/aladdin</id>
-        <link href="https://datalogic.github.io/releases/2024/12/18/aladdin"/>
-        <updated>2024-12-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Aladdin application for CODiScan version 3.4.1 is now available.]]></summary>
-        <content type="html"><![CDATA[<p>The Aladdin application for CODiScan version 3.4.1 is now available.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin-v2/releases/tag/v3.4.1" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/12/18/aladdin#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Image capture feature added for debugging purposes.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2024/12/18/aladdin#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Excessive notifications can come up when run on some devices.</li>
-<li>App has problems upgrading when there is an active connection.</li>
-<li>Extra carriage return sent at the end of barcode data.</li>
-<li>Removed unnecessary permissions dialogs when run on Datalogic devices.</li>
-</ul>]]></content>
-        <author>
-            <name>Aladdin for CODiScan</name>
-            <uri>/aladdin/overview</uri>
-        </author>
-        <category label="aladdin" term="aladdin"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Datalogic Enterprise Browser 1.6.0]]></title>
-        <id>https://datalogic.github.io/releases/2024/12/06/browser</id>
-        <link href="https://datalogic.github.io/releases/2024/12/06/browser"/>
-        <updated>2024-12-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2024/12/06/browser#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Allow media capture (images, video, sound) from a web form</li>
-<li>Allow Favorites button to be disabled<!-- -->
-<ul>
-<li>Toolbar will be hidden if no buttons are shown</li>
-<li>Backdoor access to admin settings from a webpage</li>
-</ul>
-</li>
-<li>Wallpaper size support for Stretch to Crop and Fill</li>
-</ul>]]></content>
-        <author>
-            <name>Datalogic Enterprise Browser</name>
-            <uri>/browser/overview</uri>
-        </author>
-        <category label="browser" term="browser"/>
     </entry>
 </feed>
