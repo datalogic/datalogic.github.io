@@ -4,10 +4,34 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Thu, 22 May 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[OEMConfig 2.11.1]]></title>
+            <link>https://datalogic.github.io/releases/2025/05/31/oemconfig</link>
+            <guid>https://datalogic.github.io/releases/2025/05/31/oemconfig</guid>
+            <pubDate>Sat, 31 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Corrected Defects]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/05/31/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Hotfix for correcting defaults applied with some EMMs.</li>
+</ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
+        <item>
+            <title><![CDATA[Scan2Deploy Agent 2.6.2]]></title>
+            <link>https://datalogic.github.io/releases/2025/05/31/scan2deploy-agent</link>
+            <guid>https://datalogic.github.io/releases/2025/05/31/scan2deploy-agent</guid>
+            <pubDate>Sat, 31 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Corrected Defects]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/05/31/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Hotfix to work with Android 15.</li>
+</ul>]]></content:encoded>
+            <category>scan2deploy-android</category>
+        </item>
         <item>
             <title><![CDATA[Datacapture SDK v2.1.3]]></title>
             <link>https://datalogic.github.io/releases/2025/05/22/datacapture</link>
@@ -328,41 +352,6 @@
 <li>Updated to support Android 15</li>
 </ul>]]></content:encoded>
             <category>quickboard</category>
-        </item>
-        <item>
-            <title><![CDATA[Scan2Deploy Agent 2.6.0]]></title>
-            <link>https://datalogic.github.io/releases/2025/04/07/scan2deploy-agent</link>
-            <guid>https://datalogic.github.io/releases/2025/04/07/scan2deploy-agent</guid>
-            <pubDate>Mon, 07 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/04/07/scan2deploy-agent#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 15</li>
-<li>Support enrollment within profile</li>
-<li>Support deployment over non-WiFi networks (requires Scan2Deploy Studio update)</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/04/07/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Unable to restore Enterprise backup that includes Agent update</li>
-</ul>]]></content:encoded>
-            <category>scan2deploy-android</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic SoftSpot 3.2.0]]></title>
-            <link>https://datalogic.github.io/releases/2025/04/07/softspot</link>
-            <guid>https://datalogic.github.io/releases/2025/04/07/softspot</guid>
-            <pubDate>Mon, 07 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/04/07/softspot#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 15</li>
-<li>Enhanced custom image selection<!-- -->
-<ul>
-<li>Images are now included in exported configuration files</li>
-</ul>
-</li>
-</ul>]]></content:encoded>
-            <category>softspot</category>
         </item>
     </channel>
 </rss>
