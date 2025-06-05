@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2025-05-31T00:00:00.000Z</updated>
+    <updated>2025-06-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[OEMConfig 2.11.2]]></title>
+        <id>https://datalogic.github.io/releases/2025/06/03/oemconfig</id>
+        <link href="https://datalogic.github.io/releases/2025/06/03/oemconfig"/>
+        <updated>2025-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enhancements]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/06/03/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added means to avoid changing Device Name with some EMMs.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/06/03/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Hotfix for correcting defaults applied with some EMMs.</li>
+</ul>]]></content>
+        <author>
+            <name>OEMConfig</name>
+            <uri>/oemconfig/overview</uri>
+        </author>
+        <category label="oemconfig" term="oemconfig"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OEMConfig 2.11.1]]></title>
         <id>https://datalogic.github.io/releases/2025/05/31/oemconfig</id>
@@ -415,21 +435,5 @@
             <uri>/oemconfig/overview</uri>
         </author>
         <category label="oemconfig" term="oemconfig"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[QuickBoard 1.1.0]]></title>
-        <id>https://datalogic.github.io/releases/2025/04/07/quickboard</id>
-        <link href="https://datalogic.github.io/releases/2025/04/07/quickboard"/>
-        <updated>2025-04-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/04/07/quickboard#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 15</li>
-</ul>]]></content>
-        <author>
-            <name>QuickBoard</name>
-            <uri>/quickboard/overview</uri>
-        </author>
-        <category label="quickboard" term="quickboard"/>
     </entry>
 </feed>
