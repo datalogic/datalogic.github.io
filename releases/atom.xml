@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2025-06-03T00:00:00.000Z</updated>
+    <updated>2025-06-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Datalogic Enterprise Browser 1.8.1]]></title>
+        <id>https://datalogic.github.io/releases/2025/06/25/browser</id>
+        <link href="https://datalogic.github.io/releases/2025/06/25/browser"/>
+        <updated>2025-06-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enhancements]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/06/25/browser#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added ability to create Injection Commands on page load.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/06/25/browser#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Fixed inability to set webpage as app homepage.</li>
+</ul>]]></content>
+        <author>
+            <name>Datalogic Enterprise Browser</name>
+            <uri>/browser/overview</uri>
+        </author>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OEMConfig 2.11.2]]></title>
         <id>https://datalogic.github.io/releases/2025/06/03/oemconfig</id>
@@ -401,39 +421,5 @@
             <uri>/logger/overview</uri>
         </author>
         <category label="logger" term="logger"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OEMConfig 2.10.0]]></title>
-        <id>https://datalogic.github.io/releases/2025/04/07/oemconfig</id>
-        <link href="https://datalogic.github.io/releases/2025/04/07/oemconfig"/>
-        <updated>2025-04-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/04/07/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 15</li>
-<li>Added support for new features:<!-- -->
-<ul>
-<li>Camera Wedge</li>
-<li>Camera interoperability</li>
-<li>Good Read overlay transparency</li>
-<li>Intent wedge empty values</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/04/07/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Corrected default values for:<!-- -->
-<ul>
-<li>No internet expected</li>
-<li>Image decode timeout</li>
-<li>Han Xin lengths</li>
-</ul>
-</li>
-</ul>]]></content>
-        <author>
-            <name>OEMConfig</name>
-            <uri>/oemconfig/overview</uri>
-        </author>
-        <category label="oemconfig" term="oemconfig"/>
     </entry>
 </feed>
