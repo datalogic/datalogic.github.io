@@ -4,10 +4,27 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Wed, 25 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Datalogic Launcher 1.5.0]]></title>
+            <link>https://datalogic.github.io/releases/2025/07/03/launcher</link>
+            <guid>https://datalogic.github.io/releases/2025/07/03/launcher</guid>
+            <pubDate>Thu, 03 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/07/03/launcher#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Supports adding any package to the allowed list<!-- -->
+<ul>
+<li>Apps can be allowed to run without adding to the Home Screen</li>
+<li>Packages (third-party or system) without a launchable activity can be allowed</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+            <category>launcher</category>
+        </item>
         <item>
             <title><![CDATA[Datalogic Enterprise Browser 1.8.1]]></title>
             <link>https://datalogic.github.io/releases/2025/06/25/browser</link>
@@ -325,23 +342,6 @@
 </li>
 </ul>]]></content:encoded>
             <category>launcher</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Logger 1.4.0]]></title>
-            <link>https://datalogic.github.io/releases/2025/04/07/logger</link>
-            <guid>https://datalogic.github.io/releases/2025/04/07/logger</guid>
-            <pubDate>Mon, 07 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/04/07/logger#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 15</li>
-<li>Added support for Ram dump logging</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/04/07/logger#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Unable to set network snapshot size with EMM</li>
-</ul>]]></content:encoded>
-            <category>logger</category>
         </item>
     </channel>
 </rss>
