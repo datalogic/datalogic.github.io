@@ -60,6 +60,25 @@
         <category label="launcher" term="launcher"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Datalogic Android SDK 1.45]]></title>
+        <id>https://datalogic.github.io/releases/2025/06/30/datalogic-android-sdk-v1.45</id>
+        <link href="https://datalogic.github.io/releases/2025/06/30/datalogic-android-sdk-v1.45"/>
+        <updated>2025-06-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Datalogic Android SDK 1.45 is now available.]]></summary>
+        <content type="html"><![CDATA[<p>Datalogic Android SDK 1.45 is now available.</p>
+<p>The Scanner Service now supports including the image frame - or a cropped section containing the decoded barcode - alongside the decoding result, if configured. This image can be accessed via both the Java listener API and Intent Wedge, providing enterprise applications with valuable visual context for each scanned barcode and enhancing workflows that require image-based confirmation.</p>
+<p>You can access the <a href="https://datalogic.github.io/android/overview">documentation here</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/06/30/datalogic-android-sdk-v1.45#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>DecodeResult now supports supplying a Bitmap of a scanned barcode.</li>
+</ul>]]></content>
+        <author>
+            <name>Datalogic Android SDK</name>
+            <uri>/android/overview</uri>
+        </author>
+        <category label="datalogic-android-sdk" term="datalogic-android-sdk"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Datalogic Enterprise Browser 1.8.1]]></title>
         <id>https://datalogic.github.io/releases/2025/06/25/browser</id>
         <link href="https://datalogic.github.io/releases/2025/06/25/browser"/>
@@ -78,6 +97,33 @@
             <uri>/browser/overview</uri>
         </author>
         <category label="browser" term="browser"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Datalogic Android SDK 1.44]]></title>
+        <id>https://datalogic.github.io/releases/2025/06/25/datalogic-android-sdk-v1.44</id>
+        <link href="https://datalogic.github.io/releases/2025/06/25/datalogic-android-sdk-v1.44"/>
+        <updated>2025-06-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Datalogic Android SDK 1.44 is now available.]]></summary>
+        <content type="html"><![CDATA[<p>Datalogic Android SDK 1.44 is now available.</p>
+<p>The latest update to the Datalogic SDK introduces a series of new features and enhancements focused on improving power efficiency, extending device lifespan, and offering greater customization for enterprise environments.</p>
+<p>Key additions include the <strong>Enterprise Battery Saver</strong>, which reduces overall power consumption, and <strong>Smart Charging</strong>, which optimizes the battery charging process to preserve battery health over time.</p>
+<p>To protect device displays, a new <strong>Screensaver</strong> feature has been added, helping to prevent screen burn-in and extend display longevity.
+For users leveraging Desktop Mode, new properties now allow control over which apps launch on the device display or external screen when docking or undocking.</p>
+<p>Finally, a new WIFI_NETWORK_SHARE_DIMMED property has been introduced to prevent the display of Wi-Fi credentials in plain text. In addition, the configuration of notification now supports regular expressions providing customers with more flexible and powerful tools.</p>
+<p>You can access the <a href="https://datalogic.github.io/android/overview">documentation here</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/06/25/datalogic-android-sdk-v1.44#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Enterprise Battery Saver feature</li>
+<li>Smart Charging feature</li>
+<li>Screensaver feature</li>
+<li>Desktop Mode properties</li>
+<li>WIFI_NETWORK_SHARE_DIMMED property</li>
+</ul>]]></content>
+        <author>
+            <name>Datalogic Android SDK</name>
+            <uri>/android/overview</uri>
+        </author>
+        <category label="datalogic-android-sdk" term="datalogic-android-sdk"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[OEMConfig 2.11.2]]></title>
@@ -369,67 +415,5 @@
             <uri>/aladdin/codiscan/overview</uri>
         </author>
         <category label="codiscanSDK" term="codiscanSDK"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scan2Deploy Studio 2.5.0]]></title>
-        <id>https://datalogic.github.io/releases/2025/04/10/scan2deploy-studio-v.2.5.0</id>
-        <link href="https://datalogic.github.io/releases/2025/04/10/scan2deploy-studio-v.2.5.0"/>
-        <updated>2025-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Scan2Deploy Studio 2.5.0 is now available. It includes many new enhancements and bug fixes. Read below for more details.]]></summary>
-        <content type="html"><![CDATA[<p>Scan2Deploy Studio 2.5.0 is now available. It includes many new enhancements and bug fixes. Read below for more details.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/04/10/scan2deploy-studio-v.2.5.0#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ocr-editor-">OCR Editor ✨<a href="https://datalogic.github.io/releases/2025/04/10/scan2deploy-studio-v.2.5.0#ocr-editor-" class="hash-link" aria-label="Direct link to OCR Editor ✨" title="Direct link to OCR Editor ✨">​</a></h3>
-<ul>
-<li>Provides a streamlined, user-friendly editor for configuring the Optical Character Recognition settings on supported Datalogic devices.</li>
-<li>Can be utilized on devices running Android 13 and above</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="miscellaneous">Miscellaneous<a href="https://datalogic.github.io/releases/2025/04/10/scan2deploy-studio-v.2.5.0#miscellaneous" class="hash-link" aria-label="Direct link to Miscellaneous" title="Direct link to Miscellaneous">​</a></h3>
-<ul>
-<li>Added option to allow profile download over mobile data. Default profile behavior will still require a Wi-Fi connection. (📌requires <a href="https://github.com/datalogic/scan2deploy-android/releases/tag/2.6.0" target="_blank" rel="noopener noreferrer">Agent v2.6.0</a> or later)</li>
-<li>Added <code>OCR Decode</code> keycode to the Key Remapping page</li>
-<li>Added setting to automatically find and use the next available port for sub components if the desired port is not available.</li>
-<li>Added support for Memor 12/17 and Joya Touch A13 devices</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/04/10/scan2deploy-studio-v.2.5.0#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Fixed an issue causing auto generated scripts to be placed after user configured scripts</li>
-<li>Fixed an issue with importing a Visual Formatter profile containing multiple formatter items and dispatcher</li>
-<li>Advanced Keyboard<!-- -->
-<ul>
-<li>Fixed an issue where keyboard version was being reset when editing a profile</li>
-<li>Fixed an issue where changes made when editing a saved profile were sometimes not applied</li>
-<li>Fixed an issue where old profiles were not loaded correctly when editing/importing</li>
-</ul>
-</li>
-<li>Fixed an issue where the mapping subject was not displayed when input value is set to <code>ATTN</code> for Key Remapping</li>
-</ul>]]></content>
-        <author>
-            <name>Scan2Deploy Studio</name>
-            <uri>/scan2deploy/studio</uri>
-        </author>
-        <category label="scan2deploy-studio" term="scan2deploy-studio"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Datalogic Enterprise Browser 1.7.0]]></title>
-        <id>https://datalogic.github.io/releases/2025/04/07/browser</id>
-        <link href="https://datalogic.github.io/releases/2025/04/07/browser"/>
-        <updated>2025-04-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/04/07/browser#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 15</li>
-<li>Enhanced custom image selection<!-- -->
-<ul>
-<li>Images are now included in exported configuration files</li>
-</ul>
-</li>
-<li>Initial zoom can be set up to 500%</li>
-</ul>]]></content>
-        <author>
-            <name>Datalogic Enterprise Browser</name>
-            <uri>/browser/overview</uri>
-        </author>
-        <category label="browser" term="browser"/>
     </entry>
 </feed>
