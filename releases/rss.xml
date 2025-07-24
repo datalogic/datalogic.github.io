@@ -4,10 +4,28 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Tue, 22 Jul 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Aladdin for CODiScan 3.7.0]]></title>
+            <link>https://datalogic.github.io/releases/2025/07/24/aladdin</link>
+            <guid>https://datalogic.github.io/releases/2025/07/24/aladdin</guid>
+            <pubDate>Thu, 24 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Aladdin application for CODiScan version 3.7.0 is now available.]]></description>
+            <content:encoded><![CDATA[<p>The Aladdin application for CODiScan version 3.7.0 is now available.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin-v2/releases/tag/v3.7.0" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/07/24/aladdin#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Improved Aladdin keyboard user interface.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/07/24/aladdin#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Fixed bug preventing physical keyboard input when Aladdin keyboard was active.</li>
+</ul>]]></content:encoded>
+            <category>aladdin</category>
+        </item>
         <item>
             <title><![CDATA[Scan2Deploy Agent 2.6.3]]></title>
             <link>https://datalogic.github.io/releases/2025/07/22/scan2deploy-agent</link>
@@ -309,25 +327,6 @@ For users leveraging Desktop Mode, new properties now allow control over which a
 <li>Fixed styling of deeply nested controls in Device &amp; Scanner Settings</li>
 </ul>]]></content:encoded>
             <category>scan2deploy-studio</category>
-        </item>
-        <item>
-            <title><![CDATA[Aladdin for CODiScan 3.6.0]]></title>
-            <link>https://datalogic.github.io/releases/2025/04/16/aladdin</link>
-            <guid>https://datalogic.github.io/releases/2025/04/16/aladdin</guid>
-            <pubDate>Wed, 16 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Aladdin application for CODiScan version 3.6.0 is now available.]]></description>
-            <content:encoded><![CDATA[<p>The Aladdin application for CODiScan version 3.6.0 is now available.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin-v2/releases/tag/v3.6.0" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/04/16/aladdin#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added Native Interface option to the Integration Method setting</li>
-<li>Removed Track Scan History popup</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/04/16/aladdin#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Fixed cosmetic issues</li>
-</ul>]]></content:encoded>
-            <category>aladdin</category>
         </item>
     </channel>
 </rss>
