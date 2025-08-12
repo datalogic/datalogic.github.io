@@ -4,10 +4,24 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Fri, 08 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Scan2Deploy Agent 2.7.0]]></title>
+            <link>https://datalogic.github.io/releases/2025/08/12/scan2deploy-agent</link>
+            <guid>https://datalogic.github.io/releases/2025/08/12/scan2deploy-agent</guid>
+            <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Corrected Defects]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/08/12/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Starting the service (for silent deploy) after the UI activity was in the background would fail.  Now it only fails if another profile is already being processed.</li>
+<li>Inflating TAR profile could fail if file is very large (more than 2 GB).</li>
+<li>Profile downloads could fail if app is placed in the background during the transfer.</li>
+</ul>]]></content:encoded>
+            <category>scan2deploy-android</category>
+        </item>
         <item>
             <title><![CDATA[Scan2Deploy Studio 2.6.1]]></title>
             <link>https://datalogic.github.io/releases/2025/08/08/scan2deploy-studio-v.2.6.1</link>
@@ -317,18 +331,6 @@ For users leveraging Desktop Mode, new properties now allow control over which a
 <li>Failure exporting configuration with custom images</li>
 </ul>]]></content:encoded>
             <category>softspot</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic WiFi Guard 1.5.1]]></title>
-            <link>https://datalogic.github.io/releases/2025/05/08/wifiguard</link>
-            <guid>https://datalogic.github.io/releases/2025/05/08/wifiguard</guid>
-            <pubDate>Thu, 08 May 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/05/08/wifiguard#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated Android 15 support for new devices.</li>
-</ul>]]></content:encoded>
-            <category>wifi-guard</category>
         </item>
     </channel>
 </rss>
