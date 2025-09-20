@@ -4,10 +4,22 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Fri, 05 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[OEMConfig 2.12.1]]></title>
+            <link>https://datalogic.github.io/releases/2025/09/19/oemconfig</link>
+            <guid>https://datalogic.github.io/releases/2025/09/19/oemconfig</guid>
+            <pubDate>Fri, 19 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Corrected Defects]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/09/19/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Hotfix to prevent failure when changing security settings on older firmware.</li>
+</ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
         <item>
             <title><![CDATA[OEMConfig 2.12.0]]></title>
             <link>https://datalogic.github.io/releases/2025/09/05/oemconfig</link>
@@ -342,25 +354,6 @@ For users leveraging Desktop Mode, new properties now allow control over which a
 </li>
 </ul>]]></content:encoded>
             <category>logger</category>
-        </item>
-        <item>
-            <title><![CDATA[OEMConfig 2.11.0]]></title>
-            <link>https://datalogic.github.io/releases/2025/05/08/oemconfig</link>
-            <guid>https://datalogic.github.io/releases/2025/05/08/oemconfig</guid>
-            <pubDate>Thu, 08 May 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/05/08/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added support for new features:<!-- -->
-<ul>
-<li>Application launch on cradle events</li>
-<li>Enterprise Battery Saver (enhanced power management)</li>
-<li>Smart sharing (improved battery health)</li>
-<li>Screensaver controls</li>
-</ul>
-</li>
-</ul>]]></content:encoded>
-            <category>oemconfig</category>
         </item>
     </channel>
 </rss>
