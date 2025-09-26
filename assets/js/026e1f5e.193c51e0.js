@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[18393],{14985:(i,t,o)=>{o.r(t),o.d(t,{default:()=>c});o(67294);var s=o(16550),a=o(85893);const c=function(){return(0,a.jsx)(s.l_,{to:"/codiscan-ios-sdk/overview"})}}}]);
