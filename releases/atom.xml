@@ -2,11 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2025-09-19T00:00:00.000Z</updated>
+    <updated>2025-10-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WorkDesk 1.0.1]]></title>
+        <id>https://datalogic.github.io/releases/2025/10/10/workdesk</id>
+        <link href="https://datalogic.github.io/releases/2025/10/10/workdesk"/>
+        <updated>2025-10-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Provides a desktop experience when a device is inserted into a Smart Dock with an attached external display.]]></summary>
+        <content type="html"><![CDATA[<p>Provides a desktop experience when a device is inserted into a Smart Dock with an attached external display.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-features">New features<a href="https://datalogic.github.io/releases/2025/10/10/workdesk#new-features" class="hash-link" aria-label="Direct link to New features" title="Direct link to New features">​</a></h2>
+<ul>
+<li>Desktop shortcuts</li>
+<li>Taskbar with Apps Menu and status icons</li>
+<li>Configuration of all UI elements (desktop, wallpaper, shortcuts, taskbar)</li>
+</ul>]]></content>
+        <author>
+            <name>WorkDesk</name>
+            <uri>/workdesk/overview</uri>
+        </author>
+        <category label="workdesk" term="workdesk"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OEMConfig 2.12.1]]></title>
         <id>https://datalogic.github.io/releases/2025/09/19/oemconfig</id>
@@ -413,25 +432,5 @@ For users leveraging Desktop Mode, new properties now allow control over which a
             <uri>/launcher/overview</uri>
         </author>
         <category label="launcher" term="launcher"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Datalogic Logger 1.4.1]]></title>
-        <id>https://datalogic.github.io/releases/2025/05/08/logger</id>
-        <link href="https://datalogic.github.io/releases/2025/05/08/logger"/>
-        <updated>2025-05-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Corrected Defects]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/05/08/logger#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Removed RAM Dump enable from managed configuration for MDM/EMM.<!-- -->
-<ul>
-<li>Feature is only usable manually on the device.</li>
-</ul>
-</li>
-</ul>]]></content>
-        <author>
-            <name>Datalogic Logger</name>
-            <uri>/logger/overview</uri>
-        </author>
-        <category label="logger" term="logger"/>
     </entry>
 </feed>

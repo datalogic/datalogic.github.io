@@ -4,10 +4,25 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Fri, 19 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Oct 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WorkDesk 1.0.1]]></title>
+            <link>https://datalogic.github.io/releases/2025/10/10/workdesk</link>
+            <guid>https://datalogic.github.io/releases/2025/10/10/workdesk</guid>
+            <pubDate>Fri, 10 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Provides a desktop experience when a device is inserted into a Smart Dock with an attached external display.]]></description>
+            <content:encoded><![CDATA[<p>Provides a desktop experience when a device is inserted into a Smart Dock with an attached external display.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-features">New features<a href="https://datalogic.github.io/releases/2025/10/10/workdesk#new-features" class="hash-link" aria-label="Direct link to New features" title="Direct link to New features">​</a></h2>
+<ul>
+<li>Desktop shortcuts</li>
+<li>Taskbar with Apps Menu and status icons</li>
+<li>Configuration of all UI elements (desktop, wallpaper, shortcuts, taskbar)</li>
+</ul>]]></content:encoded>
+            <category>workdesk</category>
+        </item>
         <item>
             <title><![CDATA[OEMConfig 2.12.1]]></title>
             <link>https://datalogic.github.io/releases/2025/09/19/oemconfig</link>
@@ -338,22 +353,6 @@ For users leveraging Desktop Mode, new properties now allow control over which a
 <li>Failure exporting configuration with custom images</li>
 </ul>]]></content:encoded>
             <category>launcher</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Logger 1.4.1]]></title>
-            <link>https://datalogic.github.io/releases/2025/05/08/logger</link>
-            <guid>https://datalogic.github.io/releases/2025/05/08/logger</guid>
-            <pubDate>Thu, 08 May 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Corrected Defects]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/05/08/logger#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Removed RAM Dump enable from managed configuration for MDM/EMM.<!-- -->
-<ul>
-<li>Feature is only usable manually on the device.</li>
-</ul>
-</li>
-</ul>]]></content:encoded>
-            <category>logger</category>
         </item>
     </channel>
 </rss>
