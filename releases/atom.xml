@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2025-10-10T00:00:00.000Z</updated>
+    <updated>2025-10-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Scan2Deploy Studio 2.6.2]]></title>
+        <id>https://datalogic.github.io/releases/2025/10/15/scan2deploy-studio-v.2.6.2</id>
+        <link href="https://datalogic.github.io/releases/2025/10/15/scan2deploy-studio-v.2.6.2"/>
+        <updated>2025-10-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Scan2Deploy Studio 2.6.2 is now available.  This new release contains enhancements and bug fixes. Read below for more details.]]></summary>
+        <content type="html"><![CDATA[<p>Scan2Deploy Studio 2.6.2 is now available.  This new release contains enhancements and bug fixes. Read below for more details.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/10/15/scan2deploy-studio-v.2.6.2#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added WorkDesk App to Mobility Suite options</li>
+<li>Added support for Joya Smart</li>
+<li>Added support for Android 15 on Memor 12 and Memor 17</li>
+<li>Added POWER keycode to the input section of the Key Remapping page</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/10/15/scan2deploy-studio-v.2.6.2#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Fixed issue with the Enterprise Enrollment and Snap OCR pages not properly linking to their documentation</li>
+<li>Fixed issue with changing the logo for the Launcher application on an already saved profile</li>
+<li>Fixed issue with the Key Remapping page where some apps were not correctly being recognized in import/edit cases</li>
+<li>Fixed issue with the Key Remapping page where key action settings were not saving properly</li>
+</ul>]]></content>
+        <author>
+            <name>Scan2Deploy Studio</name>
+            <uri>/scan2deploy/studio</uri>
+        </author>
+        <category label="scan2deploy-studio" term="scan2deploy-studio"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WorkDesk 1.0.1]]></title>
         <id>https://datalogic.github.io/releases/2025/10/10/workdesk</id>
@@ -415,22 +443,5 @@ For users leveraging Desktop Mode, new properties now allow control over which a
             <uri>/browser/overview</uri>
         </author>
         <category label="browser" term="browser"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Datalogic Launcher 1.4.1]]></title>
-        <id>https://datalogic.github.io/releases/2025/05/08/launcher</id>
-        <link href="https://datalogic.github.io/releases/2025/05/08/launcher"/>
-        <updated>2025-05-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Corrected Defects]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/05/08/launcher#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Supports transparency pixels for custom images</li>
-<li>Failure exporting configuration with custom images</li>
-</ul>]]></content>
-        <author>
-            <name>Datalogic Launcher</name>
-            <uri>/launcher/overview</uri>
-        </author>
-        <category label="launcher" term="launcher"/>
     </entry>
 </feed>
