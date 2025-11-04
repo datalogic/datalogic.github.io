@@ -76,6 +76,55 @@
             <category>workdesk</category>
         </item>
         <item>
+            <title><![CDATA[Datalogic Android SDK 1.46]]></title>
+            <link>https://datalogic.github.io/releases/2025/10/08/datalogic-android-sdk-v1.46</link>
+            <guid>https://datalogic.github.io/releases/2025/10/08/datalogic-android-sdk-v1.46</guid>
+            <pubDate>Wed, 08 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datalogic Android SDK 1.46 is now available.]]></description>
+            <content:encoded><![CDATA[<p>Datalogic Android SDK 1.46 is now available.</p>
+<p>The latest update to the Datalogic SDK introduces a broad set of new features and improvements focused on enhancing device flexibility, expanding scanning capabilities, and strengthening enterprise integration.</p>
+<p>Key additions include the <strong>Camera Wedge Always-On</strong> mode, allowing continuous scanning when the camera wedge is active, and the new <strong>CameraWedgePreviewManager</strong> class, which provides a live preview interface while the feature is running. The <strong>Auto Scan Trigger</strong> system has been extended with a new <strong>CUSTOM_RANGE</strong> option, offering greater control over scan sensitivity, while cradle functionality now supports <strong>SoHo cradles</strong> with updated properties and thermal protection handling.</p>
+<p>To further improve power management, the SDK adds a <strong>PowerStatus notification system</strong> and refines the <strong>Enterprise Battery Saver</strong>, now supporting rate control in bps. Several new display management options have also been introduced, including <strong>brightness range limits</strong>, <strong>facedown detection</strong>.</p>
+<p>For users leveraging <strong>Desktop Mode</strong>, new properties now allow control over the visibility of hotseat in dual screen mode.</p>
+<p>Finally, for security, the new <strong>APP_INFO_HIDDEN</strong> property restricts access to system settings via the App Info shortcut, while the <strong>EXTRA_SYSTEM_FIRMWARE_UPGRADE_WIPE_ESIM_PROFILES</strong> flag enables secure eSIM profile handling during system upgrades. Additional enhancements include Item Tracking APIs, <strong>SOS button</strong> support, new OCR format options (<strong>TD2</strong>, <strong>MRVA</strong>, <strong>MRVB</strong>).</p>
+<p>You can access the <a href="https://datalogic.github.io/android/overview">documentation here</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/10/08/datalogic-android-sdk-v1.46#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated DLScreensaver package name to <code>com.datalogic.settings.datalogicscreensaver</code>.</li>
+<li>Added a documentation warning for preventing installation of a new formatter project from client app's storage.</li>
+<li>Added <code>CAMERA_WEDGE_ENABLE_ALWAYS_ON</code> to manage the availability of scan mode to always on when the camera wedge is active.</li>
+<li>Added <code>CameraWedgePreviewManager</code> class for setting up a preview that will be shown when the camera wedge feature is running (only when no barcode is shown).</li>
+<li>Added new option <code>CUSTOM_RANGE</code> in <code>AutoScanTriggerRange</code> and properties for configuring a custom range for the autoscan feature.</li>
+<li>Added SoHo-supported cradle's properties and classes.</li>
+<li>Removed unsupported methods <code>getDontKeepActivities()</code>, <code>getBackgroundProcessLimit()</code>, and <code>getDisableGoldCluster()</code>.</li>
+<li>Updated download rate limitation to <strong>bps</strong> in <code>EnterpriseBatterySaver</code>.</li>
+<li>Added Item Tracking APIs.</li>
+<li>Added battery LED documentation for smart charging and battery issue behavior.</li>
+<li>Updated relevant APIs to reference the commercial name of Joya Smart instead of project name SoHo.</li>
+<li>Updated cradle property: <code>CUSTOM_AREA</code> -&gt; <code>CUSTOM_AREA_BASE</code>.</li>
+<li>Removed <code>enableLedOnLockUnlock()</code> method from DLCradleManager class.</li>
+<li>CradleManager shall reject de-registering a listener if the device doesn't support the feature that triggers that event.</li>
+<li>Added a new intent extra <code>EXTRA_SYSTEM_FIRMWARE_UPGRADE_WIPE_ESIM_PROFILES</code> to system upgrade intent to wipe the eSIM profiles.</li>
+<li>Added the possibility to scale the preview when installing it.</li>
+<li>Added hotseat visibility control in dual screen mode.</li>
+<li>Added new <code>APP_INFO_HIDDEN</code> property to restrict the user from accessing Settings application from App Info shortcut.</li>
+<li>Added PowerStatus notification system to notify the user about the current power status of the device.</li>
+<li>Added intent extra <code>EXTRA_CRADLE_FAILURE_THERMAL_PROTECTION_POGO</code> for thermal protection failure on pogo pins.</li>
+<li>Added intents <code>ACTION_TROLLEY_DEVICE_CORRECTLY_INSERTED</code> and <code>ACTION_TROLLEY_DEVICE_EXTRACTED</code> to detect trolley insertion/extraction.</li>
+<li>Added SOS button feature support.</li>
+<li>Added 3 new OCR format options:<!-- -->
+<ul>
+<li><code>OCR_TD2_ENABLE</code></li>
+<li><code>OCR_MRVA_ENABLE</code></li>
+<li><code>OCR_MRVB_ENABLE</code></li>
+</ul>
+</li>
+<li>Added new properties <code>SCREEN_BRIGHTNESS_RANGE_MIN</code> and <code>SCREEN_BRIGHTNESS_RANGE_MAX</code> to support backlight range limit configuration.</li>
+<li>Added new property <code>SCREEN_FACEDOWN_DETECTOR_ENABLE</code> to support facedown detector configuration.</li>
+</ul>]]></content:encoded>
+            <category>datalogic-android-sdk</category>
+        </item>
+        <item>
             <title><![CDATA[OEMConfig 2.12.1]]></title>
             <link>https://datalogic.github.io/releases/2025/09/19/oemconfig</link>
             <guid>https://datalogic.github.io/releases/2025/09/19/oemconfig</guid>
@@ -345,18 +394,6 @@ For users leveraging Desktop Mode, new properties now allow control over which a
 <li>Hotfix for correcting defaults applied with some EMMs.</li>
 </ul>]]></content:encoded>
             <category>oemconfig</category>
-        </item>
-        <item>
-            <title><![CDATA[Scan2Deploy Agent 2.6.2]]></title>
-            <link>https://datalogic.github.io/releases/2025/05/31/scan2deploy-agent</link>
-            <guid>https://datalogic.github.io/releases/2025/05/31/scan2deploy-agent</guid>
-            <pubDate>Sat, 31 May 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Corrected Defects]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/05/31/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Hotfix to work with Android 15.</li>
-</ul>]]></content:encoded>
-            <category>scan2deploy-android</category>
         </item>
     </channel>
 </rss>
