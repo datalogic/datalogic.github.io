@@ -2,11 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2025-10-24T00:00:00.000Z</updated>
+    <updated>2025-11-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Scan2Deploy Studio 2.6.3]]></title>
+        <id>https://datalogic.github.io/releases/2025/11/05/scan2deploy-studio-v.2.6.3</id>
+        <link href="https://datalogic.github.io/releases/2025/11/05/scan2deploy-studio-v.2.6.3"/>
+        <updated>2025-11-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Scan2Deploy Studio 2.6.3 is now available.  This new release is a hotfix to address an issue that was preventing some firmware files from being uploaded to Studio.]]></summary>
+        <content type="html"><![CDATA[<p>Scan2Deploy Studio 2.6.3 is now available.  This new release is a hotfix to address an issue that was preventing some firmware files from being uploaded to Studio.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/11/05/scan2deploy-studio-v.2.6.3#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Fixed issue where some Memor 10 Android 10 firmwares were unable to be validated</li>
+<li>Bound redis server to localhost</li>
+</ul>]]></content>
+        <author>
+            <name>Scan2Deploy Studio</name>
+            <uri>/scan2deploy/studio</uri>
+        </author>
+        <category label="scan2deploy-studio" term="scan2deploy-studio"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Datalogic Enterprise Browser 1.9.1]]></title>
         <id>https://datalogic.github.io/releases/2025/10/24/browser</id>
@@ -449,22 +468,6 @@ For users leveraging Desktop Mode, new properties now allow control over which a
 <li>Added means to avoid changing Device Name with some EMMs.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/06/03/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Hotfix for correcting defaults applied with some EMMs.</li>
-</ul>]]></content>
-        <author>
-            <name>OEMConfig</name>
-            <uri>/oemconfig/overview</uri>
-        </author>
-        <category label="oemconfig" term="oemconfig"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OEMConfig 2.11.1]]></title>
-        <id>https://datalogic.github.io/releases/2025/05/31/oemconfig</id>
-        <link href="https://datalogic.github.io/releases/2025/05/31/oemconfig"/>
-        <updated>2025-05-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Corrected Defects]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/05/31/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
 <ul>
 <li>Hotfix for correcting defaults applied with some EMMs.</li>
 </ul>]]></content>
