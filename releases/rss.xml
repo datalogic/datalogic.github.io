@@ -4,10 +4,95 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Wed, 05 Nov 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Nov 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[QuickBoard 1.3.1]]></title>
+            <link>https://datalogic.github.io/releases/2025/11/08/quickboard</link>
+            <guid>https://datalogic.github.io/releases/2025/11/08/quickboard</guid>
+            <pubDate>Sat, 08 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/11/08/quickboard#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>The "Override administrator settings" control is no longer enabled automatically when making changes on the device.  In previous versions this caused EMM settings to be unexpectedly ignored.</li>
+</ul>]]></content:encoded>
+            <category>quickboard</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic Launcher 1.6.0]]></title>
+            <link>https://datalogic.github.io/releases/2025/11/07/launcher</link>
+            <guid>https://datalogic.github.io/releases/2025/11/07/launcher</guid>
+            <pubDate>Fri, 07 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/11/07/launcher#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added support packages with multiple launchable activities.</li>
+<li>The "Override administrator settings" control is no longer enabled automatically when making changes on the device.  In previous versions this caused EMM settings to be unexpectedly ignored.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/11/07/launcher#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Allowed Packages configuration is disabled when EMM override is disabled.</li>
+<li>When connected to an external display from a Smart Dock, Launcher now correctly exits the device lockdown.  This allows apps to be launched from an external desktop.</li>
+</ul>]]></content:encoded>
+            <category>launcher</category>
+        </item>
+        <item>
+            <title><![CDATA[OEMConfig 2.12.2]]></title>
+            <link>https://datalogic.github.io/releases/2025/11/07/oemconfig</link>
+            <guid>https://datalogic.github.io/releases/2025/11/07/oemconfig</guid>
+            <pubDate>Fri, 07 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/11/07/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added support for application launch on external display with cradle insertion</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/11/07/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Enterprise Battery Saver Profiles<!-- -->
+<ul>
+<li>It is no longer required to specify CPU/GPU frequency and Maximum Download Rate</li>
+<li>Maximum Download Rate is now correctly applied</li>
+</ul>
+</li>
+<li>Corrected Mobile Data Roaming Enable for Android 15 (also requires firmware update)</li>
+</ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic Logger 1.5.0]]></title>
+            <link>https://datalogic.github.io/releases/2025/11/06/logger</link>
+            <guid>https://datalogic.github.io/releases/2025/11/06/logger</guid>
+            <pubDate>Thu, 06 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/11/06/logger#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>The "Override administrator settings" control is no longer enabled automatically when making changes on the device.  In previous versions this caused EMM settings to be unexpectedly ignored.</li>
+<li>Added support for 16 KB virtual page sizes (for Android 15).</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/11/06/logger#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>The contents summary for an archive listing displays "Empty" if no module contents are present.</li>
+</ul>]]></content:encoded>
+            <category>logger</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic SoftSpot 3.3.0]]></title>
+            <link>https://datalogic.github.io/releases/2025/11/06/softspot</link>
+            <guid>https://datalogic.github.io/releases/2025/11/06/softspot</guid>
+            <pubDate>Thu, 06 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/11/06/softspot#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>The "Override administrator settings" control is no longer enabled automatically when making changes on the device.  In previous versions this caused EMM settings to be unexpectedly ignored.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/11/06/softspot#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>App is forced to launch only on the device display.  Operation on an external display is not supported and attempts to launch from an external display will be redirected to the device display.</li>
+</ul>]]></content:encoded>
+            <category>softspot</category>
+        </item>
         <item>
             <title><![CDATA[Scan2Deploy Studio 2.6.3]]></title>
             <link>https://datalogic.github.io/releases/2025/11/05/scan2deploy-studio-v.2.6.3</link>
@@ -310,93 +395,6 @@
 <li>Fixed issue where Quickboard config file was not removed in some cases</li>
 </ul>]]></content:encoded>
             <category>scan2deploy-studio</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Launcher 1.5.0]]></title>
-            <link>https://datalogic.github.io/releases/2025/07/03/launcher</link>
-            <guid>https://datalogic.github.io/releases/2025/07/03/launcher</guid>
-            <pubDate>Thu, 03 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/07/03/launcher#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Supports adding any package to the allowed list<!-- -->
-<ul>
-<li>Apps can be allowed to run without adding to the Home Screen</li>
-<li>Packages (third-party or system) without a launchable activity can be allowed</li>
-</ul>
-</li>
-</ul>]]></content:encoded>
-            <category>launcher</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Android SDK 1.45]]></title>
-            <link>https://datalogic.github.io/releases/2025/06/30/datalogic-android-sdk-v1.45</link>
-            <guid>https://datalogic.github.io/releases/2025/06/30/datalogic-android-sdk-v1.45</guid>
-            <pubDate>Mon, 30 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Datalogic Android SDK 1.45 is now available.]]></description>
-            <content:encoded><![CDATA[<p>Datalogic Android SDK 1.45 is now available.</p>
-<p>The Scanner Service now supports including the image frame - or a cropped section containing the decoded barcode - alongside the decoding result, if configured. This image can be accessed via both the Java listener API and Intent Wedge, providing enterprise applications with valuable visual context for each scanned barcode and enhancing workflows that require image-based confirmation.</p>
-<p>You can access the <a href="https://datalogic.github.io/android/overview">documentation here</a>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/06/30/datalogic-android-sdk-v1.45#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>DecodeResult now supports supplying a Bitmap of a scanned barcode.</li>
-</ul>]]></content:encoded>
-            <category>datalogic-android-sdk</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Enterprise Browser 1.8.1]]></title>
-            <link>https://datalogic.github.io/releases/2025/06/25/browser</link>
-            <guid>https://datalogic.github.io/releases/2025/06/25/browser</guid>
-            <pubDate>Wed, 25 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/06/25/browser#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added ability to create Injection Commands on page load.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/06/25/browser#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Fixed inability to set webpage as app homepage.</li>
-</ul>]]></content:encoded>
-            <category>browser</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Android SDK 1.44]]></title>
-            <link>https://datalogic.github.io/releases/2025/06/25/datalogic-android-sdk-v1.44</link>
-            <guid>https://datalogic.github.io/releases/2025/06/25/datalogic-android-sdk-v1.44</guid>
-            <pubDate>Wed, 25 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Datalogic Android SDK 1.44 is now available.]]></description>
-            <content:encoded><![CDATA[<p>Datalogic Android SDK 1.44 is now available.</p>
-<p>The latest update to the Datalogic SDK introduces a series of new features and enhancements focused on improving power efficiency, extending device lifespan, and offering greater customization for enterprise environments.</p>
-<p>Key additions include the <strong>Enterprise Battery Saver</strong>, which reduces overall power consumption, and <strong>Smart Charging</strong>, which optimizes the battery charging process to preserve battery health over time.</p>
-<p>To protect device displays, a new <strong>Screensaver</strong> feature has been added, helping to prevent screen burn-in and extend display longevity.
-For users leveraging Desktop Mode, new properties now allow control over which apps launch on the device display or external screen when docking or undocking.</p>
-<p>Finally, a new WIFI_NETWORK_SHARE_DIMMED property has been introduced to prevent the display of Wi-Fi credentials in plain text. In addition, the configuration of notification now supports regular expressions providing customers with more flexible and powerful tools.</p>
-<p>You can access the <a href="https://datalogic.github.io/android/overview">documentation here</a>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/06/25/datalogic-android-sdk-v1.44#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Enterprise Battery Saver feature</li>
-<li>Smart Charging feature</li>
-<li>Screensaver feature</li>
-<li>Desktop Mode properties</li>
-<li>WIFI_NETWORK_SHARE_DIMMED property</li>
-</ul>]]></content:encoded>
-            <category>datalogic-android-sdk</category>
-        </item>
-        <item>
-            <title><![CDATA[OEMConfig 2.11.2]]></title>
-            <link>https://datalogic.github.io/releases/2025/06/03/oemconfig</link>
-            <guid>https://datalogic.github.io/releases/2025/06/03/oemconfig</guid>
-            <pubDate>Tue, 03 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/06/03/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added means to avoid changing Device Name with some EMMs.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/06/03/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Hotfix for correcting defaults applied with some EMMs.</li>
-</ul>]]></content:encoded>
-            <category>oemconfig</category>
         </item>
     </channel>
 </rss>
