@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[95623],{14132:(t,e,o)=>{o.r(e),o.d(e,{default:()=>u});o(67294);var a=o(16550),i=o(85893);const u=function(){return(0,i.jsx)(a.l_,{to:"/cradletool/overview"})}}}]);
