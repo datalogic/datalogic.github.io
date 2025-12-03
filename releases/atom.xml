@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2025-11-08T00:00:00.000Z</updated>
+    <updated>2025-12-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Scan2Deploy Agent 2.8.0]]></title>
+        <id>https://datalogic.github.io/releases/2025/12/03/scan2deploy-agent</id>
+        <link href="https://datalogic.github.io/releases/2025/12/03/scan2deploy-agent"/>
+        <updated>2025-12-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enhancements]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/12/03/scan2deploy-agent#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added support for GMS expidited setup.</li>
+<li>Allows Application Policies to be applied without assignment to an application.</li>
+<li>Expanded ability to grant permissions.</li>
+<li>Added more profile information to the log.</li>
+<li>Improved download progress reporting.</li>
+</ul>]]></content>
+        <author>
+            <name>Scan2Deploy Agent</name>
+            <uri>/scan2deploy/android</uri>
+        </author>
+        <category label="scan2deploy-android" term="scan2deploy-android"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[QuickBoard 1.3.1]]></title>
         <id>https://datalogic.github.io/releases/2025/11/08/quickboard</id>
@@ -443,36 +463,5 @@
             <uri>/scan2deploy/android</uri>
         </author>
         <category label="scan2deploy-android" term="scan2deploy-android"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scan2Deploy Studio 2.6.0]]></title>
-        <id>https://datalogic.github.io/releases/2025/07/07/scan2deploy-studio-v.2.6.0</id>
-        <link href="https://datalogic.github.io/releases/2025/07/07/scan2deploy-studio-v.2.6.0"/>
-        <updated>2025-07-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Scan2Deploy Studio 2.6.0 is now available.  This new release contains enhancements and bug fixes. Read below for more details.]]></summary>
-        <content type="html"><![CDATA[<p>Scan2Deploy Studio 2.6.0 is now available.  This new release contains enhancements and bug fixes. Read below for more details.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/07/07/scan2deploy-studio-v.2.6.0#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="enterprise-enrollment-">Enterprise Enrollment ✨<a href="https://datalogic.github.io/releases/2025/07/07/scan2deploy-studio-v.2.6.0#enterprise-enrollment-" class="hash-link" aria-label="Direct link to Enterprise Enrollment ✨" title="Direct link to Enterprise Enrollment ✨">​</a></h3>
-<ul>
-<li>Now supports Android Enterprise Enrollment, allowing seamless integration with enterprise mobility management (EMM) solutions.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="miscellaneous">Miscellaneous<a href="https://datalogic.github.io/releases/2025/07/07/scan2deploy-studio-v.2.6.0#miscellaneous" class="hash-link" aria-label="Direct link to Miscellaneous" title="Direct link to Miscellaneous">​</a></h3>
-<ul>
-<li>Added support for the Memor 30 and Memor 35.</li>
-<li>Lowered minimum QuickBoard keyboard size from 150dp to 30dp.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/07/07/scan2deploy-studio-v.2.6.0#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Fixed issue where Quickboard height was not reset when the page was removed and added</li>
-<li>Fixed issue where all items in a bundle array were selected on profile load</li>
-<li>Fixed issue with problematic in OTA file names</li>
-<li>Fixed issue where Quickboard config file was not removed in some cases</li>
-</ul>]]></content>
-        <author>
-            <name>Scan2Deploy Studio</name>
-            <uri>/scan2deploy/studio</uri>
-        </author>
-        <category label="scan2deploy-studio" term="scan2deploy-studio"/>
     </entry>
 </feed>
