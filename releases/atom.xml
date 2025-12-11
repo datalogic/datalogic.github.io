@@ -2,11 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2025-12-03T00:00:00.000Z</updated>
+    <updated>2025-12-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Datalogic Enterprise Browser 1.10.0]]></title>
+        <id>https://datalogic.github.io/releases/2025/12/10/browser</id>
+        <link href="https://datalogic.github.io/releases/2025/12/10/browser"/>
+        <updated>2025-12-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enhancements]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/12/10/browser#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>The error page for web pages now contains Back and Refresh buttons for handling recovery when Browser Navigation buttons are hidden.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrections">Corrections<a href="https://datalogic.github.io/releases/2025/12/10/browser#corrections" class="hash-link" aria-label="Direct link to Corrections" title="Direct link to Corrections">​</a></h2>
+<ul>
+<li>Prevents a page refresh when the device is inserted/removed from a dock.</li>
+<li>Fixes crash when injecting a beep on page load.</li>
+<li>Fixes crash when applying an extremely large wallpaper image to the Favorites screen.</li>
+</ul>]]></content>
+        <author>
+            <name>Datalogic Enterprise Browser</name>
+            <uri>/browser/overview</uri>
+        </author>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scan2Deploy Agent 2.8.0]]></title>
         <id>https://datalogic.github.io/releases/2025/12/03/scan2deploy-agent</id>
@@ -447,21 +469,5 @@
             <uri>/aladdin/overview</uri>
         </author>
         <category label="aladdin" term="aladdin"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scan2Deploy Agent 2.6.3]]></title>
-        <id>https://datalogic.github.io/releases/2025/07/22/scan2deploy-agent</id>
-        <link href="https://datalogic.github.io/releases/2025/07/22/scan2deploy-agent"/>
-        <updated>2025-07-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Corrected Defects]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/07/22/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Hotfix to work with Android 15 on new devices.</li>
-</ul>]]></content>
-        <author>
-            <name>Scan2Deploy Agent</name>
-            <uri>/scan2deploy/android</uri>
-        </author>
-        <category label="scan2deploy-android" term="scan2deploy-android"/>
     </entry>
 </feed>

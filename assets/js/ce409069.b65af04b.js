@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatalogic_github_io=self.webpackChunkdatalogic_github_io||[]).push([[79292],{82477:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/releases/page/20","page":20,"postsPerPage":10,"totalPages":20,"totalCount":200,"previousPage":"/releases/page/19","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
