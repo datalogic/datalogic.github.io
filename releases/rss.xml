@@ -4,10 +4,24 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Wed, 10 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Dec 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Aladdin for CODiScan 3.8.0]]></title>
+            <link>https://datalogic.github.io/releases/2025/12/17/aladdin</link>
+            <guid>https://datalogic.github.io/releases/2025/12/17/aladdin</guid>
+            <pubDate>Wed, 17 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Aladdin application for CODiScan version 3.8.0 is now available.]]></description>
+            <content:encoded><![CDATA[<p>The Aladdin application for CODiScan version 3.8.0 is now available.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin-v2/releases/tag/v3.8.0" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/12/17/aladdin#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Adjusted layout to account for smaller and larger screens.</li>
+</ul>]]></content:encoded>
+            <category>aladdin</category>
+        </item>
         <item>
             <title><![CDATA[Datalogic Enterprise Browser 1.10.0]]></title>
             <link>https://datalogic.github.io/releases/2025/12/10/browser</link>
@@ -372,24 +386,6 @@
 <li>Fixed issue where A15 OTA files were unable to be added to the Firmware Update page</li>
 </ul>]]></content:encoded>
             <category>scan2deploy-studio</category>
-        </item>
-        <item>
-            <title><![CDATA[Aladdin for CODiScan 3.7.0]]></title>
-            <link>https://datalogic.github.io/releases/2025/07/24/aladdin</link>
-            <guid>https://datalogic.github.io/releases/2025/07/24/aladdin</guid>
-            <pubDate>Thu, 24 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Aladdin application for CODiScan version 3.7.0 is now available.]]></description>
-            <content:encoded><![CDATA[<p>The Aladdin application for CODiScan version 3.7.0 is now available.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin-v2/releases/tag/v3.7.0" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/07/24/aladdin#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Improved Aladdin keyboard user interface.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/07/24/aladdin#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Fixed bug preventing physical keyboard input when Aladdin keyboard was active.</li>
-</ul>]]></content:encoded>
-            <category>aladdin</category>
         </item>
     </channel>
 </rss>
