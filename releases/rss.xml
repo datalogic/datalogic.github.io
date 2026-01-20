@@ -231,7 +231,7 @@
             <description><![CDATA[Datalogic Android SDK 1.46 is now available.]]></description>
             <content:encoded><![CDATA[<p>Datalogic Android SDK 1.46 is now available.</p>
 <p>The latest update to the Datalogic SDK introduces a broad set of new features and improvements focused on enhancing device flexibility, expanding scanning capabilities, and strengthening enterprise integration.</p>
-<p>Key additions include the <strong>Camera Wedge Always-On</strong> mode, which allows configuration for either continuous scanning or scanning via physical trigger, while the new <strong>CameraWedgePreviewManager</strong> class provides a live preview interface while <strong>Camera Wedge Always-On</strong> is disabled. The <strong>Auto Scan Trigger</strong> system has been extended with a new <strong>CUSTOM_RANGE</strong> option, offering greater control over scan sensitivity, while cradle functionality now supports <strong>SoHo cradles</strong> with updated properties and thermal protection handling.</p>
+<p>Key additions include the <strong>Camera Wedge Always-On</strong> mode, which allows configuration for either continuous scanning or scanning via physical trigger, while the new <strong>CameraWedgePreviewManager</strong> class provides a live preview interface while <strong>Camera Wedge Always-On</strong> is disabled. The <strong>Auto Scan Trigger</strong> system has been extended with a new <strong>CUSTOM_RANGE</strong> option, offering greater control over scan sensitivity, while cradle functionality now supports <strong>Joya Smart cradles</strong> with updated properties and thermal protection handling.</p>
 <p>To further improve power management, the SDK adds a <strong>PowerStatus notification system</strong> and refines the <strong>Enterprise Battery Saver</strong>, now supporting rate control in bps. Several new display management options have also been introduced, including <strong>brightness range limits</strong>, <strong>facedown detection</strong>.</p>
 <p>For users leveraging <strong>Desktop Mode</strong>, new properties now allow control over the visibility of hotseat in dual screen mode.</p>
 <p>Finally, for security, the new <strong>APP_INFO_HIDDEN</strong> property restricts access to system settings via the App Info shortcut, while the <strong>EXTRA_SYSTEM_FIRMWARE_UPGRADE_WIPE_ESIM_PROFILES</strong> flag enables secure eSIM profile handling during system upgrades. Additional enhancements include Item Tracking APIs, <strong>SOS button</strong> support, new OCR format options (<strong>TD2</strong>, <strong>MRVA</strong>, <strong>MRVB</strong>).</p>
@@ -243,7 +243,7 @@
 <li>Added <code>CAMERA_WEDGE_ENABLE_ALWAYS_ON</code> to manage the availability of scan mode to always on when the camera wedge is active.</li>
 <li>Added <code>CameraWedgePreviewManager</code> class for setting up a preview that will be shown when the camera wedge feature is running (only when no barcode is shown).</li>
 <li>Added new option <code>CUSTOM_RANGE</code> in <code>AutoScanTriggerRange</code> and properties for configuring a custom range for the autoscan feature.</li>
-<li>Added SoHo-supported cradle's properties and classes.</li>
+<li>Added Joya Smart supported cradle's properties and classes.</li>
 <li>Removed unsupported methods <code>getDontKeepActivities()</code>, <code>getBackgroundProcessLimit()</code>, and <code>getDisableGoldCluster()</code>.</li>
 <li>Updated download rate limitation to <strong>bps</strong> in <code>EnterpriseBatterySaver</code>.</li>
 <li>Added Item Tracking APIs.</li>
