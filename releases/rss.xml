@@ -4,10 +4,32 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Wed, 17 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Jan 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Scan2Deploy Studio 2.6.4]]></title>
+            <link>https://datalogic.github.io/releases/2026/01/22/scan2deploy-studio-v.2.6.4</link>
+            <guid>https://datalogic.github.io/releases/2026/01/22/scan2deploy-studio-v.2.6.4</guid>
+            <pubDate>Thu, 22 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Scan2Deploy Studio 2.6.4 is now available. This new release contains some smaller enhancements and bug fixes.]]></description>
+            <content:encoded><![CDATA[<p>Scan2Deploy Studio 2.6.4 is now available. This new release contains some smaller enhancements and bug fixes.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/01/22/scan2deploy-studio-v.2.6.4#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added GMS services acceptance for expedite setup</li>
+<li>Added automatic enable of SoftSpot when setting managed configuration</li>
+<li>Added <code>GRANT</code> to scripting page</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2026/01/22/scan2deploy-studio-v.2.6.4#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Fixed issue where Advanced Keyboard was not loaded correctly from a saved profile</li>
+<li>Fixed synchronization between Visual Formatter page and global enable setting</li>
+<li>Corrected controls to be disabled on Firmware Update page when applying an Espresso package</li>
+</ul>]]></content:encoded>
+            <category>scan2deploy-studio</category>
+        </item>
         <item>
             <title><![CDATA[Aladdin for CODiScan 3.8.0]]></title>
             <link>https://datalogic.github.io/releases/2025/12/17/aladdin</link>
@@ -365,27 +387,6 @@
 <li>Profile downloads could fail if app is placed in the background during the transfer.</li>
 </ul>]]></content:encoded>
             <category>scan2deploy-android</category>
-        </item>
-        <item>
-            <title><![CDATA[Scan2Deploy Studio 2.6.1]]></title>
-            <link>https://datalogic.github.io/releases/2025/08/08/scan2deploy-studio-v.2.6.1</link>
-            <guid>https://datalogic.github.io/releases/2025/08/08/scan2deploy-studio-v.2.6.1</guid>
-            <pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Scan2Deploy Studio 2.6.1 is now available.  This new release contains enhancements and bug fixes. Read below for more details.]]></description>
-            <content:encoded><![CDATA[<p>Scan2Deploy Studio 2.6.1 is now available.  This new release contains enhancements and bug fixes. Read below for more details.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/08/08/scan2deploy-studio-v.2.6.1#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added support for Memor 30/30X and Memor 35/35X A15 devices</li>
-<li>Added PAC file support for Studio application proxy configuration</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/08/08/scan2deploy-studio-v.2.6.1#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Fixed issue with the Add packages section on the Datalogic Launcher page</li>
-<li>Fixed issue where Studio actions would fail if host PC was not connected to the internet</li>
-<li>Fixed issue where A15 OTA files were unable to be added to the Firmware Update page</li>
-</ul>]]></content:encoded>
-            <category>scan2deploy-studio</category>
         </item>
     </channel>
 </rss>
