@@ -4,10 +4,42 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Thu, 22 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Jan 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[OEMConfig 2.13.0]]></title>
+            <link>https://datalogic.github.io/releases/2026/01/30/oemconfig</link>
+            <guid>https://datalogic.github.io/releases/2026/01/30/oemconfig</guid>
+            <pubDate>Fri, 30 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/01/30/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added support for new features<!-- -->
+<ul>
+<li>Scanning preview</li>
+<li>Half trigger</li>
+<li>Remapped power key</li>
+<li>Secure Bluetooth pairing policy</li>
+<li>Display resolution of external display</li>
+</ul>
+</li>
+<li>Additional UI restrictions<!-- -->
+<ul>
+<li>Launching Settings app</li>
+<li>Safe mode</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2026/01/30/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Corrected crash when applying new properties on devices with older firmware.</li>
+<li>Changed default Wi-Fi roaming profile to match defaults of newer devices.</li>
+<li>Launching apps on cradle events now work reliably.</li>
+</ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
         <item>
             <title><![CDATA[Scan2Deploy Studio 2.6.4]]></title>
             <link>https://datalogic.github.io/releases/2026/01/22/scan2deploy-studio-v.2.6.4</link>
@@ -373,20 +405,6 @@
 </li>
 </ul>]]></content:encoded>
             <category>browser</category>
-        </item>
-        <item>
-            <title><![CDATA[Scan2Deploy Agent 2.7.0]]></title>
-            <link>https://datalogic.github.io/releases/2025/08/12/scan2deploy-agent</link>
-            <guid>https://datalogic.github.io/releases/2025/08/12/scan2deploy-agent</guid>
-            <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Corrected Defects]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/08/12/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Starting the service (for silent deploy) after the UI activity was in the background would fail.  Now it only fails if another profile is already being processed.</li>
-<li>Inflating TAR profile could fail if file is very large (more than 2 GB).</li>
-<li>Profile downloads could fail if app is placed in the background during the transfer.</li>
-</ul>]]></content:encoded>
-            <category>scan2deploy-android</category>
         </item>
     </channel>
 </rss>
