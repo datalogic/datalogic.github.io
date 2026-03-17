@@ -2,11 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2026-01-30T00:00:00.000Z</updated>
+    <updated>2026-03-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Datalogic Enterprise Browser 1.11.0]]></title>
+        <id>https://datalogic.github.io/releases/2026/03/16/browser</id>
+        <link href="https://datalogic.github.io/releases/2026/03/16/browser"/>
+        <updated>2026-03-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enhancements]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/03/16/browser#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Supports Chrome DevTool Protocol (CDP) debugging.</li>
+<li>SDK Enhancements<!-- -->
+<ul>
+<li>Supports new method to Show/Hide soft keyboard.</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrections">Corrections<a href="https://datalogic.github.io/releases/2026/03/16/browser#corrections" class="hash-link" aria-label="Direct link to Corrections" title="Direct link to Corrections">​</a></h2>
+<ul>
+<li>Fixes crash when injecting a zoom on page load.</li>
+</ul>]]></content>
+        <author>
+            <name>Datalogic Enterprise Browser</name>
+            <uri>/browser/overview</uri>
+        </author>
+        <category label="browser" term="browser"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScript SDK 1.2.0]]></title>
+        <id>https://datalogic.github.io/releases/2026/03/16/javascript</id>
+        <link href="https://datalogic.github.io/releases/2026/03/16/javascript"/>
+        <updated>2026-03-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enhancements]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/03/16/javascript#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Keyboard Manager<!-- -->
+<ul>
+<li>Added method to show/hide the soft keyboard.</li>
+</ul>
+</li>
+</ul>]]></content>
+        <author>
+            <name>JavaScript SDK</name>
+            <uri>/javascript/overview</uri>
+        </author>
+        <category label="javascript" term="javascript"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OEMConfig 2.13.0]]></title>
         <id>https://datalogic.github.io/releases/2026/01/30/oemconfig</id>
@@ -435,54 +480,5 @@
             <uri>/oemconfig/overview</uri>
         </author>
         <category label="oemconfig" term="oemconfig"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[QuickBoard 1.3.0]]></title>
-        <id>https://datalogic.github.io/releases/2025/08/29/quickboard</id>
-        <link href="https://datalogic.github.io/releases/2025/08/29/quickboard"/>
-        <updated>2025-08-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Corrected Defects]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/08/29/quickboard#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Fixed crash if IME is started very early after device boot.</li>
-</ul>]]></content>
-        <author>
-            <name>QuickBoard</name>
-            <uri>/quickboard/overview</uri>
-        </author>
-        <category label="quickboard" term="quickboard"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Datalogic Enterprise Browser 1.9.0]]></title>
-        <id>https://datalogic.github.io/releases/2025/08/15/browser</id>
-        <link href="https://datalogic.github.io/releases/2025/08/15/browser"/>
-        <updated>2025-08-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/08/15/browser#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Enhanced operation with web content from third party JavaScript SDK interfaces.<!-- -->
-<ul>
-<li>Exception messages are no longer generated.</li>
-<li>Added interoperability control for third party SDKs.</li>
-</ul>
-</li>
-<li>Added Data Input features<!-- -->
-<ul>
-<li>Auto focus on first input field.</li>
-<li>Show/Hide virtual keyboard on auto focus.</li>
-</ul>
-</li>
-<li>Extended Injection Command features<!-- -->
-<ul>
-<li>Command can also be filtered on URL (in addition to head/body keyword).</li>
-<li>Added Zoom command function.</li>
-</ul>
-</li>
-</ul>]]></content>
-        <author>
-            <name>Datalogic Enterprise Browser</name>
-            <uri>/browser/overview</uri>
-        </author>
-        <category label="browser" term="browser"/>
     </entry>
 </feed>
