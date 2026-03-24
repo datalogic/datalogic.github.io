@@ -46,6 +46,53 @@
             <category>javascript</category>
         </item>
         <item>
+            <title><![CDATA[Datalogic Android SDK 1.47]]></title>
+            <link>https://datalogic.github.io/releases/2026/02/12/datalogic-android-sdk-v1.47</link>
+            <guid>https://datalogic.github.io/releases/2026/02/12/datalogic-android-sdk-v1.47</guid>
+            <pubDate>Thu, 12 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datalogic Android SDK 1.47 is now available.]]></description>
+            <content:encoded><![CDATA[<p>Datalogic Android SDK 1.47 is now available.</p>
+<p>This latest update expands the SDK’s capabilities in <strong>advanced device management, connectivity privacy, and intelligent automation</strong>. Key highlights include new system-level controls in the DeviceManager - such as remote shutdown and locking - and granular control over location, Wi-Fi, and Bluetooth scanning behaviors. This release also introduces the <strong>PoseManagerAPI</strong> (exclusive to Joya Smart A15), allowing devices to trigger specific actions based on their physical orientation and gravity vector.</p>
+<p>To streamline workflow automation, developers can now use the <code>addProfileUrlRule()</code> API for automatic profile switching based on loaded URLs (This only applies to applications that integrate the Android WebView) and leverage new <strong>IME Actions</strong> within the Keyboard Wedge to trigger post-scan events like "Search" or "Send."</p>
+<p>Additionally, this version paves the way for Android 15 support with new scanning preview properties and enhancements to the behaviors of remapped power keys.</p>
+<p>You can access the <a href="https://datalogic.github.io/android/overview">documentation here</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/02/12/datalogic-android-sdk-v1.47#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added <code>addProfileUrlRule()</code> API to enable automatic profile switching when specific URLs are loaded.</li>
+<li>Added <code>REBOOT_SAFE_MODE_ENABLED</code> property to enable/disable the UI option for rebooting into safe mode.</li>
+<li>Added <code>DATE_AND_TIME_CURRENT_TIME</code> property to programmatically set the device's current date and time.</li>
+<li>Added <code>shutdown()</code> and <code>lock()</code> methods to <code>DeviceManager</code> for shutting down and locking the device.</li>
+<li>Added <code>getFirstBootDate()</code> method in <code>ManufacturerInfo</code> to retrieve the battery's first boot date.</li>
+<li>Added <code>POWER_WAKEUP_REMAPPED_POWER_KEY</code> property to control whether a remapped power key can wake the device.</li>
+<li>Added <code>KEYBOARD_REMAPPED_POWER_KEY_ACTION_IN_SUSPEND</code> property to define the behavior of a remapped power key when the device is suspended.</li>
+<li>Added <code>WEDGE_KEYBOARD_IME_ACTION_AFTER</code> property to allow sending an IME action after a successful barcode scan followed by a Keyboard Wedge. Actions are defined in the <code>ImeAction</code> enum:<!-- -->
+<ul>
+<li>SKIP</li>
+<li>UNSPECIFIED</li>
+<li>NONE</li>
+<li>GO</li>
+<li>SEARCH</li>
+<li>SEND</li>
+<li>NEXT</li>
+<li>DONE</li>
+<li>PREVIOUS</li>
+</ul>
+</li>
+<li>Added 3 new properties to actively enable/disable location access, Wi-Fi scanning, and Bluetooth scanning.<!-- -->
+<ul>
+<li><code>LOCATION_MODE_ENABLE</code> - This parameter enables location access for apps and services.</li>
+<li><code>WIFI_SCAN_ENABLE</code> - This parameter enables apps and services to scan for Wi-Fi networks at any time, even when Wi-Fi is off.</li>
+<li><code>BLUETOOTH_SCAN_ENABLE</code> - This parameter enables apps and services to scan for nearby devices at any time, even when Bluetooth is off.</li>
+</ul>
+</li>
+<li>Added <code>PoseManager</code> APIs and new property <code>POSE_MANAGER_DEVICE_POSES</code> to allow registering different device poses (characterized by a unique name and gravity vector) and associate to them actions that will be executed when the device finds itself inside or outside any device pose (only supported on Joya Smart A15).</li>
+<li>Added <code>SCANNING_PREVIEW_*</code> properties to support previewing while decoding or manually triggering via SDK (only supported on Android 15).</li>
+<li>Public <code>DLCradleManager</code> constructor.</li>
+<li>Added new <code>SYSTEM</code> field <code>DEVICE_NAME</code> to get the device name identifier.</li>
+</ul>]]></content:encoded>
+            <category>datalogic-android-sdk</category>
+        </item>
+        <item>
             <title><![CDATA[OEMConfig 2.13.0]]></title>
             <link>https://datalogic.github.io/releases/2026/01/30/oemconfig</link>
             <guid>https://datalogic.github.io/releases/2026/01/30/oemconfig</guid>
@@ -372,33 +419,6 @@
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/09/19/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
 <ul>
 <li>Hotfix to prevent failure when changing security settings on older firmware.</li>
-</ul>]]></content:encoded>
-            <category>oemconfig</category>
-        </item>
-        <item>
-            <title><![CDATA[OEMConfig 2.12.0]]></title>
-            <link>https://datalogic.github.io/releases/2025/09/05/oemconfig</link>
-            <guid>https://datalogic.github.io/releases/2025/09/05/oemconfig</guid>
-            <pubDate>Fri, 05 Sep 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/09/05/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Enhanced scanning controls<!-- -->
-<ul>
-<li>Camera Wedge</li>
-<li>Cropped image result</li>
-<li>Auto scan trigger</li>
-</ul>
-</li>
-<li>Screensaver controls</li>
-<li>SOS Button controls</li>
-<li>Power notification/LED controls</li>
-<li>Extended support for User Interface controls<!-- -->
-<ul>
-<li>Show App Info</li>
-<li>Show External screen hotseat</li>
-</ul>
-</li>
 </ul>]]></content:encoded>
             <category>oemconfig</category>
         </item>
