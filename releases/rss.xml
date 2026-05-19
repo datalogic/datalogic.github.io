@@ -4,10 +4,211 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Thu, 26 Mar 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 May 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Datalogic Enterprise Browser 1.12.0]]></title>
+            <link>https://datalogic.github.io/releases/2026/05/18/browser</link>
+            <guid>https://datalogic.github.io/releases/2026/05/18/browser</guid>
+            <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/05/18/browser#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated to support Android 16</li>
+<li>Add option to show security warnings</li>
+<li>SDK Enhancements<!-- -->
+<ul>
+<li>Supports Vibration manager to control vibration feedback.</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+            <category>browser</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic Launcher 1.7.0]]></title>
+            <link>https://datalogic.github.io/releases/2026/05/18/launcher</link>
+            <guid>https://datalogic.github.io/releases/2026/05/18/launcher</guid>
+            <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/05/18/launcher#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated to support Android 16</li>
+</ul>]]></content:encoded>
+            <category>launcher</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic Logger 1.6.0]]></title>
+            <link>https://datalogic.github.io/releases/2026/05/18/logger</link>
+            <guid>https://datalogic.github.io/releases/2026/05/18/logger</guid>
+            <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/05/18/logger#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated to support Android 16</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2026/05/18/logger#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Ram Crash Dump setting is refreshed after a configuration reset.</li>
+</ul>]]></content:encoded>
+            <category>logger</category>
+        </item>
+        <item>
+            <title><![CDATA[OEMConfig 2.14.0]]></title>
+            <link>https://datalogic.github.io/releases/2026/05/18/oemconfig</link>
+            <guid>https://datalogic.github.io/releases/2026/05/18/oemconfig</guid>
+            <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/05/18/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated to support Android 16</li>
+</ul>]]></content:encoded>
+            <category>oemconfig</category>
+        </item>
+        <item>
+            <title><![CDATA[QuickBoard 1.4.0]]></title>
+            <link>https://datalogic.github.io/releases/2026/05/18/quickboard</link>
+            <guid>https://datalogic.github.io/releases/2026/05/18/quickboard</guid>
+            <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/05/18/quickboard#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated to support Android 16</li>
+</ul>]]></content:encoded>
+            <category>quickboard</category>
+        </item>
+        <item>
+            <title><![CDATA[Scan2Deploy Agent 2.9.0]]></title>
+            <link>https://datalogic.github.io/releases/2026/05/18/scan2deploy-agent</link>
+            <guid>https://datalogic.github.io/releases/2026/05/18/scan2deploy-agent</guid>
+            <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/05/18/scan2deploy-agent#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated to support Android 16</li>
+</ul>]]></content:encoded>
+            <category>scan2deploy-android</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic SoftSpot 3.4.0]]></title>
+            <link>https://datalogic.github.io/releases/2026/05/18/softspot</link>
+            <guid>https://datalogic.github.io/releases/2026/05/18/softspot</guid>
+            <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/05/18/softspot#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated to support Android 16</li>
+</ul>]]></content:encoded>
+            <category>softspot</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic WiFi Guard 1.6.0]]></title>
+            <link>https://datalogic.github.io/releases/2026/05/18/wifiguard</link>
+            <guid>https://datalogic.github.io/releases/2026/05/18/wifiguard</guid>
+            <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/05/18/wifiguard#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Updated to support Android 16</li>
+</ul>]]></content:encoded>
+            <category>wifi-guard</category>
+        </item>
+        <item>
+            <title><![CDATA[WorkDesk 1.2.0]]></title>
+            <link>https://datalogic.github.io/releases/2026/05/18/workdesk</link>
+            <guid>https://datalogic.github.io/releases/2026/05/18/workdesk</guid>
+            <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Corrections]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrections">Corrections<a href="https://datalogic.github.io/releases/2026/05/18/workdesk#corrections" class="hash-link" aria-label="Direct link to Corrections" title="Direct link to Corrections">​</a></h2>
+<ul>
+<li>Updated to support Android 16</li>
+</ul>]]></content:encoded>
+            <category>workdesk</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic Android SDK 1.49]]></title>
+            <link>https://datalogic.github.io/releases/2026/05/07/datalogic-android-sdk-v1.49</link>
+            <guid>https://datalogic.github.io/releases/2026/05/07/datalogic-android-sdk-v1.49</guid>
+            <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datalogic Android SDK 1.49 is now available.]]></description>
+            <content:encoded><![CDATA[<p>Datalogic Android SDK 1.49 is now available.</p>
+<p>This update introduces enhancements across scanning preview control, power logging, USB and charging configuration, Bluetooth policy documentation, and account management.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="overview">Overview<a href="https://datalogic.github.io/releases/2026/05/07/datalogic-android-sdk-v1.49#overview" class="hash-link" aria-label="Direct link to Overview" title="Direct link to Overview">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="scanning-and-trigger-management">Scanning and Trigger Management<a href="https://datalogic.github.io/releases/2026/05/07/datalogic-android-sdk-v1.49#scanning-and-trigger-management" class="hash-link" aria-label="Direct link to Scanning and Trigger Management" title="Direct link to Scanning and Trigger Management">​</a></h3>
+<ul>
+<li>Added <code>KEYCODE_HALF_TRIGGER</code> to <code>DLKeyEvent</code> to represent the Half Trigger (scanner aiming) event.</li>
+<li>Added <code>VSCAN_PISTOL_HALF_TRIGGER</code> in <code>KeyboardManager.Scancodes</code> for half-trigger support.</li>
+<li>Enhanced ScanningPreview with:<!-- -->
+<ul>
+<li><code>SCANNING_PREVIEW_DISPLAY_MODE</code> for display mode control.</li>
+<li><code>SCANNING_PREVIEW_DISPLAY_MODE_MANUAL_PORTRAIT_X/Y/WIDTH/HEIGHT</code> for manual portrait positioning.</li>
+<li><code>SCANNING_PREVIEW_DISPLAY_MODE_MANUAL_LANDSCAPE_X/Y/WIDTH/HEIGHT</code> for manual landscape positioning.</li>
+<li><code>SCANNING_PREVIEW_ILLUMINATION_SOURCE</code> for preview illumination source control.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="power-management">Power Management<a href="https://datalogic.github.io/releases/2026/05/07/datalogic-android-sdk-v1.49#power-management" class="hash-link" aria-label="Direct link to Power Management" title="Direct link to Power Management">​</a></h3>
+<ul>
+<li>Added <code>POWER_LOGGER_GROUP</code> as the root property group for power logging.</li>
+<li>Added <code>POWER_LOGGER_BATTERY_ENABLE</code>, <code>POWER_LOGGER_BATTERY_PERIOD</code>, and <code>POWER_LOGGER_UEVENT_ENABLE</code> for granular battery and uevent logging.</li>
+<li>Deprecated <code>ACTION_BATTERY_START_LOG</code> and <code>ACTION_BATTERY_STOP_LOG</code> intents and related extras in favor of the new power logger configuration.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="usb-and-charging-configuration">USB and Charging Configuration<a href="https://datalogic.github.io/releases/2026/05/07/datalogic-android-sdk-v1.49#usb-and-charging-configuration" class="hash-link" aria-label="Direct link to USB and Charging Configuration" title="Direct link to USB and Charging Configuration">​</a></h3>
+<ul>
+<li>Deprecated <code>USB_DATA</code> in favor of <code>USB_CLIENT_DATA</code> and <code>USB_HOST_DATA</code> for more granular control.</li>
+<li>Deprecated <code>POWER_SOURCE_USB</code> in favor of <code>POWER_CHARGING_SOURCES</code> for more flexible power-source management.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="security-and-policy">Security and Policy<a href="https://datalogic.github.io/releases/2026/05/07/datalogic-android-sdk-v1.49#security-and-policy" class="hash-link" aria-label="Direct link to Security and Policy" title="Direct link to Security and Policy">​</a></h3>
+<ul>
+<li>Corrected <code>BTPairingPolicy</code> documentation with accurate behavior for all policies:<!-- -->
+<ul>
+<li>STANDARD: full pairing prompts.</li>
+<li>SIMPLE: single confirmation popup.</li>
+<li>SILENT: fully silent pairing and allows any device.</li>
+<li>SECURED: blocks unauthorized peripherals and allows only whitelisted or trusted devices.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="account-management">Account Management<a href="https://datalogic.github.io/releases/2026/05/07/datalogic-android-sdk-v1.49#account-management" class="hash-link" aria-label="Direct link to Account Management" title="Direct link to Account Management">​</a></h3>
+<ul>
+<li>Added the new <code>AccountManager</code> API for retrieving and removing system user accounts and listening to account updates.</li>
+</ul>
+<p>You can access the <a href="https://datalogic.github.io/android/overview">documentation here</a>.</p>]]></content:encoded>
+            <category>datalogic-android-sdk</category>
+        </item>
+        <item>
+            <title><![CDATA[Datalogic Android SDK 1.48]]></title>
+            <link>https://datalogic.github.io/releases/2026/05/06/datalogic-android-sdk-v1.48</link>
+            <guid>https://datalogic.github.io/releases/2026/05/06/datalogic-android-sdk-v1.48</guid>
+            <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datalogic Android SDK 1.48 is now available.]]></description>
+            <content:encoded><![CDATA[<p>Datalogic Android SDK 1.48 is now available.</p>
+<p>This update introduces targeted enhancements focused on trigger control, device behavior customization, security, and desktop mode usability.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="overview">Overview<a href="https://datalogic.github.io/releases/2026/05/06/datalogic-android-sdk-v1.48#overview" class="hash-link" aria-label="Direct link to Overview" title="Direct link to Overview">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="scanning-and-trigger-management">Scanning and Trigger Management<a href="https://datalogic.github.io/releases/2026/05/06/datalogic-android-sdk-v1.48#scanning-and-trigger-management" class="hash-link" aria-label="Direct link to Scanning and Trigger Management" title="Direct link to Scanning and Trigger Management">​</a></h3>
+<ul>
+<li>Added new <code>BeamMode</code> option <code>HALF_TRIGGER</code> to control aiming-pattern activation based on half-trigger press and release behavior.</li>
+<li>Added <code>KEYBOARD_PISTOL_TRIGGER_HALF_PRESS_GAIN</code> to tune pistol half-trigger sensitivity on VEGA_PLUS devices.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="device-behavior-and-user-experience">Device Behavior and User Experience<a href="https://datalogic.github.io/releases/2026/05/06/datalogic-android-sdk-v1.48#device-behavior-and-user-experience" class="hash-link" aria-label="Direct link to Device Behavior and User Experience" title="Direct link to Device Behavior and User Experience">​</a></h3>
+<ul>
+<li>Added <code>VIBRATION_ON_CHARGE_ENABLED</code> to control the charging vibration secure setting.</li>
+<li>Updated behavior documentation for <code>START_CHARGING_LED_ENABLED</code>.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="security-and-policy">Security and Policy<a href="https://datalogic.github.io/releases/2026/05/06/datalogic-android-sdk-v1.48#security-and-policy" class="hash-link" aria-label="Direct link to Security and Policy" title="Direct link to Security and Policy">​</a></h3>
+<ul>
+<li>Added <code>RESTRICT_ACCESS_SETTING</code> to configure access to the Android Settings application when launched via <code>startactivity</code>.</li>
+<li>Added <code>SECURED</code> Bluetooth Silent Pairing policy to block connections from unauthorized peripherals.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="desktop-mode">Desktop Mode<a href="https://datalogic.github.io/releases/2026/05/06/datalogic-android-sdk-v1.48#desktop-mode" class="hash-link" aria-label="Direct link to Desktop Mode" title="Direct link to Desktop Mode">​</a></h3>
+<ul>
+<li>Added <code>DESKTOP_MODE_DISPLAY_RESOLUTION</code> to control external display resolution when connected through a docking station.</li>
+<li>Supported on desktop mode devices: M30, M35, M12, and M17.</li>
+</ul>
+<p>You can access the <a href="https://datalogic.github.io/android/overview">documentation here</a>.</p>]]></content:encoded>
+            <category>datalogic-android-sdk</category>
+        </item>
         <item>
             <title><![CDATA[Aladdin for CODiScan 3.9.1]]></title>
             <link>https://datalogic.github.io/releases/2026/03/26/aladdin</link>
@@ -210,222 +411,6 @@
 <li>Improved download progress reporting.</li>
 </ul>]]></content:encoded>
             <category>scan2deploy-android</category>
-        </item>
-        <item>
-            <title><![CDATA[QuickBoard 1.3.1]]></title>
-            <link>https://datalogic.github.io/releases/2025/11/08/quickboard</link>
-            <guid>https://datalogic.github.io/releases/2025/11/08/quickboard</guid>
-            <pubDate>Sat, 08 Nov 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/11/08/quickboard#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>The "Override administrator settings" control is no longer enabled automatically when making changes on the device.  In previous versions this caused EMM settings to be unexpectedly ignored.</li>
-</ul>]]></content:encoded>
-            <category>quickboard</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Launcher 1.6.0]]></title>
-            <link>https://datalogic.github.io/releases/2025/11/07/launcher</link>
-            <guid>https://datalogic.github.io/releases/2025/11/07/launcher</guid>
-            <pubDate>Fri, 07 Nov 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/11/07/launcher#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added support packages with multiple launchable activities.</li>
-<li>The "Override administrator settings" control is no longer enabled automatically when making changes on the device.  In previous versions this caused EMM settings to be unexpectedly ignored.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/11/07/launcher#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Allowed Packages configuration is disabled when EMM override is disabled.</li>
-<li>When connected to an external display from a Smart Dock, Launcher now correctly exits the device lockdown.  This allows apps to be launched from an external desktop.</li>
-</ul>]]></content:encoded>
-            <category>launcher</category>
-        </item>
-        <item>
-            <title><![CDATA[OEMConfig 2.12.2]]></title>
-            <link>https://datalogic.github.io/releases/2025/11/07/oemconfig</link>
-            <guid>https://datalogic.github.io/releases/2025/11/07/oemconfig</guid>
-            <pubDate>Fri, 07 Nov 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/11/07/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added support for application launch on external display with cradle insertion</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/11/07/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Enterprise Battery Saver Profiles<!-- -->
-<ul>
-<li>It is no longer required to specify CPU/GPU frequency and Maximum Download Rate</li>
-<li>Maximum Download Rate is now correctly applied</li>
-</ul>
-</li>
-<li>Corrected Mobile Data Roaming Enable for Android 15 (also requires firmware update)</li>
-</ul>]]></content:encoded>
-            <category>oemconfig</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Logger 1.5.0]]></title>
-            <link>https://datalogic.github.io/releases/2025/11/06/logger</link>
-            <guid>https://datalogic.github.io/releases/2025/11/06/logger</guid>
-            <pubDate>Thu, 06 Nov 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/11/06/logger#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>The "Override administrator settings" control is no longer enabled automatically when making changes on the device.  In previous versions this caused EMM settings to be unexpectedly ignored.</li>
-<li>Added support for 16 KB virtual page sizes (for Android 15).</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/11/06/logger#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>The contents summary for an archive listing displays "Empty" if no module contents are present.</li>
-</ul>]]></content:encoded>
-            <category>logger</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic SoftSpot 3.3.0]]></title>
-            <link>https://datalogic.github.io/releases/2025/11/06/softspot</link>
-            <guid>https://datalogic.github.io/releases/2025/11/06/softspot</guid>
-            <pubDate>Thu, 06 Nov 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/11/06/softspot#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>The "Override administrator settings" control is no longer enabled automatically when making changes on the device.  In previous versions this caused EMM settings to be unexpectedly ignored.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/11/06/softspot#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>App is forced to launch only on the device display.  Operation on an external display is not supported and attempts to launch from an external display will be redirected to the device display.</li>
-</ul>]]></content:encoded>
-            <category>softspot</category>
-        </item>
-        <item>
-            <title><![CDATA[Scan2Deploy Studio 2.6.3]]></title>
-            <link>https://datalogic.github.io/releases/2025/11/05/scan2deploy-studio-v.2.6.3</link>
-            <guid>https://datalogic.github.io/releases/2025/11/05/scan2deploy-studio-v.2.6.3</guid>
-            <pubDate>Wed, 05 Nov 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Scan2Deploy Studio 2.6.3 is now available.  This new release is a hotfix to address an issue that was preventing some firmware files from being uploaded to Studio.]]></description>
-            <content:encoded><![CDATA[<p>Scan2Deploy Studio 2.6.3 is now available.  This new release is a hotfix to address an issue that was preventing some firmware files from being uploaded to Studio.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/11/05/scan2deploy-studio-v.2.6.3#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Fixed issue where some Memor 10 Android 10 firmwares were unable to be validated</li>
-<li>Bound redis server to localhost</li>
-</ul>]]></content:encoded>
-            <category>scan2deploy-studio</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Enterprise Browser 1.9.1]]></title>
-            <link>https://datalogic.github.io/releases/2025/10/24/browser</link>
-            <guid>https://datalogic.github.io/releases/2025/10/24/browser</guid>
-            <pubDate>Fri, 24 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/10/24/browser#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>The "Override administrator settings" control is no longer enabled automatically when making changes on the device.  In previous versions this caused EMM settings to be unexpectedly ignored.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrections">Corrections<a href="https://datalogic.github.io/releases/2025/10/24/browser#corrections" class="hash-link" aria-label="Direct link to Corrections" title="Direct link to Corrections">​</a></h2>
-<ul>
-<li>Corrected auto-focus behavior when not enabled.</li>
-</ul>]]></content:encoded>
-            <category>browser</category>
-        </item>
-        <item>
-            <title><![CDATA[WorkDesk 1.0.2]]></title>
-            <link>https://datalogic.github.io/releases/2025/10/21/workdesk</link>
-            <guid>https://datalogic.github.io/releases/2025/10/21/workdesk</guid>
-            <pubDate>Tue, 21 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Corrections]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrections">Corrections<a href="https://datalogic.github.io/releases/2025/10/21/workdesk#corrections" class="hash-link" aria-label="Direct link to Corrections" title="Direct link to Corrections">​</a></h2>
-<ul>
-<li>Fixed "Use custom wallpaper" setting to allow setting custom wallpaper.</li>
-</ul>]]></content:encoded>
-            <category>workdesk</category>
-        </item>
-        <item>
-            <title><![CDATA[Scan2Deploy Studio 2.6.2]]></title>
-            <link>https://datalogic.github.io/releases/2025/10/15/scan2deploy-studio-v.2.6.2</link>
-            <guid>https://datalogic.github.io/releases/2025/10/15/scan2deploy-studio-v.2.6.2</guid>
-            <pubDate>Wed, 15 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Scan2Deploy Studio 2.6.2 is now available.  This new release contains enhancements and bug fixes. Read below for more details.]]></description>
-            <content:encoded><![CDATA[<p>Scan2Deploy Studio 2.6.2 is now available.  This new release contains enhancements and bug fixes. Read below for more details.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/10/15/scan2deploy-studio-v.2.6.2#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added WorkDesk App to Mobility Suite options</li>
-<li>Added support for Joya Smart</li>
-<li>Added support for Android 15 on Memor 12 and Memor 17</li>
-<li>Added POWER keycode to the input section of the Key Remapping page</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2025/10/15/scan2deploy-studio-v.2.6.2#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Fixed issue with the Enterprise Enrollment and Snap OCR pages not properly linking to their documentation</li>
-<li>Fixed issue with changing the logo for the Launcher application on an already saved profile</li>
-<li>Fixed issue with the Key Remapping page where some apps were not correctly being recognized in import/edit cases</li>
-<li>Fixed issue with the Key Remapping page where key action settings were not saving properly</li>
-</ul>]]></content:encoded>
-            <category>scan2deploy-studio</category>
-        </item>
-        <item>
-            <title><![CDATA[WorkDesk 1.0.1]]></title>
-            <link>https://datalogic.github.io/releases/2025/10/10/workdesk</link>
-            <guid>https://datalogic.github.io/releases/2025/10/10/workdesk</guid>
-            <pubDate>Fri, 10 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Provides a desktop experience when a device is inserted into a Smart Dock with an attached external display.]]></description>
-            <content:encoded><![CDATA[<p>Provides a desktop experience when a device is inserted into a Smart Dock with an attached external display.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-features">New features<a href="https://datalogic.github.io/releases/2025/10/10/workdesk#new-features" class="hash-link" aria-label="Direct link to New features" title="Direct link to New features">​</a></h2>
-<ul>
-<li>Desktop shortcuts</li>
-<li>Taskbar with Apps Menu and status icons</li>
-<li>Configuration of all UI elements (desktop, wallpaper, shortcuts, taskbar)</li>
-</ul>]]></content:encoded>
-            <category>workdesk</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Android SDK 1.46]]></title>
-            <link>https://datalogic.github.io/releases/2025/10/08/datalogic-android-sdk-v1.46</link>
-            <guid>https://datalogic.github.io/releases/2025/10/08/datalogic-android-sdk-v1.46</guid>
-            <pubDate>Wed, 08 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Datalogic Android SDK 1.46 is now available.]]></description>
-            <content:encoded><![CDATA[<p>Datalogic Android SDK 1.46 is now available.</p>
-<p>The latest update to the Datalogic SDK introduces a broad set of new features and improvements focused on enhancing device flexibility, expanding scanning capabilities, and strengthening enterprise integration.</p>
-<p>Key additions include the <strong>Camera Wedge Always-On</strong> mode, which allows configuration for either continuous scanning or scanning via physical trigger, while the new <strong>CameraWedgePreviewManager</strong> class provides a live preview interface while <strong>Camera Wedge Always-On</strong> is disabled. The <strong>Auto Scan Trigger</strong> system has been extended with a new <strong>CUSTOM_RANGE</strong> option, offering greater control over scan sensitivity, while cradle functionality now supports <strong>Joya Smart cradles</strong> with updated properties and thermal protection handling.</p>
-<p>To further improve power management, the SDK adds a <strong>PowerStatus notification system</strong> and refines the <strong>Enterprise Battery Saver</strong>, now supporting rate control in bps. Several new display management options have also been introduced, including <strong>brightness range limits</strong>, <strong>facedown detection</strong>.</p>
-<p>For users leveraging <strong>Desktop Mode</strong>, new properties now allow control over the visibility of hotseat in dual screen mode.</p>
-<p>Finally, for security, the new <strong>APP_INFO_HIDDEN</strong> property restricts access to system settings via the App Info shortcut, while the <strong>EXTRA_SYSTEM_FIRMWARE_UPGRADE_WIPE_ESIM_PROFILES</strong> flag enables secure eSIM profile handling during system upgrades. Additional enhancements include Item Tracking APIs, <strong>SOS button</strong> support, new OCR format options (<strong>TD2</strong>, <strong>MRVA</strong>, <strong>MRVB</strong>).</p>
-<p>You can access the <a href="https://datalogic.github.io/android/overview">documentation here</a>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2025/10/08/datalogic-android-sdk-v1.46#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated DLScreensaver package name to <code>com.datalogic.settings.datalogicscreensaver</code>.</li>
-<li>Added a documentation warning for preventing installation of a new formatter project from client app's storage.</li>
-<li>Added <code>CAMERA_WEDGE_ENABLE_ALWAYS_ON</code> to manage the availability of scan mode to always on when the camera wedge is active.</li>
-<li>Added <code>CameraWedgePreviewManager</code> class for setting up a preview that will be shown when the camera wedge feature is running (only when no barcode is shown).</li>
-<li>Added new option <code>CUSTOM_RANGE</code> in <code>AutoScanTriggerRange</code> and properties for configuring a custom range for the autoscan feature.</li>
-<li>Added Joya Smart supported cradle's properties and classes.</li>
-<li>Removed unsupported methods <code>getDontKeepActivities()</code>, <code>getBackgroundProcessLimit()</code>, and <code>getDisableGoldCluster()</code>.</li>
-<li>Updated download rate limitation to <strong>bps</strong> in <code>EnterpriseBatterySaver</code>.</li>
-<li>Added Item Tracking APIs.</li>
-<li>Added battery LED documentation for smart charging and battery issue behavior.</li>
-<li>Updated relevant APIs to reference the commercial name of Joya Smart instead of project name SoHo.</li>
-<li>Updated cradle property: <code>CUSTOM_AREA</code> -&gt; <code>CUSTOM_AREA_BASE</code>.</li>
-<li>Removed <code>enableLedOnLockUnlock()</code> method from DLCradleManager class.</li>
-<li>CradleManager shall reject de-registering a listener if the device doesn't support the feature that triggers that event.</li>
-<li>Added a new intent extra <code>EXTRA_SYSTEM_FIRMWARE_UPGRADE_WIPE_ESIM_PROFILES</code> to system upgrade intent to wipe the eSIM profiles.</li>
-<li>Added the possibility to scale the preview when installing it.</li>
-<li>Added hotseat visibility control in dual screen mode.</li>
-<li>Added new <code>APP_INFO_HIDDEN</code> property to restrict the user from accessing Settings application from App Info shortcut.</li>
-<li>Added PowerStatus notification system to notify the user about the current power status of the device.</li>
-<li>Added intent extra <code>EXTRA_CRADLE_FAILURE_THERMAL_PROTECTION_POGO</code> for thermal protection failure on pogo pins.</li>
-<li>Added intents <code>ACTION_TROLLEY_DEVICE_CORRECTLY_INSERTED</code> and <code>ACTION_TROLLEY_DEVICE_EXTRACTED</code> to detect trolley insertion/extraction.</li>
-<li>Added SOS button feature support.</li>
-<li>Added 3 new OCR format options:<!-- -->
-<ul>
-<li><code>OCR_TD2_ENABLE</code></li>
-<li><code>OCR_MRVA_ENABLE</code></li>
-<li><code>OCR_MRVB_ENABLE</code></li>
-</ul>
-</li>
-<li>Added new properties <code>SCREEN_BRIGHTNESS_RANGE_MIN</code> and <code>SCREEN_BRIGHTNESS_RANGE_MAX</code> to support backlight range limit configuration.</li>
-<li>Added new property <code>SCREEN_FACEDOWN_DETECTOR_ENABLE</code> to support facedown detector configuration.</li>
-</ul>]]></content:encoded>
-            <category>datalogic-android-sdk</category>
         </item>
     </channel>
 </rss>
