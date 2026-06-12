@@ -2,11 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2026-06-09T00:00:00.000Z</updated>
+    <updated>2026-06-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Scan2Deploy Studio 2.7.0]]></title>
+        <id>https://datalogic.github.io/releases/2026/06/12/scan2deploy-studio-v.2.7.0</id>
+        <link href="https://datalogic.github.io/releases/2026/06/12/scan2deploy-studio-v.2.7.0"/>
+        <updated>2026-06-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Scan2Deploy Studio 2.7.0 is now available.  This new release contains support for new Datalogic devices, and a handful of improvements and bug fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Scan2Deploy Studio 2.7.0 is now available.  This new release contains support for new Datalogic devices, and a handful of improvements and bug fixes.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/06/12/scan2deploy-studio-v.2.7.0#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added support for Smart Portal, Skorpio X40/X45, Falcon X60/X65</li>
+<li>Added new key layouts for Skorpio X40/X45 and Falcon X60/X65</li>
+<li>Can now add 11 keys per row in QuickBoard</li>
+<li>Added ability to export Google standardized managed app config</li>
+<li>GSAA settings made more intuitive</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2026/06/12/scan2deploy-studio-v.2.7.0#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Fixed issue with GRANT script RegEx</li>
+<li>Fixed issue with horizontal scroll bar appearing on home screen</li>
+<li>Fixed issue with profiles incorrectly showing 0KB on home screen</li>
+<li>Fixed save issue with Advanced Keyboard</li>
+</ul>]]></content>
+        <author>
+            <name>Scan2Deploy Studio</name>
+            <uri>/scan2deploy/studio</uri>
+        </author>
+        <category label="scan2deploy-studio" term="scan2deploy-studio"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Aladdin for CODiScan 3.9.2]]></title>
         <id>https://datalogic.github.io/releases/2026/06/09/aladdin</id>
@@ -463,31 +492,5 @@
             <uri>/oemconfig/overview</uri>
         </author>
         <category label="oemconfig" term="oemconfig"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scan2Deploy Studio 2.6.4]]></title>
-        <id>https://datalogic.github.io/releases/2026/01/22/scan2deploy-studio-v.2.6.4</id>
-        <link href="https://datalogic.github.io/releases/2026/01/22/scan2deploy-studio-v.2.6.4"/>
-        <updated>2026-01-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Scan2Deploy Studio 2.6.4 is now available. This new release contains some smaller enhancements and bug fixes.]]></summary>
-        <content type="html"><![CDATA[<p>Scan2Deploy Studio 2.6.4 is now available. This new release contains some smaller enhancements and bug fixes.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/01/22/scan2deploy-studio-v.2.6.4#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added GMS services acceptance for expedite setup</li>
-<li>Added automatic enable of SoftSpot when setting managed configuration</li>
-<li>Added <code>GRANT</code> to scripting page</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2026/01/22/scan2deploy-studio-v.2.6.4#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Fixed issue where Advanced Keyboard was not loaded correctly from a saved profile</li>
-<li>Fixed synchronization between Visual Formatter page and global enable setting</li>
-<li>Corrected controls to be disabled on Firmware Update page when applying an Espresso package</li>
-</ul>]]></content>
-        <author>
-            <name>Scan2Deploy Studio</name>
-            <uri>/scan2deploy/studio</uri>
-        </author>
-        <category label="scan2deploy-studio" term="scan2deploy-studio"/>
     </entry>
 </feed>
