@@ -2,11 +2,92 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2026-06-12T00:00:00.000Z</updated>
+    <updated>2026-06-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Datalogic Android SDK 1.50]]></title>
+        <id>https://datalogic.github.io/releases/2026/06/30/datalogic-android-sdk-v1.50</id>
+        <link href="https://datalogic.github.io/releases/2026/06/30/datalogic-android-sdk-v1.50"/>
+        <updated>2026-06-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Datalogic Android SDK 1.50 is now available.]]></summary>
+        <content type="html"><![CDATA[<p>Datalogic Android SDK 1.50 is now available.</p>
+<p>This update introduces targeted enhancements focused on hardware control, advanced scanning workflows, data formatting, and deep device diagnostics.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="overview">Overview<a href="https://datalogic.github.io/releases/2026/06/30/datalogic-android-sdk-v1.50#overview" class="hash-link" aria-label="Direct link to Overview" title="Direct link to Overview">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nfc-management">NFC Management<a href="https://datalogic.github.io/releases/2026/06/30/datalogic-android-sdk-v1.50#nfc-management" class="hash-link" aria-label="Direct link to NFC Management" title="Direct link to NFC Management">​</a></h3>
+<ul>
+<li>Added NFC dispatch filtering support to restrict selected NFC tag categories and technologies, and to control NFC and HCE availability via SDK.</li>
+<li>Added <code>NFC_GROUP</code> in <code>PropertyGroupID</code> as the root group for NFC configuration.</li>
+<li>Added <code>NFC_ADAPTER_ENABLED</code> to enable or disable the NFC adapter.</li>
+<li>Added <code>NFC_TAG_DISPATCH_BLOCK_MASK</code> to block selected NFC tag dispatch categories.</li>
+<li>Added <code>NFC_HOST_CARD_EMULATION_ENABLED</code> to enable or disable HCE mode.</li>
+<li>Added <code>NFC_HOST_LISTENER_TECH_MASK</code> to select NFC technologies to listen for.</li>
+<li>Added new <code>NfcManager</code> APIs to manage NFC adapter state, host card emulation, blocked dispatch categories, and host listener technology mask.</li>
+<li>Added new flags classes <code>NfcTagDispatchBlockFlags</code> and <code>NfcHostListenerTechFlags</code>.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="connectivity">Connectivity<a href="https://datalogic.github.io/releases/2026/06/30/datalogic-android-sdk-v1.50#connectivity" class="hash-link" aria-label="Direct link to Connectivity" title="Direct link to Connectivity">​</a></h3>
+<ul>
+<li>Added Bluetooth Fast Pair property <code>BT_FASTPAIR_ENABLED</code>.</li>
+<li>Added <code>enable()</code>, <code>disable()</code>, and <code>isEnabled()</code> methods in <code>WifiManager</code> to allow active Wi-Fi control and state querying.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="scanning-preview-and-gs1-workflows">Scanning Preview and GS1 Workflows<a href="https://datalogic.github.io/releases/2026/06/30/datalogic-android-sdk-v1.50#scanning-preview-and-gs1-workflows" class="hash-link" aria-label="Direct link to Scanning Preview and GS1 Workflows" title="Direct link to Scanning Preview and GS1 Workflows">​</a></h3>
+<ul>
+<li>Added scanner enhancements to improve scan preview behavior and GS1 evaluation workflows, including remote lookup and UI customization.</li>
+<li>Added <code>ILLUMINATION_INTENSITY</code> property.</li>
+<li>Added <code>AUTO</code> value to <code>ScanningPreviewIlluminationSource</code>.</li>
+<li>Extended <code>GtinFormat</code> with <code>ITF14</code>.</li>
+<li>Added <code>SCANNING_PREVIEW_GS1_EVALUATION_ENABLE</code> to enable GS1 evaluation in scanning preview.</li>
+<li>Added <code>SCANNING_PREVIEW_GS1_EVALUATION_LABELS</code> to define expected GS1 labels.</li>
+<li>Added <code>SCANNING_PREVIEW_GS1_EVALUATION_REMOTE_ADDRESS_NAME</code> to set the remote server address for label lookup.</li>
+<li>Added <code>SCANNING_PREVIEW_GS1_EVALUATION_REMOTE_ADDRESS_FORMAT</code> to define the URI format for remote lookup.</li>
+<li>Added <code>SCANNING_PREVIEW_GS1_EVALUATION_UI_COLOR_BLOCK</code> to set the GS1 evaluation dialog background color.</li>
+<li>Added <code>SCANNING_PREVIEW_GS1_EVALUATION_UI_COLOR_TEXT</code> to set the GS1 evaluation dialog text color.</li>
+<li>Added <code>ScanningPreviewGs1EvaluationLabels</code> and <code>ScanningPreviewGs1EvaluationRemoteAddressFormat</code>.</li>
+<li>Added validation for negative priority values in GS1 evaluation labels by throwing <code>IllegalArgumentException</code>.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="visual-formatting">Visual Formatting<a href="https://datalogic.github.io/releases/2026/06/30/datalogic-android-sdk-v1.50#visual-formatting" class="hash-link" aria-label="Direct link to Visual Formatting" title="Direct link to Visual Formatting">​</a></h3>
+<ul>
+<li>Added Visual Formatter configuration support to enable visual formatting and programmatically choose the active formatter item.</li>
+<li>Added <code>VISUAL_FORMATTING_GROUP</code> in <code>PropertyGroupID</code> as the root group for visual formatting settings.</li>
+<li>Added <code>VISUAL_FORMATTING_ENABLE</code> to enable or disable the visual formatting script.</li>
+<li>Added <code>VISUAL_FORMATTING_SELECTED</code> to select the active visual formatter item.</li>
+<li>Added <code>Formatting.visualFormatting</code> and <code>Formatting.visualFormattingSelected</code>.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="pharmacode-support">Pharmacode Support<a href="https://datalogic.github.io/releases/2026/06/30/datalogic-android-sdk-v1.50#pharmacode-support" class="hash-link" aria-label="Direct link to Pharmacode Support" title="Direct link to Pharmacode Support">​</a></h3>
+<ul>
+<li>Added Pharmacode symbology support, including decode support and dedicated configuration range controls for Pharmacode labels.</li>
+<li>Added <code>PHARMACODE_GROUP</code> in <code>PropertyGroupID</code> as the root group for Pharmacode settings.</li>
+<li>Added <code>PHARMACODE_ENABLE</code> to enable or disable Pharmacode decoding.</li>
+<li>Added <code>PHARMACODE_USER_ID</code> to set the Pharmacode user identifier.</li>
+<li>Added <code>PHARMACODE_BAR_NUM_MIN</code> to set the minimum allowed number of bars.</li>
+<li>Added <code>PHARMACODE_BAR_NUM_MAX</code> to set the maximum allowed number of bars.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="device-information">Device Information<a href="https://datalogic.github.io/releases/2026/06/30/datalogic-android-sdk-v1.50#device-information" class="hash-link" aria-label="Direct link to Device Information" title="Direct link to Device Information">​</a></h3>
+<ul>
+<li>Added new device information properties in <code>PropertyID</code> for device info, slot identifications, and network interfaces.</li>
+<li>Added <code>DEVICE_MODEL</code> to represent the device model identifier.</li>
+<li>Added <code>DEVICE_SERIAL_NUMBER</code> to represent the device serial number.</li>
+<li>Added <code>DEVICE_PRODUCT_NUMBER</code> to represent the device product identifier.</li>
+<li>Added <code>DEVICE_SLOT1_IMEI</code> to represent the IMEI of SIM slot 1.</li>
+<li>Added <code>DEVICE_SLOT2_IMEI</code> to represent the IMEI of SIM slot 2.</li>
+<li>Added <code>DEVICE_SLOT1_IMSI</code> to represent the IMSI of SIM slot 1.</li>
+<li>Added <code>DEVICE_SLOT2_IMSI</code> to represent the IMSI of SIM slot 2.</li>
+<li>Added <code>DEVICE_SLOT1_NUMBER</code> to represent the phone number of SIM slot 1.</li>
+<li>Added <code>DEVICE_SLOT2_NUMBER</code> to represent the phone number of SIM slot 2.</li>
+<li>Added <code>DEVICE_ETHERNET_MAC_ADDRESS</code> to represent the device ethernet MAC address.</li>
+<li>Added <code>DEVICE_BLUETOOTH_MAC_ADDRESS</code> to represent the device Bluetooth MAC address.</li>
+<li>Added <code>DEVICE_WIFI_MAC_ADDRESS</code> to represent the device Wi-Fi MAC address.</li>
+<li>Added <code>DEVICE_MODEM_FSG_VERSION</code> to represent the device modem FSG version.</li>
+</ul>
+<p>You can access the <a href="https://datalogic.github.io/android/overview">documentation here</a>.</p>]]></content>
+        <author>
+            <name>Datalogic Android SDK</name>
+            <uri>/android/overview</uri>
+        </author>
+        <category label="datalogic-android-sdk" term="datalogic-android-sdk"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scan2Deploy Studio 2.7.0]]></title>
         <id>https://datalogic.github.io/releases/2026/06/12/scan2deploy-studio-v.2.7.0</id>
@@ -456,41 +537,5 @@
             <uri>/android/overview</uri>
         </author>
         <category label="datalogic-android-sdk" term="datalogic-android-sdk"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OEMConfig 2.13.0]]></title>
-        <id>https://datalogic.github.io/releases/2026/01/30/oemconfig</id>
-        <link href="https://datalogic.github.io/releases/2026/01/30/oemconfig"/>
-        <updated>2026-01-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/01/30/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added support for new features<!-- -->
-<ul>
-<li>Scanning preview</li>
-<li>Half trigger</li>
-<li>Remapped power key</li>
-<li>Secure Bluetooth pairing policy</li>
-<li>Display resolution of external display</li>
-</ul>
-</li>
-<li>Additional UI restrictions<!-- -->
-<ul>
-<li>Launching Settings app</li>
-<li>Safe mode</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2026/01/30/oemconfig#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
-<ul>
-<li>Corrected crash when applying new properties on devices with older firmware.</li>
-<li>Changed default Wi-Fi roaming profile to match defaults of newer devices.</li>
-<li>Launching apps on cradle events now work reliably.</li>
-</ul>]]></content>
-        <author>
-            <name>OEMConfig</name>
-            <uri>/oemconfig/overview</uri>
-        </author>
-        <category label="oemconfig" term="oemconfig"/>
     </entry>
 </feed>
