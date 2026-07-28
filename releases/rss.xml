@@ -4,10 +4,34 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Fri, 03 Jul 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Jul 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Scan2Deploy Agent 2.10.0]]></title>
+            <link>https://datalogic.github.io/releases/2026/07/28/scan2deploy-agent</link>
+            <guid>https://datalogic.github.io/releases/2026/07/28/scan2deploy-agent</guid>
+            <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhancements]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/07/28/scan2deploy-agent#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>A summary of the last session log is now available in a JSON file for parsing by external tools.</li>
+<li>Support Datalogic Connect</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2026/07/28/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Inflating embedded files using the INFLATE script command would crash.</li>
+<li>Silent deployment<!-- -->
+<ul>
+<li>Corrected status history.</li>
+<li>Could stall or crash on long downloads.</li>
+</ul>
+</li>
+<li>Restored missing Abort button when deploying a profile from a JSON string or file.</li>
+</ul>]]></content:encoded>
+            <category>scan2deploy-android</category>
+        </item>
         <item>
             <title><![CDATA[OEMConfig 2.15.0]]></title>
             <link>https://datalogic.github.io/releases/2026/07/03/oemconfig</link>
@@ -427,22 +451,6 @@
 <li>Fixes crash when injecting a zoom on page load.</li>
 </ul>]]></content:encoded>
             <category>browser</category>
-        </item>
-        <item>
-            <title><![CDATA[JavaScript SDK 1.2.0]]></title>
-            <link>https://datalogic.github.io/releases/2026/03/16/javascript</link>
-            <guid>https://datalogic.github.io/releases/2026/03/16/javascript</guid>
-            <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/03/16/javascript#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Keyboard Manager<!-- -->
-<ul>
-<li>Added method to show/hide the soft keyboard.</li>
-</ul>
-</li>
-</ul>]]></content:encoded>
-            <category>javascript</category>
         </item>
     </channel>
 </rss>

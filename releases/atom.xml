@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2026-07-03T00:00:00.000Z</updated>
+    <updated>2026-07-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Scan2Deploy Agent 2.10.0]]></title>
+        <id>https://datalogic.github.io/releases/2026/07/28/scan2deploy-agent</id>
+        <link href="https://datalogic.github.io/releases/2026/07/28/scan2deploy-agent"/>
+        <updated>2026-07-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enhancements]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/07/28/scan2deploy-agent#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>A summary of the last session log is now available in a JSON file for parsing by external tools.</li>
+<li>Support Datalogic Connect</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2026/07/28/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Inflating embedded files using the INFLATE script command would crash.</li>
+<li>Silent deployment<!-- -->
+<ul>
+<li>Corrected status history.</li>
+<li>Could stall or crash on long downloads.</li>
+</ul>
+</li>
+<li>Restored missing Abort button when deploying a profile from a JSON string or file.</li>
+</ul>]]></content>
+        <author>
+            <name>Scan2Deploy Agent</name>
+            <uri>/scan2deploy/android</uri>
+        </author>
+        <category label="scan2deploy-android" term="scan2deploy-android"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OEMConfig 2.15.0]]></title>
         <id>https://datalogic.github.io/releases/2026/07/03/oemconfig</id>
@@ -502,25 +530,5 @@
             <uri>/browser/overview</uri>
         </author>
         <category label="browser" term="browser"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JavaScript SDK 1.2.0]]></title>
-        <id>https://datalogic.github.io/releases/2026/03/16/javascript</id>
-        <link href="https://datalogic.github.io/releases/2026/03/16/javascript"/>
-        <updated>2026-03-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/03/16/javascript#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Keyboard Manager<!-- -->
-<ul>
-<li>Added method to show/hide the soft keyboard.</li>
-</ul>
-</li>
-</ul>]]></content>
-        <author>
-            <name>JavaScript SDK</name>
-            <uri>/javascript/overview</uri>
-        </author>
-        <category label="javascript" term="javascript"/>
     </entry>
 </feed>
