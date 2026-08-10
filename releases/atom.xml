@@ -2,11 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2026-07-28T00:00:00.000Z</updated>
+    <updated>2026-08-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Connect Client 1.0.2]]></title>
+        <id>https://datalogic.github.io/releases/2026/08/10/connect-client-v1.0.2</id>
+        <link href="https://datalogic.github.io/releases/2026/08/10/connect-client-v1.0.2"/>
+        <updated>2026-08-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Datalogic Connect Client 1.0.2 is now available.]]></summary>
+        <content type="html"><![CDATA[<p>Datalogic Connect Client 1.0.2 is now available.</p>
+<p>This first release delivers a streamlined, reliable way to connect field devices to the Datalogic Connect ecosystem, helping teams launch IoT projects faster and scale operations with confidence.</p>]]></content>
+        <author>
+            <name>Datalogic Connect Client</name>
+            <uri>https://docs.connect.datalogic.com/docs/connect/</uri>
+        </author>
+        <category label="connect" term="connect"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scan2Deploy Studio 2.8.0]]></title>
+        <id>https://datalogic.github.io/releases/2026/08/10/scan2deploy-studio-v.2.8.0</id>
+        <link href="https://datalogic.github.io/releases/2026/08/10/scan2deploy-studio-v.2.8.0"/>
+        <updated>2026-08-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Scan2Deploy Studio 2.8.0 is now available. This new release contains enrollment configuration into the Datalogic Connect solution, and a handful of improvements and bug fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Scan2Deploy Studio 2.8.0 is now available. This new release contains enrollment configuration into the Datalogic Connect solution, and a handful of improvements and bug fixes.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/08/10/scan2deploy-studio-v.2.8.0#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added Datalogic Connect enrollment (📌 Requires <a href="https://github.com/datalogic/scan2deploy-android/releases/tag/2.8.0" target="_blank" rel="noopener noreferrer">Agent v2.8.0</a> or later)</li>
+<li>Updated Falcon Advanced Keyboard configurations with arrow keys</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2026/08/10/scan2deploy-studio-v.2.8.0#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Fixed inconsistencies in APK auto add/remove behavior based on settings and user selections</li>
+<li>Fixed visual icon bug Mobility Suite tab after auto removal</li>
+</ul>]]></content>
+        <author>
+            <name>Scan2Deploy Studio</name>
+            <uri>/scan2deploy/studio</uri>
+        </author>
+        <category label="scan2deploy-studio" term="scan2deploy-studio"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scan2Deploy Agent 2.10.0]]></title>
         <id>https://datalogic.github.io/releases/2026/07/28/scan2deploy-agent</id>
@@ -484,51 +522,5 @@
             <uri>/android/overview</uri>
         </author>
         <category label="datalogic-android-sdk" term="datalogic-android-sdk"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aladdin for CODiScan 3.9.1]]></title>
-        <id>https://datalogic.github.io/releases/2026/03/26/aladdin</id>
-        <link href="https://datalogic.github.io/releases/2026/03/26/aladdin"/>
-        <updated>2026-03-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Aladdin application for CODiScan version 3.9.1 is now available.]]></summary>
-        <content type="html"><![CDATA[<p>The Aladdin application for CODiScan version 3.9.1 is now available.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin-v2/releases/tag/v3.9.1" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/03/26/aladdin#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added support for landscape screen orientation.</li>
-<li>Removed disconnect timeout.</li>
-<li>Corrected clickable area around back button.</li>
-<li>Improved app load time.</li>
-</ul>]]></content>
-        <author>
-            <name>Aladdin for CODiScan</name>
-            <uri>/aladdin/overview</uri>
-        </author>
-        <category label="aladdin" term="aladdin"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Datalogic Enterprise Browser 1.11.0]]></title>
-        <id>https://datalogic.github.io/releases/2026/03/16/browser</id>
-        <link href="https://datalogic.github.io/releases/2026/03/16/browser"/>
-        <updated>2026-03-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/03/16/browser#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Supports Chrome DevTool Protocol (CDP) debugging.</li>
-<li>SDK Enhancements<!-- -->
-<ul>
-<li>Supports new method to Show/Hide soft keyboard.</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrections">Corrections<a href="https://datalogic.github.io/releases/2026/03/16/browser#corrections" class="hash-link" aria-label="Direct link to Corrections" title="Direct link to Corrections">​</a></h2>
-<ul>
-<li>Fixes crash when injecting a zoom on page load.</li>
-</ul>]]></content>
-        <author>
-            <name>Datalogic Enterprise Browser</name>
-            <uri>/browser/overview</uri>
-        </author>
-        <category label="browser" term="browser"/>
     </entry>
 </feed>

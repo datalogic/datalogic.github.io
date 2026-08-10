@@ -4,10 +4,40 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Tue, 28 Jul 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Aug 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Connect Client 1.0.2]]></title>
+            <link>https://datalogic.github.io/releases/2026/08/10/connect-client-v1.0.2</link>
+            <guid>https://datalogic.github.io/releases/2026/08/10/connect-client-v1.0.2</guid>
+            <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datalogic Connect Client 1.0.2 is now available.]]></description>
+            <content:encoded><![CDATA[<p>Datalogic Connect Client 1.0.2 is now available.</p>
+<p>This first release delivers a streamlined, reliable way to connect field devices to the Datalogic Connect ecosystem, helping teams launch IoT projects faster and scale operations with confidence.</p>]]></content:encoded>
+            <category>connect</category>
+        </item>
+        <item>
+            <title><![CDATA[Scan2Deploy Studio 2.8.0]]></title>
+            <link>https://datalogic.github.io/releases/2026/08/10/scan2deploy-studio-v.2.8.0</link>
+            <guid>https://datalogic.github.io/releases/2026/08/10/scan2deploy-studio-v.2.8.0</guid>
+            <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Scan2Deploy Studio 2.8.0 is now available. This new release contains enrollment configuration into the Datalogic Connect solution, and a handful of improvements and bug fixes.]]></description>
+            <content:encoded><![CDATA[<p>Scan2Deploy Studio 2.8.0 is now available. This new release contains enrollment configuration into the Datalogic Connect solution, and a handful of improvements and bug fixes.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/08/10/scan2deploy-studio-v.2.8.0#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added Datalogic Connect enrollment (📌 Requires <a href="https://github.com/datalogic/scan2deploy-android/releases/tag/2.8.0" target="_blank" rel="noopener noreferrer">Agent v2.8.0</a> or later)</li>
+<li>Updated Falcon Advanced Keyboard configurations with arrow keys</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2026/08/10/scan2deploy-studio-v.2.8.0#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Fixed inconsistencies in APK auto add/remove behavior based on settings and user selections</li>
+<li>Fixed visual icon bug Mobility Suite tab after auto removal</li>
+</ul>]]></content:encoded>
+            <category>scan2deploy-studio</category>
+        </item>
         <item>
             <title><![CDATA[Scan2Deploy Agent 2.10.0]]></title>
             <link>https://datalogic.github.io/releases/2026/07/28/scan2deploy-agent</link>
@@ -413,44 +443,6 @@
 </ul>
 <p>You can access the <a href="https://datalogic.github.io/android/overview">documentation here</a>.</p>]]></content:encoded>
             <category>datalogic-android-sdk</category>
-        </item>
-        <item>
-            <title><![CDATA[Aladdin for CODiScan 3.9.1]]></title>
-            <link>https://datalogic.github.io/releases/2026/03/26/aladdin</link>
-            <guid>https://datalogic.github.io/releases/2026/03/26/aladdin</guid>
-            <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Aladdin application for CODiScan version 3.9.1 is now available.]]></description>
-            <content:encoded><![CDATA[<p>The Aladdin application for CODiScan version 3.9.1 is now available.</p>
-<p>Downloads are available in the <a href="https://github.com/datalogic/aladdin-v2/releases/tag/v3.9.1" target="_blank" rel="noopener noreferrer">Releases</a> section on the Aladdin Github page.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/03/26/aladdin#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Added support for landscape screen orientation.</li>
-<li>Removed disconnect timeout.</li>
-<li>Corrected clickable area around back button.</li>
-<li>Improved app load time.</li>
-</ul>]]></content:encoded>
-            <category>aladdin</category>
-        </item>
-        <item>
-            <title><![CDATA[Datalogic Enterprise Browser 1.11.0]]></title>
-            <link>https://datalogic.github.io/releases/2026/03/16/browser</link>
-            <guid>https://datalogic.github.io/releases/2026/03/16/browser</guid>
-            <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/03/16/browser#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Supports Chrome DevTool Protocol (CDP) debugging.</li>
-<li>SDK Enhancements<!-- -->
-<ul>
-<li>Supports new method to Show/Hide soft keyboard.</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrections">Corrections<a href="https://datalogic.github.io/releases/2026/03/16/browser#corrections" class="hash-link" aria-label="Direct link to Corrections" title="Direct link to Corrections">​</a></h2>
-<ul>
-<li>Fixes crash when injecting a zoom on page load.</li>
-</ul>]]></content:encoded>
-            <category>browser</category>
         </item>
     </channel>
 </rss>
