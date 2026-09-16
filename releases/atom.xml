@@ -2,11 +2,101 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2026-08-10T00:00:00.000Z</updated>
+    <updated>2026-09-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Datalogic Logger 1.7.0]]></title>
+        <id>https://datalogic.github.io/releases/2026/09/10/logger</id>
+        <link href="https://datalogic.github.io/releases/2026/09/10/logger"/>
+        <updated>2026-09-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enhancements]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/09/10/logger#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Device context in log archives now includes the following:<!-- -->
+<ul>
+<li>Connection status</li>
+<li>Installed packages</li>
+<li>Property/Setting listings</li>
+</ul>
+</li>
+<li>Logcat<!-- -->
+<ul>
+<li>Increased file size limit; large files are split by time range</li>
+<li>Package blacklist filter</li>
+</ul>
+</li>
+<li>Wi-Fi management packets</li>
+<li>Wi-Fi debug log</li>
+<li>New intents for archive management</li>
+</ul>]]></content>
+        <author>
+            <name>Datalogic Logger</name>
+            <uri>/logger/overview</uri>
+        </author>
+        <category label="logger" term="logger"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OEMConfig 2.16.1]]></title>
+        <id>https://datalogic.github.io/releases/2026/09/10/oemconfig</id>
+        <link href="https://datalogic.github.io/releases/2026/09/10/oemconfig"/>
+        <updated>2026-09-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enhancements]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/09/10/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Firmware Over The Air (FOTA) support</li>
+<li>Decoding<!-- -->
+<ul>
+<li>Visual Formatter selection</li>
+<li>Illumination intensity</li>
+<li>GS1 Evaluation in Scanning Preview</li>
+<li>Snap OCR improvements to filtering and dialog results</li>
+<li>Pharmacode symbology</li>
+<li>Reading RFID tags</li>
+</ul>
+</li>
+<li>Power<!-- -->
+<ul>
+<li>Enterprise Battery Saver control of Dark Mode</li>
+<li>Power LED control</li>
+</ul>
+</li>
+<li>Custom behavior for long press of pistol trigger when docked</li>
+<li>Network<!-- -->
+<ul>
+<li>Fast pairing of supported Bluetooth devices</li>
+<li>Enhanced control of NFC operation</li>
+</ul>
+</li>
+<li>Display<!-- -->
+<ul>
+<li>Orientation lock</li>
+<li>Control of rendering (zoom, bold, high contrast)</li>
+<li>Home screen wallpaper selection</li>
+</ul>
+</li>
+<li>System features<!-- -->
+<ul>
+<li>Control of screen locking sounds</li>
+<li>Support of USB Data Exchange (DEX) cables</li>
+<li>Status bar display of battery percentage</li>
+<li>Gesture navigation bar</li>
+</ul>
+</li>
+<li>Google Play update control</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrections">Corrections<a href="https://datalogic.github.io/releases/2026/09/10/oemconfig#corrections" class="hash-link" aria-label="Direct link to Corrections" title="Direct link to Corrections">​</a></h2>
+<ul>
+<li>Touch vibration now works correctly on Android 13 or later.</li>
+</ul>]]></content>
+        <author>
+            <name>OEMConfig</name>
+            <uri>/oemconfig/overview</uri>
+        </author>
+        <category label="oemconfig" term="oemconfig"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Connect Client 1.0.2]]></title>
         <id>https://datalogic.github.io/releases/2026/08/10/connect-client-v1.0.2</id>
@@ -431,96 +521,5 @@
             <uri>/workdesk/overview</uri>
         </author>
         <category label="workdesk" term="workdesk"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Datalogic Android SDK 1.49]]></title>
-        <id>https://datalogic.github.io/releases/2026/05/07/datalogic-android-sdk-v1.49</id>
-        <link href="https://datalogic.github.io/releases/2026/05/07/datalogic-android-sdk-v1.49"/>
-        <updated>2026-05-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Datalogic Android SDK 1.49 is now available.]]></summary>
-        <content type="html"><![CDATA[<p>Datalogic Android SDK 1.49 is now available.</p>
-<p>This update introduces enhancements across scanning preview control, power logging, USB and charging configuration, Bluetooth policy documentation, and account management.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="overview">Overview<a href="https://datalogic.github.io/releases/2026/05/07/datalogic-android-sdk-v1.49#overview" class="hash-link" aria-label="Direct link to Overview" title="Direct link to Overview">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="scanning-and-trigger-management">Scanning and Trigger Management<a href="https://datalogic.github.io/releases/2026/05/07/datalogic-android-sdk-v1.49#scanning-and-trigger-management" class="hash-link" aria-label="Direct link to Scanning and Trigger Management" title="Direct link to Scanning and Trigger Management">​</a></h3>
-<ul>
-<li>Added <code>KEYCODE_HALF_TRIGGER</code> to <code>DLKeyEvent</code> to represent the Half Trigger (scanner aiming) event.</li>
-<li>Added <code>VSCAN_PISTOL_HALF_TRIGGER</code> in <code>KeyboardManager.Scancodes</code> for half-trigger support.</li>
-<li>Enhanced ScanningPreview with:<!-- -->
-<ul>
-<li><code>SCANNING_PREVIEW_DISPLAY_MODE</code> for display mode control.</li>
-<li><code>SCANNING_PREVIEW_DISPLAY_MODE_MANUAL_PORTRAIT_X/Y/WIDTH/HEIGHT</code> for manual portrait positioning.</li>
-<li><code>SCANNING_PREVIEW_DISPLAY_MODE_MANUAL_LANDSCAPE_X/Y/WIDTH/HEIGHT</code> for manual landscape positioning.</li>
-<li><code>SCANNING_PREVIEW_ILLUMINATION_SOURCE</code> for preview illumination source control.</li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="power-management">Power Management<a href="https://datalogic.github.io/releases/2026/05/07/datalogic-android-sdk-v1.49#power-management" class="hash-link" aria-label="Direct link to Power Management" title="Direct link to Power Management">​</a></h3>
-<ul>
-<li>Added <code>POWER_LOGGER_GROUP</code> as the root property group for power logging.</li>
-<li>Added <code>POWER_LOGGER_BATTERY_ENABLE</code>, <code>POWER_LOGGER_BATTERY_PERIOD</code>, and <code>POWER_LOGGER_UEVENT_ENABLE</code> for granular battery and uevent logging.</li>
-<li>Deprecated <code>ACTION_BATTERY_START_LOG</code> and <code>ACTION_BATTERY_STOP_LOG</code> intents and related extras in favor of the new power logger configuration.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="usb-and-charging-configuration">USB and Charging Configuration<a href="https://datalogic.github.io/releases/2026/05/07/datalogic-android-sdk-v1.49#usb-and-charging-configuration" class="hash-link" aria-label="Direct link to USB and Charging Configuration" title="Direct link to USB and Charging Configuration">​</a></h3>
-<ul>
-<li>Deprecated <code>USB_DATA</code> in favor of <code>USB_CLIENT_DATA</code> and <code>USB_HOST_DATA</code> for more granular control.</li>
-<li>Deprecated <code>POWER_SOURCE_USB</code> in favor of <code>POWER_CHARGING_SOURCES</code> for more flexible power-source management.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="security-and-policy">Security and Policy<a href="https://datalogic.github.io/releases/2026/05/07/datalogic-android-sdk-v1.49#security-and-policy" class="hash-link" aria-label="Direct link to Security and Policy" title="Direct link to Security and Policy">​</a></h3>
-<ul>
-<li>Corrected <code>BTPairingPolicy</code> documentation with accurate behavior for all policies:<!-- -->
-<ul>
-<li>STANDARD: full pairing prompts.</li>
-<li>SIMPLE: single confirmation popup.</li>
-<li>SILENT: fully silent pairing and allows any device.</li>
-<li>SECURED: blocks unauthorized peripherals and allows only whitelisted or trusted devices.</li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="account-management">Account Management<a href="https://datalogic.github.io/releases/2026/05/07/datalogic-android-sdk-v1.49#account-management" class="hash-link" aria-label="Direct link to Account Management" title="Direct link to Account Management">​</a></h3>
-<ul>
-<li>Added the new <code>AccountManager</code> API for retrieving and removing system user accounts and listening to account updates.</li>
-</ul>
-<p>You can access the <a href="https://datalogic.github.io/android/overview">documentation here</a>.</p>]]></content>
-        <author>
-            <name>Datalogic Android SDK</name>
-            <uri>/android/overview</uri>
-        </author>
-        <category label="datalogic-android-sdk" term="datalogic-android-sdk"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Datalogic Android SDK 1.48]]></title>
-        <id>https://datalogic.github.io/releases/2026/05/06/datalogic-android-sdk-v1.48</id>
-        <link href="https://datalogic.github.io/releases/2026/05/06/datalogic-android-sdk-v1.48"/>
-        <updated>2026-05-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Datalogic Android SDK 1.48 is now available.]]></summary>
-        <content type="html"><![CDATA[<p>Datalogic Android SDK 1.48 is now available.</p>
-<p>This update introduces targeted enhancements focused on trigger control, device behavior customization, security, and desktop mode usability.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="overview">Overview<a href="https://datalogic.github.io/releases/2026/05/06/datalogic-android-sdk-v1.48#overview" class="hash-link" aria-label="Direct link to Overview" title="Direct link to Overview">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="scanning-and-trigger-management">Scanning and Trigger Management<a href="https://datalogic.github.io/releases/2026/05/06/datalogic-android-sdk-v1.48#scanning-and-trigger-management" class="hash-link" aria-label="Direct link to Scanning and Trigger Management" title="Direct link to Scanning and Trigger Management">​</a></h3>
-<ul>
-<li>Added new <code>BeamMode</code> option <code>HALF_TRIGGER</code> to control aiming-pattern activation based on half-trigger press and release behavior.</li>
-<li>Added <code>KEYBOARD_PISTOL_TRIGGER_HALF_PRESS_GAIN</code> to tune pistol half-trigger sensitivity on VEGA_PLUS devices.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="device-behavior-and-user-experience">Device Behavior and User Experience<a href="https://datalogic.github.io/releases/2026/05/06/datalogic-android-sdk-v1.48#device-behavior-and-user-experience" class="hash-link" aria-label="Direct link to Device Behavior and User Experience" title="Direct link to Device Behavior and User Experience">​</a></h3>
-<ul>
-<li>Added <code>VIBRATION_ON_CHARGE_ENABLED</code> to control the charging vibration secure setting.</li>
-<li>Updated behavior documentation for <code>START_CHARGING_LED_ENABLED</code>.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="security-and-policy">Security and Policy<a href="https://datalogic.github.io/releases/2026/05/06/datalogic-android-sdk-v1.48#security-and-policy" class="hash-link" aria-label="Direct link to Security and Policy" title="Direct link to Security and Policy">​</a></h3>
-<ul>
-<li>Added <code>RESTRICT_ACCESS_SETTING</code> to configure access to the Android Settings application when launched via <code>startactivity</code>.</li>
-<li>Added <code>SECURED</code> Bluetooth Silent Pairing policy to block connections from unauthorized peripherals.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="desktop-mode">Desktop Mode<a href="https://datalogic.github.io/releases/2026/05/06/datalogic-android-sdk-v1.48#desktop-mode" class="hash-link" aria-label="Direct link to Desktop Mode" title="Direct link to Desktop Mode">​</a></h3>
-<ul>
-<li>Added <code>DESKTOP_MODE_DISPLAY_RESOLUTION</code> to control external display resolution when connected through a docking station.</li>
-<li>Supported on desktop mode devices: M30, M35, M12, and M17.</li>
-</ul>
-<p>You can access the <a href="https://datalogic.github.io/android/overview">documentation here</a>.</p>]]></content>
-        <author>
-            <name>Datalogic Android SDK</name>
-            <uri>/android/overview</uri>
-        </author>
-        <category label="datalogic-android-sdk" term="datalogic-android-sdk"/>
     </entry>
 </feed>
