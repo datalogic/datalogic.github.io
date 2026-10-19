@@ -2,11 +2,180 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2026-09-28T00:00:00.000Z</updated>
+    <updated>2026-10-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Datalogic Android SDK 1.51]]></title>
+        <id>https://datalogic.github.io/releases/2026/10/19/datalogic-android-sdk-v1.51</id>
+        <link href="https://datalogic.github.io/releases/2026/10/19/datalogic-android-sdk-v1.51"/>
+        <updated>2026-10-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Datalogic Android SDK 1.51 is now available.]]></summary>
+        <content type="html"><![CDATA[<p>Datalogic Android SDK 1.51 is now available.</p>
+<p>This update introduces expanded Profile Manager capabilities, RFID and BLE tracker support for M12 RFID devices, and new connectivity, input, scanning, display, and security features for Android 15 devices.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="supported-on-android-13-and-android-15">Supported on Android 13 and Android 15<a href="https://datalogic.github.io/releases/2026/10/19/datalogic-android-sdk-v1.51#supported-on-android-13-and-android-15" class="hash-link" aria-label="Direct link to Supported on Android 13 and Android 15" title="Direct link to Supported on Android 13 and Android 15">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="profile-manager">Profile Manager<a href="https://datalogic.github.io/releases/2026/10/19/datalogic-android-sdk-v1.51#profile-manager" class="hash-link" aria-label="Direct link to Profile Manager" title="Direct link to Profile Manager">​</a></h3>
+<ul>
+<li>Made <code>editProfile()</code> publicly available.</li>
+<li>Added <code>getProfile()</code> to retrieve a profile's property map.</li>
+<li>Added <code>getProfileRule()</code> to retrieve the characteristics of a profile rule.</li>
+<li>Added <code>getLoadedAutomaticProfile()</code> to retrieve the name of the automatically loaded profile.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="profile-manager-intent-based-api">Profile Manager Intent-Based API<a href="https://datalogic.github.io/releases/2026/10/19/datalogic-android-sdk-v1.51#profile-manager-intent-based-api" class="hash-link" aria-label="Direct link to Profile Manager Intent-Based API" title="Direct link to Profile Manager Intent-Based API">​</a></h3>
+<ul>
+<li>Added <code>ACTION_CREATE_PROFILE</code>, <code>ACTION_DELETE_PROFILE</code>, <code>ACTION_EDIT_PROFILE</code>, <code>ACTION_LOAD_PROFILE</code>, and <code>ACTION_UNLOAD_PROFILE</code> actions.</li>
+<li>Added <code>ACTION_ADD_PROFILE_RULE</code> and <code>ACTION_REMOVE_PROFILE_RULE</code> for profile rule management, including URL rules.</li>
+<li>Added <code>ACTION_QUERY_PROFILE_MANAGER</code> to query profiles, profile rules, loaded profiles, and the lists of available profiles and rules.</li>
+<li>Added <code>EXTRA_RESPONSE_ACTION</code> and <code>EXTRA_STATUS_CODE</code> for asynchronous responses.</li>
+<li>Added profile extras <code>EXTRA_PROFILE_NAME</code>, <code>EXTRA_PROFILE_PROPERTIES</code>, <code>EXTRA_PROFILE_DESCRIPTION</code>, and <code>EXTRA_PROFILE_PERSISTENCE</code>.</li>
+<li>Added profile rule extras <code>EXTRA_PROFILE_RULE_NAME</code>, <code>EXTRA_PROFILE_RULE_PROFILE</code>, <code>EXTRA_PROFILE_RULE_PACKAGE</code>, <code>EXTRA_PROFILE_RULE_ACTIVITIES</code>, and <code>EXTRA_PROFILE_RULE_URL</code>.</li>
+<li>Added query selector extras <code>EXTRA_LOADED_MANUAL_PROFILE</code>, <code>EXTRA_LOADED_AUTOMATIC_PROFILE</code>, <code>EXTRA_PROFILES_LIST</code>, and <code>EXTRA_PROFILE_RULES_LIST</code>.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="supported-on-m12-rfid-devices-running-android-15-or-later">Supported on M12 RFID Devices Running Android 15 or Later<a href="https://datalogic.github.io/releases/2026/10/19/datalogic-android-sdk-v1.51#supported-on-m12-rfid-devices-running-android-15-or-later" class="hash-link" aria-label="Direct link to Supported on M12 RFID Devices Running Android 15 or Later" title="Direct link to Supported on M12 RFID Devices Running Android 15 or Later">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ble-tracker">BLE Tracker<a href="https://datalogic.github.io/releases/2026/10/19/datalogic-android-sdk-v1.51#ble-tracker" class="hash-link" aria-label="Direct link to BLE Tracker" title="Direct link to BLE Tracker">​</a></h3>
+<ul>
+<li>Added <code>BLE_GROUP</code> in <code>PropertyGroupID</code> as the root group for BLE configuration.</li>
+<li>Added <code>BLE_ADVERTISING_POLICY</code> to control BLE advertising behavior.</li>
+<li>Added <code>BLE_ADVERTISING_BEACON_PAYLOAD_POLICY</code> to select the advertising beacon payload policy.</li>
+<li>Added <code>BLE_ADVERTISING_BEACON_PAYLOAD_CUSTOM</code> to set a custom advertising beacon payload.</li>
+<li>Added <code>BLE_RINGING_SOUND</code> to select the ringing sound for BLE finder commands.</li>
+<li>Added <code>AdvertisingPolicy</code> enum with <code>DISABLED</code>, <code>ENABLED</code>, and <code>AUTOMATIC</code> values.</li>
+<li>Added <code>AdvertisingBeaconPayloadPolicy</code> enum with <code>MODEL_SN</code> and <code>CUSTOM</code> values.</li>
+<li>Added <code>RingingSound</code> enum with <code>BARIUM</code>, <code>BEEP_BEEP_BEEP_ALARM</code>, <code>BUZZER_ALARM</code>, <code>CESIUM</code>, <code>HELIUM</code>, <code>KRYPTON</code>, <code>OSMIUM</code>, <code>PIEZO_ALARM</code>, <code>SCANDIUM</code>, and <code>CUSTOM</code> values.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rfid-subsystem">RFID Subsystem<a href="https://datalogic.github.io/releases/2026/10/19/datalogic-android-sdk-v1.51#rfid-subsystem" class="hash-link" aria-label="Direct link to RFID Subsystem" title="Direct link to RFID Subsystem">​</a></h3>
+<ul>
+<li>Added RFID subsystem support with new <code>RfidManager</code> APIs, allowing apps to start and stop inventory sessions, receive tag events, and perform read, write, and lock operations on tags.</li>
+<li>Added <code>RfidManager</code>, <code>RfidResult</code>, <code>RfidFilter</code>, and <code>RfidPassword</code>.</li>
+<li>Added <code>RfidReadListener</code>, <code>RfidStartListener</code>, <code>RfidStopListener</code>, and <code>RfidTimeoutListener</code>.</li>
+<li>Added <code>RfidLockObject</code>, <code>RfidLockType</code>, <code>RfidMemoryBankRegion</code>, and <code>RfidException</code>.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rfid-configuration">RFID Configuration<a href="https://datalogic.github.io/releases/2026/10/19/datalogic-android-sdk-v1.51#rfid-configuration" class="hash-link" aria-label="Direct link to RFID Configuration" title="Direct link to RFID Configuration">​</a></h3>
+<ul>
+<li>Added RFID configuration support in Configuration Manager for centralized control of RFID behavior, RF profile, timing, and Scanner service injection.</li>
+<li>Added <code>RFID_GROUP</code> in <code>PropertyGroupID</code> as the root group for RFID configuration.</li>
+<li>Added <code>RFID_ENABLE</code> to enable or disable RFID functionality.</li>
+<li>Added <code>RFID_POWER_LEVEL</code> to set the RFID transmission power.</li>
+<li>Added <code>RFID_SESSION_POLICY</code> to select the RFID session policy.</li>
+<li>Added <code>RFID_Q_PARAMETER_POLICY</code> to configure the RFID Q parameter policy.</li>
+<li>Added <code>RFID_INVENTORY_POLICY</code> to set timed or continuous inventory behavior.</li>
+<li>Added <code>RFID_TIMEOUT</code> to define the inventory timeout.</li>
+<li>Added <code>RFID_TARGET_POLICY</code> to select the RFID target policy.</li>
+<li>Added <code>RFID_MODE_POLICY</code> to control how read tags are reported.</li>
+<li>Added <code>RFID_INJECT_TO_SCANNER</code> to forward RFID reads to the Scanner service.</li>
+<li>Added <code>RFID_PROFILE_POLICY</code> to select the RFID RF and modulation profile.</li>
+<li>Added enums <code>RfidSessionPolicy</code>, <code>RfidQParameterPolicy</code>, <code>RfidInventoryPolicy</code>, <code>RfidTargetPolicy</code>, <code>RfidModePolicy</code>, and <code>RfidProfilePolicy</code>.</li>
+<li>Added <code>KEYCODE_RFID</code> to <code>DLKeyEvent</code> and <code>RFID</code> to <code>BarcodeID</code>.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="supported-on-all-android-15-devices">Supported on All Android 15 Devices<a href="https://datalogic.github.io/releases/2026/10/19/datalogic-android-sdk-v1.51#supported-on-all-android-15-devices" class="hash-link" aria-label="Direct link to Supported on All Android 15 Devices" title="Direct link to Supported on All Android 15 Devices">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="connectivity">Connectivity<a href="https://datalogic.github.io/releases/2026/10/19/datalogic-android-sdk-v1.51#connectivity" class="hash-link" aria-label="Direct link to Connectivity" title="Direct link to Connectivity">​</a></h3>
+<ul>
+<li>Added <code>WIFI_MOBILE_PRIORITY_POLICY</code> to select whether Wi-Fi or mobile data is preferred when both are available.</li>
+<li>Added <code>WifiMobilePriorityPolicy</code> enum with <code>DEFAULT</code> and <code>MOBILE_PREFERRED</code> values.</li>
+<li>Unified the Wi-Fi connected and disconnected scan interval configuration for Android 15 and later.</li>
+<li>Added <code>WIFI_SCREEN_ON_SCAN_INTERVAL</code> to set the minimum interval between screen-on Wi-Fi scans, regardless of connection state.</li>
+<li>Added <code>WIFI_SCREEN_ON_SCAN_INTERVAL_MAX</code> to set the maximum interval between screen-on Wi-Fi scans.</li>
+<li>The existing <code>WIFI_SCAN_INTERVAL</code>, <code>WIFI_SCAN_INTERVAL_MAX</code>, <code>WIFI_CONNECTED_SCAN_INTERVAL</code>, and <code>WIFI_CONNECTED_SCAN_INTERVAL_MAX</code> properties apply to versions earlier than Android 15.</li>
+<li>Added <code>NetworkManager</code> to monitor network events and receive DHCP options.</li>
+<li>Added <code>addNetworkEventListener()</code> and <code>removeNetworkEventListener()</code> to register and unregister network event listeners.</li>
+<li>Added <code>DhcpOption</code> and <code>SubOption</code> classes to represent DHCP options.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="input-and-keyboard">Input and Keyboard<a href="https://datalogic.github.io/releases/2026/10/19/datalogic-android-sdk-v1.51#input-and-keyboard" class="hash-link" aria-label="Direct link to Input and Keyboard" title="Direct link to Input and Keyboard">​</a></h3>
+<ul>
+<li>Added <code>InputTriggerEventListener</code> in <code>InputManager</code> to receive trigger scancode press and release events with timestamps.</li>
+<li>Added <code>addInputTriggerEventListener()</code> and <code>removeInputTriggerEventListener()</code>.</li>
+<li>Supported trigger scancodes include left, right, pistol, front, and push-to-talk.</li>
+<li>Added <code>VSCAN_DICTATE</code> and <code>VSCAN_PUSH_TO_TALK</code> to <code>KeyboardManager.VScanCode</code>.</li>
+<li>Added <code>KEYBOARD_LOGO_KEYS</code> to configure Datalogic logo key scan code assignments.</li>
+<li>Added <code>ScanCode</code> class in <code>AdvancedKeyboard</code> with hardware scan code constants for key mapping.</li>
+<li>Added <code>LogoKeys</code> blob serializable class to manage logo key overlay configurations.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="joya-smart-pistol-trigger-in-cradle">Joya Smart Pistol Trigger in Cradle<a href="https://datalogic.github.io/releases/2026/10/19/datalogic-android-sdk-v1.51#joya-smart-pistol-trigger-in-cradle" class="hash-link" aria-label="Direct link to Joya Smart Pistol Trigger in Cradle" title="Direct link to Joya Smart Pistol Trigger in Cradle">​</a></h3>
+<ul>
+<li>Supported only on Joya Smart devices running Android 15 or later.</li>
+<li>Added <code>KEYBOARD_PISTOL_TRIGGER_IN_CRADLE_POLICY</code> to select the action performed after a long pistol trigger press in the cradle.</li>
+<li>Added <code>KeyboardPistolTriggerInCradlePolicy</code> enum with <code>DISABLED</code>, <code>POWER_MENU</code>, <code>REBOOT</code>, and <code>POWER_OFF</code> values.</li>
+<li>Added <code>KEYBOARD_PISTOL_TRIGGER_IN_CRADLE_POLICY_PERIOD</code> to set the hold duration from 0 to 10000 milliseconds. The default is 2000 milliseconds.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="scanning">Scanning<a href="https://datalogic.github.io/releases/2026/10/19/datalogic-android-sdk-v1.51#scanning" class="hash-link" aria-label="Direct link to Scanning" title="Direct link to Scanning">​</a></h3>
+<ul>
+<li>Added <code>PHARMACODE</code> to the <code>Symbology</code> enum and the <code>pharmacode</code> member to <code>ScannerProperties</code>.</li>
+<li>Added <code>SNAP_OCR_LAST_RESULT_TIMEOUT</code> to set the result timeout for Snap OCR operations.</li>
+<li>Added <code>SNAP_OCR_TEXT_BLOCK_FORMAT</code> to define how OCR text blocks are segmented.</li>
+<li>Added <code>SnapOcrTextBlockFormat</code> enum with <code>PARAGRAPH</code>, <code>LINE</code>, and <code>WORD</code> values.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="display-and-user-experience">Display and User Experience<a href="https://datalogic.github.io/releases/2026/10/19/datalogic-android-sdk-v1.51#display-and-user-experience" class="hash-link" aria-label="Direct link to Display and User Experience" title="Direct link to Display and User Experience">​</a></h3>
+<ul>
+<li>Added <code>SCREEN_ROTATION_LOCK_POLICY</code> to lock the display orientation.</li>
+<li>Added <code>ScreenRotationLockPolicy</code> enum with <code>SENSOR_DEPENDENT</code>, <code>PORTRAIT</code>, <code>LANDSCAPE</code>, <code>INVERTED_PORTRAIT</code>, and <code>INVERTED_LANDSCAPE</code> values.</li>
+<li>Added <code>NAVIGATION_BAR_POLICY</code> to switch between 3-button and gesture navigation.</li>
+<li>Added <code>NavigationBarPolicy</code> enum with <code>THREE_BUTTONS</code> and <code>GESTURE</code> values.</li>
+<li>Added <code>USER_BRIGHTNESS_PERSISTENT_ENABLED</code> to keep the user brightness setting across reboots when auto brightness is enabled.</li>
+<li>Added <code>POWER_INDICATOR_ENABLED</code> to enable or disable the power notification LED.</li>
+<li>Added <code>setLedEnabled()</code> in <code>LedManager</code> to enable or disable a LED so that no other app can turn it on until it is re-enabled.</li>
+<li>Added <code>getLedEnabled()</code> in <code>LedManager</code> to check whether a LED is currently enabled.</li>
+<li>Added a dark theme option to Enterprise Battery Saver profiles with <code>isDarkThemeEnabled()</code> and the <code>withDarkThemeEnabled()</code> builder method in <code>EnterpriseBatterySaverProfiles.Profile</code>.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="security-and-system">Security and System<a href="https://datalogic.github.io/releases/2026/10/19/datalogic-android-sdk-v1.51#security-and-system" class="hash-link" aria-label="Direct link to Security and System" title="Direct link to Security and System">​</a></h3>
+<ul>
+<li>Added <code>KeychainManager</code> for device certificate management.</li>
+<li>Added <code>installCaCertificate()</code> to install a DER-encoded CA certificate into the device's trusted certificate store.</li>
+<li>Added <code>removeCaCertificate()</code> to remove a CA certificate from the device's trusted certificate store.</li>
+<li>Added <code>GOOGLE_PLAY_UPDATE_ENABLED</code> to enable or disable auto-update for Google Play apps.</li>
+<li>Added <code>GOOGLE_PLAY_UPDATE_BLACKLIST</code> to define a blacklist of Google Play packages to prevent from updating, managed through <code>StringArrayBlob</code>.</li>
+<li>Added <code>USB_DEX_MODE_ENABLED</code> to enable or disable DEX mode for USB connections.</li>
+</ul>
+<p>You can access the <a href="https://datalogic.github.io/android/overview">documentation here</a>.</p>]]></content>
+        <author>
+            <name>Datalogic Android SDK</name>
+            <uri>/android/overview</uri>
+        </author>
+        <category label="datalogic-android-sdk" term="datalogic-android-sdk"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Connect Client 1.1.1]]></title>
+        <id>https://datalogic.github.io/releases/2026/10/16/connect-client-v1.1.1</id>
+        <link href="https://datalogic.github.io/releases/2026/10/16/connect-client-v1.1.1"/>
+        <updated>2026-10-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Datalogic Connect Client 1.1.1 is now available.]]></summary>
+        <content type="html"><![CDATA[<p>Datalogic Connect Client 1.1.1 is now available.</p>
+<p>Downloads are available through:</p>
+<ul>
+<li>The <a href="https://play.google.com/store/apps/details?id=com.datalogic.connect.client" target="_blank" rel="noopener noreferrer">Google Play Store</a></li>
+<li><a href="https://github.com/datalogic/connect-client/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Connect Github page</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/10/16/connect-client-v1.1.1#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Published on Google Play store with managed config support</li>
+<li>Added Location ID field for automatic assignment during enrollment</li>
+<li>Added additional battery telemetries</li>
+</ul>]]></content>
+        <author>
+            <name>Datalogic Connect Client</name>
+            <uri>https://docs.connect.datalogic.com/docs/connect/</uri>
+        </author>
+        <category label="connect" term="connect"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scan2Deploy Studio 2.8.1]]></title>
+        <id>https://datalogic.github.io/releases/2026/10/16/scan2deploy-studio-v.2.8.1</id>
+        <link href="https://datalogic.github.io/releases/2026/10/16/scan2deploy-studio-v.2.8.1"/>
+        <updated>2026-10-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Scan2Deploy Studio 2.8.1 is now available. This new release contains enhancements to the enrollment configuration of the Datalogic Connect solution.]]></summary>
+        <content type="html"><![CDATA[<p>Scan2Deploy Studio 2.8.1 is now available. This new release contains enhancements to the enrollment configuration of the Datalogic Connect solution.</p>
+<p>Downloads are available in the <a href="https://github.com/datalogic/scan2deploy-studio/releases" target="_blank" rel="noopener noreferrer">Releases</a> section on the Scan2Deploy Studio Github page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/10/16/scan2deploy-studio-v.2.8.1#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
+<ul>
+<li>Added Location ID field for <a href="https://datalogic.github.io/scan2deploy/save-and-scan-page#datalogic-connect">Datalogic Connect</a> enrollment (📌 Requires <a href="https://github.com/datalogic/scan2deploy-android/releases/tag/2.9.0" target="_blank" rel="noopener noreferrer">Agent v2.9.0</a> or later)</li>
+</ul>]]></content>
+        <author>
+            <name>Scan2Deploy Studio</name>
+            <uri>/scan2deploy/studio</uri>
+        </author>
+        <category label="scan2deploy-studio" term="scan2deploy-studio"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scan2Deploy Agent 2.10.1]]></title>
         <id>https://datalogic.github.io/releases/2026/09/28/scan2deploy-agent</id>
@@ -469,53 +638,5 @@
             <uri>/quickboard/overview</uri>
         </author>
         <category label="quickboard" term="quickboard"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scan2Deploy Agent 2.9.0]]></title>
-        <id>https://datalogic.github.io/releases/2026/05/18/scan2deploy-agent</id>
-        <link href="https://datalogic.github.io/releases/2026/05/18/scan2deploy-agent"/>
-        <updated>2026-05-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/05/18/scan2deploy-agent#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 16</li>
-</ul>]]></content>
-        <author>
-            <name>Scan2Deploy Agent</name>
-            <uri>/scan2deploy/android</uri>
-        </author>
-        <category label="scan2deploy-android" term="scan2deploy-android"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Datalogic SoftSpot 3.4.0]]></title>
-        <id>https://datalogic.github.io/releases/2026/05/18/softspot</id>
-        <link href="https://datalogic.github.io/releases/2026/05/18/softspot"/>
-        <updated>2026-05-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/05/18/softspot#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 16</li>
-</ul>]]></content>
-        <author>
-            <name>Datalogic SoftSpot</name>
-            <uri>/softspot/overview</uri>
-        </author>
-        <category label="softspot" term="softspot"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Datalogic WiFi Guard 1.6.0]]></title>
-        <id>https://datalogic.github.io/releases/2026/05/18/wifiguard</id>
-        <link href="https://datalogic.github.io/releases/2026/05/18/wifiguard"/>
-        <updated>2026-05-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/05/18/wifiguard#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 16</li>
-</ul>]]></content>
-        <author>
-            <name>Datalogic WiFi Guard</name>
-            <uri>/wifiguard/overview</uri>
-        </author>
-        <category label="wifi-guard" term="wifi-guard"/>
     </entry>
 </feed>
