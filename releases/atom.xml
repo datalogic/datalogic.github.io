@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2026-10-19T00:00:00.000Z</updated>
+    <updated>2026-10-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Scan2Deploy Agent 2.10.2]]></title>
+        <id>https://datalogic.github.io/releases/2026/10/20/scan2deploy-agent</id>
+        <link href="https://datalogic.github.io/releases/2026/10/20/scan2deploy-agent"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Corrected Defects]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="corrected-defects">Corrected Defects<a href="https://datalogic.github.io/releases/2026/10/20/scan2deploy-agent#corrected-defects" class="hash-link" aria-label="Direct link to Corrected Defects" title="Direct link to Corrected Defects">​</a></h2>
+<ul>
+<li>Addressed crash running on Memor 10 (Android 10) devices</li>
+</ul>]]></content>
+        <author>
+            <name>Scan2Deploy Agent</name>
+            <uri>/scan2deploy/android</uri>
+        </author>
+        <category label="scan2deploy-android" term="scan2deploy-android"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Datalogic Android SDK 1.51]]></title>
         <id>https://datalogic.github.io/releases/2026/10/19/datalogic-android-sdk-v1.51</id>
@@ -622,21 +638,5 @@
             <uri>/oemconfig/overview</uri>
         </author>
         <category label="oemconfig" term="oemconfig"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[QuickBoard 1.4.0]]></title>
-        <id>https://datalogic.github.io/releases/2026/05/18/quickboard</id>
-        <link href="https://datalogic.github.io/releases/2026/05/18/quickboard"/>
-        <updated>2026-05-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/05/18/quickboard#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 16</li>
-</ul>]]></content>
-        <author>
-            <name>QuickBoard</name>
-            <uri>/quickboard/overview</uri>
-        </author>
-        <category label="quickboard" term="quickboard"/>
     </entry>
 </feed>
