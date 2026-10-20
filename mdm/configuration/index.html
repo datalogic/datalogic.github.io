@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-mdm/configuration" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.3.2">
+<title data-rh="true">Configuration | Technical Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://datalogic.github.io/mdm/configuration"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Configuration | Technical Documentation"><meta data-rh="true" name="description" content="Overview"><meta data-rh="true" property="og:description" content="Overview"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://datalogic.github.io/mdm/configuration"><link data-rh="true" rel="alternate" href="https://datalogic.github.io/mdm/configuration" hreflang="en"><link data-rh="true" rel="alternate" href="https://datalogic.github.io/mdm/configuration" hreflang="x-default"><link data-rh="true" rel="preconnect" href="https://QFZ97LXSUQ-dsn.algolia.net" crossorigin="anonymous"><link rel="alternate" type="application/rss+xml" href="/releases/rss.xml" title="Technical Documentation RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/releases/atom.xml" title="Technical Documentation Atom Feed">
+
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQZ02Y9Z9X"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-SQZ02Y9Z9X",{})</script>
+
+
+<link rel="search" type="application/opensearchdescription+xml" title="Technical Documentation" href="/opensearch.xml">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.96fcff4f.css">
+<script src="/assets/js/runtime~main.71bb5f5b.js" defer="defer"></script>
+<script src="/assets/js/main.3220cf94.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/homepage/datalogic.svg" alt="Datalogic Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/homepage/datalogic-dark.svg" alt="Datalogic Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Docs</b></a></div><div class="navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Mobility Suite</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/aeqrdoc/">Android Enterprise QR Code Generator</a></li><li><a class="dropdown__link" href="/android/">Android SDKs</a></li><li><a class="dropdown__link" href="/battery-manager/overview">Battery Manager</a></li><li><a class="dropdown__link" href="/cradletool/overview/">CradleTool</a></li><li><a class="dropdown__link" href="/dock-manager/overview">Dock Manager</a></li><li><a class="dropdown__link" href="/battery-manager/ebs">Enterprise Battery Saver</a></li><li><a class="dropdown__link" href="/browser/">Enterprise Browser</a></li><li><a class="dropdown__link" href="/integritykit/overview/">Integrity Kit</a></li><li><a class="dropdown__link" href="/launcher/">Launcher</a></li><li><a class="dropdown__link" href="/logger/">Logger</a></li><li><a class="dropdown__link" href="/mdm/overview">MDM</a></li><li><a class="dropdown__link" href="/oemconfig/">OEMConfig</a></li><li><a class="dropdown__link" href="/pocket-mode/overview">PocketMode</a></li><li><a class="dropdown__link" href="/quickboard/">QuickBoard</a></li><li><a class="dropdown__link" href="/scan2deploy/studio/">Scan2Deploy Studio</a></li><li><a class="dropdown__link" href="/dl-settings/overview">Settings</a></li><li><a class="dropdown__link" href="/battery-manager/sc">Smart Charge</a></li><li><a class="dropdown__link" href="/snap-ocr/overview">Snap OCR</a></li><li><a class="dropdown__link" href="/softspot/">SoftSpot</a></li><li><a class="dropdown__link" href="/scan2deploy/visual-formatter-basic-concepts">Visual Formatter</a></li><li><a class="dropdown__link" href="/wedge/overview">Wedge</a></li><li><a class="dropdown__link" href="/wifiqrdoc/">Wi-Fi QR Code Generator</a></li><li><a class="dropdown__link" href="/wifiguard/">WiFi Guard</a></li><li><a class="dropdown__link" href="/workdesk/">WorkDesk</a></li></ul></div><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Accessories</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/aladdin/overview">Aladdin for CODiScan</a></li><li><a class="dropdown__link" href="/capturesdk/overview">Datacapture SDK</a></li><li><a class="dropdown__link" href="/codiscan-ios-sdk/overview">DatalogicSDK iOS</a></li><li><a class="dropdown__link" href="/codiscan-ios-sdk-sample-app/">DatalogicSDK iOS Sample App</a></li><li><a class="dropdown__link" href="/m10ethcradle/">Memor Ethernet Adapter Service Utility</a></li><li><a class="dropdown__link" href="/quickpairing/overview">Quick Pairing</a></li><li><a class="dropdown__link" href="/hhs/">RIDA™ DBT6400 Core SDK</a></li></ul></div><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">POS</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/javapos/overview">JavaPOS</a></li><li><a class="dropdown__link" href="/opos/overview">OPOS</a></li></ul></div><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Legacy</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/dxu/">DXU</a></li><li><a class="dropdown__link" href="/scan2deploy-ce/">Scan2Deploy CE</a></li><li><a class="dropdown__link" href="/cesync/">CE Sync SDK</a></li><li><a class="dropdown__link" href="/usblan/">USBLAN</a></li><li><a class="dropdown__link" href="/ce/">Windows CE SDK</a></li></ul></div><a class="navbar__item navbar__link" href="/releases/">Releases</a><div class="navbarSearchContainer_Bca1"><button type="button" class="DocSearch DocSearch-Button" aria-label="Search"><span class="DocSearch-Button-Container"><svg width="20" height="20" class="DocSearch-Search-Icon" viewBox="0 0 20 20"><path d="M14.386 14.386l4.0877 4.0877-4.0877-4.0877c-2.9418 2.9419-7.7115 2.9419-10.6533 0-2.9419-2.9418-2.9419-7.7115 0-10.6533 2.9418-2.9419 7.7115-2.9419 10.6533 0 2.9419 2.9418 2.9419 7.7115 0 10.6533z" stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="DocSearch-Button-Placeholder">Search</span></span><span class="DocSearch-Button-Keys"></span></button></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--active">Mobile Device Management</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/mdm/overview">Overview</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/mdm/enrollment">Enrollment</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/mdm/configuration">Configuration</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/mdm/firmware-update">Firmware Update</a></li></ul></li></ul></nav><button type="button" title="Collapse sidebar" aria-label="Collapse sidebar" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_kv0_"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Mobile Device Management</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Configuration</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Configuration</h1></header><h2 class="anchor anchorWithStickyNavbar_LWe7" id="overview">Overview<a href="#overview" class="hash-link" aria-label="Direct link to Overview" title="Direct link to Overview">​</a></h2>
+<p>Datalogic-specific settings, such as scanner, keyboard, power, and system settings, are configured through <a href="/oemconfig/overview">Datalogic OEMConfig</a>. Add the OEMConfig app from managed Google Play in your MDM, then create a managed configuration for it and assign it to your devices.</p>
+<div class="tabs-container tabList__CuJ"><ul role="tablist" aria-orientation="horizontal" class="tabs"><li role="tab" tabindex="0" aria-selected="true" class="tabs__item tabItem_LNqP tabs__item--active">SOTI MobiControl</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">Microsoft Intune</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">SureMDM</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP"><span><span class="tab-label-short">Workspace ONE</span><span class="tab-label-long">Workspace ONE (formerly AirWatch)</span></span></li></ul><div class="margin-top--md"><div role="tabpanel" class="tabItem_Ymn6"><p>These steps are based on SOTI&#x27;s <a href="https://soti.net/mc/help/v2024.0/en/console/devices/managing/enrollment/androidplus/knox/tsk_using_the_datalogic_plugin_with_android_enterprise_devices.html" target="_blank" rel="noopener noreferrer">Using the Datalogic OEMConfig with Android Enterprise Devices guide</a>.</p><div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Prerequisites</div><div class="admonitionContent_BuS1"><p>Your Datalogic devices must be enrolled as Android Enterprise Work Managed devices running Android 9 or later. Your SOTI MobiControl deployment must also be connected to managed Google Play.</p></div></div><ol>
+<li>Sign in to the SOTI MobiControl web console.</li>
+<li>Select <strong>Policies</strong> from the main menu.</li>
+<li>Select <strong>Apps</strong>.</li>
+<li>Select <strong>New App Policy</strong>.</li>
+<li>Select <strong>Android</strong>.</li>
+<li>Select <strong>Android Enterprise</strong>.</li>
+<li>Select the <strong>Managed Google Play</strong> app source.</li>
+<li>Select the Google enterprise binding associated with your devices.</li>
+<li>Select <strong>Next</strong>.</li>
+<li>Select <strong>Add</strong> to open managed Google Play.</li>
+<li>Search for <strong>Datalogic OEMConfig</strong>.</li>
+<li>Select <strong>Datalogic OEMConfig</strong> from the search results.</li>
+<li>Select <strong>Approve</strong> to approve the application for your organization.</li>
+<li>Return to the SOTI MobiControl console.</li>
+<li>Select <strong>Synchronize</strong> if Datalogic OEMConfig is not displayed in the app list.</li>
+<li>Select <strong>Datalogic OEMConfig</strong>.</li>
+<li>Select <strong>Next</strong>.</li>
+<li>Set the deployment type to <strong>Mandatory</strong> so the application is installed automatically.</li>
+<li>Select <strong>Save</strong> to add the application to the app policy.</li>
+<li>Select <strong>Save and Assign</strong>.</li>
+<li>Select the device group to which the policy should be assigned.</li>
+<li>Confirm the assignment.</li>
+<li>Navigate to <strong>Policies</strong>.</li>
+<li>Select <strong>Profiles</strong>.</li>
+<li>Select <strong>New Profile</strong>.</li>
+<li>Select <strong>Android Enterprise</strong> as the platform.</li>
+<li>Enter a name for the profile.</li>
+<li>Open the <strong>Configurations</strong> tab.</li>
+<li>Select <strong>Add Configuration</strong>.</li>
+<li>Under <strong>Email &amp; Others</strong>, select <strong>OEM Config</strong>.</li>
+<li>Select <strong>Datalogic</strong>.</li>
+<li>Expand the configuration groups containing the settings you want to manage.</li>
+<li>Configure the required Datalogic settings.</li>
+<li>Select <strong>Save</strong>.</li>
+<li>Assign the profile to the intended device group.</li>
+<li>Save the profile assignment.</li>
+<li>Verify that the profile is assigned to the devices.</li>
+</ol></div><div role="tabpanel" class="tabItem_Ymn6" hidden=""><p>These steps are based on Microsoft&#x27;s <a href="https://learn.microsoft.com/en-us/intune/device-configuration/templates/configure-oemconfig-android" target="_blank" rel="noopener noreferrer">Use and manage Android Enterprise devices with OEMConfig in Microsoft Intune guide</a>.</p><div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Prerequisites</div><div class="admonitionContent_BuS1"><p>Your Intune tenant must be connected to managed Google Play. Your Datalogic devices must support Android Enterprise and be enrolled in Intune. You Intune user also needs permission to manage mobile apps and device configurations.</p></div></div><p><strong>Add Datalogic OEMConfig to Intune</strong></p><ol>
+<li>Open a web browser and go to the <a href="https://intune.microsoft.com/" target="_blank" rel="noopener noreferrer">Microsoft Intune admin center</a>.</li>
+<li>Sign in with your Intune administrator account.</li>
+<li>Select <strong>Apps</strong>.</li>
+<li>Select <strong>All apps</strong>.</li>
+<li>Select <strong>Create</strong> or <strong>Add</strong>, depending on the console layout.</li>
+<li>Select <strong>Managed Google Play app</strong> as the app type.</li>
+<li>Select <strong>Select</strong> to open managed Google Play.</li>
+<li>Search for <strong>Datalogic OEMConfig</strong>.</li>
+<li>Select <strong>Datalogic OEMConfig</strong> from the search results.</li>
+<li>Select <strong>Approve</strong>.</li>
+<li>Confirm the approval if prompted.</li>
+<li>Close the managed Google Play window or return to the Intune admin center.</li>
+<li>Select <strong>Sync</strong> to synchronize managed Google Play apps with Intune.</li>
+<li>Wait for the synchronization to complete.</li>
+<li>Navigate to <strong>Apps</strong> &gt; <strong>All apps</strong>.</li>
+<li>Select <strong>Datalogic OEMConfig</strong>.</li>
+<li>Select <strong>Properties</strong>.</li>
+<li>Under <strong>Assignments</strong>, select <strong>Edit</strong>.</li>
+<li>Under <strong>Required</strong>, select <strong>Add group</strong>.</li>
+<li>Select the device group that should receive Datalogic OEMConfig.</li>
+<li>Select <strong>Select</strong>.</li>
+<li>Select <strong>Review + save</strong>.</li>
+<li>Select <strong>Save</strong>.</li>
+</ol><p><strong>Create the OEMConfig configuration profile</strong></p><ol>
+<li>Select <strong>Devices</strong>.</li>
+<li>Select <strong>Manage devices</strong>.</li>
+<li>Select <strong>Configuration</strong>.</li>
+<li>Select <strong>Create</strong>.</li>
+<li>Select <strong>New policy</strong>.</li>
+<li>Under <strong>Platform</strong>, select <strong>Android Enterprise</strong>.</li>
+<li>Under <strong>Profile type</strong>, select <strong>OEMConfig</strong>.</li>
+<li>Select <strong>Create</strong>.</li>
+<li>In the <strong>Name</strong> field, enter a name for the profile (for example, <code>Datalogic OEMConfig</code>).</li>
+<li>Optionally, enter a description.</li>
+<li>Select <strong>Select an OEMConfig app</strong>.</li>
+<li>Select <strong>Datalogic OEMConfig</strong> from the associated app list.</li>
+<li>Select <strong>Select</strong>.</li>
+<li>Select <strong>Next</strong>.</li>
+<li>Under <strong>Configuration settings</strong>, select <strong>Configuration designer</strong>.</li>
+<li>Expand the available configuration groups.</li>
+<li>Configure the desired Datalogic settings.</li>
+<li>Select <strong>Next</strong>.</li>
+<li>Optionally, select <strong>Add</strong> to configure scope tags.</li>
+<li>Select <strong>Next</strong>.</li>
+<li>Under <strong>Assignments</strong>, select <strong>Add groups</strong>.</li>
+<li>Select the device groups that should receive the configuration profile.</li>
+<li>Select <strong>Select</strong>.</li>
+<li>Select <strong>Next</strong>.</li>
+<li>Review the profile settings and assignments.</li>
+<li>Select <strong>Create</strong>.</li>
+</ol></div><div role="tabpanel" class="tabItem_Ymn6" hidden=""><p>These steps are based on SureMDM&#x27;s <a href="https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/oem-config-policy-profile" target="_blank" rel="noopener noreferrer">Configure OEMConfig Policy Profile guide</a>.</p><div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Prerequisites</div><div class="admonitionContent_BuS1"><p>Your Datalogic devices must be enrolled in SureMDM using Android Enterprise in Profile Owner or Device Owner mode and connected to managed Google Play.</p></div></div><ol>
+<li>Sign in to the SureMDM web console.</li>
+<li>Navigate to <strong>Profiles</strong>.</li>
+<li>Select the <strong>Android</strong> tab.</li>
+<li>Select <strong>Add</strong>.</li>
+<li>Under <strong>Primary Profile</strong>, select <strong>OEMConfig Policy</strong>.</li>
+<li>Select <strong>Configure</strong>.</li>
+<li>Enter a name for the profile.</li>
+<li>Select <strong>DataLogic OEMConfig</strong> from the available applications.</li>
+<li>Configure the desired Datalogic settings.</li>
+<li>Select <strong>Save</strong> to create the profile.</li>
+<li>Return to the <strong>Home</strong> tab.</li>
+<li>Select the target device or devices.</li>
+<li>Select <strong>Apply</strong> to open the profile assignment prompt.</li>
+<li>Select the newly created OEMConfig profile.</li>
+<li>Select <strong>Apply</strong> to deploy the configuration.</li>
+<li>Verify that the configuration has been applied to the devices.</li>
+</ol></div><div role="tabpanel" class="tabItem_Ymn6" hidden=""><p>These steps are based on Omnissa&#x27;s <a href="https://docs.omnissa.com/ApplicationManagementforAndroid-V2410/OEMConfigonAndroidEnterpriseDevices" target="_blank" rel="noopener noreferrer">OEMConfig on Android Enterprise Devices guide</a>.</p><div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Prerequisites</div><div class="admonitionContent_BuS1"><p>Your Workspace ONE UEM environment must be configured for Android Enterprise and connected to managed Google Play.</p></div></div><p><strong>Add Datalogic OEMConfig to Workspace ONE UEM</strong></p><ol>
+<li>Sign in to the Workspace ONE UEM console.</li>
+<li>Select the Organization Group that manages your devices.</li>
+<li>Navigate to <strong>Resources</strong> &gt; <strong>Apps</strong> &gt; <strong>Native</strong>.</li>
+<li>Select the <strong>Public</strong> tab.</li>
+<li>Select <strong>Add Application</strong>.</li>
+<li>Set <strong>Platform</strong> to <strong>Android</strong>.</li>
+<li>Set <strong>Source</strong> to <strong>Search App Store</strong>.</li>
+<li>Enter <strong>Datalogic OEMConfig</strong> as the application name.</li>
+<li>Select <strong>Next</strong> to open managed Google Play.</li>
+<li>Search for <strong>Datalogic OEMConfig</strong>.</li>
+<li>Select the application and approve it if prompted.</li>
+<li>Select <strong>Save &amp; Assign</strong>.</li>
+</ol><p><strong>Configure and assign Datalogic OEMConfig</strong></p><ol>
+<li>On the assignment configuration page, open the <strong>Application Configuration</strong> tab.</li>
+<li>Enable <strong>Send Configuration</strong>.</li>
+<li>Configure the desired Datalogic settings using the available configuration options.</li>
+<li>Open the <strong>Assignment Groups</strong> section.</li>
+<li>Select the Smart Groups that should receive the configuration.</li>
+<li>Configure any additional assignment settings required for your deployment.</li>
+<li>Select <strong>Save &amp; Publish</strong>.</li>
+<li>Review the assigned devices in the preview.</li>
+<li>Select <strong>Publish</strong> to deploy the application and configuration.</li>
+<li>Verify that Datalogic OEMConfig is installed and the configuration has been applied to the target devices.</li>
+</ol></div></div></div></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/mdm/enrollment"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Enrollment</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/mdm/firmware-update"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Firmware Update</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#overview" class="table-of-contents__link toc-highlight">Overview</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Developer Links</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://developer.datalogic.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">Developer Site<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/datalogic" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Notices</div><ul class="footer__items clean-list"><li class="footer__item"><a href="http://www.datalogic.com/eng/legal-notice-pa-92.html" target="_blank" rel="noopener noreferrer" class="footer__link-item">Legal Notice</a></li><li class="footer__item"><a href="http://www.datalogic.com/eng/privacy-policy-pa-112.html" target="_blank" rel="noopener noreferrer" class="footer__link-item">Privacy Policy</a></li><li class="footer__item"><a href="http://www.datalogic.com/eng/terms-and-conditions-pa-93.html" target="_blank" rel="noopener noreferrer" class="footer__link-item">Terms and Conditions</a></li></ul></div><div class="col footer__col"><div class="footer__title">Social Media</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.facebook.com/DatalogicGroup/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Facebook<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://twitter.com/DatalogicGroup" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.linkedin.com/company/datalogic" target="_blank" rel="noopener noreferrer" class="footer__link-item">LinkedIn<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.youtube.com/user/DatalogicGroup" target="_blank" rel="noopener noreferrer" class="footer__link-item">YouTube<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Datalogic Inc.<br><br>Built with Docusaurus. All rights reserved. Datalogic and the Datalogic logo are registered trademarks of Datalogic S.p.A. in many countries including the U.S.A. and the E.U. All other trademarks are the property of their respective owners.</div></div></div></footer></div>
+</body>
+</html>
