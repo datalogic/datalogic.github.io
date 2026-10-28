@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datalogic.github.io/releases</id>
     <title>Technical Documentation Blog</title>
-    <updated>2026-10-20T00:00:00.000Z</updated>
+    <updated>2026-10-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datalogic.github.io/releases"/>
     <subtitle>Technical Documentation Blog</subtitle>
     <icon>https://datalogic.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Arrow FOTA 1.1.2]]></title>
+        <id>https://datalogic.github.io/releases/2026/10/28/fota</id>
+        <link href="https://datalogic.github.io/releases/2026/10/28/fota"/>
+        <updated>2026-10-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Arrow FOTA is now available.  It enabled Datalogic mobile computers to automatically update firmware and Espresso packages on the device.]]></summary>
+        <content type="html"><![CDATA[<p>Arrow FOTA is now available.  It enabled Datalogic mobile computers to automatically update firmware and Espresso packages on the device.</p>]]></content>
+        <author>
+            <name>Arrow FOTA</name>
+            <uri>/fota/overview</uri>
+        </author>
+        <category label="fota" term="fota"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scan2Deploy Agent 2.10.2]]></title>
         <id>https://datalogic.github.io/releases/2026/10/20/scan2deploy-agent</id>
@@ -622,21 +635,5 @@
             <uri>/logger/overview</uri>
         </author>
         <category label="logger" term="logger"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OEMConfig 2.14.0]]></title>
-        <id>https://datalogic.github.io/releases/2026/05/18/oemconfig</id>
-        <link href="https://datalogic.github.io/releases/2026/05/18/oemconfig"/>
-        <updated>2026-05-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enhancements]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/05/18/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 16</li>
-</ul>]]></content>
-        <author>
-            <name>OEMConfig</name>
-            <uri>/oemconfig/overview</uri>
-        </author>
-        <category label="oemconfig" term="oemconfig"/>
     </entry>
 </feed>

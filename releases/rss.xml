@@ -4,10 +4,19 @@
         <title>Technical Documentation Blog</title>
         <link>https://datalogic.github.io/releases</link>
         <description>Technical Documentation Blog</description>
-        <lastBuildDate>Tue, 20 Oct 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Oct 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Arrow FOTA 1.1.2]]></title>
+            <link>https://datalogic.github.io/releases/2026/10/28/fota</link>
+            <guid>https://datalogic.github.io/releases/2026/10/28/fota</guid>
+            <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Arrow FOTA is now available.  It enabled Datalogic mobile computers to automatically update firmware and Espresso packages on the device.]]></description>
+            <content:encoded><![CDATA[<p>Arrow FOTA is now available.  It enabled Datalogic mobile computers to automatically update firmware and Espresso packages on the device.</p>]]></content:encoded>
+            <category>fota</category>
+        </item>
         <item>
             <title><![CDATA[Scan2Deploy Agent 2.10.2]]></title>
             <link>https://datalogic.github.io/releases/2026/10/20/scan2deploy-agent</link>
@@ -547,18 +556,6 @@
 <li>Ram Crash Dump setting is refreshed after a configuration reset.</li>
 </ul>]]></content:encoded>
             <category>logger</category>
-        </item>
-        <item>
-            <title><![CDATA[OEMConfig 2.14.0]]></title>
-            <link>https://datalogic.github.io/releases/2026/05/18/oemconfig</link>
-            <guid>https://datalogic.github.io/releases/2026/05/18/oemconfig</guid>
-            <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Enhancements]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements<a href="https://datalogic.github.io/releases/2026/05/18/oemconfig#enhancements" class="hash-link" aria-label="Direct link to Enhancements" title="Direct link to Enhancements">​</a></h2>
-<ul>
-<li>Updated to support Android 16</li>
-</ul>]]></content:encoded>
-            <category>oemconfig</category>
         </item>
     </channel>
 </rss>
